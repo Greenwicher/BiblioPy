@@ -1,0 +1,7484 @@
+0	0	Univ Oregon
+0	0	Charles H Lundquist Coll Business
+0	0	Dept Decis Sci
+0	1	Michigan State Univ
+0	1	Eli Broad Grad Sch Management
+0	1	Dept Mkt & Supply Chain Management
+1	0	St Josephs Univ
+1	0	Erivan K Haub Sch Business
+1	0	Dept Management
+1	1	Drexel Univ
+1	1	Coll Business & Adm
+1	1	Dept Management
+2	0	Univ Penn
+2	0	Wharton Sch
+2	1	Univ Calif San Diego
+3	0	Univ Texas
+3	0	Coll Business Adm
+3	0	Dept Management
+3	1	Case Western Reserve Univ
+3	1	Weatherhead Sch Management
+4	0	Univ S Carolina
+4	0	Darla Moore Sch Business
+4	0	Dept Management Sci
+4	1	Grand Valley State Univ
+4	1	Seidman Sch Business
+4	1	Dept Management
+5	0	So Illinois Univ
+5	0	Sch Business
+5	0	Dept Management
+5	1	Hofstra Univ
+5	1	Dept Management & Gen Business
+5	2	Univ Idaho
+5	2	Coll Business & Econ
+5	2	Dept Business
+5	3	Arizona State Univ
+5	3	Coll Business
+5	3	Supply Chain Management Dept
+6	0	Michigan State Univ
+6	0	Dept Mkt & Supply Chain Management
+6	0	Eli Broad Grad Sch Management
+6	1	N Carolina State Univ
+6	1	Coll Management
+6	1	Dept Business Management
+6	2	Rensselaer Polytech Inst
+6	2	Lally Sch Management & Technol
+7	0	Univ Colorado
+7	0	Coll Business & Adm
+7	1	Ohio State Univ
+7	1	Fisher Coll Business
+7	1	Dept Management Sci
+8	0	St Josephs Univ
+8	0	Erivan K Haub Sch Business
+8	0	Dept Management & Informat Syst
+9	0	Depaul Univ
+9	0	Dept Management
+9	1	Univ Utah
+9	1	David Eccles Sch Business
+10	0	So Methodist Univ
+10	0	Edwin L Cox Sch Business
+10	1	Emory Univ
+10	1	Goizueta Business Sch
+11	0	Wake Forest Univ
+11	0	Babcock Grad Sch Management
+11	1	Miami Univ
+11	1	Dept Management
+12	0	Vaxjo Univ
+12	0	Sch Management & Econ
+13	0	No Illinois Univ
+13	0	Coll Business
+13	0	Operat Management & Informat Syst Dept
+13	1	Univ N Carolina
+13	1	Kenan Flagler Business Sch
+14	0	Univ Toledo
+14	0	Coll Business Adm
+14	1	Univ Richmond
+15	0	No Illinois Univ
+15	0	Coll Business
+15	0	Dept Operat Management & Informat Syst
+15	1	Univ N Carolina
+15	1	Kenan Ctr
+15	1	Ctr Logist & Global Strategy
+15	1	Kenan Flagler Business Sch
+15	1	Kenan Inst Private Enterprise
+15	2	Univ N Carolina
+15	2	Kenan Ctr
+15	2	Kenan Flagler Business Sch
+15	2	Kenan Inst Private Enterprise
+16	0	Univ Dayton
+16	0	Dept MIS & Decis Sci
+16	1	Athens State Univ
+16	1	Dept Management
+17	0	Univ N Texas
+17	0	Dept Management
+18	0	Clemson Univ
+18	1	Univ Texas
+18	2	Univ S Carolina
+19	0	Univ N Carolina
+19	0	Kenan Flagler Business Sch
+19	1	Boston Univ
+19	1	Sch Management
+20	0	Sejong Univ
+20	0	Coll Hospitality & Tourism Management
+20	1	City Univ Hong Kong
+20	1	Econ & Finance Dept
+20	1	Kowloon
+20	2	Univ Florida
+20	2	Coll Business Adm
+20	3	Queen Mary Hosp
+20	3	Intens Care Unit
+20	4	Prince Wales Hosp
+20	4	Dept Anesthesia & Intens Care Unit
+20	4	Shatin
+21	0	Seattle Univ
+21	0	Albers Sch Business& Econ
+21	0	Dept Management
+21	1	Univ Cent Oklahoma
+21	1	Coll Business
+21	1	Dept Decis Sci
+22	0	Duquesne Univ
+22	0	AJ Palumbo Sch Business Adm
+23	0	Texas A&M Univ
+23	0	Dwight Look Coll Engn
+23	0	Dept Engn Technol & Ind Distribut
+23	1	Univ Arkansas
+23	1	Sam M Walton Coll Business Adm
+23	1	Comp Informat Syst & Quantitat Anal Dept
+24	0	Univ Washington
+24	0	Sch Business Adm
+24	1	Auburn Univ
+24	1	Thomas Walter Ctr Technol Management
+25	0	Univ Victoria
+25	0	Fac Business
+25	0	Victoria
+26	0	So Methodist Univ
+26	0	Edwin L Cox Sch Business
+26	1	Univ N Carolina
+26	1	Kenan Flagler Business Sch
+26	2	Emory Univ
+26	2	Goizueta Business Sch
+27	0	Ohio State Univ
+27	0	Max F Fisher Coll Business
+27	0	Dept Management Sci
+27	1	Florida State Univ
+27	1	Coll Business
+28	0	Clark Univ
+28	0	Grad Sch Management
+29	0	Michigan State Univ
+29	0	Eli Broad Grad Sch Management
+29	0	Dept Mkt & Supply Chain Management
+30	0	Depaul Univ
+30	0	Dept Management
+30	1	Kansas State Univ
+30	1	Coll Business Adm
+30	1	Dept Management
+31	0	Ohio State Univ
+31	0	Max M Fisher Coll Business
+31	1	Univ Colorado
+31	1	Coll Business & Adm
+32	0	Case Western Reserve Univ
+32	0	WSOM
+32	1	Univ Michigan
+32	1	Sch Business
+33	0	Politecn Milan
+33	0	Dipartimento Econ & Prod
+34	0	Univ Maryland
+34	0	Robert H Smith Sch Business
+35	0	Univ Wisconsin
+35	0	Coll Business & Econ
+35	0	Dept Management
+35	1	Florida Atlantic Univ
+35	1	Coll Business
+35	1	Dept Informat Technol & Operat Management
+36	0	Wake Forest Univ
+36	0	Babcock Grad Sch Management
+36	0	Reynolda Stn
+37	0	Arizona State Univ
+37	0	Coll Business
+37	0	Dept Management
+38	0	Babson Coll
+38	1	Univ Minnesota
+38	1	Carlson Sch Management
+38	1	Operat & Management Sci Dept
+38	1	Donaldson Chair Operat Management
+39	0	Calif State Univ Fullerton
+39	0	Dept Management
+39	1	Bowling Green State Univ
+39	1	Dept Management
+39	2	Univ Arkansas
+39	2	CISQA Dept
+39	2	Sam M Walton Coll Business Adm
+40	0	Univ Western Ontario
+40	0	Richard Ivey Sch Business
+40	0	London
+40	1	Kraft Gen Foods Inc
+40	1	Don Mills
+41	0	CUNY Bernard M Baruch Coll
+41	0	Zicklin Sch Business
+41	0	Dept Management
+41	1	Michigan State Univ
+41	1	Eli Broad Grad Sch
+41	1	Dept Mkt & Supply Chain Management
+42	0	London Business Sch
+42	0	Operat & Technol Management Dept
+42	1	Boston Univ
+42	1	Sch Management
+42	1	Operat Management Dept
+43	0	Katholieke Univ Leuven
+43	0	Dept Appl Econ
+43	0	Operat Management Grp
+44	0	No Illinois Univ
+44	0	Dept Operat Management & Informat Syst OMIS
+44	1	No Illinois Univ
+44	1	Div Stat
+45	0	CUNY Bernard M Baruch Coll
+45	0	Zicklin Sch Business
+45	0	Dept Management
+45	1	Michigan State Univ
+45	1	Eli Broad Grad Sch Management
+45	1	Dept Mkt & Supply Chain Management
+47	0	Univ Minnesota
+47	0	Carlson Sch Management
+47	1	Ohio State Univ
+47	1	Fisher Coll Business
+48	0	Univ Notre Dame
+48	0	Mendoza Coll Business
+48	0	Dept Management
+48	1	Rensselaer Polytech Inst
+48	1	Lally Sch Management & Technol
+48	2	Univ Minnesota
+48	2	Carlson Sch Management
+48	2	Operat & Managment Sci Dept
+49	0	Oklahoma State Univ
+49	0	Coll Business Adm 325
+49	1	Michigan State Univ
+50	0	Univ Minnesota
+50	0	Carlson Sch Management
+50	0	Dept Mkt & Logist
+50	1	Univ Maryland
+50	1	Dept Logist Business & Publ Policy
+50	1	Robert H Smith Sch Business
+51	0	Coll William & Mary
+51	0	Sch Business
+52	0	Arizona State Univ
+52	0	Dept Supply Chain Management
+52	1	Kansas State Univ
+52	1	Dept Management
+52	1	Coll Business Adm
+52	2	Western Michigan Univ
+52	2	Haworth Coll Business
+53	0	Georgia Inst Technol
+53	0	DuPree Coll Management
+53	1	Univ Western Ontario
+53	1	Richard Ivey Sch Business
+53	1	London
+54	0	Our Lady Lake Univ
+54	0	Sch Business
+54	1	Univ Nevada
+54	1	Coll Business & Econ
+54	1	Dept Management
+55	0	Univ S Carolina
+55	0	Darla Moore Sch Business
+55	0	Dept Management Sci
+55	1	Bowling Green State Univ
+55	1	Coll Business Adm
+55	1	Dept Management
+56	0	Univ St Thomas
+56	0	Grad Sch Business
+56	1	Univ Minnesota
+56	1	Curtis L Carlson Sch Management
+56	1	Operat & Management Sci Dept
+57	0	Arizona State Univ
+57	0	Dept Management & Supply Chain Management
+57	1	Arizona State Univ
+57	1	Dept Management & Ind Engn
+57	2	Arizona State Univ
+57	2	Dept Management
+58	0	Univ Oklahoma
+58	0	Div Management
+58	0	Michael F Price Coll Business
+58	1	Miami Univ
+58	1	Dept Management
+58	1	Richard T Farmer Sch Business Adm
+58	2	Clemson Univ
+58	2	Coll Business & Publ Affairs
+58	2	Dept Management
+59	0	Georgia Inst Technol
+59	0	DuPree Coll Management
+60	0	Clemson Univ
+60	0	Dept Management
+60	1	Appalachian State Univ
+60	1	Dept Informat Technol & Operat Management
+60	2	Appalachian State Univ
+60	2	Dept Management
+61	0	Cranfield Sch Management
+61	0	Cranfield
+61	1	Corp Execut Board
+62	0	London Business Sch
+62	1	Univ Oxford
+62	1	Said Business Sch
+63	0	Univ Toledo
+63	0	Coll Business Adm
+63	1	Rochester Inst Technol
+63	1	Coll Business
+64	0	Univ Utah
+64	0	David Eccles Sch Business
+64	1	Univ Georgia
+64	1	Terry Coll Business
+65	0	So Methodist Univ
+65	0	Edwin L Cox Sch Business
+65	0	Informat Syst & Operat Management Dept
+65	1	Depaul Univ
+65	1	Kellstadt Grad Sch Business
+65	1	Dept Management
+65	2	Ball State Univ
+65	2	Coll Business
+65	2	Dept Management
+67	0	Univ S Carolina
+67	0	Darla Moore Sch Business
+67	0	Dept Management Sci
+67	1	Salisbury State Univ
+67	1	Perdue Sch Business
+67	1	Dept Informat & Decis Sci
+68	0	Texas A&M Univ
+68	0	Dept Ind Distribut
+68	1	Texas A&M Univ
+68	1	Dept Informat & Operat Management
+69	0	Babson Coll
+69	1	Univ Minnesota
+69	1	Carlson Sch Management
+69	1	Dept Operat & Management Sci
+70	0	Univ N Carolina
+70	0	Bryan Sch Business & Econ
+70	0	Dept Informat Syst & Operat Management
+70	1	Univ Ghana
+70	1	Sch Adm
+71	0	Utah State Univ
+71	0	Sch Accountancy
+71	1	McGill Univ
+71	1	Fac Management
+71	1	Montreal
+72	0	Florida Atlantic Univ
+72	1	Univ Toledo
+72	1	Coll Business
+73	0	Macquarie Univ
+73	0	Grad Sch Management
+73	0	Sydney
+73	1	Univ Technol Sydney
+73	1	Sch Management
+73	1	Sydney
+74	0	Cardiff Univ
+74	0	Logist Syst Dynam Grp
+74	0	Cardiff
+74	1	IBL Lighting
+74	1	Unit C60
+75	0	Univ Exeter
+75	0	Sch Business & Econ
+75	0	Exeter EX4 4PU
+75	1	Univ Cambridge
+75	1	Ctr Int Mfg
+76	0	Cardiff Business Sch
+76	0	Lean Enterprise Res Ctr
+76	0	Cardiff CF10 3EU
+76	1	Univ Bologna
+76	1	I-47100 Forli
+77	0	London Business Sch
+77	1	Univ Oxford
+77	1	Said Business Sch
+78	0	Helsinki Univ Technol
+79	0	State Univ Ghent
+79	0	Dept Ind Management
+79	1	Mobius Res & Consulting
+80	0	Wake Forest Univ
+80	0	Babcock Grad Sch Management
+80	1	Univ Melbourne
+80	1	Melbourne
+81	0	Univ Victoria
+81	0	Fac Business
+81	0	Victoria
+82	0	Rensselaer Polytech Inst
+82	0	Lally Sch Management & Technol
+83	0	Univ Minnesota
+83	0	Carlson Sch Management
+83	0	Operat & Management Sci Dept
+83	1	MarketRx
+84	0	Arizona State Univ
+84	0	Coll Business
+84	0	Dept Management
+84	1	Arizona State Univ
+84	1	Coll Business
+84	1	Dept Supply Chain Management
+85	0	Victoria Univ Wellington
+85	0	Sch Business & Publ Management
+85	1	Univ Otago
+85	1	Dept Management
+86	0	Univ Alabama
+86	0	Dept Management Mkt & Ind Distribut
+86	0	UAB Sch Business
+86	1	Univ Cincinnati
+86	1	Coll Business Adm
+86	1	Dept Quantitat Anal & Operat Management
+87	0	Arizona State Univ
+87	0	Dept Management
+87	1	Univ Padua
+87	1	Dipartimento Tecn & Gest Sist Ind
+88	0	Georgia So Univ
+88	0	Coll Business Adm
+88	1	Georgia So Univ
+88	1	Dept Informat Syst & Logist
+89	0	Oklahoma State Univ
+89	1	Univ Wisconsin
+90	0	Oregon State Univ
+90	0	Coll Business
+90	1	Univ Florida
+90	1	Dept Management
+91	0	Univ Western Cape
+91	0	Dept Management
+91	1	Boston Coll
+91	1	Wallace E Carrol Sch Management
+91	2	Univ Cape Town
+91	2	Grad Sch Business
+92	0	Florida Atlantic Univ
+92	0	Grad Sch Business
+92	1	Univ Toledo
+92	1	Coll Business Adm
+93	0	Michigan State Univ
+93	0	Dept Mkt & Supply Chain Management
+93	0	Eli Broad Grad Sch Management
+93	1	Depaul Univ
+93	1	Dept Management
+93	1	Kellstadt Grad Sch Commerce
+94	0	Georgia State Univ
+94	0	Dept Management
+94	0	J Mack Robinson Coll Business
+94	1	Vanderbilt Univ
+94	1	Owen Grad Sch Management
+95	0	Old Dominion Univ
+95	0	Dept Informat Syst & Decis Sci
+95	0	Coll Business & Publ Adm
+95	1	Ohio State Univ
+95	1	Dept Management Sci
+95	1	Fisher Coll Business
+95	2	Univ Nevada
+95	2	Dept Management
+95	2	Coll Business
+96	0	Univ S Carolina
+96	0	Moore Sch Business
+96	0	Dept Management Sci
+96	1	Univ S Carolina
+96	1	Moore Sch Business
+96	1	Dept Mkt
+97	0	Univ Arkansas
+97	0	Sam M Walton Coll Business
+97	0	Dept Informat Syst
+97	1	Texas A&M Univ
+97	1	Lowry Mays Coll Business
+97	1	Dept Informat & Operat Management
+98	0	Stanford Univ
+98	0	Dept Management Sci & Engn
+98	1	Stanford Univ
+98	1	Grad Sch Business
+98	2	Univ N Carolina
+98	2	Kenan Flagler Business Sch
+99	0	Western Illinois Univ
+99	0	Coll Business & Technol
+99	0	Dept Management
+99	1	Univ Western Ontario
+99	1	London
+100	0	Michigan State Univ
+100	0	Eli Broad Grad Sch Management
+100	0	Dept Mkt & Supply Chain Management
+101	0	Univ Baltimore
+101	0	RG Merrick Sch Business
+102	0	Michigan State Univ
+102	0	Eli Broad Grad Sch Management
+102	0	Dept Mkt & Supply Chain Management
+103	0	Univ Utah
+103	0	David Eccles Sch Business
+103	1	Univ Texas
+103	1	McCombs Sch Business
+103	2	Boston Univ
+103	2	Sch Management
+103	3	Bentley Coll
+104	0	Univ Minnesota
+104	0	Dept Operat & Management Sci
+104	1	Univ Warwick
+104	1	Warwick Business Sch
+104	1	Coventry CV4 7AL
+104	2	Sam Houston State Univ
+104	2	Gibson D Lewis Ctr Business & Econ Dev
+104	3	Babson Coll
+104	3	Management Div
+105	0	Univ Western Ontario
+105	0	Richard Ivey Sch Business
+105	0	London
+105	1	Indiana Univ
+105	1	Kelley Sch Business
+105	2	Brigham Young Univ
+105	2	Marriott Sch Management
+106	0	Depaul Univ
+106	0	Dept Management
+106	1	World Business Dept
+106	2	Univ So Calif
+106	2	Marshall Sch Business
+106	2	Dept Informat & Operat Management
+106	3	Michigan State Univ
+106	3	Eli Broad Grad Sch Management
+106	3	Dept Mkt & Supply Chain Management
+106	4	Univ Arizona
+106	4	Coll Business & Publ Adm
+107	0	Michigan State Univ
+107	0	Eli Broad Grad Sch Management
+107	0	Dept Mkt & Supply Chain Management
+107	1	Harvard Univ
+107	1	Sch Business
+107	2	Univ N Carolina
+107	2	Kenan Flagler Business Sch
+108	0	Univ Minnesota
+108	0	Curtis L Carlson Sch Management
+108	1	Ohio State Univ
+108	1	Fisher Coll Business
+108	2	Univ Cincinnati
+108	2	Coll Business
+108	3	Ball State Univ
+108	3	Coll Business
+108	4	Emory Univ
+108	4	Goizueta Sch Business
+108	5	Univ Utah
+108	5	David Eccles Sch Business
+109	0	Wake Forest Univ
+109	0	Babcock Grad Sch Management
+109	0	Worrell Profess Ctr 3109
+110	0	Univ Notre Dame
+110	0	Coll Business Adm
+111	0	Univ Minnesota
+111	0	Carlson Sch Management
+111	0	Operat & Management Sci
+112	0	Wake Forest Univ
+112	0	Babcock Grad Sch Management
+113	0	N Carolina State Univ
+113	0	Coll Management
+114	0	Michigan State Univ
+114	0	Eli Broad Grad Sch Management
+114	0	Dept Mkt & Supply Chain Management
+115	0	Arizona State Univ
+115	0	Dept Supply Chain Management
+115	1	Univ Minnesota
+115	1	Operat & Management Sci Dept
+115	2	Metropolitan State Univ
+115	2	Management & Informat Syst Dec Sci Dept
+116	0	London Business Sch
+116	0	Operat & Technol Management Dept
+117	0	Univ Minnesota
+117	0	Dept Operat & Management Sci
+117	1	Ohio State Univ
+117	2	Univ Nevada
+117	3	Wayne State Univ
+118	0	Univ Western Ontario
+118	0	Richard Ivey Sch Business
+118	0	London
+118	1	Ctr Adv Purchasing Studies
+119	0	Univ Catolica Portuguesa Porto
+119	0	Fac Econ & Gestao
+119	1	London Business Sch
+120	0	Georgia Inst Technol
+120	0	Dupree Coll Management
+120	1	Univ Western Ontario
+120	1	Richard Ivey Sch Business
+120	1	London
+121	0	Michigan State Univ
+121	0	Eli Broad Coll Business
+121	0	Dept Mkt & Supply Chain Management
+121	1	Univ S Carolina
+121	1	Moore Coll Business
+122	0	Michigan State Univ
+122	0	CIBER
+122	1	Michigan State Univ
+122	1	Eli Broad Grad Sch Management
+122	1	Dept Mkt & Supply Chain Management
+122	2	Florida State Univ
+122	2	Coll Business
+122	3	FedEx Technol Inst
+122	3	Ctr Supply Chain Management
+122	4	Univ Memphis
+122	4	Fogelman Coll Business & Econ
+122	4	Dept Supply Chain & Operat Management
+123	0	Boston Coll
+123	0	Wallace E Carroll Sch Management
+123	0	Dept Operat & Strateg Management
+124	0	Univ Sevilla
+124	0	GIDEAO Res Grp
+124	0	Dpto Econ Financiera & Direcc Operaciones
+124	1	Univ Carlos III Madrid
+124	1	Dpto Econ Empresa
+124	1	E-28903 Getafe
+125	0	Utah State Univ
+125	0	Sch Accountancy
+125	1	McGill Univ
+125	1	Fac Management
+125	1	Montreal
+125	2	Utah State Univ
+125	2	Dept Econ
+126	0	Univ Texas
+126	0	Coll Business Adm
+126	0	Dept Management Mkt & Int Business
+127	0	Emory Univ
+127	0	Goizueta Business Sch
+127	1	Univ N Carolina
+127	1	Kenan Flagler Business Sch
+128	0	Univ S Carolina
+128	0	Moore Sch Business
+128	0	Dept Management Sci
+128	1	Clemson Univ
+128	1	Dept Management
+129	0	Arizona State Univ
+129	0	Dept Management
+129	1	Arizona State Univ
+129	1	Dept Management
+129	2	Arizona State Univ
+129	2	Dept Management
+129	3	Arizona State Univ
+129	3	Dept Supply Chain Management
+129	4	Rensselaer Polytech Inst
+129	4	Lally Sch Management & Technol
+129	5	Univ Padua
+129	5	Departimento Tech & Gest Sistemi Ind
+130	0	Chapman Univ
+130	0	Argyros Sch Business & Econ
+130	1	George Mason Univ
+130	1	Sch Management
+130	2	St Josephs Univ
+130	2	Erivan K Haub Sch Business
+130	2	Dept Management & Informat Syst
+131	0	Penn State Univ
+131	0	Smeal Coll Business Adm
+131	0	Dept Management Sci & Informat Syst
+131	1	Univ Miami
+131	1	Sch Business Adm
+131	1	Dept Management
+131	2	Rensselaer Polytech Inst
+131	2	Lally Sch Management & Technol
+132	0	Univ Toledo
+132	0	Coll Business Adm
+132	0	Dept Management
+132	1	Univ Wisconsin
+132	1	Dept Management & Mkt
+132	2	Florida Atlantic Univ
+133	0	Univ Minnesota
+133	0	Carlson Sch Management
+133	1	Harvard Univ
+133	2	Univ Minnesota
+133	2	Dept Psychol
+134	0	Boston Coll
+134	0	Wallace E Carroll Sch Management
+134	0	Dept Operat & Strateg Management
+134	1	Michigan State Univ
+134	1	Eli Broad Grad Sch Management
+134	1	Dept Mkt & Supply Chain Management
+135	0	Chapman Univ
+135	0	Argyros Sch Business & Econ
+135	1	George Mason Univ
+135	1	Sch Management
+135	2	St Josephs Univ
+135	2	Erivan K Haub Sch Business
+135	2	Dept Management & Informat Syst
+136	0	Ohio State Univ
+136	0	Fisher Coll Business
+136	1	Univ Minnesota
+136	1	Carlson Sch Management
+137	0	Univ Udine
+137	0	Dipartimento Ingn Elettr Gest & Meccan
+138	0	Univ Toledo
+138	0	Dept Management
+138	1	Arkansas State Univ
+138	1	Dept Econ & Decis Sci
+139	0	Univ Minnesota
+139	0	Curtis L Carlson Sch Management
+140	0	Univ Warwick
+140	0	Warwick Business Sch
+140	0	Operat Management Grp
+140	0	Coventry CV4 7AL
+141	0	Depaul Univ
+141	0	Dept Management
+141	0	Kellstadt Grad Sch Commerce
+141	1	Michigan State Univ
+141	1	Dept Mkt & Supply Chain Management
+141	1	Eli Broad Grad Sch Management
+142	0	Univ Maryland
+142	0	Robert H Smith Sch Business
+142	1	Arizona State Univ
+142	1	Coll Business
+143	0	Univ Catolica Portuguesa Porto
+143	0	Fac Econ & Gestao
+144	0	St Cloud State Univ
+144	0	Dept Management
+144	1	Univ Minnesota
+144	1	Carlson Sch Management
+144	1	Dept Operat & Management Sci
+144	1	Donaldson Chair Operat Management
+145	0	Chinese Univ Hong Kong
+145	0	Dept Decis Sci & Managerial Econ
+145	0	Shatin
+145	1	Hong Kong Polytech Univ
+145	1	Dept Management
+145	1	Hong Kong
+145	2	Univ Hong Kong
+145	2	Dept Ind & Mfg Syst Engn
+145	2	Hong Kong
+146	0	Univ Maryland
+146	0	Robert H Smith Sch Business
+146	1	Arizona State Univ
+146	1	Coll Business
+147	0	Indiana Univ
+147	0	Kelley Sch Business
+147	1	Cornell Univ
+147	1	Johnson Grad Sch Management
+148	0	Wake Forest Univ
+148	0	Worrell Profess Ctr
+148	0	Babcock Grad Sch Management
+148	1	John Carroll Univ
+148	1	Boler Sch Business
+148	1	Dept Management Marketing & Logist
+149	0	Amer Grad Sch Int Management
+149	1	Univ Colorado
+149	1	Coll Business & Adm
+150	0	SW Missouri State Univ
+150	0	Coll Business Adm
+150	0	Dept Management
+150	1	Univ Arkansas
+150	1	Sam M Walton Coll Business
+150	1	Dept Management
+151	0	Michigan State Univ
+151	0	Dept Mkt & Supply Chain Management
+151	1	Univ S Carolina
+151	1	Moore Sch Business
+151	1	Dept Management Sci
+152	0	Chinese Univ Hong Kong
+152	0	Dept Decis Sci & Managerial Econ
+152	0	Shatin
+152	1	Hong Kong Polytech Univ
+152	1	Dept Logist
+152	1	Hong Hom
+153	0	Univ Minnesota
+153	0	Curtis L Carlson Sch Management
+153	0	Operat & Management Sci Dept
+153	1	Rensselaer Polytech Inst
+153	1	Lally Sch Management & Technol
+154	0	Univ Victoria
+154	0	Fac Business
+154	0	Victoria
+155	0	Arizona State Univ
+155	0	Coll Business
+155	0	Dept Management
+156	0	Wake Forest Univ
+156	0	Babcock Grad Sch Management
+157	0	Oregon State Univ
+157	0	Coll Business
+157	0	Dept Management Mkt & Int Business
+158	0	SUNY Buffalo
+158	0	Sch Management
+158	0	Jacobs Management Ctr
+158	1	Purdue Univ
+158	1	Krannert Sch Management
+158	2	Univ Michigan
+158	2	Sch Business
+159	0	Cleveland State Univ
+159	0	Coll Business Adm
+159	0	Dept Operat Management & Business Stat
+159	1	Clarkson Univ
+159	1	Sch Business
+160	0	York Univ
+160	0	Schulich Sch Business
+160	0	N York
+160	1	Univ Victoria
+160	1	Fac Business
+160	1	Victoria
+161	0	Wake Forest Univ
+161	0	Worrell Profess Ctr
+161	0	Babcock Grad Sch Management
+162	0	Wake Forest Univ
+162	0	Babcock Grad Sch
+163	0	Columbia Univ
+163	0	Grad Sch Business
+163	1	NYU
+163	1	Stern Sch Business
+163	2	Univ Calif Berkeley
+163	2	Dept Ind Engn & Operat Res
+164	0	Erasmus Univ
+164	0	Rotterdam Sch Management
+164	1	Celerant Consulting
+165	0	N Carolina State Univ
+165	0	Coll Management
+165	1	Univ Notre Dame
+165	1	Coll Business Adm
+165	2	Univ Nevada
+165	2	Coll Business
+165	3	Ohio State Univ
+165	3	Fisher Coll Business
+166	0	Oregon State Univ
+166	0	Coll Business
+166	0	Dept Management Marketing & Int Business
+166	1	Michigan State Univ
+166	1	Eli Broad Grad Sch Management
+166	1	Dept Marketing & Supply Chain Management
+167	0	Michigan State Univ
+167	0	Eli Broad Grad Sch Management
+167	0	Dept Mkt & Supply Chain Management
+168	0	Univ Cincinnati
+168	0	Coll Business Adm
+168	0	Dept Quantitat Anal & Operat Management
+169	0	Aletheia Univ
+169	0	Coll Management
+169	0	Grad Sch Management Sci
+170	0	Helsinki Univ Technol
+170	0	Dept Ind Engn & Management
+170	1	Univ Minnesota
+170	1	Carlson Sch Management
+170	1	Operat & Management Sci Dept
+171	0	Dalian Univ Technol
+171	0	Sch Management
+171	0	Dalian 116024
+171	1	Clark Univ
+171	1	Grad Sch Management
+172	0	Oakland Univ
+172	0	Sch Business Adm
+173	0	Univ Notre Dame
+173	0	Mendoza Coll Business
+173	0	Dept Management
+173	1	Rensselaer Polytech Inst
+173	1	Lally Sch Management & Technol
+173	2	Univ Minnesota
+173	2	Carlson Sch Management
+173	2	Operat & Management Sci Dept
+174	0	Cleveland State Univ
+174	0	Dept Operat Management & Business Stat
+174	0	Coll Business Adm
+175	0	Univ Penn
+175	0	Wharton Sch
+176	0	Univ S Carolina
+176	0	Moore Sch Business
+176	0	Dept Management Sci
+176	1	Grand Valley State Univ
+176	1	Seidman Sch Business
+176	1	Dept Management
+176	2	Univ S Carolina
+176	2	Moore Sch Business
+176	2	Dept Mkt
+177	0	Univ Cincinnati
+177	0	Coll Business
+177	1	Univ N Carolina
+177	1	Kenan Flagler Business Sch
+178	0	York Univ
+178	0	Schulich Sch Business
+178	0	Toronto
+179	0	Univ Western Ontario
+179	0	Operat Management Area Grp
+179	0	Richard Ivey Sch Business
+179	0	London
+179	1	Ohio State Univ
+179	1	Fisher Coll Business
+179	1	Dept Management Sci
+180	0	Helsinki Univ Technol
+180	0	Dept Ind Engn & Management
+180	1	Univ Minnesota
+181	0	Michigan State Univ
+181	0	Dept Mkt & Supply Chain Management
+181	0	Eli Broad Coll Business
+181	1	CUNY
+181	1	Baruch Coll
+181	1	Zicklin Sch Business
+181	1	Dept Management
+182	0	Univ Lausanne
+182	0	Ecole Hautes Etud Commerciales
+182	1	Harvard Univ
+182	1	Sch Business
+183	0	Oregon State Univ
+183	0	Coll Business
+183	0	Dept Management Mkt & Int Business
+183	1	Arizona State Univ
+183	1	WP Carey Sch Business
+183	1	Dept Supply Chain Management
+184	0	Arizona State Univ
+184	0	WP Carey Sch Business
+184	1	Univ Maryland
+184	1	Robert H Smith Sch Business
+185	0	Michigan State Univ
+185	0	Eli Broad Sch Management
+185	0	Dept Mkt & Supply Chain Management
+186	0	Georgia Inst Technol
+186	0	DuPree Coll Management
+186	1	Univ N Carolina
+186	1	Kenan Flagler Business Sch
+187	0	Technion Israel Inst Technol
+187	0	Fac Ind Engn & Management
+187	1	Univ Minnesota
+187	1	Carlson Sch Management
+188	0	Oregon State Univ
+188	0	Dept Management Coll Business
+188	1	Arizona State Univ
+188	1	WP Carey Sch Business
+188	1	Dept Supply Chain Management
+189	0	London Business Sch
+189	0	Operat & Technol Management Dept
+190	0	Univ Toledo
+190	0	Coll Business Adm
+190	1	Univ Wisconsin
+191	0	Texas A&M Univ
+191	0	Mays Business Sch
+191	0	Dept Informat & Operat Management
+191	1	Univ Tennessee
+191	1	Coll Business
+191	1	Dept Mkt & Logist
+191	1	Stokely Management Ctr 310
+192	0	Cornell Univ
+192	0	Sch Hotel Adm
+193	0	Bryant Univ
+193	0	Dept Comp Informat Syst
+193	1	Univ Toledo
+193	1	Coll Business Adm
+194	0	Michigan State Univ
+194	0	Dept Mkt & Supply Chain Management
+194	0	Eli Broad Grad Sch Management
+195	0	Univ Calgary
+195	0	Haskayne Sch Business
+195	0	Calgary
+196	0	Univ Massachusetts
+196	0	Dept Management
+197	0	Hong Kong Polytech Univ
+197	0	Dept Management & Mkt
+197	0	Kowloon
+197	1	Univ Massachusetts
+197	1	Dept Management
+198	0	Univ Notre Dame
+198	0	Mendoza Coll Business
+198	1	Yuan Ze Univ
+198	1	Grad Sch Management
+199	0	Dixie State Coll Utah
+199	0	Udvar Hazy Sch Business
+199	1	Univ Louisville
+199	1	Coll Business & Publ Adm
+199	2	Univ Tampa
+199	2	John Sykes Coll Business
+200	0	Univ Wisconsin
+200	0	Sch Business
+200	1	McMaster Univ
+200	1	DeGroote Business
+200	1	Hamilton
+201	0	Univ Wisconsin
+201	0	Sch Business Adm
+202	0	Univ Cambridge
+202	0	Judge Inst Management
+202	1	Cardiff Univ
+202	1	Cardiff Business Sch
+202	1	Logist Syst Dynam Grp
+202	2	Cardiff Univ
+202	2	Cardiff Business Sch
+202	2	Lean Enterprise Res Ctr
+203	0	Univ Missouri
+203	0	Henry W Bloch Sch Business Adm
+204	0	Univ Wisconsin
+204	0	Dept Management
+204	0	Coll Business & Econ
+204	1	Loyola Univ
+204	1	Sch Business Adm
+204	2	Univ Wisconsin
+204	2	Dept Management
+204	2	Coll Business & Econ
+205	0	Arizona State Univ
+205	0	WP Carey Sch Business
+205	0	Dept Supply Chain Management
+205	1	Univ Modena & Reggio Emilia
+205	1	Dipartimento Ingn Meccan & Civile
+206	0	Univ Hong Kong
+206	0	Dept Ind & Mfg Syst Engn
+206	0	Hong Kong
+207	0	Univ Minnesota
+207	0	Carlson Sch Management 3 150
+207	0	Operat & Management Sci Dept
+208	0	Univ New Mexico
+208	0	Anderson Sch Management
+208	1	Georgia Inst Technol
+208	1	Coll Management
+209	0	Arizona State Univ
+209	0	WP Carey Sch Business
+209	0	Dept Supply Chain Management
+209	1	Inst Empresa
+209	1	Dept Operat & Technol Management
+209	2	Univ Modena & Reggio Emilia
+209	2	Dipartimento Ingn Meccan & Civile
+210	0	N Carolina State Univ
+210	0	Coll Management
+210	0	Dept Business Management
+210	1	Arizona State Univ
+210	1	Dept Ind Engn
+210	2	Univ Iowa
+210	2	Seamans Ctr
+210	2	Dept Mech & Ind Engn
+211	0	Univ Michigan
+212	0	Arizona State Univ
+212	0	WP Carey Sch Business
+212	0	Dept Supply Chain Management
+212	1	N Carolina State Univ
+212	1	Coll Management
+212	1	Dept Business Management
+212	2	Michigan State Univ
+212	2	Eli Broad Grad Sch Management
+212	2	Dept Mkt & Supply Chain Management
+213	0	Technion Israel Inst Technol
+213	0	Fac Ind Engn & Management
+213	1	MIT
+213	1	Sloan Sch Management
+214	0	Univ Utah
+214	0	David Eccles Sch Business
+214	1	Univ N Carolina
+214	1	Kenan Flagler Business Sch
+214	2	Univ Warwick
+214	2	Warwick Business Sch
+214	2	Coventry CV4 7AL
+214	3	Amer Grad Sch Int Management
+214	3	Thunderbird
+215	0	Univ St Thomas
+215	0	Coll Business
+215	0	Dept Management
+215	1	Depaul Univ
+215	1	Kellstadt Grad Sch Commerce
+215	1	Dept Management
+215	2	Michigan State Univ
+215	2	Eli Broad Grad Sch Management
+215	2	Dept Mkt & Supply Chain Management
+216	0	Garvin Sch Int Management
+216	0	Global Business Dept
+216	1	Volunteer Ctr Maricopa Cty
+217	0	Michigan State Univ
+217	0	Eli Broad Coll Business
+217	0	Dept Mkt & Supply Chain Management
+217	1	Clark Univ
+217	1	Grad Sch Management
+218	0	London Business Sch
+218	1	Northumbria Univ
+218	1	Ctr Business Excellence
+218	1	Newcastle Upon Tyne NE1 8ST
+218	2	Adv Inst Management Res
+219	0	Cornell Univ
+219	0	Sch Hotel Adm
+220	0	Univ Minnesota
+220	0	Carlson Sch Management
+220	0	Dept Operat & Management Sci
+221	0	Univ Utah
+221	0	David Eccles Sch Business
+221	1	Molde Univ Coll
+222	0	Ohio State Univ
+222	0	Fisher Coll Business
+222	0	Dept Management Sci
+222	1	Penn State Univ
+223	0	Chapman Univ
+223	0	Argyros Sch Business & Econ
+223	1	St Josephs Univ
+223	1	Ervian K Haub Sch Business
+223	1	Dept Marketing
+223	2	Univ Iowa
+223	2	Coll Pharm
+224	0	Arizona State Univ
+224	0	WP Carey Sch Business
+224	0	Dept Supply Chain Management
+224	1	Univ Modena
+224	1	Dipartimento Ingn Meccan & Civile
+224	2	Arizona State Univ
+224	2	WP Carey Sch Business
+224	2	Dept Management
+224	3	Inst Empresa
+224	3	Dept Operat & Technol Management
+224	4	Thunderbird
+224	4	Garvin Sch Int Management
+225	0	Illinois State Univ
+225	0	Coll Business
+225	0	Management & Quantitat Methods Dept
+226	0	Rutgers State Univ
+226	0	Newark New Brunswick Rutgers Business Sch
+227	0	Emory Univ
+228	0	Emory Univ
+228	0	Goizueta Business Sch
+228	1	Univ Minnesota
+228	1	Carlson Sch Management
+228	1	Operat & Management Sci Dept
+228	2	Cornell Univ
+228	2	SC Johnson Grad Sch Management
+229	0	Univ Minnesota
+229	0	Curtis L Carlson Sch Management
+229	1	Univ St Thomas
+229	1	Coll Business
+230	0	No Illinois Univ
+230	0	Dept Management
+230	1	No Illinois Univ
+230	1	Dept Operat Management & Informat Syst
+230	2	Univ Illinois
+230	2	Dept Managerial Studies
+230	3	No Illinois Univ
+230	3	Coll Business
+231	0	Univ Minnesota
+231	0	Curtis L Carlson Sch Management
+231	0	Operat & Management Sci Dept
+231	1	Rensselaer Polytech Inst
+232	0	New Mexico State Univ
+232	0	Coll Business
+232	0	Dept Management MSC 3DJ
+232	1	Lakehead Univ
+232	1	Thunder Bay
+232	2	Univ Notre Dame
+232	2	Mendoza Coll Business
+232	2	Dept Management & Adm Sci
+233	0	Tech Univ Eindhoven
+233	0	Dept Technol Management
+234	0	Indiana Univ
+234	0	Kelley Sch Business
+234	1	Univ Toledo
+234	1	Coll Business Adm
+235	0	Penn State Univ
+235	0	Smeal Coll Business
+236	0	Colorado State Univ
+236	0	Dept Management
+236	1	Univ Manchester
+236	1	Manchester Business Sch
+236	1	Manchester M15 6PD
+236	2	N Carolina State Univ
+236	2	Coll Management
+236	2	Dept Business Management
+236	3	Queens Univ Belfast
+236	3	Sch Management & Econ
+236	3	Belfast BT7 1NN
+237	0	Boston Univ
+237	0	Sch Management
+238	0	Univ Texas Pan Amer
+238	0	Coll Business Adm
+238	0	Dept Management Mkt & Int Business
+238	1	Bowling Green State Univ
+238	1	Dept Management
+238	1	Coll Business Adm
+239	0	Indiana Univ
+239	0	Kelley Sch Business
+240	0	Georgia State Univ
+240	0	Dept Managerial Sci
+240	0	J Mack Robinson Coll Business
+241	0	Univ Calgary
+241	0	Haskayne Sch Business
+241	0	Calgary
+242	0	Univ S Carolina
+242	0	Moore Sch Business
+242	0	Dept Management Sci
+243	0	N Carolina State Univ
+243	0	Coll Management
+244	0	Univ S Carolina
+244	0	Moore Sch Business
+244	0	Dept Management Sci
+244	1	Salisbury State Univ
+244	1	Perdue Sch Business
+244	1	Dept Informat & Decis Sci
+244	2	Clemson Univ
+244	2	Dept Management
+245	0	Michigan State Univ
+245	0	Eli Broad Coll Business
+245	0	Dept Mkt & Supply Chain Management
+245	1	Seoul Natl Univ
+245	1	Coll Business Adm
+246	0	Michigan State Univ
+246	0	Eli Broad Grad Sch Management
+246	1	Auburn Univ
+246	1	Coll Business
+247	0	Western Illinois Univ
+247	0	Coll Business & Technol
+247	0	Dept Management
+248	0	Univ Toledo
+248	0	Coll Business Adm
+248	0	Dept Management
+248	1	Univ Idaho
+248	1	Dept Business
+249	0	Univ Texas
+249	0	Coll Business Adm
+249	1	Georgia Inst Technol
+249	1	DuPree Coll Management
+250	0	SUNY Buffalo
+250	0	Sch Management
+250	0	Dept Operat Management & Strategy
+251	0	Michigan State Univ
+251	0	Eli Broad Sch Business
+252	0	CUNY Bernard M Baruch Coll
+252	0	Dept Management
+252	0	Zicklin Sch Business
+252	1	Michigan State Univ
+252	1	Eli Broad Coll Business
+252	1	Dept Mkt & Supply Chain Management
+253	0	Wake Forest Univ
+253	0	Babcock Grad Sch Managment
+254	0	Univ Manchester
+254	0	Manchester Business Sch
+254	0	Dept Decis Sci & Operat Management
+254	0	Manchester M15 6PD
+254	1	Brock Univ
+254	1	Fac Business
+254	1	Dept Mkt
+254	1	St Catharines
+255	0	Chinese Univ Hong Kong
+255	0	Dept Decis Sci & Managerial Econ
+255	0	Shatin
+255	1	Natl Univ Singapore
+255	1	NUS Business Sch
+255	1	Dept Decis Sci
+255	2	Tianjin Univ
+255	2	Coll Management
+256	0	Arizona State Univ
+256	0	WP Carey Sch Business
+256	0	Dept Supply Chain Management
+257	0	Univ Nevada
+257	0	Coll Business Adm
+257	1	WHU
+257	1	Otto Beisheim Grad Sch Mangement
+258	0	Old Dominion Univ
+258	0	Coll Business & Publ Adm
+258	0	Dept Informat Syst & Decis Sci
+258	1	Ohio State Univ
+258	1	Dept Management Sci
+258	1	Fisher Coll Business
+259	0	Univ Toledo
+259	0	Coll Business Adm
+259	1	Rochester Inst Technol
+259	1	Coll Business
+260	0	N Carolina Agr & Tech State Univ
+260	0	Sch Business & Econ
+260	1	Univ N Carolina
+260	1	Kenan Flagler Business Sch
+261	0	Cornell Univ
+261	0	Sch Hotel Adm
+261	0	Serv Operat Management
+261	1	Amer Grad Sch Int Management
+261	2	Univ N Carolina
+261	2	Kenan Flagler Business Sch
+261	3	Univ Warwick
+261	3	Warwick Business Sch
+261	3	Coventry CV4 7AL
+262	0	Griffith Univ
+262	0	Griffith Business Sch
+262	0	Dept Mkt
+262	0	Brisbane
+262	1	Griffith Univ
+262	1	Griffith Business Sch
+262	1	Dept Mkt
+262	1	Nathan
+262	2	Univ Queensland
+262	2	UQ Business Sch
+262	2	St Lucia
+263	0	So Methodist Univ
+263	0	Edwin L Cox Sch Business
+263	1	F Mason & Associates
+264	0	Univ S Carolina
+264	0	Moore Sch Business
+264	0	Dept Management Sci
+265	0	Brigham Young Univ
+265	0	Marriot Sch Business
+266	0	Vanderbilt Univ
+266	0	Management Technol Program
+266	0	Sch Engn
+266	1	Vanderbilt Univ
+266	1	Owen Grad Sch Management
+267	0	Univ Lausanne
+267	0	Ecole Hautes Etud Commerciales
+267	1	WHO
+267	1	Stop TB Partnership Secretariat
+268	0	Cornell Univ
+268	0	Sch Hotel Adm
+268	1	Univ Technol Sydney
+268	1	Sch Mkt
+268	1	Sydney
+269	0	Univ Groningen
+269	1	Tech Univ Eindhoven
+270	0	Tech Univ Eindhoven
+270	0	Dept Technol Management
+270	1	Univ Lancaster
+270	1	Sch Management
+270	1	Dept Management Sci
+271	0	Univ Calgary
+271	0	Haskayne Sch Business
+271	0	Calgary
+272	0	Helsinki Univ Technol
+272	0	Dept Ind Engn & Management
+272	1	Helsinki Univ Technol
+272	1	Consolidated Met Corp Pseudonym
+272	1	Execut Sch Ind Management
+273	0	Univ Colorado
+273	0	Coll Business & Adm
+273	1	Univ Colorado
+273	1	Grad Sch Business & Adm
+273	2	Clemson Univ
+273	2	Dept Management
+274	0	Univ Groningen
+274	0	Fac Management & Org
+275	0	Michigan State Univ
+275	0	Dept Mkt & Supply Chain Management
+275	0	Eli Broad Grad Sch Management
+275	1	Univ Mississippi
+275	1	Sch Business Adm
+275	2	Univ Arizona
+275	2	Dept Mkt
+275	2	Eller Coll Management
+276	0	Univ Lausanne
+276	0	HEC
+277	0	Michigan State Univ
+277	0	Eli Broad Grad Sch Management
+278	0	Univ Minnesota
+278	0	Carlson Sch Management
+278	0	Operat & Management Sci Dept
+279	0	Univ Texas
+279	0	Coll Business Adm
+279	0	Dept Informat Syst & Operat Management
+279	1	Georgia Inst Technol
+279	1	Coll Management
+279	2	Lundquist Coll Business
+279	2	Dept Decis Sci
+280	0	Cranfield Sch Management
+280	0	Cranfield MK43 0AL
+281	0	Univ Miami
+281	0	Sch Business
+281	0	Dept Management
+281	1	Univ Western Ontario
+281	1	Ivey Sch Management
+281	1	London
+281	2	Univ Ottawa
+281	2	Sch Management
+281	2	Paul Desmarais Prof Management Technol Enterprise
+281	2	Ottawa
+282	0	Univ Ottawa
+282	0	Sch Management
+282	0	Paul Desmarais Prof Management Technol Enterprise
+282	0	Ottawa
+282	1	Univ Western Ontario
+282	1	Ivey Sch Management
+282	1	London
+282	2	Univ Miami
+282	2	Sch Business
+282	2	Dept Management
+283	0	Univ Calgary
+283	0	Haskayne Sch Business
+283	0	Int Inst Resource Ind & Sustainab Studies
+283	0	Calgary
+284	0	Erasmus Univ
+284	0	RSM
+285	0	Whitman Sch Management
+286	0	Univ Kansas
+286	0	Sch Business
+286	1	Univ Western Ontario
+286	1	Richard Ivey Sch Business
+286	1	London
+286	2	Michigan State Univ
+286	2	Eli Broad Grad Sch Management
+286	2	Dept Marketing & Supply Chain Management
+287	0	Univ Florida
+287	0	Dept Ind & Syst Engn
+287	0	Supply Chain & Logist Engn Ctr
+287	1	IBM Software Grp
+288	0	Univ New S Wales
+288	0	Sch Mech & Mfg Engn
+288	0	Life Cycle Engn & Management Res Grp
+288	0	Sydney
+289	0	Coll William & Mary
+289	0	Mason Sch Business
+290	0	Univ Notre Dame
+290	0	Mendoza Coll Business
+290	0	Dept Management
+291	0	Arizona State Univ
+291	0	WP Carey Sch Business
+291	1	Arizona State Univ W
+291	1	Sch Global Management & Leadership
+292	0	Univ Bath
+292	0	Sch Management
+292	0	Bath BA2 7AY
+293	0	Univ Western Ontario
+293	0	Richard Ivey Sch Business
+293	0	London
+294	0	Univ Padua
+294	0	Dept Management & Engn
+294	1	Univ Bologna
+294	1	Dept Ind Mech Plants
+294	2	Rutgers State Univ
+294	2	Dept Ind & Syst Engn
+295	0	Univ Melbourne
+295	0	Fac Econ & Commerce
+295	0	Dept Management & Marketing
+295	0	Parkville
+296	0	Emory Univ
+296	0	Goizueta Business Sch
+296	1	Clemson Univ
+296	1	Coll Business & Behav Sci
+296	1	Dept Management
+297	0	Wright State Univ
+297	0	Raj Soin Coll Business
+297	0	Informat Syst & Operat Management
+298	0	Univ New Hampshire
+298	0	Whittemore Sch Business & Econ
+298	0	Dept Decis Sci
+298	1	Ohio State Univ
+298	1	Fisher Coll Business
+298	1	Dept Management Sci
+299	0	Clemson Univ
+299	0	Coll Business & Behav Sci
+299	0	Dept Management
+300	0	Boise State Univ
+300	1	Penn State Univ
+300	1	Black Sch Business
+301	0	Boston Coll
+301	0	Wallace E Carroll Sch Management
+301	0	Operat & Strateg Management Dept
+302	0	Miami Univ
+302	0	Dept Management
+303	0	Iowa State Univ
+303	0	Coll Business
+303	0	Dept Logist Operat & Management Informat Syst
+303	1	Duquesne Univ
+303	1	John F Donahue Grad Sch Business
+303	2	Michigan State Univ
+303	2	Eli Broad Grad Sch Management
+303	2	Dept Mkt & Supply Chain Management
+304	0	Univ Western Ontario
+304	0	Richard Ivey Sch Business
+304	0	London
+305	0	Univ Nevada
+305	0	Coll Business Adm
+305	1	Univ Maryland
+305	1	Robert H Smith Sch Business
+306	0	Brigham Young Univ
+306	0	Marriott Sch Management
+307	0	Victoria Univ Wellington
+307	0	Victoria Management Sch
+308	0	Univ Minnesota
+308	0	Carlson Sch Management
+308	0	Dept Operat & Management Sci
+308	1	Korea Univ
+308	1	Business Sch
+308	1	Dept LSOM
+309	0	Univ Minnesota
+309	0	Carlson Sch Management
+309	1	Ohio State Univ
+309	1	Fisher Coll Business
+310	0	Univ Arkansas
+310	0	Sam M Walton Coll Business
+310	1	Chapman Univ
+310	1	Argyros Sch Business & Econ
+310	2	Univ Oklahoma
+310	2	Michael F Price Coll Business
+311	0	Univ Western Ontario
+311	0	Richard Ivey Sch Business
+311	0	London
+311	1	Clemson Univ
+311	1	Coll Business & Behav Sci
+312	0	Florida Atlantic Univ
+312	0	Dept Informat Technol & Operat Management
+312	1	Hong Kong Polytech Univ
+312	1	Dept Logist
+312	1	Kowloon
+313	0	Rochester Inst Technol
+313	0	Dept Management Marketing & Int Business
+313	1	Univ Cincinnati
+313	1	Dept Management
+313	2	Michigan State Univ
+313	2	Dept Marketing & Supply Chain Management
+314	0	Depaul Univ
+314	0	Charles H Kellstadt Grad Sch Business
+315	0	Univ Salamanca
+315	0	Dpto Adm & Econ Empresa
+316	0	Rensselaer Polytech Inst
+316	0	Lally Sch Management & Technol
+316	1	Univ Minnesota
+316	1	Carlson Sch Management
+316	1	Operat & Management Sci Dept
+317	0	Univ Cyprus
+317	0	Dept Publ & Business Adm
+317	1	ALBA Grad Business Sch
+317	2	London Business Sch
+317	3	Aston Univ
+317	3	Birmingham B4 7ET
+319	0	Univ Seville
+319	0	GIDEAO
+319	0	Res Grp
+319	0	Dpto Econ Financiera
+319	1	Univ Seville
+319	1	GIDEAO
+319	1	Res Grp
+319	1	Direcc Operac
+320	0	Michigan State Univ
+320	0	Broad Coll Business
+320	1	Emory Univ
+320	1	Goizueta Business Sch
+321	0	Wake Forest Univ
+321	0	Babcock Grad Sch Management
+321	1	Wake Forest Univ
+321	1	Calloway Sch Business & Accountancy
+322	0	George Mason Univ
+322	0	Sch Management
+323	0	Arizona State Univ
+323	0	WP Carey Sch Business
+323	1	Ohio State Univ
+323	1	Fisher Coll Business
+324	0	Univ Granada
+324	0	Dept Management
+325	0	Helsinki Univ Technol
+325	0	Dept Ind Engn & Management
+326	0	Auburn Univ
+326	0	Coll Business
+326	0	Dept Management
+326	1	Indian Inst Management
+326	1	Kolkata 700104
+327	0	Michigan State Univ
+327	0	Eli Broad Sch Business
+327	1	Univ S Carolina
+327	1	Moore Sch Business
+327	1	Dept Management Sci
+328	0	China Europe Int Business Sch
+329	0	London Business Sch
+330	0	Univ Bath
+330	0	Sch Management
+330	0	Operat & Supply Grp
+330	0	Bath BA2 7AY
+331	0	Univ Calgary
+331	0	Haskayne Sch Business
+331	0	Operat Management Area
+331	0	Calgary
+331	1	Revolve Business Consulting Ltd
+331	1	Calgary
+332	0	Univ Washington
+332	1	Vanderbilt Univ
+332	1	Owen Grad Sch Management
+333	0	Univ Baltimore
+333	0	Merrick Sch Business
+334	0	Univ Baltimore
+334	0	Merrick Sch Business w
+334	1	Rollins Coll
+334	1	Crummer Grad Sch Business
+334	2	Columbia Univ
+334	2	Grad Sch Business
+335	0	Harvard Univ
+335	0	Sch Business
+336	0	Iowa State Univ
+336	0	Coll Business
+337	0	Indiana Univ
+337	0	Kelley Sch Business
+338	0	Indiana Univ
+338	0	Kelley Sch Business
+338	1	Colorado State Univ
+338	1	Coll Business
+339	0	Boston Univ
+339	1	Bentley Coll
+340	0	USN
+340	0	Postgrad Sch
+340	0	Grad Sch Business & Publ Policy
+340	1	Univ So Calif
+340	1	Marshall Sch Business
+340	1	IOM Dept
+341	0	Univ New Orleans
+341	0	Coll Business Adm
+341	1	Univ Georgia
+341	1	Terry Coll Business
+341	2	Calif State Univ Los Angeles
+341	2	Coll Business
+342	0	Schonberger & Associates Inc
+343	0	Univ Cambridge
+343	0	Judge Business Sch
+344	0	Univ Calif Los Angeles
+344	0	Anderson Grad Sch Management
+344	1	USN
+344	1	Postgrad Sch
+344	1	Grad Sch Business & Publ Policy
+345	0	Auburn Univ
+345	0	Coll Business
+345	0	Dept Management
+345	1	Michigan State Univ
+345	1	Eli Broad Grad Sch Management
+345	1	Dept Mkt & Supply Chain Management
+346	0	Univ Calif Berkeley
+346	0	Haas Sch Business
+346	1	Penn State Univ
+346	1	Smeal Coll Business
+347	0	Texas A&M Univ
+347	0	Mary Business Sch
+347	0	Dept Management
+348	0	Texas A&M Univ
+348	0	Dept Management
+348	0	Mays Business Sch
+349	0	Univ Illinois
+349	0	Dept Business Adm
+350	0	Indiana Univ
+350	0	Kelley Sch Business
+350	1	Univ Cardiff Wales
+350	1	Cardiff Business Sch
+350	2	E Carolina Univ
+350	2	Coll Business
+351	0	Arizona State Univ
+351	0	Dept Supply Chain Management
+351	0	WP Carey Sch Business
+351	1	N Carolina State Univ
+351	1	Coll Management
+352	0	Florida State Univ
+352	0	Coll Business
+352	1	No Arizona Univ
+352	1	Coll Business Adm
+353	0	Queens Univ
+353	0	Sch Business
+353	0	Kingston
+353	1	Univ Western Ontario
+353	1	Richard Ivey Sch Business
+353	1	London
+353	2	Univ Waterloo
+353	2	Dept Management Sci
+353	2	Waterloo
+354	0	Auburn Univ
+354	0	Coll Business
+354	0	Dept Management
+354	1	Michigan State Univ
+354	1	Dept Marketing & Supply Chain Management
+354	1	Eli Broad Grad Sch Management
+355	0	Emory Univ
+355	1	Yonsei Univ
+355	1	Yonsei Sch Business
+356	0	Arizona State Univ
+356	0	WP Carey Sch Business
+357	0	Indiana Univ
+357	0	Kelley Sch Business
+358	0	Georgia Inst Technol
+358	0	Coll Management
+358	1	Univ Western Ontario
+358	1	Richard Ivey Sch Business
+358	1	London
+359	0	Univ Saskatchewan
+359	0	Coll Commerce
+359	0	Dept Finance & Management Sci
+359	0	Saskatoon
+360	0	Technion Israel Inst Technol
+360	0	Fac Ind Engn & Management
+361	0	Univ Melbourne
+361	0	Fac Econ & Commerce
+361	0	Dept Management
+361	0	Parkville
+361	1	Univ Melbourne
+361	1	Fac Econ & Commerce
+361	1	Ctr Global Innovat Management
+361	1	Parkville
+362	0	Michigan State Univ
+362	0	Eli Broad Coll Business
+362	0	Dept Mkt & Supply Chain Management
+363	0	Michigan State Univ
+363	0	Eli Broad Grad Sch Management
+363	0	Dept Mkt & Supply Chain Management
+363	1	Western Carolina Univ
+363	1	Dept Management & Int Business
+364	0	Boise State Univ
+364	0	Coll Business & Econ
+364	0	Dept Networking Operat & IS
+364	1	Miami Univ
+364	1	Dept Management
+364	1	Richard T Farmer Sch Business
+365	0	Michigan State Univ
+365	0	Eli Broad Sch Business
+365	0	Dept Mkt & Supply Chain Management
+365	1	Univ Missouri
+365	1	Henry W Bloch Sch Business & Publ Adm
+366	0	Ohio State Univ
+366	0	Fisher Coll Business
+366	1	Michigan State Univ
+366	1	Broad Grad Sch Management
+367	0	Univ Nevada
+367	0	Coll Business Adm
+367	1	Texas Christian Univ
+367	2	Univ Maryland
+368	0	Univ Catolica Portuguesa
+368	0	Catholic Univ Portugal Porto
+368	1	London Business Sch
+369	0	Miami Univ
+369	0	Dept Management
+369	0	Richard T Farmer Sch Business
+369	1	York Univ
+369	1	Schulich Sch Business
+369	1	N York
+369	2	Univ Minnesota
+369	2	Carlson Sch Management
+369	2	Operat & Management Sci Dept
+370	0	Texas A&M Univ
+370	0	Dept Informat & Operat Management
+370	1	Univ Minnesota
+370	1	Operat & Management Sci Dept
+370	1	Carlson Sch Management
+371	0	Univ Melbourne
+371	0	Dept Management
+371	0	Melbourne
+371	1	Penn State Univ
+371	1	Behrend Coll
+371	1	Samuel Black Sch Business
+372	0	Arizona State Univ
+372	0	WP Carey Sch Business
+372	1	Univ Minnesota
+372	1	Carlson Sch Management
+372	2	Univ Virginia
+372	2	Darden Sch Business
+373	0	Univ Louisville
+373	1	Univ Tennessee
+374	0	Univ Louisville
+374	0	Coll Business 154
+374	1	Wichita State Univ
+374	2	Michigan State Univ
+375	0	Arizona State Univ
+375	1	Grand Canyon Univ
+375	1	Ken Blanchard Coll Business
+376	0	Michigan State Univ
+376	0	Eli Broad Grad Sch ofManageynent
+376	0	Dept Supply Chain Management
+377	0	Carnegie Mellon Univ
+377	1	Univ Penn
+377	1	Wharton Sch
+377	1	Dept Management
+377	2	Univ Catol Portuguesa
+377	2	Fac Ciencias Econ & Empresariais
+378	0	Morgan State Univ
+378	0	Dept Informat Sci & Syst
+378	1	Clemson Univ
+378	1	Dept Management
+378	2	So Illinois Univ
+378	2	Dept Management & Mkt
+379	0	Hong Kong Polytech Univ
+379	0	Dept Logist
+379	0	Kowloon
+380	0	Univ Oregon
+380	0	Lundquist Coll Business
+380	1	Indiana Univ
+380	1	Kelley Sch Business
+380	2	Kansas State Univ
+380	2	Coll Business Adm
+381	0	Brigham Young Univ
+381	0	Marriott Sch Management
+381	0	Global Supply Chain Management
+382	0	Univ Texas Pan Amer
+382	0	Dept Management Mkt & Int Business
+382	0	Coll Business Adm
+382	1	Bowling Green State Univ
+382	1	Dept Management
+382	1	Coll Business Adm
+383	0	Hong Kong Polytech Univ
+383	0	Dept Logist
+383	0	Kowloon
+384	0	Duquesne Univ
+384	0	AJ Palumbo Sch Business Adm
+384	0	John F Donahue Grad Sch Business
+384	1	Western Michigan Univ
+384	1	Haworth Coll Business
+384	1	Dept Management
+385	0	York Univ
+385	0	Schulich Sch Business
+385	0	N York
+385	1	CUNY Bernard M Baruch Coll
+385	1	Zicklen Sch Business
+385	2	E Carolina Univ
+385	2	Occupat Safety Program
+385	3	Oregon State Univ
+385	3	Coll Hlth & Human Sci
+385	3	Environm Safety & Hlth Program
+386	0	Univ Minnesota
+386	0	Curtis L Carlson Sch Management
+386	1	Strateg Improvement Syst LLC
+386	2	Rensselaer Polytech Inst
+386	2	Lally Sch Management & Technol
+387	0	Michigan State Univ
+389	0	Georgia Inst Technol
+389	1	Indiana Univ
+389	2	Ohio State Univ
+389	3	Clemson Univ
+389	4	Cornell Univ
+390	0	Texas Christian Univ
+390	0	MJ Neeley Sch Business
+391	0	Chinese Univ Hong Kong
+391	0	Fac Business Adm
+391	0	Dept Decis Sci & Managerial Econ
+391	0	Shatin
+391	1	Chinese Univ Hong Kong
+391	1	Xian Jiao Tong Univ
+391	1	Dept Decis Sci & Managerial Econ
+391	1	Sch Management
+391	1	Shatin
+391	2	Indiana Univ
+391	2	Kelley Sch Business
+392	0	Univ Pittsburgh
+392	0	Katz Grad Sch Business
+392	0	Learning Res Dev Ctr
+392	1	Univ Cambridge
+392	1	Judge Business Sch
+393	0	Univ Notre Dame
+393	0	Mendoza Coll Business
+393	1	Indiana Univ
+393	1	Sch Business & Econ
+394	0	Univ Illinois
+394	0	Coll Business
+394	1	Clemson Univ
+394	1	Coll Business & Behav Sci
+394	2	Univ N Carolina
+394	2	Kenan Flagler Business Sch
+395	0	Queens Univ Belfast
+395	0	Sch Management
+395	0	Belfast BT7 1NN
+395	1	N Carolina State Univ
+395	1	Coll Management
+395	2	Univ Manchester
+395	2	Manchester Business Sch
+395	2	Manchester M15 6PB
+396	0	Thunderbird Sch Global Management
+396	1	Univ Utah
+396	1	David Eccles Sch Business
+397	0	Emory Univ
+397	0	Goizueta Business Sch
+397	1	Cornell Univ
+397	1	Sch Hotel Adm
+398	0	Colorado State Univ
+398	0	Dept Management
+398	1	Univ Tennessee
+398	1	Dept Marketing & Logist
+398	1	Stokely Management Ctr 343
+398	2	IMD
+399	0	IMD
+400	0	Univ Alabama
+400	0	Management & Marketing Dept
+400	0	Culverhouse Coll Business Adm
+400	1	Indian Inst Technol
+400	1	Dept Management Studies
+401	0	Emory Univ
+401	0	Goizueta Business Sch
+402	0	Thunderbird Garvin Sch Int Management
+402	0	Dept Global Business
+403	0	Carnegie Mellon Univ
+403	1	Univ Catolica Portuguesa
+403	1	Fac Ciencias Econ & Empresariais
+404	0	London Business Sch
+404	0	Dept Operat & Technol Management
+404	1	Koc Univ
+404	1	Coll Adm Sci & Econ
+405	0	Xian Jiaotong Univ
+405	0	Sch Management
+405	1	Xian Jiaotong Univ
+405	1	Nanjing Sch Management
+405	1	Xian Dept Management
+405	2	Calif State Univ Northridge
+406	0	Univ Utah
+406	0	David Eccles Sch Business
+407	0	NYU
+407	0	Leonard N Stern Sch Business
+407	1	Indian Sch Business
+407	1	Ctr Global Logist & Mfg Strategies
+407	1	Hyderabad 500032
+408	0	Univ So Calif
+408	0	Marshall Sch Business
+408	1	Univ Florida
+408	1	Warrington Coll Business
+408	2	Univ Penn
+408	2	Wharton Sch
+409	0	Cass Business Sch
+410	0	Temple Univ
+410	0	Fox Sch Business & Management
+410	1	Univ Missouri
+410	1	Sch Business & Publ Adm
+411	0	Emory Univ
+411	1	Marquette Univ
+412	0	Univ N Florida
+412	0	Dept Management
+412	0	Coggin Coll Business
+412	1	Clarkson Univ
+412	1	Sch Business
+412	2	Cleveland State Univ
+412	2	Coll Business Adm
+412	2	Dept Operat Management & Business Stat
+413	0	No Illinois Univ
+413	0	Dept Operat Management & Informat Syst
+413	0	Coll Business
+413	1	Indiana Univ
+413	1	Kelley Sch Business
+414	0	Eastern Michigan Univ
+414	0	Comp Informat Syst Dept
+414	0	Coll Business
+414	1	Kelly Sch Business
+414	1	Operat & Decis Technol Dept
+415	0	Georgia Inst Technol
+415	0	Coll Management
+416	0	Clemson Univ
+416	1	Univ Fed Rio Grande do Sul
+416	1	BR-90046900 Porto Alegre
+417	0	Univ Seville
+417	0	GIDEAO Res Grp
+417	0	Dpto Econ Financiera & Direcc Operac
+418	0	Ohio State Univ
+418	0	Dept Management Sci
+418	0	Fisher Coll Business
+418	1	Michigan State Univ
+418	1	Broad Grad Sch Management
+419	0	Univ Tennessee
+419	0	Dept Management
+419	0	Stokely Management Ctr 409
+420	0	Univ Illinois
+420	0	Coll Business
+420	1	Ohio State Univ
+420	1	Fisher Coll Business
+420	2	Indiana Univ
+420	2	Kelley Sch Business
+421	0	Emory Univ
+421	0	Goizueta Business Sch
+422	0	Michigan State Univ
+422	0	Dept Mkt
+422	0	Eli Broad Grad Sch Management
+422	1	Univ Vermont
+422	1	Sch Business Adm
+422	2	Oakland Univ
+422	2	Sch Business Adm
+423	0	Univ Murcia
+423	0	Fac Econ & Empresa
+423	1	Arizona State Univ
+423	1	WP Carey Sch Business
+423	1	Dept Supply Chain Management
+423	2	Yonsei Univ
+423	2	Coll Business
+423	3	Univ Politecn Cartagena
+423	3	Fac Ciencias Empresa
+424	0	Indiana Univ
+424	0	Kelley Sch Business
+424	1	INSEAD
+424	2	Helsinki Univ Technol
+424	3	Lincoln Univ
+424	4	Univ Arizona
+425	0	Ohio State Univ
+425	0	Fisher Coll Business
+425	0	Dept Management Sci
+425	1	Rutgers State Univ
+425	1	Dept Supply Chain Management & Mkt Sci
+425	1	Rutgers Business Sch
+426	0	Tel Aviv Univ
+426	0	Recanati Grad Sch Business Adm
+426	1	Univ Calif Davis
+426	1	Grad Sch Management
+427	0	Michigan State Univ
+427	0	Eli Broad Grad Sch Management
+427	0	Dept Supply Chain Management
+427	1	Univ S Carolina
+427	2	Emory Univ
+427	3	So Denmark Univ
+428	0	No Illinois Univ
+428	0	Dept Operat Management & Informat Syst
+428	1	No Illinois Univ
+428	1	Dept Management
+429	0	Michigan State Univ
+429	0	Eli Broad Grad Sch Management
+429	1	Auburn Univ
+429	1	Coll Business
+429	2	Penn State Univ
+429	2	Smeal Coll Business
+429	2	Dept Supply Chain & Informat Syst
+430	0	Depaul Univ
+430	0	Coll Commerce
+430	0	Dept Management
+431	0	Ohio State Univ
+431	0	Fisher Coll Business
+431	1	Old Dominion Univ
+431	1	Coll Business & Publ Adm
+431	2	No Kentucky Univ
+432	0	Univ Miami
+432	0	Sch Business Adm
+432	0	Dept Management
+432	1	Xi An Jiao Tong Univ
+432	1	Sch Management
+433	0	Emory Clin
+433	0	Goizueta Business Sch
+433	1	Univ Utah
+433	1	David Eccles Sch Business
+434	0	Univ Minnesota
+434	0	Carlson Sch Management
+435	0	Wake Forest Univ
+435	0	Babcock Grad Sch Management
+435	1	Univ London
+435	1	Sch Management
+435	1	Egham TW20 0EX
+436	0	Univ Wisconsin
+436	0	Wisconsin Sch Business
+436	0	Erdman Ctr Operat & Technol Management
+436	1	Vanderbilt Univ
+436	1	Owen Grad Sch Management
+436	2	Vanderbilt Univ
+436	2	Med Ctr
+436	2	Div Trauma & Surg Crit Care
+436	3	Vanderbilt Univ
+436	3	Sch Med
+437	0	Iowa State Univ
+437	0	Coll Business
+437	1	Michigan State Univ
+437	1	Eli Broad Grad Sch Management
+437	1	Dept Supply Chain Management
+438	0	Georgia Inst Technol
+438	0	Coll Management
+438	1	Wilfrid Laurier Univ
+438	1	Sch Business & Econ
+438	1	Waterloo
+438	2	Georgia So Univ
+438	2	Dept Finance & Quantitat Anal
+439	0	Colorado State Univ
+439	0	Dept Management
+439	1	Univ Tennessee
+439	1	Bruce Excellence Chair Business
+440	0	Harvard Univ
+440	1	Univ So Calif
+440	2	Univ Penn
+441	0	Michigan State Univ
+441	0	Eli Broad Grad Sch Management
+441	0	Dept Supply Chain Management
+442	0	SUNY Coll Brockport
+442	0	Dept Business Adm & Econ
+442	1	SUNY Buffalo
+442	1	Sch Management
+442	1	Dept Operat Management & Strategy
+443	0	Ohio State Univ
+443	0	Fisher Coll Business
+443	1	Univ Arkansas
+443	1	Sam M Walton Coll Business
+444	0	Univ Melbourne
+444	0	Parkville
+444	1	Monash Univ
+444	1	Caulfield
+445	0	Depaul Univ
+445	0	Kellstadt Grad Sch Business
+445	0	Dept Management
+445	1	Univ Texas Arlington
+445	1	Coll Business Adm
+445	1	Dept Informat Syst & Operat Management
+446	0	Univ Jaume 1
+446	0	Dept Adm Empresas & Mkt
+447	0	Texas Christian Univ
+447	0	Neeley Sch Business
+447	1	Lockheed Martin Aeronaut Co
+448	0	Univ Ulster
+448	0	Fac Business Management
+448	0	Coleraine BT52 1SA
+449	0	Univ Twente
+449	1	Northwestern Univ
+449	1	Kellogg Sch Management
+449	2	Wake Forest Univ
+449	2	Babcock Grad Sch Management
+449	3	Erasmus Univ
+449	3	Erasmus Res Inst Management
+450	0	N Carolina State Univ
+450	0	Coll Management
+450	1	Indiana Univ
+450	1	Kelley Sch Business
+451	0	City Univ London
+451	0	Cass Business Sch
+451	1	Univ Leicester
+451	1	Sch Management
+451	1	Leicester LE1 7RH
+451	2	Business Analyt Ltd
+452	0	Xavier Univ
+452	0	Dept Mkt
+452	0	Williams Coll Business
+452	1	Univ Tennessee
+452	1	Global Business Inst
+452	1	Dept Mkt & Logist
+452	1	Coll Business Adm
+452	1	Stokely Management Ctr 310
+453	0	New Mexico State Univ
+453	0	Dept Management
+453	1	Arizona State Univ
+453	1	WP Carey Sch Business
+453	1	Supply Chain Management Dept
+454	0	Colorado State Univ
+454	0	Dept Mkt
+454	0	Coll Business
+454	1	Florida Atlantic Univ
+454	1	Coll Business
+454	1	Dept Mkt
+454	2	Colorado State Univ
+454	2	Dept Management
+454	2	Coll Business
+455	0	Iowa State Univ
+455	1	Univ Tennessee
+455	2	Univ Oklahoma
+455	3	Univ Alabama
+456	0	Clarkson Univ
+456	0	Sch Business
+456	1	Michigan State Univ
+456	1	Dept Mkt & Supply Chain Management
+456	1	Eli Broad Coll Business
+456	2	Univ Bologna
+456	2	Dept Management
+457	0	Ohio State Univ
+457	1	Johns Hopkins Univ
+458	0	City Univ Hong Kong
+458	0	Univ Sci & Technol China
+458	0	USTC CityU Joint Adv Res Ctr
+458	0	Kowloon
+458	1	Clarkson Univ
+458	1	Sch Business
+458	2	City Univ Hong Kong
+458	2	Coll Business
+458	2	Kowloon
+458	3	Univ Sci & Technol China
+458	3	Sch Management
+458	3	Hefei
+459	0	Emory Univ
+459	0	Goizueta Business Sch
+459	1	Univ Alabama
+459	1	Culverhouse Coll Commerce & Business Adm
+460	0	N Dakota State Univ
+460	0	Coll Business
+460	0	Dept Management & Mkt
+460	1	Suffolk Univ
+460	1	Sawyer Business Sch
+460	1	Informat Syst & Operat Management Dept
+460	2	Univ Michigan
+460	2	Coll Business
+461	0	York Univ
+461	0	Schulich Sch Business
+461	0	Toronto
+461	1	Miami Univ
+461	1	Richard T Farmer Sch Business
+461	1	Dept Management
+461	2	Clemson Univ
+461	2	Coll Business & Behav Sci
+462	0	Georgia Inst Technol
+462	0	Coll Management
+462	1	Michigan State Univ
+462	1	Eli Broad Coll Business
+463	0	Arizona State Univ
+463	0	WP Carey Sch Business
+463	0	Dept Supply Chain Management
+463	1	Grand Canyon Univ
+463	1	Ken Blanchard Coll Business
+464	0	Univ S Carolina
+464	0	Dept Management Sci
+464	0	Moore Sch Business
+465	0	Univ Illinois
+465	0	Coll Business
+465	1	Ohio State Univ
+465	1	Fisher Coll Business
+465	2	Indiana Univ
+465	2	Kelley Sch Business
+466	0	Texas Christian Univ
+466	0	Neeley Sch Business
+467	0	Xi An Jiao Tong Univ
+467	0	Sch Management
+467	0	Xian 710049
+467	1	Natl Univ Singapore
+467	1	Dept Informat Syst
+467	2	Univ Texas Dallas
+467	2	Sch Management
+468	0	Univ S Carolina
+468	0	Dept Management Sci
+468	0	Moore Sch Business
+468	1	Athens State Univ
+468	1	Dept Management
+469	0	Univ Minnesota
+469	0	Carlson Sch Management
+469	1	Ohio State Univ
+469	1	Fisher Coll Business
+470	0	Emory Univ
+470	0	Goizueta Sch Business
+470	1	Chinese Univ Hong Kong
+470	1	Hong Kong
+470	2	Depaul Univ
+470	2	Kellstadt Grad Sch Business
+471	0	Salisbury Univ
+471	0	Perdue Sch Business
+471	0	Dept Informat & Decis Sci
+471	1	Wesley Coll
+471	1	Dept Business Adm & Accounting
+472	0	George Mason Univ
+472	0	Sch Management
+472	0	Informat Syst & Operat Management Dept
+472	1	Univ Minnesota
+472	1	Carlson Sch Management
+472	1	Operat & Management Sci Dept
+472	1	Donaldson Chair Operat Management
+473	0	Michigan State Univ
+473	0	Dept Supply Chain Management
+473	0	Eli Broad Grad Sch Management
+473	1	Univ Melbourne
+473	1	Dept Management & Mkt
+473	1	Melbourne
+474	0	Arizona State Univ
+474	0	WP Carey Sch Business
+474	0	Dept Supply Chain Management
+475	0	China Europe Int Business Sch
+475	0	BMW SMI Ctr Purchasing & Supply Management
+475	1	Univ S Carolina
+475	1	Dept Management Sci
+475	2	Univ S Carolina
+475	2	Ctr Global Supply Chain & Proc Management
+475	2	Moore Sch Business
+475	3	Indian Inst Management Bangalore Bangalore
+475	3	European Business Sch
+475	3	Roger Moser Supply Chain Management Inst SMI
+475	3	Bangalore 560076
+475	4	Indian Inst Management Bangalore Bangalore
+475	4	EADS SMI Endowed Chair Sourcing & Supply Manageme
+475	4	Bangalore 560076
+476	0	Carleton Univ
+476	0	Sprott Sch Business
+476	0	Ottawa
+476	1	New Mexico State Univ
+476	1	Coll Business
+476	1	Dept Management MSC 3DJ
+476	2	City Univ Hong Kong
+476	2	Dept Mkt
+476	2	Kowloon
+477	0	Xi An Jiao Tong Univ
+477	0	Sch Management
+477	0	Xian 710049
+477	1	Calif State Univ Stanislaus
+477	1	Copenhagen Business Sch
+477	2	Calif State Univ Stanislaus
+477	2	Coll Business Adm
+478	0	Colorado State Univ
+478	0	Dept Management
+478	1	Oklahoma City Univ
+478	1	Dept Management & Mkt
+479	0	Northeastern Univ
+479	0	Coll Business Adm
+479	0	Informat Operat & Anal Grp
+479	1	Michigan State Univ
+479	1	Dept Supply Chain Management
+479	1	Eli Broad Coll Business
+479	2	Dalhousie Univ
+479	2	Ctr Int Trade & Transportat
+479	2	Halifax
+480	0	Oregon State Univ
+480	0	Coll Business
+480	1	Arizona State Univ
+480	1	WP Carey Sch Business
+480	2	Univ Minnesota Twin Cities
+480	2	Carlson Sch Management
+480	2	Operat & Management Sci Dept
+481	0	Univ Rhode Isl
+481	0	Coll Business Adm
+481	1	Georgia Inst Technol
+481	1	Coll Management
+482	0	Texas A&M Univ
+482	0	Mays Business Sch
+482	0	Dept Informat & Operat Management
+483	0	Univ Oviedo
+483	0	Sch Engn
+483	0	E-33204 Gijon
+483	1	Clark Univ
+483	1	Grad Sch Management
+484	0	Texas Christian Univ
+484	0	Accounting Dept
+484	0	MJ Neeley Sch Business
+484	1	Syracuse Univ
+484	1	Whitman Sch Management
+484	1	Joseph I Lubin Sch Accounting
+484	2	Lehigh Univ
+484	2	Coll Business & Econ
+484	2	Dept Management
+485	0	Northwestern Univ
+485	0	Kellogg Sch Management
+485	0	Ctr Res Technol & Innovat
+485	1	Rutgers State Univ
+485	1	Dept Management & Global Business
+485	1	Rutgers Business Sch
+485	2	Stevens Inst Technol
+485	2	Howe Sch Technol Management
+486	0	Clemson Univ
+486	0	Dept Management
+486	1	Radford Univ
+486	1	Dept Management
+487	0	Michigan State Univ
+487	0	Dept Supply Chain Management
+487	1	Northeastern Univ
+487	1	Coll Business Adm
+487	1	Operat & Anal Grp
+487	2	Univ Cent Arkansas
+488	0	Xi An Jiao Tong Univ
+488	0	Sch Management
+488	1	Indiana Univ
+488	1	Kelley Sch Business
+488	2	Chinese Univ Hong Kong
+488	2	Li & Fung Inst Supply Chain Management & Logist
+488	2	Ctr Supply Chain Management & Logist
+488	2	Shatin
+488	3	Chinese Univ Hong Kong
+488	3	Fac Business Adm
+488	3	Dept Decis Sci & Managerial Econ
+488	3	Shatin
+489	0	Boise State Univ
+489	0	Coll Business& Econ MS 1615
+489	0	Dept Informat Technol & Supply Chain Mgt
+489	1	Univ Nevada
+489	1	Coll Business Adm
+489	1	Managerial Sci Dept
+490	0	Univ Notre Dame
+490	0	Mendoza Coll Business 379
+490	1	Univ Notre Dame
+490	1	Mendoza Coll Business 348
+490	2	Univ Notre Dame
+490	2	Mendoza Coll Business 377
+491	0	INSEAD
+491	1	Natl Univ Singapore
+491	1	Sch Business
+491	2	Lahore Univ Management Sci
+491	2	Suleman Dawood Sch Business
+492	0	Univ Groningen
+492	0	Global Econ & Management
+493	0	Univ Dayton
+493	0	Dept Operat Management
+493	0	Coll Business
+493	1	Texas Christian Univ
+493	1	Dept Informat Syst & Supply Chain Management
+493	1	Neeley Sch Business
+493	2	Korea Univ
+493	2	Sch Business
+494	0	Michigan State Univ
+494	0	Eli Broad Coll Business
+494	1	Nova SE Univ
+494	1	Huizenga Business Sch
+494	2	Univ Kentucky
+494	2	Gatton Coll Business & Econ
+495	0	Univ N Carolina
+495	0	Kenan Flagler Business Sch
+495	1	Cranfield Univ
+495	1	Cranfield Sch Management
+495	1	Cranfield MK43 0AL
+495	2	Tsinghua Univ
+495	2	Dept Ind Engn
+496	0	Univ N Carolina
+496	0	Kenan Flagler Business Sch
+496	1	Cranfield Univ
+496	1	Cranfield Sch Management
+496	1	Cranfield MK43 0AL
+496	2	Tsinghua Univ
+496	2	Dept Ind Engn
+497	0	Michigan State Univ
+497	0	Eli Broad Coll Business N215
+497	1	Michigan State Univ
+497	1	Eli Broad Coll Business N 325
+497	2	Michigan State Univ
+497	2	Eli Broad Coll Business N 370
+497	3	Univ Cent Arkansas
+498	0	Ohio State Univ
+498	0	Fisher Coll Business
+498	1	Clemson Univ
+498	1	Coll Business & Behav Sci
+498	1	Dept Management
+499	0	Erasmus Univ
+499	0	Rotterdam Sch Management
+500	0	Georgia Inst Technol
+500	0	Coll Management
+500	1	Univ Manitoba
+500	1	Asper Sch Business
+500	1	Winnipeg
+500	2	Clemson Univ
+500	2	Coll Business & Behav Sci
+500	2	Dept Management
+501	0	IE Business Sch
+501	1	Univ Colorado
+501	2	Pom Int
+502	0	IE Business Sch
+502	0	Dept Operat & Technol Management
+502	1	Arizona State Univ
+502	1	Dept Supply Chain Management
+503	0	Oregon State Univ
+503	0	Coll Business
+503	1	York Univ
+503	1	Schulich Sch Business
+503	1	Toronto
+504	0	Lehigh Univ
+504	0	Coll Business & Econ
+504	1	Texas Christian Univ
+504	1	Neeley Sch Business
+504	2	Univ Arizona
+504	2	McGuire Ctr Entrepreneurship
+504	2	Eller Coll Management
+505	0	Thammasat Business Sch
+505	0	Dept Operat Management
+505	1	Univ Hull
+505	1	Logist Inst
+505	1	Sch Business
+505	1	Kingston Upon Hull HU6 7RX
+505	2	Hong Kong Polytech Univ
+505	2	Business Div
+505	2	Inst Text & Clothing
+505	2	Kowloon
+506	0	Rensselaer Polytech Inst
+506	0	Lally Sch Management
+506	1	Univ Colorado
+506	1	Coll Business
+507	0	N Dakota State Univ
+507	0	Dept Management & Mkt
+507	0	Coll Business
+508	0	Arizona State Univ
+508	1	Univ Portland
+508	2	Zaragoza Logist Ctr
+509	0	Univ N Carolina
+509	1	Univ Oxford
+510	0	Univ Tennessee
+510	0	Dept Mkt & Logist
+510	1	Univ N Florida
+510	1	Coggin Coll Business
+510	1	Dept Mkt & Logist
+510	2	Univ Verona
+510	2	Dept Business Econ
+511	0	INSEAD
+511	0	INSEAD Social Innovat Ctr
+512	0	Mental Hlth Ctr Denver
+513	0	Texas A&M Univ
+513	0	Mays Business Sch
+513	1	Zaragoza Logist Ctr
+514	0	Texas A&M Univ
+514	0	Dept Informat & Operat Management
+514	0	Mays Business Sch
+515	0	Univ Minnesota
+515	0	Carlson Sch Management
+515	0	Operat & Management Sci Dept
+515	1	Daiichi Sankyo Inc
+515	2	George Mason Univ
+515	2	Sch Management
+515	2	Informat Syst & Operat Management Dept
+516	0	Univ Utah
+516	0	David Eccles Sch Business
+516	1	Univ Minnesota
+516	1	Carlson Sch Management
+517	0	Indiana Univ
+517	0	Kelley Sch Business
+518	0	IESE Business Sch
+518	1	London Business Sch
+518	2	Univ Aalborg
+518	2	Dept Prod
+519	0	Arizona State Univ
+519	0	Dept Supply Chain Management
+519	0	WP Carey Sch Business
+519	1	Arizona State Univ
+519	1	Dept Management
+519	1	WP Carey Sch Business
+520	0	Univ S Carolina
+520	0	Moore Sch Business
+520	0	Dept Management Sci
+521	0	Univ Bath
+521	0	Sch Management
+521	0	Bath BA2 7AY
+521	1	Univ Cambridge
+521	1	Judge Business Sch
+521	2	Univ Victoria
+521	2	Fac Business
+521	2	Victoria
+522	0	Univ Michigan
+522	0	Coll Business
+522	1	Chung Ang Univ
+522	1	Coll Business Adm
+523	0	Arizona State Univ
+523	0	WP Carey Sch Business
+524	0	Univ Vermont
+524	0	Sch Business Adm
+524	1	Michigan State Univ
+524	1	Eli Broad Sch Business
+524	2	Oakland Univ
+524	2	Sch Business Adm
+525	0	Arizona State Univ
+525	0	WP Carey Sch Business
+525	0	Dept Supply Chain Management
+526	0	Louisiana Tech Univ
+526	0	Coll Business
+526	1	Lamar Univ
+526	1	Dept Management & Mkt
+526	2	So Arkansas Univ
+526	2	Coll Business
+526	2	Dept Management Mkt & MIS
+526	3	Texas A&M Univ
+526	3	Informat & Operat Management Dept
+526	3	Mays Business Sch
+527	0	Univ Arkansas
+527	0	Sam M Walton Coll Business
+528	0	Arkansas State Univ
+528	0	Dept Comp & Informat Technol
+528	0	Coll Business
+528	1	Univ Wisconsin
+528	1	Dept Business & Econ
+529	0	Univ Groningen
+529	0	Fac Econ & Business
+529	1	Frisian Acad KNAW
+529	1	Dept Social Sci
+530	0	Georgia So Univ
+530	0	Dept Management Mkt & Logist
+530	0	Coll Business Adm
+530	1	Arizona State Univ
+530	1	Dept Supply Chain Management
+530	1	WP Carey Sch Business
+531	0	Univ Oregon
+531	0	Lundquist Coll Business
+531	1	Univ Western Ontario
+531	1	Richard Ivey Sch Business
+531	1	London
+532	0	Vrije Univ Amsterdam
+532	0	Fac Econ & Business Adm
+532	1	Jeroen van den Berg Consulting
+533	0	Univ Oklahoma
+533	0	Price Coll Business
+533	1	Catholic Univ Portugal
+533	1	FCEE
+534	0	Univ Toledo
+534	0	Coll Business Adm
+534	1	McGill Univ
+534	1	Desautels Fac Management
+534	1	Montreal
+535	0	Michigan State Univ
+535	0	Coll Business
+535	0	Eli Broad Sch Business
+535	0	Dept Supply Chain Management
+535	1	Univ Miami
+535	1	Sch Business Adm
+535	1	Dept Management
+535	2	Univ N Carolina
+535	2	Kenan Flagler Business Sch
+535	2	Dept Operat Technol & Innovat Management
+536	0	Emory Univ
+536	0	Goizueta Business Sch
+536	1	Univ Virginia
+536	1	Darden Grad Sch Business Adm
+536	2	Clemson Univ
+536	2	Coll Business & Behav Sci
+537	0	IE Business Sch
+538	0	Univ Missouri
+538	0	Henry W Bloch Sch Business Adm
+538	0	Inst Entrepreneurship & Innovat
+538	1	Temple Univ
+538	1	Fox Sch Business
+538	1	Dept Mkt
+538	2	Tech Univ Eindhoven
+539	0	Indiana Univ
+539	0	Kelley Sch Business
+539	0	Dept Management & Entrepreneurship
+539	1	Ball State Univ
+539	1	Miller Coll Business
+539	1	Dept Mkt & Management
+540	0	Indiana Univ
+540	0	Kelley Sch Business
+540	1	So Illinois Univ
+540	1	Coll Business
+540	2	Kansas State Univ
+540	2	Coll Business Adm
+541	0	Ball State Univ
+541	0	Miller Coll Business
+542	0	Xi An Jiao Tong Univ
+542	0	Sch Management
+542	1	Chinese Univ Hong Kong
+542	1	Fac Business Adm
+542	1	Dept Decis Sci & Managerial Econ
+542	1	Shatin
+542	2	Chinese Univ Hong Kong
+542	2	Li & Fung Inst Supply Chain Management & Logist
+542	2	Ctr Supply Chain Management & Logist
+542	2	Shatin
+542	3	United Arab Emirates Univ
+542	3	Coll Business & Econ
+542	3	Dept Business Adm
+543	0	Univ Melbourne
+543	0	Dept Management & Mkt
+543	0	Melbourne
+543	1	Natl Univ Singapore
+543	1	NUS Business Sch
+543	1	Dept Decis Sci
+544	0	NYU
+544	0	Stern Sch Business
+544	0	Stewart Satter Program Social Entrepreneurship
+544	0	Berkley Ctr Entrepreneurship & Innovat
+544	1	Miami Univ
+544	1	Farmer Sch Business
+544	2	Univ S Carolina
+544	2	Moore Sch Business
+544	3	Swiss Fed Inst Technol Zurich
+544	3	Dept Management Technol & Econ
+545	0	Shanghai Jiao Tong Univ
+545	0	Antai Coll Econ & Management
+545	0	Xian 710049
+545	1	Xi An Jiao Tong Univ
+545	1	Sch Management
+545	1	Xian 710049
+546	0	Emory Univ
+546	0	Goizueta Business Sch
+547	0	Rensselaer Polytech Inst
+547	0	Dept Civil & Environm Engn
+547	0	Ctr Infrastruct Transportat & Environm
+547	1	Rensselaer Polytech Inst
+547	1	Ctr Infrastruct Transportat & Environm
+547	2	INSEAD
+547	2	Humanitarian Res Grp
+547	3	Univ Delaware
+547	3	Disaster Res Ctr
+548	0	Univ Notre Dame
+548	0	Dept Management
+548	1	Indiana Univ
+548	1	Sch Business & Econ
+548	2	Georgia State Univ
+548	2	Robinson Coll Business
+549	0	Wake Forest Univ
+549	0	Sch Business
+549	1	Univ Pittsburgh
+549	1	Katz Grad Sch Business
+549	2	Univ Pittsburgh
+549	2	Coll Business Adm
+550	0	Texas Christian Univ
+550	0	Neeley Business Sch
+550	1	Michigan State Univ
+550	1	Broad Coll Business
+551	0	Florida State Univ
+551	1	Univ Missouri
+551	2	So Illinois Univ
+551	3	S Carolina State Univ
+552	0	Univ So Mississippi
+552	0	Coll Business
+552	0	Dept Management & Int Business
+552	1	Texas A&M Univ
+552	1	Mays Business Sch
+552	1	Dept Informat & Operat Management
+553	0	Sun Yat Sen Univ
+553	0	Sch Business
+553	0	Guangzhou 510275
+553	1	Shanghai Jiao Tong Univ
+553	1	Antai Coll Econ & Management
+553	2	Univ Massachusetts
+553	2	Manning Sch Business
+553	3	Univ Miami
+553	3	Sch Business Adm
+553	4	Xi An Jiao Tong Univ
+553	4	Sch Management
+554	0	Xi An Jiao Tong Univ
+554	0	Sch Management
+554	0	Xian 710049
+554	1	Natl Univ Singapore
+554	1	Sch Comp
+554	2	Michigan State Univ
+554	2	Eli Broad Coll Business
+555	0	Purdue Univ
+555	0	Krannert Sch Management
+555	1	IMD Int
+556	0	Vanderbilt Univ
+556	0	Owen Grad Sch Management
+557	0	Clarkson Univ
+557	1	Baruch Coll
+557	1	Zicklin Sch Business
+557	2	Michigan State Univ
+557	2	Eli Broad Grad Sch Management
+557	2	Dept Mkt & Supply Chain Management
+558	0	Vlerick Leuven Gent Management Sch
+558	1	Catholic Univ Louvain
+558	2	Univ Ghent
+558	3	Catholic Univ Louvain
+558	4	Vlerick Leuven Gent Management Sch
+559	0	EBS Business Sch
+559	0	Dept Supply Chain Management & Informat Syst
+559	1	Univ Wurzburg
+559	1	Chair Logist & Quantitat Methods
+559	2	Zaragoza Logist Ctr
+559	3	Tech Univ Darmstadt
+559	3	Dept Law & Econ
+560	0	Michigan State Univ
+560	0	Eli Broad Coll Business
+560	1	Auburn Univ
+560	1	Coll Business
+560	2	Ohio State Univ
+560	2	Fisher Coll Business
+560	3	Indian Inst Technol
+560	3	Shailesh J Mehta Sch Management
+560	3	Bombay 400076
+561	0	Univ N Florida
+561	0	Coggin Coll Business
+561	1	Carleton Univ
+561	1	Sprott Sch Business
+561	1	Ottawa
+562	0	Marquette Univ
+562	0	Coll Business Adm
+562	1	Univ Maryland
+562	1	Robert H Smith Sch Business
+563	0	Ohio State Univ
+563	0	Fisher Coll Business
+563	1	Ohio State Univ
+563	1	Coll Publ Hlth
+564	0	Swiss Fed Inst Technol
+564	0	Dept Management Technol & Econ
+564	1	Stanford Univ
+564	1	Dept Management Sci & Engn
+565	0	Michigan State Univ
+565	0	Eli Broad Sch Management
+565	1	Hansung Univ
+565	1	Div Management
+565	2	Seoul Natl Univ
+565	2	Coll Business Adm
+566	0	Univ S Carolina
+566	0	Dept Management Sci
+566	0	Moore Sch Business
+566	1	Georgia So Univ
+566	1	Coll Business Adm
+567	0	Ball State Univ
+567	0	Miller Coll Business
+567	1	Indiana Univ
+567	1	Kelley Sch Business
+568	0	Rhein Westfal TH Aachen
+568	0	Fac Business & Econ
+568	1	Univ Siegen
+569	0	Univ Maryland
+569	0	Merrick Sch Business
+570	0	Univ Baltimore
+570	0	Merrick Sch Business
+571	0	Rutgers State Univ
+571	0	Rutgers Business Sch
+571	0	Dept Supply Chain Management & Mkt Sci
+571	1	Ohio State Univ
+571	1	Dept Management Sci
+571	1	Fisher Coll Business
+572	0	Univ Bath
+572	0	Sch Management
+572	0	Bath BA2 7AY
+572	1	Univ Warwick
+572	1	Warwick Business Sch
+572	1	Coventry CV4 7AL
+573	0	Fordham Univ
+573	0	Sch Business Adm
+573	1	Univ Minnesota
+573	1	Carlson Sch Management
+573	2	Tilburg Univ
+573	2	Dept Org & Strategy
+574	0	N Carolina State Univ
+574	0	Dept Business Management
+574	0	Coll Management
+574	1	Univ Denver
+574	1	Penrose Lib
+574	2	Arizona State Univ
+574	2	WP Carey Sch Business
+574	2	Dept Supply Chain Management
+575	0	Univ Minnesota
+575	0	Carlson Sch Management
+575	1	Slippery Rock Univ
+575	1	Sch Business Informat & Social Sci
+576	0	Rutgers State Univ
+576	0	Dept Supply Chain Management & Mkt Sci
+576	0	Rutgers Business Sch
+576	0	Off 986
+576	1	Ohio State Univ
+576	1	Dept Management Sci
+576	1	Fisher Coll Business
+577	0	Univ Arkansas
+577	0	Sam M Walton Coll Business
+577	1	Iowa State Univ
+577	1	Coll Business
+578	0	Georgia State Univ
+578	0	Robinson Coll Business
+578	1	Florida State Univ
+578	1	Coll Business
+579	0	Michigan State Univ
+579	0	Eli Broad Grad Sch Management
+579	0	Dept Supply Chain Management
+579	1	Texas Christian Univ
+579	1	Dept Informat Syst & Supply Chain Management
+579	1	Neeley Sch Business
+580	0	Univ Arkansas
+580	0	Walton Coll Business
+580	1	Curtin Univ
+580	1	Curtin Business Sch
+580	1	Perth
+580	2	Hong Kong Univ Sci & Technol
+580	2	Sch Business & Management
+580	2	Kowloon
+581	0	Univ Minnesota
+581	0	Carlson Sch Management
+581	1	Ohio State Univ
+581	1	Fisher Coll Business
+582	0	Rutgers State Univ
+582	0	Dept Supply Chain Management & Mkt Sci
+582	0	Rutgers Business Sch
+582	0	Off 986
+583	0	Michigan State Univ
+583	0	Eli Broad Coll Business
+583	0	Dept Supply Chain Management
+583	1	Michigan State Univ
+583	1	Eli Broad Grad Sch Management
+583	2	Eastern Michigan Univ
+583	2	Coll Business
+583	2	Dept Comp Informat Syst
+584	0	Wayne State Univ
+584	0	Sch Business Adm
+584	0	Dept Mkt & Supply Chain Management
+584	1	Arizona State Univ
+584	1	WP Carey Sch Business
+584	1	Dept Supply Chain Management
+585	0	Univ Arkansas
+585	0	Sam M Walton Coll Business
+585	0	Dept Supply Chain Management
+585	1	Texas Christian Univ
+585	1	Neeley Sch Business
+585	1	Dept Informat Syst & Supply Chain Management
+585	2	Texas Christian Univ
+585	2	Dept Informat Syst & Supply Chain Management
+585	2	Eunice & James L West Chair Supply Chain Manageme
+586	0	Univ Wollongong
+586	0	Inst Innovat Business & Social Res
+586	0	Wollongong
+586	1	Univ Leeds
+586	1	Sch Business
+586	1	Leeds LS2 9JT
+587	0	Univ Maryland
+587	0	Robert H Smith Sch Business
+587	1	Ohio State Univ
+587	1	Fisher Coll Business
+587	2	Univ Minnesota
+587	2	Carlson Sch Management
+588	0	Univ Michigan
+588	0	Coll Business
+588	0	Dept Management Studies
+588	1	Ohio State Univ
+588	1	Fisher Coll Business
+588	1	Dept Management Sci
+588	2	Univ Minnesota Twin Cities
+588	2	Carlson Sch Management
+588	3	Univ Minnesota Twin Cities
+588	3	Dept Commun Studies
+589	0	Univ Arkansas
+589	0	Walton Coll Business
+590	0	Lehigh Univ
+590	0	Coll Business & Econ
+590	1	Coll William & Mary
+590	1	Mason Sch Business
+590	2	ARRIS
+591	0	McGill Univ
+591	0	Desautels Fac Management
+591	0	Montreal
+591	1	Univ Toledo
+591	1	Coll Business & Innovat
+592	0	Emporia State Univ
+592	0	Sch Business
+592	1	Univ Michigan
+592	1	Stephen M Ross Sch Business
+592	2	Univ Colorado
+592	2	Sch Business
+592	3	Univ Arkansas
+592	3	Sam Walton Coll Business
+593	0	Univ Arkansas
+593	0	Dept Supply Chain Management
+593	0	Sam M Walton Coll Business
+593	1	Arizona State Univ
+593	1	Dept Supply Chain Management
+593	1	WP Carey Sch Business
+593	2	Korea Univ
+593	2	Sch Business
+593	3	Arizona State Univ
+593	3	Dept Mkt
+593	3	WP Carey Sch Business
+594	0	Arizona State Univ
+594	0	WP Carey Sch Business
+594	0	Dept Informat Syst
+595	0	Univ N Carolina
+595	0	Bryan Sch Business & Econ
+595	1	Univ Minnesota
+595	1	Carlson Sch Management
+595	1	Dept Informat & Decis Sci
+595	2	Michigan State Univ
+595	2	Broad Coll Business
+596	0	Georgia State Univ
+596	0	Robinson Coll Business
+596	1	Univ Notre Dame
+596	1	Mendoza Coll Business
+596	2	Indiana Univ
+596	2	Sch Business & Econ
+597	0	Texas Christian Univ
+597	0	MJ Neeley Sch Business
+597	0	Dept Informat Syst & Supply Chain Management
+597	1	Florida Int Univ
+597	1	Coll Business Adm
+597	1	Dept Decis Sci & Informat Syst
+598	0	Univ Arkansas
+598	0	Sam M Walton Coll Business
+598	1	Ball State Univ
+598	1	Miller Coll Business
+599	0	Univ Melbourne
+599	0	Fac Business & Econ
+599	0	Dept Management & Mkt
+599	0	Melbourne
+599	1	Arizona State Univ
+599	1	WP Carey Sch Business
+599	1	Dept Supply Chain Management
+600	0	Indiana Univ
+600	0	Kelley Sch Business
+600	0	Dept Operat & Decis Technol
+601	0	Georgia State Univ
+601	0	Robinson Coll Business
+601	0	Ctr Proc Innovat
+601	1	Georgia State Univ
+601	1	Robinson Coll Business
+601	1	Dept Comp Informat Syst
+601	2	Arizona State Univ
+601	2	WP Carey Sch Business
+601	2	Dept Informat Syst
+602	0	Univ Minnesota
+602	0	Carlson Sch Management
+602	1	George Mason Univ
+602	1	Sch Management
+603	0	Hong Kong Polytech Univ
+603	0	Inst Text & Clothing
+603	0	Business Div
+603	0	Kowloon
+603	1	Ramon Llull Univ
+603	1	ESADE Business Sch
+603	2	Univ Ulster
+603	2	Ulster Business Sch
+603	2	Newtownabbey
+603	3	Hong Kong Polytech Univ
+603	3	Fac Business
+603	3	Kowloon
+604	0	Michigan State Univ
+604	0	Eli Broad Grad Sch Management
+604	0	Dept Supply Chain Management
+604	1	Loyola Univ Maryland
+604	1	Sellinger Sch Business & Management
+604	1	Dept Informat Syst & Operat Management
+605	0	Arizona State Univ
+605	1	Penn State Univ
+606	0	Kuhne Logist Univ
+607	0	Rensselaer Polytech Inst
+607	1	Rensselaer Polytech Inst
+607	1	Ctr Infrastruct Transportat & Environm
+607	2	Rensselaer Polytech Inst
+607	2	Dept Civil & Environm Engn
+607	3	INSEAD
+607	3	Humanitarian Res Grp
+608	0	Univ Cambridge
+608	0	Cambridge Serv Alliance
+608	1	Katholieke Univ Leuven
+608	1	Fac Business & Econ
+608	2	Univ Twente
+608	2	Sch Management & Governance
+609	0	Univ Notre Dame
+609	0	Mendoza Coll Business
+609	0	Dept Management
+609	1	Marquette Univ
+609	1	Coll Business Adm
+609	1	Dept Management
+609	2	Coll William & Mary
+609	2	Mason Sch Business
+610	0	Rutgers Business Sch
+610	1	Rutgers Business Sch
+610	2	Ball State Univ
+610	3	Tarbiat Modares Univ
+610	4	Univ Minnesota
+611	0	City Univ London
+611	0	Cass Business Sch
+611	1	Ca Foscari Univ Venice
+612	0	Univ Notre Dame
+612	0	Dept Management
+612	0	Mendoza Coll Business 345
+612	1	Ohio State Univ
+612	1	Fisher Coll Business
+612	1	Dept Management Sci
+613	0	Univ Texas Dallas
+613	0	Jindal Sch Management
+613	1	Univ Auckland
+613	1	Sch Business
+614	0	USN
+614	0	Postgrad Sch
+614	1	Cornell Univ
+615	0	Univ San Diego
+615	0	Sch Business Adm
+615	1	WHU Otto Beisheim Sch Management
+615	2	Univ Amsterdam
+615	2	Amsterdam Business Sch
+616	0	Univ Texas Arlington
+616	1	AF Inst Technol
+616	2	Univ Minnesota
+616	3	Loyola Univ Maryland
+617	0	Rhode Isl Coll
+617	1	Cambridge Judge Business Sch
+618	0	WHU Otto Beisheim Sch Management
+618	1	Univ San Diego
+619	0	Univ Utrecht
+619	0	Dept Sociol
+619	0	ICS
+619	0	CGN
+619	1	Eindhoven Univ Technol
+619	1	Sch Innovat Sci
+619	1	Human Technol Interact Grp
+620	0	Georgia Inst Technol
+620	0	Coll Management
+620	1	Univ Western Ontario
+620	1	Richard Ivey Sch Business
+620	1	London
+621	0	Emory Univ
+621	0	Goizueta Business Sch
+622	0	Penn State Univ
+622	0	Smeal Coll Business
+622	0	Dept Supply Chain & Informat Syst
+622	1	Univ Minnesota
+622	1	Curtis L Carlson Sch Management
+622	1	Supply Chain & Operat Dept
+623	0	INSEAD
+623	1	INSEAD
+624	0	Tsinghua Univ
+624	0	Sch Econ & Management
+624	1	Natl Univ Singapore
+624	1	NUS Business Sch
+624	2	Cornell Univ
+624	2	Samuel Curtis Johnson Grad Sch Management
+624	3	Cornell Univ
+624	3	Dept Human Dev
+625	0	Western Illinois Univ
+625	0	Dept Management & Mkt
+626	0	Univ Penn
+626	0	Wharton Sch
+627	0	Univ Calif Los Angeles
+627	0	Anderson Sch Management
+627	1	Univ Western Ontario
+627	1	Richard Ivey Sch Business
+627	1	London
+628	0	Columbia Univ
+628	0	Grad Sch Business
+629	0	Stanford Univ
+629	0	Grad Sch Business
+630	0	Univ Michigan
+630	0	Stephen M Ross Sch Business
+630	1	Univ Rochester
+630	1	William E Simon Grad Sch Business Adm
+631	0	Univ Waterloo
+631	0	Dept Management Sci
+631	0	Waterloo
+632	0	Duke Univ
+632	0	Fuqua Sch Business
+633	0	Univ Calif Los Angeles
+633	0	Anderson Grad Sch Management
+634	0	Univ Calif Los Angeles
+634	0	Anderson Grad Sch Management
+635	0	Columbia Univ
+635	0	Dept Ind Engn & Operat Res
+635	1	Korea Adv Inst Sci & Technol
+635	1	Div Appl Math
+635	2	Nomis Solut Inc
+636	0	Georgia Inst Technol
+636	0	Coll Management
+636	1	Penn State Univ
+636	1	Smeal Coll Business
+636	1	Dept Supply Chain & Informat Syst
+636	2	Univ Maryland
+636	2	Robert H Smith Business
+637	0	Duke Univ
+637	0	Fuqua Sch Business
+638	0	Komazawa Univ
+638	0	Sch Business Adm
+638	1	Duke Univ
+638	1	Fuqua Sch Business
+639	0	Univ Minnesota
+639	0	Dept Mech Engn
+639	0	Grad Program Ind & Syst Engn
+640	0	Columbia Univ
+640	0	Dept Ind Engn & Operat Res
+641	0	Purdue Univ
+641	0	Krannert Grad Sch Management
+642	0	Univ Calif Irvine
+642	0	Paul Merage Sch Business
+643	0	Univ Wisconsin
+643	0	Sch Business
+643	1	Univ Wisconsin
+643	1	Coll Engn
+643	2	Cornell Univ
+643	2	Sch Operat Res & Ind Engn
+644	0	Univ Michigan
+644	0	Dept Ind & Operat Engn
+644	1	Univ Michigan
+644	1	Ross Sch Business
+645	0	Columbia Univ
+645	0	Columbia Business Sch
+645	1	Univ Lancaster
+645	1	Sch Management
+646	0	Virginia Polytech Inst & State Univ
+646	0	Grado Dept Ind & Syst Engn
+646	1	MIT
+646	1	Dept Civil & Environm Engn
+646	2	MIT
+646	2	Engn Syst Div
+646	3	Georgia Inst Technol
+646	3	Sch Ind & Syst Engn
+647	0	Univ Minnesota
+647	0	Dept Mech Engn
+647	1	Indian Inst Technol
+647	1	Dept Math
+647	1	Gauhati 781034
+648	0	Univ Massachusetts
+648	1	Univ Salamanca
+648	2	Sony Entertainment Distribut
+648	3	4Rsystems Inc
+649	0	Indiana Univ
+649	0	Kelley Sch Business
+649	1	Univ N Carolina
+649	1	Kenan Flagler Business Sch
+650	0	Univ Calif Irvine
+650	0	Paul Merage Sch Business
+651	0	Purdue Univ
+651	0	Krannert Grad Sch Management
+651	1	Univ Illinois
+651	1	Dept Business Adm
+652	0	Univ Penn
+652	0	Wharton Sch
+652	0	OPIM Dept
+652	1	Univ Washington
+652	1	Sch Business
+652	1	Dept Management Sci
+653	0	Univ Dayton
+653	0	Sch Business
+654	0	Columbia Univ
+654	0	Grad Sch Business
+654	1	Univ Coimbra
+654	1	Dept Matemat
+655	0	Univ Thessaly
+655	0	Dept Mech & Ind Engn
+655	1	Technol Educ Inst Lamia
+655	1	Dept Elect
+656	0	Hong Kong Polytech Univ
+656	0	Dept Logist
+656	0	Kowloon
+656	1	Hong Kong Univ Sci & Technol
+656	1	Dept Informat & Syst Management
+656	1	Kowloon
+656	2	China Merchants Holdings Int Co Ltd
+656	2	Shun Tak Ctr
+656	2	Hong Kong
+657	0	Columbia Univ
+657	0	Grad Sch Business
+657	1	Dartmouth Coll
+657	1	Tuck Sch Business
+658	0	Univ Penn
+658	0	Wharton Sch
+659	0	Clemson Univ
+659	0	Coll Business & Behav Sci
+659	0	Dept Management
+660	0	Univ Penn
+660	0	Wharton Sch
+660	0	Operat & Informat Management Dept
+661	0	Univ Penn
+661	0	Wharton Sch
+661	0	OPIM Dept
+661	1	Tilburg Univ
+661	1	Dept Mkt
+662	0	Citigrp Global Markets Inc
+662	1	Univ Penn
+662	1	Wharton Sch
+663	0	Univ British Columbia
+663	0	Sauder Sch Business
+663	0	Vancouver
+663	1	Univ Minnesota
+663	1	Carlson Sch Management
+664	0	Univ Penn
+664	0	Wharton Sch
+664	1	Univ Utah
+664	1	David Eccles Sch Business
+665	0	NYU
+665	0	Leonard N Stern Sch Business
+665	1	Harvard Univ
+665	1	Sch Business
+665	2	Univ Penn
+665	2	Wharton Sch
+666	0	Univ Penn
+666	0	Wharton Sch Business
+667	0	London Business Sch
+667	0	Management Sci & Operat Dept
+668	0	Univ Chicago
+668	0	Grad Sch Business
+668	1	Harvard Univ
+668	1	Sch Business
+669	0	Boston Coll
+669	0	Wallace E Carroll Sch Management
+669	0	Operat & Strateg Management Dept
+669	1	Univ Penn
+669	1	Wharton Sch
+669	1	Operat & Informat Management Dept
+670	0	Univ Western Ontario
+670	0	Richard Ivey Sch Business
+670	0	London
+670	1	York Univ
+670	1	Schulich Sch Business
+670	1	N York
+670	2	Emory Univ
+670	2	Goizueta Business Sch
+671	0	Univ Texas Dallas
+671	0	Sch Management
+671	1	Univ Calif San Diego
+671	1	Rady Sch Management
+671	2	Calif State Univ Fresno
+671	2	Craig Sch Business
+672	0	Georgetown Univ
+672	0	McDonough Sch Business
+672	1	Georgia Inst Technol
+672	1	Coll Management
+672	2	INSEAD
+673	0	Duke Univ
+673	0	Fuqua Sch Business
+673	1	Columbia Univ
+673	1	Grad Sch Business
+674	0	Tel Aviv Univ
+674	0	Dept Ind Engn
+675	0	Univ Penn
+675	0	Wharton Sch
+675	1	Duke Univ
+675	1	Fuqua Sch Business
+676	0	Washington Univ
+676	0	John M Olin Sch Business
+676	1	Hong Kong Univ Sci & Technol
+676	1	Dept Ind Engn & Logist Management
+676	1	Hong Kong
+677	0	Univ Toronto
+677	0	Joseph L Rotman Sch Management
+677	0	Toronto
+677	1	Washington Univ
+677	1	John M Olin Sch Business
+678	0	McMaster Univ
+678	0	Michael G DeGroote Sch Business
+678	0	Management Sci & Informat Syst Area
+678	0	Hamilton
+679	0	Univ Michigan
+679	0	Dept Ind & Operat Engn
+679	1	Univ Athens
+679	1	Dept Math
+679	2	Case Western Reserve Univ
+679	2	Weatherhead Sch Management
+679	2	Dept Banking & Finance
+680	0	Prairie View A&M Univ
+680	0	Dept Management & Mkt
+680	1	Univ Texas
+680	1	Sch Management
+681	0	Northwestern Univ
+681	0	Dept Ind Engn & Management Sci
+682	0	Duke Univ
+682	0	Fuqua Sch Business
+683	0	Univ Texas
+683	0	Sch Management
+684	0	Mem Univ Newfoundland
+684	0	Fac Business Adm
+684	0	St John
+684	1	McGill Univ
+684	1	Desautels Fac Management
+684	1	Montreal
+685	0	Boston Univ
+685	0	Sch Management
+686	0	Univ Texas Austin
+686	0	Grad Program Operat Res & Ind Engn
+686	1	Amazon Com
+687	0	Univ Minnesota
+687	0	Grad Program Ind Engn
+687	0	Dept Mech Engn
+687	1	City Univ Hong Kong
+687	1	Dept Management Sci
+687	1	Kowloon
+687	2	Sun Yat Sen Univ
+687	2	Dept Management Sci
+687	2	Sch Business
+687	2	Guangzhou 510275
+687	3	Univ Waterloo
+687	3	Dept Management Sci
+687	3	Waterloo
+688	0	MIT
+688	0	Sloan Sch Management
+688	1	Pontificia Univ Catolica Chile
+688	1	Sch Engn
+688	2	Univ Navarra
+688	2	IESE Business Sch
+689	0	Univ Maryland
+689	0	Smith Sch Business
+689	1	Ohio State Univ
+689	1	Fisher Coll Business
+690	0	Purdue Univ
+690	0	Dept Comp Sci
+690	1	Purdue Univ
+690	1	Krannert Sch Management
+690	2	Univ New Brunswick
+690	2	Fac Business
+690	2	St John
+690	3	Univ Texas Dallas
+690	3	Dept Comp Sci
+690	4	Rutgers State Univ
+690	4	Management Sci & Informat Syst Dept
+691	0	Univ Maryland
+691	0	RH Smith Sch Business
+691	1	SAS Inst Inc
+691	2	Georgia Inst Technol
+691	2	H Milton Stewart Sch Ind & Syst Engn
+692	0	So Methodist Univ
+692	0	Cox Sch Business
+692	1	Univ Calif San Diego
+692	1	Rady Sch Management
+693	0	Univ Penn
+693	0	Wharton Sch
+693	1	Univ Texas Dallas
+693	1	Sch Management & Econ
+693	1	Sch Econ Polit & Policy Sci
+693	1	Org Strategy & Int Management
+694	0	Univ Calif Berkeley
+694	0	Haas Sch Business
+695	0	Univ New S Wales
+695	0	Australian Sch Business
+695	0	Sydney
+695	1	Univ Virginia
+695	1	Dept Econ
+695	2	James Madison Univ
+695	2	Dept Econ
+696	0	Penn State Univ
+696	0	Smeal Coll Business
+696	0	Supply Chain & Informat Syst Dept
+697	0	INSEAD
+697	0	Decis Sci Area
+697	1	Columbia Univ
+697	1	Ctr Decis Res
+697	2	Univ Arizona
+697	2	Dept Management & Org
+698	0	Natl Univ Singapore
+698	0	Dept Decis Sci
+698	0	NUS Business Sch
+698	1	INSEAD
+699	0	Hewlett Packard Labs
+699	1	Sabanci Univ
+699	2	Stanford Univ
+700	0	Carnegie Mellon Univ
+700	0	Tepper Sch Business
+700	1	Harvard Univ
+700	1	Sch Business
+701	0	Univ Penn
+701	0	Wharton Sch
+702	0	Washington Univ
+702	0	John M Olin Sch Business
+702	1	Rice Univ
+702	1	Jesse H Jones Grad Sch Management
+703	0	Univ Michigan
+703	0	Dept Ind & Operat Engn
+703	1	Univ N Carolina
+703	1	Dept Stat & Operat Res
+704	0	Stanford Univ
+704	0	Grad Sch Business
+704	1	Univ N Carolina
+704	1	Kenan Flagler Business Sch
+705	0	Univ N Carolina
+705	0	Dept Stat & Operat Res
+705	1	Texas A&M Univ
+705	1	Dept Stat
+706	0	Vrije Univ Amsterdam
+706	0	Dept Math
+707	0	Vrije Univ Amsterdam
+707	0	Dept Math
+708	0	Univ Texas Austin
+708	0	McCombs Sch Business
+708	1	Stanford Univ
+708	1	Grad Sch Business
+709	0	Columbia Univ
+709	0	Grad Sch Business
+709	1	New York Univ
+709	1	Stern Sch Business
+710	0	Carnegie Mellon Univ
+710	0	Tepper Sch Business
+711	0	Univ Toronto
+711	0	Joseph L Rotman Sch Management
+711	0	Toronto
+712	0	Mem Univ Newfoundland
+712	0	Fac Business Adm
+712	0	St John
+712	1	Shenandoah Univ
+712	1	Harry F Byrd Jr Sch Business
+712	1	Winchester 22601
+713	0	Penn State Univ
+713	0	Smeal Coll Business
+714	0	Wilfrid Laurier Univ
+714	0	Sch Business & Econ
+714	0	Waterloo
+714	1	Univ British Columbia
+714	1	Sauder Sch Business
+714	1	Vancouver
+715	0	San Francisco State Univ
+715	0	Dept Decis Sci
+715	0	Coll Business
+715	1	Stanford Univ
+715	1	Dept Management Sci & Engn
+716	0	Georgia State Univ
+716	0	Dept Managerial Sci
+716	0	J Mack Robinson Coll Business
+717	0	Katholieke Univ Leuven
+717	0	Dept Operat Res & Operat Management
+717	1	Katholieke Univ Leuven
+717	1	Res Ctr Operat Management
+717	1	Dept Decis Sci & Informat Management
+717	2	Katholieke Univ Leuven
+717	2	Subfac Econ & Appl Econ
+717	3	Spicer Off Highway Prod Div
+718	0	Xian Jiaotong Univ
+718	0	Dept Ind Engn
+718	0	Sch Management
+718	1	Hong Kong Univ Sci & Technol
+718	1	Dept Informat & Syst Management
+718	1	Kowloon
+719	0	Univ Florida
+719	0	Warrington Coll Business Adm
+719	1	Univ Calif Los Angeles
+719	1	Anderson Sch Management
+720	0	Univ Texas Austin
+720	0	McCombs Sch Business
+720	1	Univ Oregon
+720	1	Lundquist Coll Business
+720	2	Bentley Coll
+720	2	McCallum Sch Business
+721	0	TrueDemand Inc
+721	1	Stanford Univ
+721	1	Grad Sch Business
+722	0	Univ Chicago
+722	0	Grad Sch Business
+722	1	Univ N Carolina
+722	1	Kenan Flagler Business Sch
+723	0	MIT
+723	0	Leaders Mfg Program
+723	1	MIT
+723	1	Alfred P Sloan Sch Management
+723	2	Boston Univ
+723	2	Sch Management
+724	0	Hong Kong Univ Sci & Technol
+724	0	Ind Engn & Logist Management Dept
+724	0	Kowloon
+724	1	Columbia Univ
+724	1	Grad Sch Business
+725	0	Tech Univ Eindhoven
+725	0	Dept Technol Management
+725	1	Tilburg Univ
+725	1	CentER
+725	2	Tilburg Univ
+725	2	Dept Econometr & OR
+726	0	Cornell Univ
+726	0	Johnson Grad Sch Management
+726	1	Coll William & Mary
+726	1	Mason Sch Business
+727	0	MIT
+727	0	Alfred P Sloan Sch Management
+728	0	Univ Minnesota
+728	0	Dept Mech Engn
+728	1	SmartOps Corp
+729	0	NYU
+729	0	Stern Sch Business
+729	1	Stanford Univ
+729	1	Grad Sch Business
+730	0	Univ Michigan
+730	0	Stephen M Ross Sch Business
+730	1	Stanford Univ
+730	1	Grad Sch Business
+731	0	Rice Univ
+731	0	Jesse H Jones Grad Sch Management
+731	1	Univ Melbourne
+731	1	Dept Accounting & Business Informat Syst
+731	1	Melbourne
+732	0	Northwestern Univ
+732	0	Kellogg Sch Management
+732	1	Stanford Univ
+732	1	Grad Sch Business
+732	2	Columbia Univ
+732	2	Grad Sch Business
+733	0	Univ N Carolina
+733	0	Kenan Flagler Business Sch
+733	1	Northwestern Univ
+733	1	JL Kellogg Grad Sch Management
+734	0	Univ Penn
+734	0	Wharton Sch
+735	0	INP Grenoble
+735	0	Lab G SCOP
+735	1	Univ Minnesota
+735	1	Dept Mech Engn
+735	2	European Sch Management & Technol
+736	0	Univ Wisconsin
+736	0	Wisconsin Sch Business
+736	1	Duke Univ
+736	1	Fuqua Sch Business
+736	2	Shanghai Jiao Tong Univ
+736	2	Antai Coll Econ & Management
+737	0	Carnegie Mellon Univ
+737	0	Tepper Sch Business
+737	1	PPG Ind Inc
+737	1	Treasury Dept
+738	0	NE Illinois Univ
+738	0	Coll Business & Management
+738	1	Purdue Univ
+738	1	Krannert Sch Management
+738	2	Indian Inst Management
+738	2	Ahmadabad 380015
+739	0	Univ Penn
+739	0	Wharton Sch
+739	1	Univ Chicago
+739	1	Grad Sch Business
+740	0	Northwestern Univ
+740	0	Kellogg Sch Management
+740	1	Univ Calif Los Angeles
+740	1	Anderson Sch Management
+741	0	Univ Washington
+741	0	Foster Sch Business
+741	1	Northwestern Univ
+741	1	Kellogg Sch Management
+742	0	Univ Calif Berkeley
+742	0	Haas Sch Business
+743	0	Univ Michigan
+743	0	Dept Operat & Management Sci
+743	0	Ross Sch Business
+743	1	McGill Univ
+743	1	Desautels Fac Management
+743	1	Montreal
+743	2	Univ Calif Berkeley
+743	2	Dept Ind Engn & Operat Res
+744	0	Univ Maryland
+744	0	Appl Math & Sci Computat Program
+744	1	Univ Maryland
+744	1	RH Smith Sch Business
+744	2	American Univ
+744	2	Kogod Sch Business
+745	0	Univ So Calif
+745	0	Marshall Sch Business
+746	0	OptiSolar Inc
+746	1	MIT
+746	1	Leaders Mfg Program
+746	2	MIT
+746	2	Alfred P Sloan Sch Management
+747	0	Univ N Carolina
+747	0	Dept Stat & Operat Res
+748	0	Univ Penn
+748	0	Wharton Sch
+748	1	Columbia Univ
+748	1	Grad Sch Business
+749	0	Chinese Univ Hong Kong
+749	0	Fac Business Adm
+749	0	Dept Decis Sci & Managerial Econ
+749	0	Shatin
+749	1	Penn State Univ
+749	1	Smeal Coll Business
+749	1	Dept Supply Chain & Informat Syst
+749	2	Clarkson Univ
+749	2	Sch Business
+750	0	Columbia Univ
+750	0	IEOR Dept
+751	0	Univ Michigan
+751	0	Ross Sch Business
+751	0	Dept Operat & Management Sci
+751	1	Univ Minnesota
+751	1	Dept Mech Engn
+751	1	Div Ind & Syst Engn
+752	0	Univ Minnesota
+752	0	Carlson Sch Management
+752	1	Clemson Univ
+752	1	Coll Business & Behav Sci
+752	2	Univ N Carolina
+752	2	Kenan Flagler Business Sch
+752	3	Univ Illinois
+752	3	Coll Business
+753	0	Univ Connecticut
+753	0	Sch Business
+753	1	Univ Chicago
+753	1	Grad Sch Business
+754	0	Univ Maryland
+754	0	Robert H Smith Sch Business
+755	0	Duke Univ
+755	0	Fuqua Sch Business
+755	1	Jiao Tong Univ
+755	1	Antai Coll Econ & Management
+755	2	Rutgers State Univ
+755	2	Dept Supply Chain Management & Mkt Sci
+756	0	Wilfrid Laurier Univ
+756	0	Sch Business & Econ
+756	0	Waterloo
+756	1	Georgia Inst Technol
+756	1	Coll Management
+757	0	Univ Rochester
+757	0	Simon Sch Business
+757	1	Vanderbilt Univ
+757	1	Owen Sch Management
+758	0	City Univ Hong Kong
+758	0	Dept Management Sci
+758	0	Kowloon
+758	1	Singapore Management Univ
+758	1	Lee Kong Chian Sch Business
+759	0	Univ N Carolina
+759	0	Kenan Flagler Business Sch
+760	0	Univ Texas Dallas
+760	0	Sch Management
+760	1	NYU
+760	1	Stern Sch Business
+761	0	Sun Yat Sen Univ
+761	0	Lingnan Coll
+761	0	Guangzhou 510275
+761	1	George Mason Univ
+761	1	Sch Management
+761	2	Univ New S Wales
+761	2	Australian Sch Business
+761	2	Sydney
+761	3	Hong Kong Univ Sci & Technol
+761	3	Dept Ind Engn & Logist Management
+761	3	Kowloon
+762	0	Columbia Business Sch
+762	1	Columbia Univ
+762	1	IEOR Dept
+763	0	Univ N Carolina
+763	0	Kenan Flagler Business Sch
+763	1	Northwestern Univ
+763	1	Kellogg Sch Management
+764	0	London Business Sch
+764	0	Dept Management Sci & Operat
+764	1	INSEAD
+764	1	Technol & Operat Management Dept
+765	0	Univ Calif Berkeley
+765	1	NYU
+765	1	Stern Sch Business
+766	0	Washington Univ
+766	0	John M Olin Sch Business
+766	1	Shanghai Univ Finance & Econ
+766	1	Sch Int Business Adm
+767	0	Amazon Com
+767	1	MIT
+767	1	Alfred P Sloan Sch Management
+768	0	Georgia Inst Technol
+768	0	Sch Civil & Environm Engn
+768	1	Georgia Inst Technol
+768	1	Coll Management
+769	0	Univ Washington
+769	1	Univ Michigan
+770	0	INSEAD
+770	1	Univ Rochester
+770	1	William E Simon Grad Sch Business Adm
+770	2	Dartmouth Coll
+770	2	Amos Tuck Sch Business Adm
+771	0	Shanghai Jiao Tong Univ
+771	0	Antai Coll Econ & Management
+771	1	Univ Calif Irvine
+771	1	Paul Merage Sch Business
+771	2	Washington Univ
+771	2	John M Olin Sch Business
+772	0	Carnegie Mellon Univ
+772	0	Tepper Sch Business
+772	1	Univ Chicago
+772	1	Booth Sch Business
+772	2	Carnegie Mellon Univ
+772	2	Inst Robot
+773	0	MIT
+773	0	Alfred P Sloan Sch Management
+773	1	Univ Calif Los Angeles
+773	1	Anderson Sch Management
+774	0	Univ Maryland
+774	0	Robert H Smith Sch Business
+774	1	Ohio State Univ
+774	1	Fisher Coll Business
+775	0	Hong Kong Polytech Univ
+775	0	Dept Logist & Maritime Studies
+775	0	Hong Kong
+775	1	Univ Calif Riverside
+775	1	A Gary Anderson Grad Sch Management
+776	0	Hong Kong Polytech Univ
+776	0	Dept Logist & Maritime Studies
+776	0	Fac Business
+776	0	Hong Kong
+776	1	Univ Michigan
+776	1	Stephen M Ross Sch Business
+777	0	Indian Sch Business
+777	0	Hyderabad 500032
+777	1	Univ Rochester
+777	1	Simon Sch Business
+777	2	INSEAD
+778	0	Stanford Univ
+778	0	Grad Sch Business
+779	0	Univ Penn
+779	0	Wharton Sch
+779	1	Nomis Solut
+779	2	Columbia Univ
+779	2	Grad Sch Business
+780	0	Booz Allen Hamilton
+780	1	MIT Sloan Sch Management
+780	2	Dell Comp Inc
+780	3	Nanyang Technol Univ
+780	4	HEC Paris
+781	0	So Methodist Univ
+781	0	SMU Cox Sch Business
+781	1	Univ Calif Los Angeles
+781	1	UCLA Anderson Sch Management
+782	0	Georgetown Univ
+782	0	McDonough Sch Business
+783	0	Washington Univ
+783	0	John M Olin Sch Business
+784	0	Erasmus Univ
+784	1	Mateum
+785	0	MIT
+785	0	MIT Sloan Sch Management
+786	0	Univ Navarra
+786	0	IESE Business Sch
+787	0	Penn State Univ
+787	0	Smeal Coll Business
+787	1	Univ Vienna
+787	1	Fac Business Econ & Stat
+787	2	INSEAD
+788	0	Univ Texas Dallas
+788	0	Sch Management
+788	1	Cornell Univ
+788	1	Johnson Sch
+788	2	Univ Elect Sci & Technol China
+788	2	Sch Econ & Management
+789	0	Univ Illinois
+789	0	Dept Business Adm
+789	1	Univ Calif Los Angeles
+789	1	UCLA Anderson Sch
+790	0	NYU
+790	0	Leonard N Stern Sch Business
+790	1	Columbia Univ
+790	1	Grad Sch Business
+790	2	Sabre Holdings
+790	2	Res Grp
+791	0	Carnegie Mellon Univ
+791	0	Tepper Sch Business
+792	0	Univ Calif Los Angeles
+792	0	Anderson Sch Management
+792	1	Univ Navarra
+792	1	IESE Business Sch
+793	0	Duke Univ
+793	0	Fuqua Sch Business
+793	1	Chinese Univ Hong Kong
+793	1	Shatin
+793	2	Eindhoven Univ Technol
+793	2	Sch Ind Engn
+794	0	Northwestern Univ
+794	0	JL Kellogg Grad Sch Management
+795	0	NYU
+795	0	Stern Sch Business
+795	1	Northwestern Univ
+795	1	JL Kellogg Grad Sch Management
+796	0	Arizona State Univ
+796	0	WP Carey Sch Business
+796	1	Univ N Carolina
+796	1	Kenan Flagler Business Sch
+796	2	Dartmouth Coll
+796	2	Tuck Sch Business
+797	0	Stanford Univ
+797	0	Grad Sch Business
+797	1	Univ So Calif
+797	1	Marshall Sch Business
+798	0	Univ Calif Irvine
+798	0	Paul Merage Sch Business
+799	0	NYU
+799	0	Stern Sch Business
+799	1	Amer Univ Beirut
+799	1	Suliman S Olayan Sch Business
+799	2	INSEAD
+799	2	Decis Sci Area
+800	0	Stanford Univ
+800	0	Grad Sch Business
+801	0	Univ Oregon
+801	0	Dept Decis Sci
+801	0	Charles H Lundquist Coll Business
+801	1	Case Western Reserve Univ
+801	1	Dept Operat
+801	1	Weatherhead Sch Management
+802	0	Carnegie Mellon Univ
+802	0	Tepper Sch Business
+803	0	Washington Univ
+803	0	John M Olin Sch Business
+803	1	SUNY Albany
+803	1	Sch Business
+804	0	McGill Univ
+804	0	Desautels Fac Management
+804	0	Montreal
+804	1	Univ So Calif
+804	1	Marshall Sch Business
+805	0	Christopher Newport Univ
+805	0	Joseph W Luter III Sch Business
+805	1	Univ Maryland
+805	1	RH Smith Sch Business
+805	2	Carnegie Mellon Univ
+805	2	Tepper Sch Business
+806	0	Cornell Univ
+806	0	Johnson Grad Sch Management
+806	1	Univ Calif Davis
+806	1	Grad Sch Management
+807	0	Univ N Carolina
+807	0	Dept Stat & Operat Res
+808	0	Univ Texas Austin
+808	0	McCombs Sch Business
+808	1	Univ Chicago
+808	1	Booth Sch Business
+808	2	Carnegie Mellon Univ
+808	2	Inst Robot
+809	0	Harvard Univ
+809	0	Sch Business
+810	0	Chinese Univ Hong Kong
+810	0	Dept Syst Engn & Engn Management
+810	0	Shatin
+810	1	Univ Michigan
+810	1	Dept Ind & Operat Engn
+811	0	McGill Univ
+811	0	Desautels Fac Management
+811	0	Montreal
+812	0	Cornell Univ
+812	0	Johnson Grad Sch Management
+812	1	Univ Calif Davis
+812	1	Grad Sch Management
+813	0	Carnegie Mellon Univ
+813	0	Tepper Sch Business
+813	1	Northwestern Univ
+813	1	Kellogg Sch Management
+814	0	Univ Texas Dallas
+814	0	Sch Management
+814	0	Int Ctr Decis & Risk Anal
+814	1	Univ Texas Austin
+814	1	McCombs Sch Business
+814	2	Univ Texas Dallas
+814	2	Sch Management
+814	2	Ctr Intelligent Supply Networks
+815	0	Hong Kong Univ Sci & Technol
+815	0	Ind Engn & Logist Management Dept
+815	0	Kowloon
+815	1	Columbia Univ
+815	1	Grad Sch Business
+816	0	Suffolk Univ
+816	0	Dept Informat Syst & Operat Management
+816	0	Sawyer Business Sch
+816	1	Penn State Univ
+816	1	Dept Mkt
+816	1	Smeal Coll Business
+816	2	Penn State Univ
+816	2	Dept Supply Chain & Informat Syst
+816	2	Smeal Coll Business
+817	0	Vanderbilt Univ
+817	0	Owen Grad Sch Management
+817	1	Vanderbilt Univ
+817	1	Dept Econ
+818	0	Chinese Univ Hong Kong
+818	0	Dept Decis Sci & Managerial Econ
+818	0	Shatin
+818	1	Univ Calif Los Angeles
+818	1	Anderson Sch Management
+819	0	Univ Miami
+819	0	Dept Management
+819	0	Sch Business
+819	1	Washington Univ
+819	1	John M Olin Sch Business
+820	0	Univ Buenos Aires
+820	0	Fac Ciencias Exactas & Nat
+820	0	Dept Comp
+820	0	RA-1428 Buenos Aires
+820	1	NYU
+820	1	Dept Informat Operat & Management Sci
+820	1	Leonard N Stern Sch Business
+821	0	Stanford Univ
+821	0	Dept Management Sci & Engn
+821	0	Coll Engn
+822	0	Northwestern Univ
+822	0	Kellogg Sch Management
+822	1	Columbia Univ
+822	1	Grad Sch Business
+822	2	Harvard Univ
+822	2	Sch Business
+823	0	Univ Texas Dallas
+823	0	Sch Management
+824	0	Purdue Univ
+824	0	Krannert Sch Management
+824	1	Johns Hopkins Carey Business Sch
+824	2	Duke Univ
+824	2	Dept Stat Sci
+825	0	Ecole Cent Paris
+825	0	Lab Genie Ind
+825	1	Rouen Business Sch
+825	2	Koc Univ
+825	2	Coll Adm Sci & Econ
+826	0	Arizona State Univ
+826	0	WP Carey Sch Business
+826	1	Univ British Columbia
+826	1	Sauder Sch Business
+826	1	Vancouver
+827	0	Singapore Management Univ
+827	0	Lee Kong Chian Sch Business
+828	0	Carnegie Mellon Univ
+828	0	Tepper Sch Business
+829	0	Harvard Univ
+829	0	Harvard Business Sch
+829	1	Univ N Carolina
+829	1	Kenan Flagler Business Sch
+830	0	Univ Penn
+830	0	Wharton Sch
+830	1	Univ Chicago
+830	1	Chicago Booth Sch Business
+831	0	Carnegie Mellon Univ
+831	0	Heinz Coll
+831	0	Sch Informat Syst & Management
+832	0	Univ British Columbia
+832	0	Sauder Sch Business
+832	0	Vancouver
+833	0	Univ Minnesota
+833	0	Ind & Syst Engn Program
+834	0	Washington Univ
+834	0	Olin Business Sch
+834	1	Clarkson Univ
+834	1	Sch Business
+835	0	Syracuse Univ
+835	0	Whitman Sch Management
+836	0	Univ N Carolina
+836	0	Kenan Flagler Business Sch
+836	1	Georgia Inst Technol
+836	1	H Milton Stewart Sch Ind & Syst Engn
+837	0	Chinese Univ Hong Kong
+837	0	Fac Business Adm
+837	0	Dept Decis Sci & Managerial Econ
+837	0	Shatin
+838	0	Univ Utah
+838	0	David Eccles Sch Business
+838	1	INSEAD
+839	0	Peking Univ
+839	0	Guanghua Sch Management
+839	1	Univ Maryland
+839	1	Robert H Smith Sch Business
+839	2	American Univ
+839	2	Kogod Sch Business
+840	0	Univ Toronto
+840	0	Rotman Sch Management
+840	0	Toronto
+841	0	Univ Navarra
+841	0	IESE Business Sch
+842	0	Univ Penn
+842	0	Wharton Sch
+842	1	Univ Calif Berkeley
+842	1	Haas Sch Business
+843	0	Duke Univ
+843	0	Fuqua Sch Business
+844	0	Columbia Univ
+845	0	Washington Univ
+845	0	John M Olin Sch Business
+845	1	Purdue Univ
+845	1	Krannert Sch Management
+845	2	Purdue Univ
+845	2	Sch Ind Engn
+846	0	Univ N Carolina
+846	0	Kenan Flagler Business Sch
+846	1	Northwestern Univ
+846	1	Kellogg Sch Management
+847	0	Nanyang Technol Univ
+847	0	Nanyang Business Sch
+847	1	Duke Univ
+847	1	Fuqua Sch Business
+847	2	Fudan Univ
+847	2	Sch Management
+848	0	Emory Univ
+848	0	Goizueta Business Sch
+848	1	Univ Penn
+848	1	Wharton Sch
+849	0	Univ San Francisco
+849	0	Sch Management
+849	1	Univ Calif Santa Cruz
+849	1	Jack Baskin Sch Engn
+849	2	SAP Labs
+849	3	Univ Washington
+849	3	Michael G Foster Sch Business
+850	0	Vanderbilt Univ
+850	0	Owen Grad Sch Management
+850	1	Georgetown Univ
+850	1	McDonough Sch Business
+850	2	Georgia Inst Technol
+850	2	Coll Management
+851	0	Amazon Com Inc
+851	1	Univ Iowa
+851	1	Dept Anesthesia
+851	2	Stanford Univ
+851	2	Sch Med
+851	2	Dept Anesthesia
+851	3	Stanford Univ
+851	3	Grad Sch Business
+852	0	Harvard Univ
+852	0	Harvard Business Sch
+853	0	Univ Maryland
+853	0	Robert H Smith Sch Business
+853	1	Penn State Univ
+853	1	Smeal Coll Business
+853	2	Univ Los Andes
+853	2	Dept Ingn Ind
+854	0	Texas A&M Univ
+854	0	Mays Business Sch
+854	1	Univ N Carolina
+854	1	Kenan Flagler Business Sch
+855	0	Univ Maryland
+855	0	Robert H Smith Sch Business
+855	1	Univ Rochester
+855	1	Simon Sch Business
+856	0	Columbia Univ
+856	0	Grad Sch Business
+857	0	Univ Cincinnati
+857	0	Dept Operat Business Analyt & Informat Syst
+857	0	Carl H Lindner Coll Business
+857	1	Cincinnati Childrens Hosp Med Ctr
+857	1	James M Anderson Ctr Hlth Syst Excellence
+858	0	MIT
+858	0	Alfred P Sloan Sch Management
+858	1	Massachusetts Gen Hosp
+858	1	Partners Healthcare Syst
+859	0	Univ Rochester
+859	0	Simon Sch Business
+860	0	Dalhousie Univ
+860	0	Dept Ind Engn
+860	0	Halifax
+860	1	Univ Twente
+860	1	CHOIR
+861	0	Univ Penn
+861	0	Wharton Sch
+861	1	London Business Sch
+862	0	Philips Res N Amer
+862	0	Dept Clin Decis Support Solut
+862	1	N Carolina State Univ
+862	1	Edward P Fitts Dept Ind & Syst Engn
+862	2	Univ Massachusetts
+862	2	Dept Mech & Ind Engn
+862	3	Mayo Clin
+862	3	Div Hlth Care Policy & Res
+862	4	Duke Univ
+862	4	Sch Med
+862	4	Dept Surg
+863	0	Ohio State Univ
+863	0	Fisher Coll Business
+864	0	Univ Connecticut
+864	0	Sch Business
+864	1	Univ Richmond
+864	1	Robins Sch Business
+864	1	Dept Management
+865	0	Univ Rochester
+865	0	Simon Sch
+865	1	Nanyang Technol Univ
+865	1	Nanyang Business Sch
+865	2	Univ Hong Kong
+865	2	Sch Business
+865	2	Pok Fu Lam
+866	0	Univ Wisconsin Madison
+866	0	Dept Ind & Syst Engn
+866	1	Univ Wisconsin Madison
+866	1	Dept Radiol
+867	0	Emory Univ
+867	0	Goizueta Business Sch
+867	1	Univ N Carolina Chapel Hill
+867	1	Kenan Flagler Business Sch
+868	0	Univ Washington
+868	0	Foster Sch Business
+868	1	Univ Rochester
+868	1	Simon Sch Business
+869	0	Univ Cambridge
+869	0	Judge Business Sch
+869	1	Univ Penn
+869	1	Wharton Sch
+869	2	Univ Lancaster
+869	2	Sch Management
+870	0	Univ N Carolina Chapel Hill
+870	0	Dept Stat & Operat Res
+871	0	Penn State Univ
+871	0	Smeal Coll Business
+871	1	Univ N Carolina Pembroke
+871	1	Sch Business
+871	2	Nanyang Technol Univ
+871	2	Nanyang Business Sch
+871	3	Pembroke Consulting Inc
+872	0	Univ N Carolina
+872	0	Kenan Flagler Business Sch
+872	1	Univ Colorado
+872	1	Leeds Sch Business
+873	0	Univ N Carolina
+873	0	Kenan Flagler Business Sch
+874	0	Univ Rochester
+874	0	Simon Grad Sch Business
+874	1	Univ Illinois
+875	0	Vrije Univ Amsterdam
+875	0	Dept Math
+875	1	Univ Mannheim
+875	1	Sch Business
+876	0	Duke Univ
+876	0	Fuqua Sch Business
+877	0	Univ N Carolina
+877	0	Kenan Flagler Business Sch
+877	1	Univ Kansas
+877	1	Sch Business
+878	0	Carnegie Mellon Univ
+878	0	Tepper Sch Business
+879	0	Univ Michigan
+879	0	Stephen M Ross Sch Business
+879	1	McGill Univ
+879	1	Desautels Fac Management
+879	1	Montreal
+879	2	DTE Energy
+880	0	Natl Univ Singapore
+880	0	NUS Business Sch
+880	1	Georgia Inst Technol
+880	1	Coll Management
+880	2	Vanderbilt Univ
+880	2	Owen Grad Sch Management
+881	0	Univ Penn
+881	0	Wharton Sch
+882	0	Stanford Univ
+882	1	Intel Corp
+883	0	Boise State Univ
+883	0	Coll Business & Econ
+883	1	Georgia Inst Technol
+883	1	Coll Management
+883	2	Univ Illinois
+883	2	Dept Business Adm
+884	0	Univ Oregon
+884	0	Lundquist Coll Business
+884	1	Indiana Univ
+884	1	Kelley Sch Business
+884	2	Georgetown Univ
+884	2	McDonough Sch Business
+884	3	Univ Michigan
+884	3	Stephen M Ross Sch Business
+885	0	Univ Rochester
+885	0	Simon Grad Sch Business
+885	1	Northwestern Univ
+885	1	Kellogg Sch Management
+886	0	Northwestern Univ
+886	0	Kellogg Sch Management
+886	1	Harvard Univ
+886	1	Harvard Business Sch
+887	0	Univ Michigan
+887	0	Stephen M Ross Sch Business
+887	1	Georgetown Univ
+887	1	McDonough Sch Business
+888	0	Penn State Univ
+888	0	Harold & Inge Marcus Dept Ind & Mfg Engn
+888	1	Columbia Univ
+888	1	Dept Ind Engn & Operat Res
+889	0	Eindhoven Univ Technol
+889	1	Indian Inst Management
+889	1	Bangalore 560076
+889	2	Univ Florida
+890	0	Bilkent Univ
+890	0	Fac Business Adm
+890	1	Univ Texas Dallas
+890	1	Sch Management
+891	0	Georgetown Univ
+891	0	McDonough Sch Business
+891	1	Univ Calif Los Angeles
+891	1	Anderson Sch Management
+892	0	Georgia Inst Technol
+892	0	Coll Management
+892	1	Univ Illinois
+892	1	Dept Business Adm
+893	0	City Univ Hong Kong
+893	0	Coll Business
+893	0	Kowloon
+894	0	Northwestern Univ
+894	0	Kellogg Sch Management
+895	0	Univ N Carolina
+895	0	Kenan Flagler Business Sch
+895	1	Penn State Univ
+895	1	Smeal Coll Business
+896	0	Univ Calif Berkeley
+896	0	Dept Ind Engn & Operat Res
+897	0	So Methodist Univ
+897	0	Cox Sch Business
+897	1	Univ Florida
+897	1	Dept Comp & Informat Sci & Engn
+897	2	Univ Florida
+897	2	Warrington Coll Business Adm
+897	3	Servigist India
+897	3	Gurgaon 122001
+898	0	Ozyegin Univ
+898	0	Dept Ind Engn
+898	1	Stanford Univ
+898	1	Dept Management Sci & Engn
+898	2	Stanford Univ
+898	2	Grad Sch Business
+899	0	Univ Connecticut
+899	0	Sch Business
+899	1	Washington Univ
+899	1	Olin Business Sch
+900	0	UCL
+900	0	Dept Management Sci & Innovat
+900	1	Univ Montreal
+900	1	Dept Comp Sci & Operat Res
+900	1	Montreal
+901	0	Univ Michigan
+901	0	Stephen M Ross Sch Business
+901	1	Johns Hopkins Carey Business Sch
+902	0	Maastricht Univ
+902	1	So Methodist Univ
+902	2	Univ Torcuato Di Tella
+902	2	Buenos Aires
+902	3	INCAE Business Sch
+902	4	OPS MEND
+903	0	Hong Kong Polytech Univ
+903	0	Fac Business
+903	0	Hong Kong
+903	1	Western Washington Univ
+903	1	Dept Decis Sci
+903	2	Simon Fraser Univ
+903	2	Beedie Sch Business
+903	2	Burnaby
+904	0	Indian Inst Management
+904	0	Bangalore 560076
+904	1	Cornell Univ
+904	1	Sch Operat Res & Informat Engn
+905	0	Case Western Reserve Univ
+905	0	Weatherhead Sch Management
+905	0	Dept Operat
+906	0	Stanford Univ
+906	0	Grad Sch Business
+906	1	Georgia Inst Technol
+906	1	Scheller Coll Business
+907	0	Stanford Univ
+907	0	Grad Sch Business
+908	0	INSEAD
+908	1	INSEAD
+909	0	Univ Calif Los Angeles
+909	0	Anderson Sch Management
+909	1	Eindhoven Univ Technol
+909	1	Sch Ind Engn
+909	2	Erasmus Univ
+909	2	Rotterdam Sch Management
+910	0	Harvard Univ
+910	0	Sch Business
+911	0	Univ Michigan
+911	0	Stephen M Ross Sch Business
+912	0	Cornell Univ
+912	0	Samuel Curtis Johnson Grad Sch Management
+912	1	Univ Calif Los Angeles
+912	1	Anderson Sch Management
+912	2	Loyola Marymount Univ
+912	2	Frank R Seaver Coll Sci & Engn
+913	0	Shanghai Univ Finance & Econ
+913	0	Sch Int Business Adm
+913	0	Dept Operat Management
+913	1	Univ S Carolina
+913	1	Dept Management Sci
+913	1	Moore Sch Business
+913	2	Indiana Univ
+913	2	Dept Operat & Decis Technol
+913	2	Kelley Sch Business
+914	0	Stanford Univ
+914	0	Grad Sch Business
+914	1	Univ Calif Berkeley
+914	1	Haas Sch Business
+915	0	Georgetown Univ
+915	0	McDonough Sch Business
+916	0	Univ Virginia
+916	0	Darden Sch Business
+916	1	MIT
+916	1	Sloan Sch Management
+916	2	Stanford Univ
+916	2	Dept Management Sci & Engn
+917	0	Singapore Management Univ
+917	0	Lee Kong Chian Sch Business
+917	1	Natl Univ Singapore
+917	1	NUS Business Sch
+917	2	INSEAD
+918	0	Harvard Univ
+918	0	Sch Business
+918	1	WHU Otto Beisheim Sch Management
+919	0	Arizona State Univ
+919	0	WP Carey Sch Business
+919	1	Arizona State Univ
+919	1	Sch Math & Stat Sci
+919	2	Intel Corp
+919	2	Decis Engn Grp
+920	0	Indiana Univ
+920	0	Kelley Sch Business
+920	1	Univ N Carolina
+920	1	Dept Stat & Operat Res
+921	0	Eindhoven Univ Technol
+921	0	Sch Ind Engn
+921	1	Univ Texas Austin
+921	1	McCombs Sch Business
+921	1	Dept Informat Risk & Operat Management
+922	0	Univ Pittsburgh
+922	0	Swanson Sch Engn
+922	1	Columbia Univ
+922	1	Grad Sch Business
+923	0	London Business Sch
+923	1	Univ Georgia
+923	1	Terry Coll Business
+923	1	Dept Econ
+923	2	Univ Virginia
+923	2	Darden Sch Business
+924	0	Univ Toronto
+924	0	Rotman Sch Management
+924	0	Toronto
+925	0	Duke Univ
+925	0	Fuqua Sch Business
+926	0	Fudan Univ
+926	0	Sch Management
+926	1	Washington Univ
+926	1	Olin Business Sch
+926	2	Kobe Univ
+926	2	Grad Sch Business Adm
+926	2	Kobe
+927	0	INSEAD
+927	1	INSEAD
+927	2	Texas Christian Univ
+927	2	Neeley Sch Business
+927	2	Dept Informat Syst & Supply Chain Management
+928	0	Univ Toronto
+928	0	Rotman Sch Management
+928	0	Toronto
+928	1	Ben Gurion Univ Negev
+928	1	Dept Ind Engn & Management
+929	0	Washington Univ
+929	0	Olin Business Sch
+929	1	Nankai Univ
+929	1	Nankai Business Sch
+929	2	Singapore Management Univ
+929	2	Lee Kong Chian Sch Business
+930	0	Columbia Univ
+930	0	Dept Ind Engn & Operat Res
+931	0	Columbia Univ
+931	0	Columbia Business Sch
+931	1	New York Presbyterian Hosp
+931	1	Weill Cornell Med Ctr
+932	0	Univ So Calif
+932	0	Marshall Sch Business
+933	0	Virginia Commonwealth Univ
+933	0	Dept Stat Sci & Operat Res
+933	1	Clemson Univ
+933	1	Dept Ind Engn
+934	0	Univ Texas Dallas
+934	0	Naveen Jindal Sch Management
+934	1	Cornell Univ
+934	1	Samuel Curtis Johnson Grad Sch Management
+934	2	Univ Minnesota
+934	2	Carlson Sch Management
+935	0	Univ Illinois
+935	0	Dept Business Adm
+935	1	Northwestern Univ
+935	1	Dept Managerial Econ & Decis Sci
+935	2	Univ Michigan
+935	2	Dept Ind & Operat Engn
+936	0	Univ Toronto
+936	0	Rotman Sch Management
+936	0	Toronto
+936	1	Wilfrid Laurier Univ
+936	1	Sch Business & Econ
+936	1	Waterloo
+937	0	UCL
+937	0	Dept Management Sci & Innovat
+937	1	Northwestern Univ
+937	1	Kellogg Sch Management
+938	0	Univ British Columbia
+938	0	Sauder Sch Business
+938	0	Vancouver
+938	1	Columbia Univ
+938	1	Mailman Sch Publ Hlth
+938	1	Dept Hlth Policy & Management
+938	2	Columbia Univ
+938	2	Dept Ind Engn & Operat Res
+939	0	Univ Toronto
+939	0	Rotman Sch Management
+939	0	Toronto
+939	1	Northwestern Univ
+939	1	Kellogg Sch Management
+940	0	Carnegie Mellon Univ
+940	0	Tepper Sch Business
+940	1	Univ Calif Los Angeles
+940	1	Anderson Sch Management
+941	0	Univ So Calif
+941	0	Marshall Sch Business
+941	1	Univ Texas Austin
+941	1	McCombs Sch Business
+942	0	Indiana Univ
+942	0	Kelley Sch Business
+943	0	Boston Coll
+943	0	Wallace E Carroll Sch Management
+943	0	Dept Operat & Strateg Management
+944	0	Canadian Airlines
+944	0	Inflight Serv
+944	0	Richmond
+944	1	IBM Corp
+944	1	Thomas J Watson Res Ctr
+944	1	Dept Enterprise Solut Res
+944	2	Univ British Columbia
+944	2	Fac Commerce & Business Adm
+944	2	Vancouver
+945	0	Gen Motors Res & Dev Ctr
+945	0	Dept Operat Res
+946	0	Univ So Calif
+946	0	Dept Ind & Syst Engn
+946	1	12 Technol
+947	0	Vanderbilt Univ
+947	0	Owen Grad Sch Management
+947	1	Univ So Calif
+947	1	Marshall Sch Business
+948	0	Univ Minnesota
+948	0	Curtis L Carlson Sch Management
+949	0	Univ Cyprus
+949	0	Sch Econ & Management
+949	0	Dept Publ & Business Adm
+950	0	Michigan State Univ
+950	0	Eli Broad Grad Sch Managment
+950	1	Univ So Calif
+950	1	Marshall Sch Business
+951	0	So Methodist Univ
+951	0	Edwin L Cox Sch Business
+951	1	Harvard Univ
+951	1	Sch Business
+951	2	Emory Univ
+951	2	Goizueta Business Sch
+952	0	Univ Calif Los Angeles
+952	0	Sch Business Adm
+952	1	Babson Coll
+952	1	Management
+953	0	McGill Univ
+953	0	Fac Management
+953	0	Montreal
+953	1	Univ Michigan
+953	1	Natl Qual Res Ctr
+953	1	Sch Business
+953	2	Cornell Univ
+953	2	Sch Hotel Adm
+954	0	Old Dominion Univ
+954	0	Coll Business & Publ Adm
+954	1	Rutgers State Univ
+954	1	Sch Business
+954	2	Univ Kentucky
+954	2	Coll Business & Econ
+955	0	Amer Grad Sch Int Management
+955	0	World Business Dept
+955	1	Univ Colorado
+955	1	Coll Business Adm
+956	0	Purdue Univ
+956	0	Krannert Grad Sch Management
+956	1	Univ Michigan
+956	1	Sch Business Adm
+957	0	Univ Alaska Fairbanks
+957	0	Sch Management
+957	1	Univ Texas
+957	1	Grad Sch Business
+957	1	Dept Management
+958	0	Michigan Technol Univ
+958	0	Sch Business & Econ
+959	0	I2 Technol
+959	1	Univ Texas
+959	1	Dept Management
+960	0	IBM Corp
+960	0	Thomas J Watson Res Ctr
+960	1	Univ Texas
+960	1	Sch Management
+961	0	Toyota Cent Res & Dev Labs Inc
+961	0	Software Sci Lab
+961	0	Nagakute
+961	1	Nagoya Inst Technol
+961	1	Showa Ku
+961	1	Nagoya
+962	0	Univ Melbourne
+962	0	Melbourne Business Sch
+962	0	Ctr Practice Int Trade
+962	0	Parkville
+962	1	Univ Melbourne
+962	1	Dept Management
+962	1	Parkville
+962	2	Univ Melbourne
+962	2	Dept Psychol
+962	2	Parkville
+963	0	Univ Michigan
+963	0	Sch Business
+963	1	Boston Coll
+963	1	Carroll Sch Management
+963	2	Univ Michigan
+963	2	Sch Business
+964	0	Univ Calif Los Angeles
+964	0	John E Anderson Grad Sch Management
+964	1	Case Western Reserve Univ
+964	1	Weatherhead Sch Management
+964	2	PricewaterhouseCoopers LLP
+965	0	MIT
+965	0	Sloan Sch Management
+965	1	Univ Fed Sao Carlos
+965	1	Dept Prod Engn
+965	1	BR-13565905 Sao Carlos
+966	0	So Methodist Univ
+966	0	Cox Sch Business
+966	1	Emory Univ
+966	1	Goizueta Business Sch
+967	0	Monmouth Univ
+967	0	Sch Business Adm
+968	0	No Illinois Univ
+968	0	Dept Operat Management & Informat Syst
+969	0	Michigan State Univ
+969	0	Eli Broad Coll Business
+969	0	Dept Mkt & Supply Chain Management
+970	0	Natl Univ Singapore
+971	0	Hong Kong Polytech Univ
+971	0	Dept Management
+971	0	Kowloon
+971	1	Univ Texas
+971	1	Sch Management
+971	2	Jinan Univ
+971	2	Dept Business Adm
+972	0	Univ Miami
+972	0	Sch Business Adm
+972	0	Dept Management
+972	1	Univ Calif Berkeley
+972	1	Walter A Haas Sch Business
+973	0	Univ Tulsa
+974	0	Simon Fraser Univ
+974	0	Fac Business Adm
+974	0	Burnaby
+974	1	NYU
+974	1	Leonard N Stern Sch Business
+974	2	Univ Washington
+974	2	Grad Sch Business Adm
+975	0	MIT
+975	0	Alfred P Sloan Sch Management
+976	0	Kansas State Univ
+976	0	Coll Business Adm
+976	0	Dept Management
+976	1	N Carolina State Univ
+976	1	Dept Business Management
+976	2	Michigan State Univ
+976	2	Dept Management
+976	2	Eli Broad Grad Sch Management
+977	0	Univ Texas
+977	0	Dept Management
+977	1	MIT
+977	1	Alfred P Sloan Sch Management
+977	2	Tulane Univ
+977	2	AB Freeman Sch Business
+978	0	Hong Kong Polytech Univ
+978	0	Dept Management
+978	0	Kowloon
+978	1	Ball State Univ
+978	1	Dept Management
+978	2	Jinan Univ
+978	2	Dept Business Adm
+979	0	i2 Technol
+979	1	Univ Wisconsin
+979	1	Dept Ind Engn
+980	0	Washington Univ
+980	0	John M Olin Sch Business
+981	0	Harvard Univ
+981	0	Sch Business
+982	0	Boston Coll
+982	0	Wallace E Carroll Sch Management
+982	0	Dept Operat & Strateg Management
+982	1	Univ Minnesota
+982	1	Carlson Sch Management
+982	1	Operat Management Sci Dept
+983	0	Michigan State Univ
+983	0	Eli Broad Grad Sch Management
+983	0	Dept Mkt & Supply Chain Management
+983	1	Depaul Univ
+983	1	Kellstadt Grad Sch Business
+983	1	Dept Management
+984	0	Kansas State Univ
+984	0	Coll Business Adm
+984	0	Dept Management
+984	1	N Carolina State Univ
+984	1	Coll Management
+985	0	Wake Forest Univ
+985	0	Babcock Grad Sch Management
+986	0	Chinese Univ Hong Kong
+986	0	Dept Syst Engn & Engn Management
+986	0	Shatin
+986	1	Calif State Univ
+986	1	Coll Business Adm
+986	2	Univ Texas
+986	2	Sch Management
+987	0	Prudential Insurance Co Amer
+987	1	Georgetown Univ
+987	1	McDonough Sch Business
+988	0	Miami Univ
+988	0	Dept Management
+989	0	Dartmouth Coll
+989	0	Tuck Sch Business
+990	0	Dartmouth Coll
+990	0	Tuck Sch Business
+991	0	Columbia Univ
+991	0	Grad Sch Business
+991	1	Booz Allen & Hamilton Inc
+992	0	Indiana Univ
+992	0	Kelley Sch Business
+993	0	Univ Texas
+993	0	Dept Management
+993	1	Univ Texas
+993	1	MSIS Dept
+994	0	Univ Massachusetts
+994	0	Coll Management
+995	0	Georgia Inst Technol
+995	0	Sch Ind & Syst Engn
+996	0	Int Inst Management Dev
+997	0	Stanford Univ
+997	0	Dept IEEM
+997	1	Eindhoven Univ Technol
+998	0	Wake Forest Univ
+998	0	Babcock Grad Sch Management
+998	1	Univ Minnesota
+998	1	Carlson Sch Management
+999	0	Rollins Coll
+999	0	Crummer Grad Sch Business
+1000	0	Univ Cincinnati
+1000	0	Coll Business Adm
+1000	0	Dept Quantitat Anal & Operat Management
+1000	1	Bradley Univ
+1000	1	Foster Coll Business Adm
+1000	1	Dept Business Management & Adm
+1001	0	Univ Catolica Portuguesa
+1001	1	London Business Sch
+1002	0	Univ St Thomas
+1002	0	Grad Sch Business
+1002	1	Univ Minnesota
+1002	1	Curtis L Carlson Sch Management
+1003	0	Univ Notre Dame
+1003	0	Coll Business Adm
+1003	0	Dept Management
+1004	0	Michigan State Univ
+1004	0	Eli Broad Grad Sch Management
+1004	0	Dept Mkt & Supply Chain Managment
+1004	1	Berry Coll
+1004	1	Campbell Sch Business
+1005	0	St Josephs Univ
+1005	0	Erivan K Haub Sch Business
+1005	0	Management & Informat Syst
+1005	1	George Washington Univ
+1005	1	Dept Adm Sci
+1006	0	Concordia Univ
+1006	0	John Molson Sch Business
+1006	0	Dept Management
+1006	0	Montreal
+1007	0	Univ Coll Dublin
+1007	0	Michael Smurfit Grad Sch Business
+1007	0	Dept Business Adm
+1007	1	London Business Sch
+1007	1	Ctr Operat Managment
+1008	0	Michigan State Univ
+1008	0	Eli Broad Grad Sch Business
+1008	0	Dept Management
+1008	1	Univ Michigan
+1008	1	Sch Publ Hlth
+1008	1	Dept Hlth Policy & Management
+1009	0	Univ Calif Los Angeles
+1009	0	Anderson Sch
+1009	1	Univ Penn
+1009	1	Wharton Sch
+1010	0	Rochester Inst Technol
+1010	1	Univ Pittsburgh
+1010	2	MIT
+1010	2	Ctr Int Studies
+1010	3	JSI Res & Training Inst
+1011	0	NYU
+1011	0	Stern Sch Business
+1012	0	Univ Western Ontario
+1012	0	Richard Ivey Sch Business
+1012	0	London
+1013	0	Univ Miami
+1013	0	Dept Management
+1014	0	Pacific Lutheran Univ
+1015	0	Univ Calif Los Angeles
+1015	0	Anderson Sch
+1015	1	Univ Maryland
+1015	1	Smith Sch Bus
+1016	0	Univ Calif Santa Barbara
+1016	0	Donald Bren Sch Environm Sci & Management
+1017	0	Univ Calif Los Angeles
+1017	0	Anderson Sch
+1017	1	Univ Penn
+1017	1	Wharton Sch
+1018	0	Univ N Carolina
+1018	0	Kenan Flagler Business Sch
+1019	0	Univ Rochester
+1019	0	Simon Sch Business
+1020	0	Duquesne Univ
+1020	1	INSEAD
+1021	0	Erasmus Univ
+1021	0	Rotterdam Sch Management
+1021	0	Fac Bedrijfskunde
+1021	1	Katholieke Univ Leuven
+1021	1	Ctr Ind Management
+1021	2	INSEAD
+1022	0	Sheffield Hallam Univ
+1022	0	Management Sch
+1022	0	Sheffield S1 4DT
+1022	1	Univ Bath
+1022	1	Sch Management
+1022	1	Bath BA2 7AY
+1023	0	Univ Penn
+1023	0	Wharton Sch
+1023	0	Dept Operat & Informat Management
+1024	0	Univ Antwerp
+1024	0	UFSIA
+1024	0	Fac Appl Econ
+1024	1	OM Partners NV
+1025	0	Michigan State Univ
+1025	0	Eli Broad Grad Sch Management
+1025	0	Dept Mkt & Supply Chain Management
+1025	1	1208 Univ Oregon
+1025	1	Charles H Lundquist Coll Business
+1025	1	Dept Decis Sci
+1025	2	Arizona State Univ
+1025	2	Dept Business Adm
+1025	2	Purchasing & Logist Management Program
+1026	0	St Cloud State Univ
+1026	0	Dept Management
+1026	1	Univ Minnesota
+1026	1	Carlson Sch Management
+1026	1	Dept Operat & Management Sci
+1027	0	Univ Windsor
+1027	0	Fac Business Adm
+1027	0	Windsor
+1028	0	Chinese Univ Hong Kong
+1028	0	Dept Decis Sci & Managerial Econ
+1028	0	Shatin
+1028	1	Tsing Hua Univ
+1028	1	Dept Math Sci
+1029	0	Univ Estadual Campinas
+1029	0	UNICAMP
+1029	0	Fac Engn Eletr & Comp
+1029	0	BR-13081970 Campinas
+1029	1	Univ Sao Francisco
+1029	1	Ctr Ciencias Exatas & Tecnol
+1029	1	BR-13251900 Itatiba
+1030	0	Indiana Univ
+1030	0	Kelley Sch Business
+1031	0	Univ Baltimore
+1031	0	Merrick Sch Business
+1032	0	Indiana Univ
+1032	0	Kelley Sch Business
+1033	0	Dartmouth Coll
+1033	0	Amos Tuck Sch Business Adm
+1033	0	Ctr Digital Strategies
+1033	1	Stanford Univ
+1033	1	Grad Sch Business
+1033	1	Global Supply Chain Management Forum
+1034	0	Dartmouth Coll
+1034	0	Amos Tuck Sch Business Adm
+1034	0	Ctr Digital Strategies
+1034	1	Stanford Univ
+1034	1	Grad Sch Business
+1034	1	Global Supply Chain Management Forum
+1035	0	Univ Maryland
+1035	0	Robert H Smith Sch Business
+1035	1	Univ Maryland
+1035	1	Syst Res Inst
+1036	0	Univ N Carolina
+1036	0	Kenan Flagler Business Sch
+1036	1	Univ Maryland
+1036	1	Robert H Smith Sch Business
+1037	0	Stanford Univ
+1037	0	Terman Engn Ctr
+1038	0	Michigan State Univ
+1038	0	Dept Marketing & Supply Chain Management
+1038	0	Eli Broad Grad Sch Management
+1038	1	Depaul Univ
+1038	1	Dept Management
+1038	1	Kellstadt Grad Sch Commerce
+1039	0	Univ Cologne
+1039	0	Seiminar Prod Wirtschaft
+1040	0	Natl Tech Univ Athens
+1041	0	Hong Kong Univ Sci & Technol
+1041	0	Dept Informat & Syst Management
+1042	0	Tulane Univ
+1042	0	AB Freeman Sch Business
+1042	1	Univ So Calif
+1042	1	Marshall Sch Business
+1043	0	Univ Rochester
+1043	0	William E Simon Grad Sch Business Adm
+1043	1	Univ Calif Berkeley
+1043	1	Dept Ind Engn & Operat Res
+1044	0	Univ Texas
+1044	0	McCombs Sch Business
+1044	1	Tulane Univ
+1044	1	AB Freeman Sch Business
+1045	0	Wright State Univ
+1045	0	Dept Management Sci & Informat Syst
+1045	1	Univ Cincinnati
+1045	1	Dept Quantitat Anal & Operat Management
+1046	0	Harvard Univ
+1046	0	Grad Sch Business
+1046	1	Korea Adv Inst Sci & Technol
+1046	1	Grad Sch Management
+1047	0	Purdue Univ
+1047	0	Krannert Grad Sch Management
+1048	0	SUNY Binghamton
+1048	0	Sch Management
+1048	1	Arizona State Univ W
+1048	1	Sch Management
+1048	2	Case Western Reserve Univ
+1048	2	Weatherhead Sch Management
+1049	0	Univ Nebraska
+1049	0	Coll Business & Technol
+1049	0	Management & Mkt Dept
+1050	0	Babson Coll
+1050	1	Univ Virginia
+1050	1	Darden Sch
+1051	0	Rider Univ
+1051	0	Coll Business Adm
+1051	0	Dept Management Sci
+1051	1	Purdue Univ
+1051	1	Krannert Grad Sch Management
+1052	0	Natl Univ Singapore
+1052	0	Fac Business Adm
+1052	0	Dept Decis Sci
+1053	0	Santa Clara Univ
+1053	0	Leavey Sch Business
+1053	0	Dept Operat & Management Informat Syst
+1054	0	Aristotle Univ Thessaloniki
+1054	0	Dept Mech Engn
+1055	0	Univ Pittsburgh
+1055	0	Katz Grad Sch Business
+1055	1	SUNY Binghamton
+1055	1	Sch Management
+1056	0	Nagoya Inst Technol
+1056	0	Dept Syst Engn
+1056	0	Showa Ku
+1056	0	Nagoya
+1056	1	N Carolina State Univ
+1056	1	Dept Ind Engn
+1057	0	Univ Maryland
+1057	0	Robert H Smith Sch Business
+1057	1	Colorado State Univ
+1057	1	Coll Business
+1057	2	Duquesne Univ
+1057	2	AJ Palumbo Sch Business Adm
+1058	0	Mem Univ Newfoundland
+1058	0	Fac Business Adm
+1058	0	St John
+1058	1	NYU
+1058	1	Stern Sch Business
+1058	2	Syracuse Univ
+1058	2	Sch Management
+1059	0	Utah State Univ
+1059	0	Coll Business
+1059	0	Dept Business Adm
+1059	1	Kennesaw State Univ
+1059	1	Michael J Coles Coll Business
+1059	1	Dept Management & Entrepreneurship
+1060	0	Union Coll
+1060	0	Grad Management Inst
+1061	0	Harvard Univ
+1061	0	Sch Business
+1062	0	Michigan State Univ
+1062	0	Eli Broad Grad Sch Management
+1062	0	Dept Mkt & Supply Chain Management
+1062	1	Univ Cincinnati
+1062	1	Coll Business Adm
+1062	1	Dept Management
+1063	0	Harvard Univ
+1063	0	Sch Business
+1064	0	Harvard Univ
+1064	0	Sch Business
+1065	0	Boston Coll
+1065	0	Wallace E Carroll Sch Management
+1065	0	Operat & Strateg Management Dept
+1065	1	Univ Minnesota
+1065	1	Carlson Sch Management
+1065	1	Operat & Management Sci Dept
+1066	0	Tulane Univ
+1066	0	AB Freeman Sch Business
+1066	1	Univ Texas
+1066	1	McCombs Sch Business
+1067	0	Univ Calif Los Angeles
+1067	0	Anderson Sch
+1068	0	Georgia Inst Technol
+1068	1	INSEAD
+1069	0	Arthur D Little Benelux
+1069	1	Eindhoven Univ Technol
+1069	1	Dept Technol Management
+1069	2	Eindhoven Univ Technol
+1069	2	Dept Math & Comp Sci
+1070	0	Cornell Univ
+1070	0	SC Johnson Grad Sch Management
+1071	0	Univ Alabama
+1071	0	Sch Business
+1071	0	Dept Management Mkt & Ind Distribut
+1071	1	Univ Cincinnati
+1071	1	Coll Business
+1071	1	Dept Quantitat Anal & Operat Management
+1072	0	Washington State Univ
+1072	0	CIC 125N
+1072	1	Ohio State Univ
+1072	1	Fisher Coll Business
+1073	0	Hofstra Univ
+1073	0	Frank G Zarb Sch Business
+1073	0	Dept Management
+1073	1	CUNY Bernard M Baruch Coll
+1073	1	Zicklin Sch Business
+1073	1	Dept Management B9240
+1074	0	Univ Calif Los Angeles
+1074	0	Anderson Grad Sch Management
+1074	1	Univ Penn
+1074	1	Wharton Sch
+1075	0	Univ Chile
+1075	0	Dept Ingn Ind
+1075	1	Consorcio Nacl Seguros Vida
+1075	2	Empresa Nucl Electricidad SA
+1075	3	Bosques Arauco SA
+1075	3	Unidad Plantificac Prod
+1076	0	Case Western Reserve Univ
+1076	0	Weatherhead Sch Management
+1076	1	Univ Minnesota
+1076	1	Carlson Sch Management
+1077	0	Colorado State Univ
+1077	0	Coll Business
+1077	1	Univ Maryland
+1077	1	Robert H Smith Sch Business
+1077	2	Penn State Univ
+1077	2	Smeal Coll Business Adm
+1078	0	Univ Western Ontario
+1078	0	Richard Ivey Sch Business
+1078	0	London
+1078	1	Clarkson Univ
+1078	1	Sch Business
+1078	2	Clarkson Univ
+1078	2	Ctr Environm
+1079	0	Wilfrid Laurier Univ
+1079	0	Sch Business & Econ
+1079	0	Waterloo
+1079	1	Queens Univ
+1079	1	Sch Business
+1079	1	Kingston
+1080	0	Michigan State Univ
+1080	0	Eli Broad Grad Sch Management
+1080	0	Dept Mkt & Supply Chain Management
+1080	1	Boston Coll
+1080	1	Walalce E Carroll Sch Management
+1080	1	Operat & Strateg Management Dept
+1081	0	Univ Cyprus
+1081	0	Dept Publ & Business Adm
+1082	0	Univ Pittsburgh
+1082	0	Katz Grad Sch Business
+1082	1	Univ Pittsburgh
+1082	1	Learning Res Dev Ctr
+1082	2	Rochester Inst Technol
+1082	2	Coll Business
+1083	0	Boston Coll
+1083	0	Wallace E Carroll Sch Management
+1083	0	Operat & Strateg Management Dept
+1084	0	Univ N Carolina
+1084	0	Kenan Flagler Business Sch
+1084	1	Univ Western Ontario
+1084	1	Richard Ivey Sch Business
+1084	1	London
+1085	0	Univ N Carolina
+1085	0	Kenan Flagler Business Sch
+1085	1	Univ Western Ontario
+1085	1	Richard Ivey Sch Business
+1085	1	London
+1086	0	Univ Oregon
+1086	0	Charles H Lundquist Coll Buiness
+1086	0	Dept Decis Sci
+1086	1	Univ Utah
+1086	1	David Eccles Sch Business
+1086	1	Dept Management
+1086	2	Cornell Univ
+1086	2	Sch Hotel Adm
+1087	0	Washington Univ
+1087	0	Olin Sch Business
+1088	0	Eindhoven Univ Technol
+1088	1	Tilburg Univ
+1088	1	Business Adm
+1089	0	Athens Lab Business Adm
+1089	1	Business & Project Management SA
+1090	0	Michigan State Univ
+1090	0	Dept Marketing & Supply Chain Management
+1090	0	Eli Broad Grad Sch Management
+1091	0	Univ Chile
+1091	0	Yale Sch Management
+1091	0	Dept Ind Engn
+1091	1	Stanford Univ
+1091	1	Management Sci & Engn Dept
+1091	1	Terman Engn Ctr
+1092	0	Univ Penn
+1092	0	Wharton Sch
+1092	0	Dept Operat & Informat Management
+1092	1	Univ Minnesota
+1092	1	Carlson Sch
+1092	1	Dept Operat & Management Sci
+1093	0	Univ Navarra
+1093	0	Fac Econ & Business Adm
+1093	1	Univ Calif Los Angeles
+1093	1	Anderson Sch
+1094	0	Chinese Univ Hong Kong
+1094	0	Dept Syst Engn & Engn Management
+1094	0	Shatin
+1094	1	Chinese Acad Sci
+1094	1	Inst Appl Math
+1094	1	Acad Math & Syst Sci
+1094	2	United Technol Res Ctr
+1095	0	Columbia Business Sch
+1095	1	Univ Coimbra
+1095	1	Dept Matemat
+1096	0	Yeshiva Univ
+1096	0	Sy Syms Sch Business
+1096	1	NYU
+1096	1	Stern Sch Business
+1096	1	Operat Management Dept
+1096	2	IBM India
+1096	2	Res Lab
+1097	0	Univ Virginia
+1097	0	Darden Grad Sch Business
+1098	0	McGill Univ
+1098	0	Fac Management
+1098	0	Montreal
+1098	1	Dept Human Resource
+1098	1	Hull
+1099	0	Natl Taiwan Univ Sci & Technol
+1099	0	Dept Ind Management
+1100	0	Georgia Inst Technol
+1100	0	DuPree Coll Management
+1101	0	Boston Coll
+1101	0	Wallace E Carroll Sch Management
+1101	0	Operat Informat & Strateg Management Dept
+1101	1	Univ Minnesota
+1101	1	Carlson Sch Management
+1101	1	Operat & Management Sci Dept
+1102	0	Auburn Univ
+1102	0	Dept Management
+1102	1	Univ S Carolina
+1102	1	Moore Sch Business
+1102	2	Clemson Univ
+1102	2	Dept Management
+1103	0	Bowling Green State Univ
+1103	0	Coll Business Adm
+1103	0	Dept Management
+1103	1	Indiana Univ
+1103	1	Kelley Sch Business
+1103	1	Dept Operat & Decis Technol
+1104	0	Virginia Polytech Inst & State Univ
+1104	0	RB Pamplin Coll Business
+1104	0	Dept Business Informat Technol
+1104	1	Penn State Univ
+1104	1	Smeal Coll Business
+1104	1	Ctr Supply Chain Res
+1104	1	Dept Supply Chain & Informat Syst
+1105	0	Emory Univ
+1105	0	Goizueta Business Sch
+1105	1	Univ N Carolina
+1105	1	Kenan Flager Business Sch
+1106	0	Ohio State Univ
+1106	0	Dept Management Sci
+1106	0	Fisher Coll Business
+1107	0	So Methodist Univ
+1107	0	Edwin L Cox Sch Business
+1108	0	Univ Calif Santa Barbara
+1109	0	Michigan State Univ
+1109	0	Broad Coll Business
+1109	1	Emory Univ
+1109	1	Goizueta Business Sch
+1110	0	Brigham Young Univ
+1110	0	Dept Business Management
+1111	0	London Business Sch
+1111	1	Boston Univ
+1111	1	Sch Management
+1112	0	Univ Alabama
+1112	0	Sch Business
+1112	0	Grad Sch Management
+1113	0	Univ Georgia
+1113	0	Terry Coll Business
+1113	1	Georgia Inst Technol
+1113	1	DuPree Coll Management
+1114	0	Indiana Univ
+1114	0	Kelley Sch Business
+1115	0	Univ Calif Los Angeles
+1115	0	Anderson Grad Sch Management
+1115	1	Univ Maryland
+1115	1	Robert H Smith Sch Business
+1116	0	Iowa State Univ
+1116	0	Coll Business
+1116	1	Univ Wisconsin
+1116	1	Sch Business
+1116	1	Erdman Ctr Operat & Technol Management
+1117	0	Vanderbilt Univ
+1117	0	Owen Grad Sch Management
+1118	0	Univ Texas
+1118	0	Dept Informat Syst & Operat Management
+1119	0	Univ Massachusetts
+1120	0	Indian Inst Management Bangalore
+1120	0	Bangalore 560076
+1121	0	Tulane Univ
+1121	0	AB Freeman Sch Business
+1121	1	Clemson Univ
+1121	1	Dept Management
+1122	0	Univ N Texas
+1122	0	BCIS Dept
+1122	1	Univ Cincinnati
+1122	1	QAOM Dept
+1123	0	Eindhoven Univ Technol
+1123	1	Tilburg Univ
+1124	0	Univ Texas
+1124	0	McCombs Sch Business
+1124	0	Dept Management Sci & Informat Syst
+1124	1	Univ Florida
+1124	1	Dept Ind & Syst Engn
+1125	0	McGill Univ
+1125	0	Montreal
+1125	1	Columbia Univ
+1125	1	Dept Ind Engn & Operat Res
+1126	0	Tel Aviv Univ
+1126	0	Dept Ind Engn
+1126	1	Case Western Reserve Univ
+1126	1	Weatherhead Sch Management
+1126	1	Dept Operat
+1127	0	Univ Maryland
+1127	0	Robert H Smith Sch Business
+1128	0	Harvard Univ
+1128	0	Sch Business
+1129	0	Univ Notre Dame
+1129	0	Mendoza Coll Business
+1129	0	Dept Management & Adm Sci
+1129	1	Ohio State Univ
+1129	1	Fisher Coll Business
+1129	1	Dept Management Sci
+1130	0	SAP Germany AG & Co KG
+1130	1	NYU
+1130	1	Stern Sch Business
+1131	0	Santa Clara Univ
+1131	0	LeaveySch Business
+1132	0	Univ Wisconsin
+1132	0	Dept Ind Engn
+1133	0	NYU
+1133	0	Leonard N Stern Sch Business
+1133	0	Dept Informat Operat & Management Sci
+1133	1	Univ Penn
+1133	1	Wharton Sch
+1134	0	Calif State Univ Hayward
+1134	0	Coll Business & Econ
+1134	1	Carnegie Mellon Univ
+1134	1	Tepper Sch Business
+1134	2	Natl Univ Singapore
+1134	2	NUS Business Sch
+1134	3	Univ Pittsburgh
+1134	3	Katz Grad Sch Business
+1135	0	Univ Cincinnati
+1135	0	Coll Business
+1135	1	Univ N Carolina
+1135	1	Kenan Flaglar Sch Business
+1135	2	Tulane Univ
+1135	2	AB Freeman Sch Business
+1136	0	Katholieke Univ Leuven
+1136	0	Dept Appl Econ
+1137	0	Univ Calif San Diego
+1137	0	Rady Sch Management
+1137	1	INSEAD
+1138	0	Michigan State Univ
+1138	0	Eli Broad Grad Sch Management
+1138	1	Emory Univ
+1138	1	Goizueta Business Sch
+1139	0	Washington Univ
+1139	0	John M Olin Sch Business
+1139	1	So Methodist Univ
+1139	1	Edwin L Cox Sch Business
+1140	0	Univ Minnesota
+1140	0	Carlson Sch Management
+1140	0	Joseph M Juran Ctr Leadership Qual
+1141	0	Univ Penn
+1141	0	Wharton Sch
+1141	1	Univ Baltimore
+1141	1	Merrick Sch Business
+1141	2	INSEAD
+1141	2	Technol & Operat Management Area
+1142	0	Carnegie Mellon Univ
+1142	0	Tepper Sch Business
+1142	1	TIDE Program
+1142	2	Ctr eBusiness Innovat
+1142	3	Univ Baltimore
+1142	3	Merrick Sch Business
+1143	0	Michigan State Univ
+1143	0	Eli Broad Grad Sch Management
+1143	0	Dept Mkt & Supply Chain Management
+1143	1	Boston Coll
+1143	1	Wallace E Carroll Sch Management
+1143	1	Operat & Strat Management Dept
+1143	2	Iowa State Univ
+1143	2	Coll Business
+1143	2	Dept Logist Operat & Management Informat Syst
+1144	0	Univ Calif San Diego
+1144	0	Rady Sch Management
+1144	1	INSEAD
+1145	0	Georgetown Univ
+1145	0	McDonough Sch Business
+1145	1	Univ Maryland
+1145	1	RH Smith Sch Business
+1146	0	Univ Cent Florida
+1146	0	Dept Ind Engn & Management Syst
+1146	1	Univ Cent Florida
+1146	1	Univ Anal & Planning Support
+1146	2	Brit Univ Dubai
+1146	2	Inst Engn
+1146	3	Deloitte & Touche Consulting Grp
+1147	0	Georgetown Univ
+1147	0	McDonough Sch Business
+1147	1	INSEAD
+1148	0	Univ Penn
+1148	0	Wharton Sch
+1148	1	Monitor Co
+1149	0	INSEAD
+1149	1	Univ Penn Wharton Sch
+1150	0	Univ Texas
+1150	0	McCombs Sch
+1150	0	Dept Informat Risk & Operat Managment
+1150	1	Boston Univ
+1150	1	Sch Management
+1151	0	Univ Virginia
+1151	0	Dept Econ
+1151	1	Univ Virginia
+1151	1	Darden Grad Sch Business
+1152	0	Univ Calif Berkeley
+1152	0	Haas Sch Business
+1152	1	Univ Minnesota
+1152	1	Carlson Sch Management
+1153	0	Univ Florida
+1153	0	Warrington Coll Business
+1154	0	Univ Minnesota
+1154	0	Curtis L Carlson Sch Management
+1155	0	Georgia Inst Technol
+1155	0	Coll Management
+1155	1	Westminster Coll
+1155	1	Gore Sch Business
+1156	0	Univ Oklahoma
+1156	0	Coll Engn
+1156	0	Sch Ind Engn
+1156	1	Lehigh Univ
+1156	1	Dept Ind & Syst Engn
+1156	1	PC Rossin Coll Engn
+1157	0	Hong Kong Polytech Univ
+1157	0	Dept Logist
+1157	0	Kowloon
+1158	0	Univ Calif San Diego
+1158	0	Informat Storage Ind Ctr
+1159	0	Kettering Univ
+1159	0	Dept Ind & Mfg Engn & Business
+1159	1	SUNY Binghamton
+1159	1	Sch Management
+1160	0	Univ Miami
+1160	0	Coll Engn
+1160	0	Dept Ind Engn
+1160	1	Lehigh Univ
+1160	1	PC Rossin Coll Engn
+1160	1	Dept Ind & Syst Engn
+1161	0	Georgia Inst Technol
+1161	0	Sch Ind & Syst Engn
+1162	0	NYU
+1162	0	Leonard N Stern Sch Business
+1163	0	Univ San Diego
+1163	0	Sch Business Adm
+1163	1	Auburn Univ
+1164	0	Univ Rochester
+1164	0	William E Simon Grad Sch Business Adm
+1165	0	Univ Western Ontario
+1165	0	Richard Ivey Sch Business
+1165	0	London
+1165	1	Georgia Inst Technol
+1165	1	Coll Management
+1166	0	Univ Penn
+1166	0	Wharton Sch
+1166	1	Widener Univ
+1166	1	Sch Business Adm
+1167	0	City Univ London
+1167	0	Cass Business Sch
+1168	0	Univ Texas
+1168	0	Dept Informat Syst & Operat Management
+1168	1	Univ Texas
+1168	1	Dept Informat Syst & Operat Management
+1168	2	Chinese Univ Hong Kong
+1168	2	Dept Syst Engn & Engn Management
+1168	2	Shatin
+1169	0	Univ Navarra
+1169	0	IESE Business Sch
+1169	1	MIT
+1169	1	Ctr Operat Res
+1170	0	Penn State Univ
+1170	0	Smeal Coll Business
+1170	0	Dept Supply Chain & Informat Syst
+1170	1	INSEAD
+1171	0	INSEAD
+1171	1	Texas A&M Univ
+1172	0	Linkoping Inst Technol
+1172	0	Dept Prod Econ
+1172	1	Univ Lancaster
+1172	1	Sch Management
+1172	1	Dept Management Sci
+1173	0	Carnegie Mellon Univ
+1173	0	Tepper Sch Business
+1173	1	Georgia Inst Technol
+1173	1	Coll Management
+1173	2	INSEAD
+1173	2	Technol & Operat Management
+1174	0	Aristotle Univ Thessaloniki
+1174	0	Dept Mech Engn
+1175	0	Bogazici Univ
+1175	0	Dept Ind Engn
+1175	1	McGill Univ
+1175	1	Desaultels Fac Management
+1175	1	Montreal
+1176	0	Univ Texas
+1176	0	Sch Management
+1176	1	Prairie View A&M Univ
+1176	1	Coll Business
+1177	0	Penn State Univ
+1177	0	Dept Supply Chain & Informat Syst
+1177	0	Smeal Coll Business
+1177	1	INSEAD
+1178	0	Georgia Inst Technol
+1178	0	Coll Management
+1179	0	Nanyang Technol Univ
+1179	0	Ctr Supply Chain Management
+1179	1	Iowa State Univ
+1179	1	Dept Ind & Mfg Syst Engn
+1180	0	Univ S Carolina
+1180	0	Moore Sch Business
+1180	1	Vanderbilt Univ
+1180	1	Owen Grad Sch Management
+1182	0	Univ Florida
+1182	0	Dept Ind & Syst Engn
+1182	1	Univ Florida
+1182	1	SCALE Ctr
+1182	1	Dept Ind & Syst Engn
+1183	0	INSEAD
+1183	1	Penn State Univ
+1183	1	Dept Supply Chain & Informat Syst
+1183	1	Smeal Coll Business
+1183	2	INSEAD
+1184	0	Florida Int Univ
+1184	0	Dept Informat & Decis Sci
+1184	0	Coll Business Adm
+1184	1	Cornell Univ
+1184	1	Sch Hotel Adm
+1184	2	Univ Utah
+1184	2	David Eccles Sch Business
+1185	0	Washington Univ
+1185	0	John M Olin Sch Business
+1185	1	So Methodist Univ
+1185	1	Edwin L Cox Sch Business
+1186	0	Florida Int Univ
+1186	0	Coll Business Adm
+1186	1	Rollins Coll
+1186	1	Crummer Grad Sch Business
+1186	2	Columbia Univ
+1186	2	Grad Sch Business
+1187	0	McGill Univ
+1187	0	Desautels Fac Management
+1187	0	Montreal
+1188	0	GM Corp
+1188	0	R&D Ctr
+1188	0	Mfg Syst Res Lab
+1188	1	Univ Salamanca
+1188	2	Univ Massachusetts
+1188	3	4Rsystems Inc
+1189	0	Helsinki Univ Technol
+1189	0	BIT Res Ctr
+1189	1	HEC Sch Management
+1190	0	Michigan State Univ
+1190	0	Dept Mkt & Supply Chain Management
+1190	1	Boston Univ
+1190	1	Sch Management
+1191	0	Univ Texas
+1191	0	Sch Management
+1191	1	Prairie View A&M Univ
+1191	1	Coll Business
+1191	2	Ohio State Univ
+1191	2	Fisher Coll Business
+1192	0	Univ Texas
+1192	0	McCombs Sch Business
+1192	0	IROM Dept
+1192	1	PiaDux Consulting
+1193	0	Russian Acad Sci
+1193	0	Cent Econ & Math Inst
+1193	1	Univ Texas
+1193	1	Sch Management
+1194	0	Lund Univ
+1194	0	Dept Ind Management & Logist
+1195	0	Prairie View A&M Univ
+1195	0	Coll Business
+1195	1	Univ Texas
+1195	1	Sch Management
+1196	0	Brigham Young Univ
+1196	1	Univ Cincinnati
+1197	0	Georgetown Univ
+1197	0	McDonough Sch Business
+1198	0	Univ Manchester
+1198	0	Manchester Business Sch E
+1198	0	Decis Sci & Operat Management Grp
+1198	0	Manchester M15 6PB
+1198	1	Univ Exeter
+1198	1	Sch Business & Econ
+1198	1	Exeter EX4 4PU
+1198	2	Univ Brighton
+1198	2	Ctr Res Innovat Management
+1198	2	Brighton BN1 9QE
+1198	3	Univ London Imperial Coll Sci Technol & Med
+1198	3	Tanaka Business Sch
+1199	0	Duke Univ
+1199	0	Fuqua Sch Business
+1199	1	Univ So Calif
+1199	1	Marshall Sch Business
+1200	0	Indiana Univ
+1200	0	Kelley Sch Business
+1200	1	Univ N Carolina
+1200	1	Kenan Flagler Business Sch
+1201	0	Georgia Inst Technol
+1201	0	Coll Management
+1201	1	Colorado State Univ
+1201	1	Coll Business
+1202	0	Marquette Univ
+1203	0	Columbia Univ
+1203	0	Dept Ind Engn & Operat Res
+1204	0	So Methodist Univ
+1204	0	Edwin L Cox Sch Business
+1204	1	Washington Univ
+1204	1	Sch Business
+1205	0	Univ St Thomas
+1205	0	Coll Business
+1205	1	Univ Minnesota
+1205	1	Curtis L Carlson Sch Management
+1206	0	Univ Iowa
+1206	0	Coll Business Adm
+1206	0	Dept Management Sci
+1206	1	George Mason Univ
+1206	1	Sch Management
+1207	0	John Carroll Univ
+1207	0	Dept Management Mkt & Logist
+1207	1	Carroll Coll
+1208	0	Hong Kong Polytech Univ
+1208	0	Dept Logist
+1208	0	Kowloon
+1209	0	Royal Mil Coll Canada
+1209	0	Dept Business Adm
+1209	0	Stn Forces
+1209	0	Kingston
+1210	0	Univ Calif Berkeley
+1210	0	Dept Ind Engn & Operat Res
+1210	1	Columbia Univ
+1210	1	Dept Ind Engn & Operat Res
+1211	0	Koc Univ
+1211	0	Coll Adm Sci & Econ
+1211	1	NYU
+1211	1	Leonard N Stern Sch Business
+1211	2	San Francisco State Univ
+1211	2	Coll Business
+1211	2	Dept Decis Sci
+1212	0	Univ Minnesota
+1212	0	Dept Mech Engn
+1212	0	Grad Program Ind & Syst Engn
+1213	0	IBM TJ Watson Res Ctr
+1214	0	Univ Calif Berkeley
+1214	0	Dept Ind Engn & Operat Res
+1214	1	Univ Calif Berkeley
+1214	1	Haas Sch Business
+1215	0	Univ Notre Dame
+1215	0	Mendoza Coll Business
+1215	1	Georgia Inst Technol
+1215	1	Coll Management
+1215	2	Revenue Analyt Inc
+1215	3	Capital One
+1216	0	Univ Texas Dallas
+1216	0	Sch Management
+1216	1	Univ Maryland
+1216	1	Robert H Smith Sch Business
+1216	2	Calif State Univ Fresno
+1216	2	Craig Sch Business
+1217	0	Georgia Inst Technol
+1217	0	Coll Management
+1217	1	Simon Fraser Univ
+1217	1	Fac Business Adm
+1217	1	Burnaby
+1217	2	Univ Michigan
+1217	2	Stephen M Ross Sch Business
+1218	0	Florida State Univ
+1218	0	Dept Mkt
+1218	1	Furman Univ
+1218	1	Dept Business & Accounting
+1218	2	Univ S Carolina
+1218	2	Moore Sch Business
+1218	2	Dept Management Sci
+1219	0	George Mason Univ
+1219	0	Sch Management
+1219	1	Stanford Univ
+1219	1	Grad Sch Business
+1220	0	Univ Penn
+1220	0	Wharton Sch
+1220	0	Operat & Informat Management Dept
+1221	0	Indiana Univ
+1221	0	Kelley Sch Business
+1222	0	Hong Kong Polytech Univ
+1222	0	Dept Management & Mkt
+1222	0	Kowloon
+1222	1	Hong Kong Polytech Univ
+1222	1	Dept Logist
+1222	1	Kowloon
+1223	0	Arizona State Univ
+1223	0	WP Carey Sch Business
+1224	0	Univ Memphis
+1224	0	Fogelman Coll Business & Econ
+1224	0	Dept Mkt & Supply Chain Management
+1224	1	Mississippi State Univ
+1224	1	Coll Business & Ind
+1224	1	Dept Management & Informat Syst
+1224	2	Univ Memphis
+1224	2	Fogelman Coll Business & Econ
+1224	2	Dept Management Informat Syst
+1224	3	Cook Syst Int
+1225	0	Univ Richmond
+1225	0	Robins Sch Business
+1225	0	Dept Management
+1225	1	Univ Maryland
+1225	1	RH Smith Sch Business
+1225	2	Univ Michigan
+1225	2	Ross Sch Business
+1226	0	Oklahoma State Univ
+1226	0	William S Spears Sch Business
+1226	1	Univ Arkansas
+1226	1	Sam M Walton Coll Business
+1226	1	RFID Res Ctr
+1226	2	Oklahoma State Univ
+1226	2	William S Spears Sch Business
+1226	2	Inst Res Informat Syst
+1227	0	Stanford Univ
+1227	0	Dept Management Sci & Engn
+1227	1	Stanford Univ
+1227	1	Stanford Grad Sch Business
+1228	0	George Mason Univ
+1228	0	Sch Management
+1228	1	Stanford Univ
+1228	1	Grad Sch Business
+1229	0	Tech Univ Munich
+1229	0	Dept Informat
+1229	1	Univ Cambridge
+1229	1	Judge Business Sch
+1230	0	Penn State Univ
+1230	0	State Coll Penn
+1230	0	Smeal Sch Business
+1230	0	Supply Chain & Informat Syst Dept
+1230	1	Univ Texas
+1230	1	Ctr Res Elect Comm
+1231	0	Univ Maryland
+1231	0	Robert H Smith Sch Business
+1232	0	MIT E40 365
+1233	0	Maastricht Univ
+1234	0	Univ Maryland
+1234	0	R H Smith Sch Business
+1234	1	Univ S Florida
+1234	1	Coll Business Adm
+1235	0	Univ So Calif
+1235	0	Marshall Sch Business
+1236	0	Penn State Univ
+1236	0	Smeal Coll Business
+1237	0	Univ Michigan
+1238	0	Univ Florida
+1238	0	Dept Informat & Decis Sci
+1238	1	Univ Calif Berkeley
+1238	1	Dept Ind Engn & Operat Res
+1238	2	Univ Florida
+1238	2	Dept Ind & Syst Engn
+1239	0	Archstone Consulting
+1239	1	Columbia Univ
+1239	1	IEOR Dept
+1240	0	Chinese Univ Hong Kong
+1240	0	Dept SEEM
+1240	0	Shatin
+1241	0	Georgia Inst Technol
+1241	0	Coll Management
+1241	1	Columbia Univ
+1241	1	Grad Business
+1242	0	Univ Texas
+1242	0	Sch Management
+1242	1	Chinese Univ Hong Kong
+1242	1	Dept Syst Engn & Engn Management
+1242	1	Hong Kong
+1242	2	Acad Sinica
+1242	2	Inst Appl Math
+1242	2	Acad Math & Syst Sci
+1242	3	Univ N Carolina
+1242	3	Belk Coll Business
+1243	0	Penn State Univ
+1243	0	Smeal Coll Business
+1243	1	N Carolina State Univ
+1243	1	Coll Management
+1244	0	Univ Texas
+1244	0	Int Ctr Decis & Risk Anal
+1244	0	Sch Management
+1244	1	Univ Texas
+1244	1	Sch Management
+1244	2	Univ Texas
+1244	2	Sch Management
+1244	3	Univ Texas
+1244	3	Sch Management
+1244	3	Ctr Intelligent Supply Networks
+1245	0	City Univ Hong Kong
+1245	0	Fac Business
+1245	0	Dept Management Sci
+1245	0	Hong Kong
+1246	0	Univ Alabama
+1246	0	Coll Adm Sci
+1246	1	Univ Texas
+1246	1	Sch Management
+1246	2	Univ Texas
+1246	2	Sch Management
+1247	0	Univ Penn
+1247	0	Wharton Sch
+1248	0	Univ Cincinnati
+1248	0	Coll Business
+1248	1	Clemson Univ
+1248	1	Coll Business & Behav Sci
+1249	0	USN
+1249	0	Postgrad Sch
+1249	0	Grad Sch Business & Publ Policy
+1249	1	USN
+1249	1	Postgrad Sch
+1249	1	Grad Sch Business & Publ Policy
+1249	2	Verizon Business
+1249	2	Network Planning & Engn Syst
+1250	0	Univ Utah
+1250	0	David Eccles Sch Business
+1251	0	Texas Christian Univ
+1251	0	MJ Neeley Sch Business
+1252	0	Univ Texas
+1252	0	Int Ctr Decis & Risk Anal
+1252	0	Sch Management
+1252	1	Univ Texas
+1252	1	Sch Management
+1252	1	Ctr Intelligent Supply Networks
+1253	0	Emory Univ
+1253	0	Goizueta Business Sch
+1253	1	Univ Utah
+1253	1	David Eccles Sch Business
+1254	0	Florida Int Univ
+1254	0	Coll Business Adm
+1254	0	Dept Decis Sci & Informat Syst
+1254	1	Clemson Univ
+1254	1	Coll Business & Behav Sci
+1255	0	Columbia Univ
+1255	0	Grad Sch Business
+1255	0	IEOR Dept
+1256	0	Stanford Univ
+1256	0	Grad Sch Business
+1257	0	Texas A&M Univ
+1257	1	IMD
+1257	1	Int Inst Management Dev
+1257	2	Stanford Univ
+1258	0	Northwestern Univ
+1258	0	Dept Ind Engn & Management Sci
+1258	1	4R Syst
+1259	0	MIT
+1259	0	Sloan Sch Management
+1259	1	Pontificia Univ Catolica Chile
+1259	1	Sch Engn
+1260	0	Univ Calif Berkeley
+1260	0	Dept Ind Engn & Operat Res
+1260	1	Univ Calif Berkeley
+1260	1	Haas Sch Business
+1260	2	Colorado Sch Mines
+1260	2	Div Econ & Business
+1261	0	Calif State Univ San Marcos
+1261	0	Coll Business Adm
+1261	0	High Tech Management Dept
+1261	1	Univ Texas
+1261	1	McCombs Sch Business
+1261	1	Dept IROM
+1262	0	Univ Calif Los Angeles
+1262	0	Anderson Sch Management
+1263	0	N Carolina State Univ
+1263	0	Coll Management
+1263	1	Iowa State Univ
+1263	1	Coll Business
+1263	2	N Carolina State Univ
+1263	2	Coll Management
+1264	0	Univ Calif Los Angeles
+1264	0	Sch Management
+1272	0	Harvard Univ
+1272	0	Sch Business
+1273	0	Chonnam Natl Univ
+1273	0	Coll Business Adm
+1273	0	nBiz Convergence Team
+1273	1	Univ Western Ontario
+1273	1	Richard Ivey Sch Business
+1273	1	London
+1274	0	Univ Rhode Isl
+1274	0	Coll Business Adm
+1274	1	Univ Florida
+1274	1	Warrington Coll Business Adm
+1274	2	So Methodist Univ
+1274	2	Edwin L Cox Sch Business
+1275	0	Texas A&M Univ
+1275	1	Stanford Univ
+1276	0	Calif State Univ Fullerton
+1276	0	Mihaylo Coll Business & Econ
+1276	1	Indiana Univ
+1276	1	Kelly Sch Business
+1276	2	Cornell Univ
+1276	2	Johnson Grad Sch Management
+1277	0	Koc Univ
+1277	0	Coll Adm Sci & Econ
+1278	0	Sungkyunkwan Univ
+1278	0	GSB
+1278	1	W Chester Univ
+1278	1	Coll Business & Publ Affairs
+1278	2	Univ Wisconsin
+1278	2	Sheldon B Lubar Sch Business
+1279	0	Georgia Inst Technol
+1279	0	Coll Management
+1279	1	Penn State Univ
+1279	1	Smeal Coll Business
+1279	2	INSEAD
+1280	0	Coll William & Mary
+1280	0	Mason Sch Business
+1281	0	Texas A&M Univ
+1281	0	Mays Business Sch
+1281	0	Dept Informat & Operat Management
+1281	1	Georgia Inst Technol
+1281	1	Coll Management
+1282	0	City Univ Hong Kong
+1282	0	Fac Business
+1282	0	Kowloon
+1282	1	Univ Sydney
+1282	1	Fac Econ & Business
+1282	1	Sydney
+1282	2	Univ Calif Riverside
+1282	2	Dept Finance & Management Sci
+1283	0	Wilfrid Laurier Univ
+1283	0	Sch Business & Econ
+1283	0	Waterloo
+1284	0	Stanford Univ
+1284	0	Dept Management Sci & Engn
+1284	1	Georgia Inst Technol
+1284	1	Sch Ind & Syst Engn
+1284	2	Carnegie Mellon Univ
+1284	2	Tepper Sch Business
+1285	0	Texas A&M Univ
+1285	0	Mays Business Sch
+1285	0	Dept Informat & Operat Management
+1285	1	Virginia Polytech Inst & State Univ
+1285	1	Dept Ind & Syst Engn
+1285	2	Univ Texas Dallas
+1285	2	Sch Management
+1285	2	Operat Management Area
+1287	0	Northeastern Univ
+1287	0	Dept Econ
+1288	0	Columbia Univ
+1288	0	Dept Ind Engn & Operat Res
+1288	1	Nomis Solut Inc
+1288	2	Univ Michigan
+1288	2	Stephen Ross Sch Business
+1289	0	McGill Univ
+1289	0	Desautels Fac Management
+1289	0	Montreal
+1289	1	Univ Minnesota
+1289	1	Dept Mech Engn
+1289	1	Grad Program Ind & Syst Engn
+1290	0	CALTECH
+1290	0	Div Humanities & Social Sci
+1291	0	MIT
+1291	0	Alfred P Sloan Sch Management
+1291	1	MIT
+1291	1	Ctr Operat Res
+1292	0	Zilliant Inc
+1292	0	Pricing Sci Grp
+1292	1	Penn State Univ
+1292	1	Harold & Inge Marcus Dept Ind & Mfg Engn
+1293	0	IBM Corp
+1293	0	TJ Watson Res Ctr
+1294	0	USN
+1294	0	Postgrad Sch
+1294	0	Grad Sch Business & Publ Policy
+1294	1	Columbia Univ
+1294	1	Grad Sch Business
+1294	2	NYU
+1294	2	Stern Sch Business
+1295	0	IBM Almaden Res Ctr
+1296	0	London Business Sch
+1296	0	Management Sci & Operat Grp
+1296	1	Clemson Univ
+1296	1	Dept Management
+1296	2	Univ So Calif
+1296	2	Marshall Sch Business
+1297	0	Univ Western Ontario
+1297	0	Richard Ivey Sch Business
+1297	0	London
+1297	1	Clemson Univ
+1297	1	Coll Business & Behav Sci
+1298	0	Univ Connecticut
+1298	0	Sch Business
+1298	1	Fed Reserve Bank St Louis
+1299	0	Univ Amsterdam
+1299	0	Fac Econ & Business
+1300	0	Univ Catholique Louvain
+1300	0	Ctr Operat Res & Econometr
+1300	0	Louvain Sch Management
+1301	0	Arizona State Univ
+1301	0	Dept Supply Chain Management
+1301	0	WP Carey Sch Business
+1301	1	Arizona State Univ
+1301	1	Dept Mkt
+1301	1	WP Carey Sch Business
+1302	0	Ozyegin Univ
+1302	1	CUNY
+1302	1	Baruch Coll
+1302	1	Dept Management B9 240
+1302	1	Zicklin Sch Business
+1303	0	Univ Minnesota
+1303	0	Carlson Sch Management
+1304	0	Boston Coll
+1304	0	Carroll Sch Management
+1305	0	Radboud Univ Nijmegen
+1305	0	Inst Management Res
+1305	1	Univ Mannheim
+1306	0	Univ Minnesota Twin Cities
+1306	0	Operat & Management Sci Dept
+1306	0	Curtis L Carlson Sch Management
+1306	1	Inst Empresa Business Sch
+1306	1	Dept Operat & Technol Management
+1308	0	Univ Calif Berkeley
+1308	0	Dept Ind Engn & Operat Res
+1308	1	NYU
+1308	1	Stern Sch Business
+1309	0	Univ Notre Dame
+1309	0	Mendoza Coll Business
+1309	0	Dept Management
+1309	1	Univ Coll Dublin
+1309	1	Dept Management
+1309	1	Sch Business
+1309	2	Korea Univ
+1309	2	Dept Logist Serv & Operat Management
+1309	2	Sch Business
+1310	0	Univ Michigan
+1310	0	Ross Sch Business
+1310	1	Univ Rochester
+1310	1	Simon Grad Sch Business
+1311	0	Univ Texas Austin
+1311	0	McCombs Sch Business
+1311	1	Univ Texas Dallas
+1311	1	Sch Management
+1312	0	RSM Erasmus Univ
+1313	0	Washington Univ
+1313	0	Olin Business Sch
+1313	1	NE Illinois Univ
+1313	1	Coll Business & Management
+1314	0	Univ British Columbia
+1314	0	Sauder Sch Business
+1314	0	Vancouver
+1314	1	Univ So Calif
+1314	1	Marshall Sch Business
+1315	0	Budapest Univ Technol & Econ
+1315	0	Dept Ind Management & Business Econ
+1315	1	Univ Texas Dallas
+1315	1	Sch Management
+1316	0	Univ Texas Dallas
+1316	0	Sch Management
+1317	0	Georgia Inst Technol
+1317	0	Coll Management
+1318	0	Harvard Univ
+1318	0	Sch Business
+1318	1	Stanford Univ
+1318	1	Grad Sch Business
+1319	0	Univ Texas Dallas
+1319	0	Sch Management
+1319	1	Univ N Carolina
+1319	1	Belk Coll Business
+1320	0	Stonehill Coll
+1320	1	Univ Utah
+1320	1	David Eccles Sch Business
+1321	0	San Francisco State Univ
+1321	0	Coll Business
+1321	1	Univ So Calif
+1321	1	Marshall Sch Business
+1322	0	Hong Kong Polytech Univ
+1322	0	Fac Business
+1322	0	Sch Accounting & Finance
+1322	0	Kowloon
+1323	0	Emory Univ
+1323	0	Goizueta Business Sch
+1323	1	Univ Alabama
+1323	1	Culverhouse Coll Commerce
+1323	1	Dept Management
+1324	0	Univ Connecticut
+1324	0	Sch Business
+1324	0	Dept Operat & Informat Management
+1324	1	US Dept Homeland Secur
+1326	0	London Business Sch
+1326	1	INSEAD
+1327	0	Florida Int Univ
+1327	0	Coll Business Adm
+1327	0	Dept Decis Sci & Informat Syst
+1328	0	Emeraldwise LLC
+1328	1	Emeraldwise LLC
+1328	2	Santa Clara Univ
+1328	2	Leavey Sch Business
+1328	2	OMIS Dept
+1329	0	Univ Michigan
+1329	0	Dept Ind & Operat Engn
+1329	1	Stanford Univ
+1329	1	Dept Management Sci & Engn
+1330	0	Kansas State Univ
+1330	0	Dept Management
+1330	1	Univ Michigan
+1330	1	Dept Ind & Operat Engn
+1330	2	Tsinghua Univ
+1330	2	Sch Econ & Management
+1330	3	Huazhong Univ Sci & Technol
+1330	3	Sch Management
+1330	3	Wuhan 430074
+1331	0	Univ Maryland
+1331	0	Robert H Smith Sch Business
+1331	1	ILOG Inc
+1332	0	Univ Illinois
+1332	0	Dept Business Adm
+1332	1	Singapore Management Univ
+1332	1	Sch Business
+1332	2	Johns Hopkins Carey Business Sch
+1333	0	Tsinghua Univ
+1333	0	Dept Automat
+1333	1	Chinese Univ Hong Kong
+1333	1	Dept Syst Engn & Engn Management
+1333	1	Shatin
+1334	0	Wilfrid Laurier Univ
+1334	0	Sch Business & Econ
+1334	0	Waterloo
+1334	1	Univ Alberta
+1334	1	Sch Business
+1334	1	Edmonton
+1334	2	Le Moyne Coll
+1336	0	Ohio State Univ
+1336	0	Fisher Coll Business
+1336	1	Univ N Carolina
+1336	1	Kenan Flagler Business Sch
+1336	2	Clemson Univ
+1336	2	Coll Business & Behav Sci
+1337	0	Univ N Carolina
+1337	0	Dept Stat & Operat Res
+1337	1	Univ Washington
+1337	1	Michael G Foster Sch Business
+1337	2	Univ Texas Dallas
+1337	2	Sch Management
+1338	0	Rutgers State Univ
+1338	0	Dept Supply Chain Management & Mkt Sci
+1338	0	Rutgers Business Sch
+1338	1	Univ Calif Berkeley
+1338	1	Dept Ind Engn & Operat Res
+1338	2	Lehigh Univ
+1338	2	Dept Ind & Syst Engn
+1338	2	Mohler Lab
+1339	0	Univ Texas El Paso
+1339	0	Dept Informat & Decis Sci
+1339	0	Coll Business Adm
+1339	1	Michigan State Univ
+1339	1	Eli Broad Grad Sch Management
+1339	1	Dept Supply Chain Management
+1340	0	Univ Texas Dallas
+1340	0	Int Ctr Decis & Risk Anal
+1340	0	Sch Management
+1340	1	Univ Texas Austin
+1340	1	McCombs Sch Business
+1341	0	Indian Sch Business
+1341	0	Hyderabad 500032
+1341	1	LECG
+1342	0	Univ Calif Berkeley
+1342	0	Haas Sch Business
+1342	1	Univ Calif Los Angeles
+1342	1	Anderson Sch
+1343	0	Univ Calif Berkeley
+1343	0	Haas Sch Business
+1344	0	Univ Maryland
+1344	0	Smith Sch Business
+1344	1	Univ Calif Los Angeles
+1344	1	Anderson Sch
+1344	2	Arizona State Univ
+1344	2	WP Carey Sch Business
+1345	0	Univ Rochester
+1345	0	Simon Sch Business
+1345	1	Univ Calif Riverside
+1345	1	A Gary Anderson Grad Sch Management
+1345	2	Long Isl Univ CW Post
+1345	2	Sch Business
+1346	0	Dartmouth Coll
+1346	0	Tuck Sch Business
+1346	1	Univ San Diego
+1346	1	Sch Business Adm
+1347	0	Carnegie Mellon Univ
+1347	0	Tepper Sch Business
+1347	1	Univ Calif Los Angeles
+1347	1	Anderson Sch Management
+1348	0	Brock Univ
+1348	0	Dept Finance Operat & Informat Syst
+1348	0	St Catharines
+1349	0	Univ Publ Navarra
+1349	0	Dept Stat & Operat Res
+1349	1	Katholieke Univ Leuven
+1349	1	Dept Decis Sci & Informat Management
+1350	0	Georgia So Univ
+1350	0	Coll Business Adm
+1350	0	Dept Finance & Quantitat Anal
+1350	1	Univ Florida
+1350	1	Warrington Coll Business Adm
+1350	1	Dept Informat Syst & Operat Management
+1352	0	Georgia Inst Technol
+1352	0	Coll Management
+1352	1	INSEAD
+1353	0	Georgia Inst Technol
+1353	0	Coll Management
+1353	1	Simon Fraser Univ
+1353	1	Fac Business Adm
+1353	1	Burnaby
+1353	2	Univ Michigan
+1353	2	Ross Sch Business
+1354	0	York Univ
+1354	0	Schulich Sch Business
+1354	0	Toronto
+1354	1	Oregon State Univ
+1354	1	Coll Business
+1355	0	Georgia Tech
+1355	0	Coll Management
+1355	1	Univ Maryland
+1355	1	Robert H Smith Sch Business
+1355	2	Penn State Univ
+1355	2	Coll Business
+1356	0	ESSEC
+1356	1	INSEAD
+1356	2	Georgia Inst Technol
+1357	0	Gen Motors R&D Ctr
+1357	0	Mfg Syst Res Lab
+1357	1	GM Corp
+1357	1	Operat Res Grp
+1358	0	Texas A&M Univ
+1358	0	Mays Business Sch
+1358	0	Dept Informat & Operat Management
+1358	1	Erasmus Univ
+1358	1	RSM
+1360	0	Vanderbilt Univ
+1360	0	Owen Grad Sch Management
+1361	0	Texas A&M Univ
+1361	0	Mays Business Sch
+1361	1	Zaragoza Logist Ctr
+1361	2	Harvard Univ
+1361	2	Sch Business
+1362	0	Univ Calif Riverside
+1362	0	Sch Management
+1362	1	Univ Texas Dallas
+1362	1	Sch Management
+1362	2	Univ Wisconsin
+1362	2	Sheldon B Lubar Sch Business
+1363	0	Penn State Univ
+1363	0	Smeal Coll Business
+1363	0	Dept Supply Chain & Informat Syst
+1363	1	N Carolina State Univ
+1363	1	Dept Business Management
+1363	2	Sheetz Inc
+1364	0	HEC Sch Management
+1364	1	INSEAD
+1365	0	Sungkyunkwan Univ
+1365	0	Grad Sch Business
+1365	1	Calif State Univ Long Beach
+1365	1	Coll Business Adm
+1365	2	Univ Wisconsin
+1365	2	Lubar Sch Business
+1366	0	New Jersey Inst Technol
+1366	0	Dept Ind & Mfg Engn
+1366	1	Georgia State Univ
+1366	1	J Mack Robinson Coll Business
+1367	0	Middle Tennessee State Univ
+1367	0	Jennings Jones Coll Business Management & Mkt
+1367	1	Washington State Univ
+1367	1	Coll Business & Econ Management & Operat
+1367	2	SW Univ Finance & Econ
+1367	2	Sch Business & Adm
+1368	0	Univ Michigan
+1368	0	Ross Sch Business
+1368	1	Northwestern Univ
+1368	1	Dept Ind Engn & Management Sci
+1368	2	Global Wealth Management
+1368	2	Merrill Lynch
+1368	2	Management Sci Grp
+1370	0	Univ Tennessee
+1370	0	Dept Stat Operat & Management Sci
+1370	0	Coll Business Adm
+1370	1	Univ Cincinnati
+1370	1	Dept Quantitat Anal & Operat Management
+1370	1	Coll Business
+1370	2	Wright State Univ
+1370	2	Dept Informat Syst & Operat Management
+1370	2	Raj Soin Coll Business
+1371	0	Singapore Management Univ
+1371	0	Lee Kong Chian Sch Business
+1372	0	Univ Maryland
+1372	0	Robert H Smith Sch Business
+1372	1	Univ Colorado
+1372	1	Leeds Sch Business
+1373	0	Univ N Carolina
+1373	0	Belk Coll Business
+1373	1	Univ Texas Dallas
+1373	1	Sch Management
+1374	0	Univ Massachusetts
+1374	0	Dept Mech & Ind Engn
+1375	0	Coll William & Mary
+1375	0	Mason Sch Business
+1376	0	Sachs & Co
+1376	0	Goldman
+1376	0	Goldman Sachs Asset Management
+1376	1	Univ Connecticut
+1376	1	Sch Business
+1376	1	Dept Operat & Informat Management
+1376	2	NYU
+1376	2	Leonard N Stern Sch Business
+1376	2	Dept Informat Operat & Management Sci
+1377	0	USN
+1377	0	Postgrad Sch
+1377	0	Grad Sch Business & Publ Policy
+1377	1	St Josephs Univ
+1377	1	Dept Math
+1377	2	Univ N Texas
+1377	2	ITDS Dept
+1378	0	Harvard Univ
+1378	0	Sch Business
+1379	0	Univ Fed Pernambuco
+1379	0	Recife
+1379	1	Univ Southampton
+1379	1	Sch Management
+1379	1	Quantitat Financial Risk Management Ctr
+1379	1	Southampton
+1380	0	Fidel Investments
+1380	1	Univ Miami
+1380	1	Sch Business Adm
+1380	2	Pfizer Pharmaceut Inc
+1381	0	Koc Univ
+1381	0	Dept Ind Engn
+1381	1	Koc Univ
+1381	1	Coll Adm Sci & Econ
+1382	0	Univ Appl Sci
+1382	0	Hsch Sparkassen Finanzgrp
+1382	1	Univ Cologne
+1382	1	Dept Supply Chain Management & Prod
+1382	2	Tech Univ Denmark
+1382	2	Dept Engn Management
+1383	0	Gen Elect Global Res Ctr
+1383	1	Univ Connecticut
+1383	1	Sch Business
+1384	0	Univ Minnesota
+1384	0	Carlson Sch Management
+1384	1	Univ Texas Richardson
+1384	1	Sch Management
+1385	0	Univ Nottingham
+1385	0	Sch Business
+1385	1	Ford Motor Co Ltd
+1385	1	Dept Informat Technol
+1385	1	Brentwood
+1386	0	Grenoble Ecole Management
+1386	0	Dept Mkt
+1386	1	Univ Paul Cezanne Aix Marseille IAE
+1386	1	CERGAM
+1386	1	Dept Mkt
+1386	2	Keyplatform Co
+1387	0	Miami Univ
+1387	0	Dept Management
+1387	0	Richard T Farmer Sch Business
+1387	1	York Univ
+1387	1	Schulich Sch Business
+1387	1	N York
+1387	2	Univ Minnesota
+1387	2	Carlson Sch Management
+1387	2	Operat & Management Sci Dept
+1388	0	Indiana Univ
+1388	0	Kelley Sch Business
+1388	1	Univ Calif Los Angeles
+1388	2	Univ Utah
+1388	2	David Eccles Sch Business
+1389	0	Harvard Univ
+1389	0	Sch Business
+1390	0	USN
+1390	0	Postgrad Sch
+1390	0	Dept Operat Res
+1390	1	USN
+1390	1	Postgrad Sch
+1390	1	Grad Sch Business & Publ Policy
+1391	0	Indian Sch Business
+1391	0	Hyderabad 500032
+1391	1	Cornell Univ
+1391	1	Sch Operat Res & Informat Engn
+1392	0	Univ Arkansas
+1392	0	Walton Coll Business
+1392	0	Dept Informat Syst
+1392	1	Indiana Univ
+1392	1	Kelley Sch Business
+1392	1	Operat & Decis Technol Dept
+1392	2	Australian Natl Univ
+1392	2	Coll Business & Econ
+1392	2	Res Sch Business
+1392	2	Canberra
+1393	0	Bar Ilan Univ
+1393	0	Grad Sch Business Adm
+1393	1	Univ Missouri
+1393	1	Robert J Trulaske Sr Coll Business
+1394	0	Univ Maryland
+1394	0	Robert H Smith Sch Business
+1394	1	Univ Miami
+1394	1	Sch Business Adm
+1394	2	Univ Cent Florida
+1394	2	Coll Business Adm
+1395	0	Lingnan Univ
+1395	0	Dept Comp & Decis Sci
+1395	0	Tuen Mun
+1395	1	Univ Calif Los Angeles
+1395	1	Anderson Sch Management
+1395	1	Dept Mkt
+1396	0	Ohio State Univ
+1396	0	Fisher Coll Business
+1397	0	Univ Texas Austin
+1397	0	Dept Finance
+1397	0	McCombs Sch Business
+1397	1	Univ Texas Austin
+1397	1	McCombs Sch Business
+1397	1	IROM Dept
+1398	0	Emory Univ
+1398	0	Goizueta Business Sch
+1398	1	Univ Texas Dallas
+1398	1	Dept Econ
+1398	2	Univ Texas Dallas
+1398	2	Sch Management
+1398	3	MIT
+1398	3	Alfred P Sloan Sch Management
+1398	4	Univ Alberta
+1398	4	Sch Business
+1398	4	Edmonton
+1399	0	Cornell Univ
+1399	0	Johnson Grad Sch Management
+1400	0	Georgia So Univ
+1400	0	Dept Finance & Quantitat Anal
+1400	0	Coll Business Adm
+1400	1	Rutgers State Univ
+1400	1	Dept Supply Chain Management & Mkt Sci
+1400	1	Rutgers Business Sch Newark & New Brunswick
+1401	0	Tianjin Univ
+1401	0	Sch Management
+1401	0	Dept Logist & Supply Chain Management
+1401	1	Ohio State Univ
+1401	1	Dept Mkt & Logist
+1401	1	Fisher Coll Business
+1402	0	Univ British Columbia
+1402	0	Sauder Sch Business
+1402	0	Vancouver
+1402	1	China Europe Int Business Sch
+1402	2	Univ Michigan
+1402	2	Ross Sch Business
+1402	3	Columbia Univ
+1402	3	Dept Ind Engn & Operat Res
+1403	0	Chinese Univ Hong Kong
+1403	0	Dept Syst Engn & Engn Management
+1403	0	Shatin
+1403	1	Tsinghua Univ
+1403	1	Sch Econ & Management
+1403	1	Res Ctr Contemporary Management
+1403	1	Key Res Inst Humanities & Social Sci Univ
+1403	2	Nanjing Univ
+1403	2	Sch Business
+1404	0	Koc Univ
+1404	0	Coll Adm Sci & Econ
+1404	1	Univ Texas Austin
+1404	1	McCombs Sch Business
+1404	2	Penn State Univ
+1404	2	Smeal Coll Business
+1405	0	Univ Calgary
+1405	0	Haskayne Sch Business
+1405	0	Calgary
+1405	1	City Univ Hong Kong
+1405	1	Coll Business
+1405	1	Hong Kong
+1405	2	Univ Florida
+1405	2	Warrington Coll Business
+1405	3	Univ Texas Austin
+1405	3	McCombs Sch Business
+1405	3	Dept Informat Risk & Operat Management
+1406	0	Univ Wisconsin
+1406	0	Sheldon B Lubar Sch Business
+1406	1	Univ Calif Riverside
+1406	1	A Gary Anderson Grad Sch Management
+1407	0	Univ Groningen
+1407	0	Dept Operat
+1407	1	BEM Bordeaux Management Sch
+1407	2	Univ Salford
+1407	2	Ctr Operat Res
+1407	2	Salford M5 4WT
+1408	0	Univ San Francisco
+1408	0	Sch Business & Management
+1408	0	Dept Finance & Quantitat Analyt
+1408	1	San Francisco State Univ
+1408	1	Coll Business
+1408	1	Dept Decis Sci
+1410	0	Emory Univ
+1410	0	Goizueta Business Sch
+1411	0	Arizona State Univ
+1411	0	WP Carey Sch Business
+1411	0	Dept Supply Chain Management
+1411	1	MIT
+1411	1	Alfred P Sloan Sch Management
+1412	0	Aristotle Univ Thessaloniki
+1412	0	Dept Mech Engn
+1413	0	Univ N Carolina
+1413	0	Belk Coll Business
+1414	0	Univ Notre Dame
+1414	0	Dept Management
+1414	1	Univ Texas Dallas
+1414	1	Sch Management
+1415	0	Tsinghua Univ
+1415	0	Res Ctr Contemporary Management
+1415	0	Key Res Inst Humanities & Social Sci Univ
+1415	0	Sch Econ & Management
+1415	1	Hong Kong Univ Sci & Technol
+1415	1	Dept Ind Engn & Logist Management
+1415	1	Kowloon
+1416	0	Old Dominion Univ
+1416	0	Virginia Modeling Anal & Simulat Ctr
+1416	1	Old Dominion Univ
+1416	1	Coll Business & Publ Adm
+1417	0	Georgetown Univ
+1417	0	McDonough Sch Business
+1417	1	Univ N Carolina
+1417	1	Kenan Flagler Business Sch
+1418	0	Columbia Univ
+1418	0	Dept Ind Engn & Operat Res
+1418	0	Sch Engn & Appl Sci
+1419	0	Queens Univ
+1419	0	Sch Business
+1419	0	Kingston
+1420	0	Univ S Carolina
+1420	0	Moore Sch Business
+1420	1	Vanderbilt Univ
+1420	1	Owen Grad Sch Management
+1421	0	Erasmus Univ
+1421	0	Rotterdam Sch Management
+1422	0	Jinan Univ
+1422	0	Dept Adm Management
+1422	0	Guangzhou 510632
+1422	1	Chinese Univ Hong Kong
+1422	1	Fac Business Adm
+1422	1	Dept Decis Sci & Managerial Econ
+1422	1	Shatin
+1422	2	Hong Kong Polytech Univ
+1422	2	Dept Logist & Maritime Studies
+1422	2	Kowloon
+1423	0	Purdue Univ
+1423	0	Krannert Sch Management
+1424	0	Univ Texas Dallas
+1424	0	Sch Management
+1424	1	Korea Univ
+1424	1	Sch Business
+1425	0	Univ Calif Los Angeles
+1425	0	Inst Environm
+1425	1	Univ Calif Los Angeles
+1425	1	Anderson Sch Management
+1426	0	York Univ
+1426	0	Sch Adm Studies
+1426	0	Toronto
+1426	1	McGill Univ
+1426	1	Desautels Fac Management
+1426	1	Montreal
+1427	0	Univ Virginia
+1427	0	Darden Sch Business
+1428	0	Georgia Inst Technol
+1428	0	Coll Management
+1429	0	Miami Univ
+1429	0	Farmer Sch Business
+1429	0	Dept Management
+1429	1	Indiana Univ
+1429	1	Kelley Sch Business
+1429	1	Dept Operat & Decis Technol
+1429	2	Texas A&M Hlth Sci Ctr
+1429	2	Sch Rural Publ Hlth
+1429	2	Dept Hlth Policy & Management
+1429	3	Univ Alberta
+1429	3	Sch Business
+1429	3	Dept Accounting Operat & Informat Syst
+1429	3	Edmonton
+1430	0	Emory Univ
+1430	0	Goizueta Business Sch
+1431	0	Tilburg Univ
+1431	0	Dept Econometr & OR
+1431	1	Univ Antwerp
+1431	1	Dept Econ
+1431	2	HEC Montreal
+1431	2	Gerad
+1431	2	Chair Game Theory & Management
+1431	2	Montreal
+1431	3	Tilburg Univ
+1431	3	CentER
+1432	0	Univ Alberta
+1432	0	Sch Business
+1432	0	Edmonton
+1432	1	Texas A&M Univ
+1432	1	Mays Business Sch
+1432	2	Univ Texas Dallas
+1432	2	Sch Management
+1432	3	Fu Jen Catholic Univ
+1432	3	Dept Informat Management
+1433	0	Univ So Calif
+1433	0	Marshall Sch Business
+1434	0	Washington Univ
+1434	0	Olin Business Sch
+1434	1	Shanghai Jiao Tong Univ
+1434	1	Antai Coll Econ & Management
+1435	0	Dalhousie Univ
+1435	0	Dept Ind Engn
+1435	0	Halifax
+1436	0	Zaragoza Logist Ctr
+1436	0	MIT Zaragoza Int Logist Program
+1436	1	INCAE Business Sch
+1436	2	Supply Chain Management Inst SMI
+1436	2	European Business Sch
+1436	3	Harvard Univ
+1436	3	Sch Business
+1437	0	Columbia Univ
+1438	0	Columbia Univ
+1438	0	Dept Ind Engn & Operat Res
+1438	1	Columbia Univ
+1438	1	Dept Appl Phys & Appl Math
+1439	0	IIT
+1439	0	Stuart Sch Business
+1439	1	Univ Calif Berkeley
+1439	1	Ind Engn & Operat Res Dept
+1439	2	Univ Calif Berkeley
+1439	2	Haas Sch Business
+1440	0	Northwestern Univ
+1440	0	Dept Ind Engn & Management Sci
+1440	1	Tel Aviv Univ
+1440	1	Dept Ind Engn
+1441	0	Huazhong Univ Sci & Technol
+1441	0	Sch Management
+1441	1	Columbia Univ
+1441	1	Dept Ind Engn & Operat Res
+1441	2	Hong Kong Univ Sci & Technol
+1441	2	Sch Business & Management
+1441	2	Kowloon
+1442	0	Texas A&M Univ
+1442	0	Mays Business Sch
+1442	0	Dept Informat & Operat Management
+1442	1	Univ Texas Dallas
+1442	1	Sch Management
+1442	1	Operat Management Area
+1443	0	Singapore Management Univ
+1443	0	Lee Kong Chian Sch Business
+1443	1	Rensselaer Polytech Inst
+1443	1	Ctr Ind Innovat
+1443	1	Dept Ind & Syst Engn
+1444	0	Univ Toronto
+1444	0	Rotman Sch Management
+1444	0	Toronto
+1444	1	ORT Braude Coll Engn
+1444	1	Dept Ind Engn & Management
+1445	0	Univ Toronto
+1445	0	Rotman Sch Management
+1445	0	Toronto
+1445	1	Univ Haifa
+1445	1	Dept Stat
+1446	0	Vanderbilt Univ
+1446	0	Owen Grad Sch Management
+1447	0	Michigan State Univ
+1447	0	Eli Broad Sch Business
+1447	0	Dept Supply Chain Management
+1447	1	Univ N Carolina
+1447	1	Dept Mkt
+1447	1	Kenan Flagler Business Sch
+1447	2	Univ N Carolina
+1447	2	Kenan Flagler Business Sch
+1447	2	Dept Operat Technol & Innovat Management
+1448	0	Arizona State Univ
+1448	0	WP Carey Sch Business
+1448	1	Univ N Carolina
+1448	1	Kenan Flagler Business Sch
+1448	2	Dartmouth Coll
+1448	2	Tuck Sch Business
+1449	0	So Methodist Univ
+1449	0	Edwin L Cox Sch Business
+1450	0	Michigan State Univ
+1450	0	Eli Broad Sch Business
+1450	1	Texas Christian Univ
+1450	1	Neeley Business Sch
+1450	2	Korea Univ
+1450	2	Sch Business
+1450	3	King Mongkuts Univ Technol Thonburi
+1450	3	Grad Sch Management & Innovat
+1451	0	Indian Sch Business
+1451	0	Hyderabad 500032
+1451	1	Northwestern Univ
+1451	1	Kellogg Sch Management
+1451	2	Univ Hyderabad
+1451	2	Hyderabad 500046
+1451	3	Northwestern Univ
+1451	3	IEMS
+1452	0	Kutztown Univ Penn
+1452	0	Coll Business
+1452	1	Univ Kansas
+1452	1	Sch Business
+1453	0	Virginia Tech
+1453	0	RB Pamplin Coll Business
+1453	1	Temple Univ
+1453	1	Fox Sch Business
+1453	2	Carnegie Mellon Univ
+1453	2	Tepper Sch Business
+1454	0	Amgen Inc
+1454	0	Mkt Sci
+1454	1	Univ Calif Los Angeles
+1454	1	Anderson Sch Management
+1455	0	Boston Univ
+1455	0	Sch Management
+1455	1	MIT
+1455	1	Alfred P Sloan Sch Management
+1456	0	Univ Notre Dame
+1456	0	Mendoza Coll Business
+1456	1	Univ Maryland
+1456	1	Robert H Smith Sch Business
+1457	0	Univ Ottawa
+1457	0	Ottawa
+1458	0	Univ Michigan
+1458	0	Dept Ind & Operat Engn
+1459	0	Indiana Univ
+1459	0	Dept Operat & Decis Technol
+1459	0	Kelley Sch Business
+1459	1	Univ Western Ontario
+1459	1	Richard Ivey Sch Business
+1459	1	London
+1459	2	Calif Pacific Med Ctr
+1460	0	Univ Pittsburgh
+1460	0	Joseph M Katz Grad Sch Business
+1460	1	Duquesne Univ
+1460	1	Palumbo Donahue Sch Business
+1460	2	Hosp Univ Penn
+1460	2	Dept Anesthesiol & Crit Care
+1461	0	Arizona State Univ
+1461	0	Sch Comp Informat & Decis Syst Engn
+1461	1	N Carolina State Univ
+1461	1	Edward P Fitts Dept Ind & Syst Engn
+1461	2	Mayo Clin
+1461	2	Div Hlth Care Policy & Res
+1462	0	British Columbia Canc Agcy
+1462	0	Vancouver
+1462	1	Univ British Columbia
+1462	1	Sauder Sch Business
+1462	1	Ctr Operat Excellence
+1462	1	Vancouver
+1463	0	RAND Corp
+1463	1	Univ Maryland
+1463	1	Robert H Smith Sch Business
+1463	2	Univ Maryland Med Syst
+1463	3	Johns Hopkins Comprehens Transplant Ctr
+1463	4	American Univ
+1463	4	Kogod Sch Business
+1463	5	Univ Maryland
+1463	5	Dept Math
+1464	0	Cincinnati Childrens Hosp
+1464	0	Med Ctr
+1464	0	James M Anderson Ctr Hlth Syst Excellence
+1464	1	Univ Cincinnati
+1464	1	Coll Business
+1464	2	Brock Univ
+1464	2	Fac Business
+1464	2	St Catharines
+1465	0	Univ Rochester
+1465	0	Simon Sch Business
+1465	1	INSEAD
+1466	0	Zaragoza Logist Ctr
+1466	0	MIT Zaragoza Int Logist Program
+1466	1	McGill Univ
+1466	1	Desautels Fac Management
+1466	1	Montreal
+1466	2	McGill Univ
+1466	2	Royal Victoria Hosp
+1466	2	Ctr Hlth
+1466	2	Div Clin Epidemiol
+1466	2	Montreal
+1467	0	Lakehead Univ
+1467	0	Fac Business Adm
+1467	0	Thunder Bay
+1467	1	Univ Western Ontario
+1467	1	Richard Ivey Sch Business
+1467	1	London
+1467	2	Peking Univ
+1467	2	Guanghua Sch Management
+1475	0	Purdue Univ
+1475	0	Krannert Sch Management
+1475	1	Purdue Univ
+1475	1	Dept Comp Sci
+1475	2	Univ Notre Dame
+1475	2	Dept Comp Sci & Engn
+1475	3	Miami Univ Ohio
+1475	3	Dept Comp Sci & Software Engn
+1476	0	Univ Calif Davis
+1476	0	Grad Sch Management
+1476	1	Univ Palermo
+1476	1	Dept Mfg Technol Prod & Management Engn
+1477	0	Univ Connecticut
+1477	0	Sch Business
+1477	1	Carnegie Mellon Univ
+1477	1	Tepper Sch Business
+1478	0	Michigan State Univ
+1478	0	Dept Supply Chain Management
+1478	0	Eli Broad Grad Sch Management
+1478	1	Indiana Univ
+1478	1	Kelley Sch Business
+1479	0	Indian Sch Business
+1479	0	Hyderabad
+1479	1	Univ Texas Austin
+1479	1	McCombs Sch Business
+1480	0	Xi An Jiao Tong Univ
+1480	0	Dept Ind Engn
+1480	0	Sch Management
+1480	0	State Key Lab Mfg Syst Engn
+1480	0	Key Lab
+1480	0	Minist Educ P
+1480	1	Hong Kong Univ Sci & Technol
+1480	1	Dept Informat Syst Business Stat & Operat Managem
+1480	1	Kowloon
+1481	0	Univ Texas Austin
+1481	0	McCombs Sch Business
+1481	1	Univ N Carolina
+1481	1	Belk Coll Business
+1482	0	Univ Nebraska Kearney
+1482	1	Calif State Univ Fullerton
+1482	1	Mihaylo Coll Business & Econ
+1482	2	Univ Minnesota
+1482	2	Carlson Sch Management
+1485	0	Purdue Krannert Sch Management
+1486	0	Georgetown Univ
+1486	0	McDonough Sch Business
+1486	1	Univ Utah
+1486	1	David Eccles Sch Business
+1487	0	Univ Navarra
+1487	0	IESE Business Sch
+1487	1	Univ Calif Los Angeles
+1487	1	Anderson Sch Management
+1488	0	Vanderbilt Univ
+1488	0	Owen Grad Sch Management
+1488	1	Georgia Inst Technol
+1488	1	Coll Management
+1489	0	Lund Univ
+1489	0	Dept Ind Management & Logist
+1490	0	Hong Kong Polytech Univ
+1490	0	Inst Text & Clothing
+1490	0	Hong Kong
+1490	1	Univ Calif Los Angeles
+1490	1	UCLA Anderson Sch
+1491	0	Univ Texas Dallas
+1491	0	Sch Management
+1491	1	Univ Virginia
+1491	1	Darden Sch Business
+1492	0	ESSEC Business Sch
+1492	1	Purdue Univ
+1492	1	Krannert Sch Management
+1493	0	Univ Texas Dallas
+1493	0	Sch Management
+1493	1	Univ Notre Dame
+1493	1	Dept Management
+1494	0	Northwestern Univ
+1494	0	Kellogg Sch Management
+1494	1	Columbia Univ
+1494	1	Grad Sch Business
+1495	0	NIDA
+1495	0	Sch Appl Stat
+1495	1	Univ Minnesota
+1495	1	Program Ind & Syst Engn
+1496	0	Univ Toronto
+1496	0	Joseph L Rotman Sch Management
+1496	0	Toronto
+1496	1	Dalhousie Univ
+1496	1	Dept Ind Engn
+1496	1	Halifax
+1498	0	Ohio State Univ
+1498	0	Fisher Coll Business
+1498	1	George Mason Univ
+1498	1	Sch Management
+1499	0	Rensselaer Polytech Inst
+1499	0	Dept Ind & Syst Engn
+1499	1	Univ Notre Dame
+1499	1	Mendoza Coll Business
+1499	1	Dept Management
+1500	0	Ecole Cent Paris
+1500	0	Dept Ind Engn
+1501	0	Eindhoven Univ Technol
+1501	0	Sch Ind Engn
+1501	1	Cornell Univ
+1501	1	Samuel Curtis Johnson Grad Sch Management
+1501	2	Univ Texas Austin
+1501	2	McCombs Sch Business
+1502	0	Georgia Inst Technol
+1502	0	Coll Management
+1503	0	HEC Montreal
+1503	0	Montreal
+1503	1	CIRRELT
+1503	1	Montreal
+1503	2	Tech Univ Eindhoven
+1503	2	Dept Ind Engn & Innovat Sci
+1504	0	Univ Calif Berkeley
+1504	0	Dept Ind Engn & Operat Res
+1504	1	NYU
+1504	1	Stern Sch Business
+1505	0	Cheung Kong Grad Sch Business
+1505	0	Dept Mkt
+1505	1	Fudan Univ
+1505	1	Sch Management
+1505	2	Santa Clara Univ
+1505	2	Leavey Sch Business
+1505	2	Dept Operat & Management Informat Syst
+1506	0	Univ So Calif
+1506	0	Marshall Sch Business
+1506	1	Univ Calif Los Angeles
+1506	1	Anderson Sch Management
+1507	0	Hong Kong Polytech Univ
+1507	0	Hong Kong
+1507	1	Chinese Univ Hong Kong
+1507	1	Hong Kong
+1508	0	Chinese Univ Hong Kong
+1508	0	Dept Syst Engn & Engn Management
+1508	0	Shatin
+1508	1	Univ Calif Los Angeles
+1508	1	UCLA Anderson Sch Management
+1509	0	City Univ Hong Kong
+1509	0	Dept Mkt
+1509	0	Kowloon
+1509	1	Univ Texas Austin
+1509	1	McCombs Sch Business
+1509	2	Calif State Polytech Univ Pomona
+1509	2	Coll Business Adm
+1510	0	Univ Minnesota
+1510	0	Program Ind & Syst Engn
+1510	1	Microsoft Corp
+1511	0	Gap Inc Direct
+1511	1	Univ Texas Dallas
+1511	1	Naveen Jindal Sch Management
+1511	2	Texas A&M Univ
+1511	2	Mays Business Sch
+1512	0	Mental Hlth Ctr Denver
+1512	1	Univ Colorado
+1512	1	Leeds Sch Business
+1513	0	Erasmus Univ
+1513	0	Erasmus Sch Econ
+1513	1	Sabanci Univ
+1513	1	Fac Engn & Nat Sci
+1514	0	Univ Calif Berkeley
+1514	0	Dept Ind Engn & Operat Res
+1514	1	Hong Kong Univ Sci & Technol
+1514	1	Sch Business & Management
+1514	1	Hong Kong
+1514	2	NYU
+1514	2	Stern Sch Business
+1515	0	Old Dominion Univ
+1515	0	Coll Business & Publ Adm
+1515	1	Old Dominion Univ
+1515	1	Virginia Modeling Anal & Simulat Ctr
+1516	0	Univ Coimbra
+1516	0	CEMUC
+1516	0	Dept Mech Engn
+1516	1	Univ Lancaster
+1516	1	Sch Management
+1516	1	Dept Management Sci
+1516	2	Univ Groningen
+1516	2	Dept Operat
+1516	2	Fac Econ & Business
+1516	3	Clemson Univ
+1516	3	Dept Management
+1517	0	Univ Minnesota
+1517	0	Carlson Sch Management
+1517	1	Univ Texas Dallas
+1517	1	Naveen Jindal Sch Management
+1517	2	Texas A&M Univ
+1517	2	Mays Business Sch
+1517	2	Dept Informat & Operat Management
+1518	0	Eindhoven Univ Technol
+1518	0	Sch Ind Engn
+1518	1	Boston Univ
+1518	1	Sch Management
+1518	2	Babson Coll
+1518	2	Technol Operat & Informat Management Div
+1519	0	Emory Univ
+1519	0	Goizueta Business Sch
+1519	1	Univ Georgia
+1519	1	Terry Coll Business
+1520	0	FAA
+1520	1	IBM TJ Watson Res Ctr
+1520	2	Columbia Univ
+1520	2	IEOR Dept
+1521	0	Ozyegin Univ
+1521	0	Sch Econ & Adm Sci
+1521	1	Singapore Management Univ
+1521	1	Lee Kong Chian Sch Business
+1521	2	Natl Univ Singapore
+1521	2	Dept Decis Sci
+1522	0	Univ Cologne
+1522	0	Dept Supply Chain Management & Management Sci
+1522	1	Ecole Polytech Fed Lausanne
+1522	1	Coll Management Technol
+1522	2	IMD Int Inst Management Dev
+1523	0	Penn State Univ
+1523	0	Dept Supply Chain & Informat Syst
+1524	0	Sam Houston State Univ
+1524	0	Coll Business Adm
+1524	1	Univ Kansas
+1524	1	Sch Business
+1524	2	Univ Illinois
+1524	2	Dept Business Adm
+1525	0	Hong Kong Univ Sci & Technol
+1525	0	Dept Ind Engn & Logist Management
+1525	0	Clear Bay
+1525	1	Hong Kong Polytech Univ
+1525	1	Dept Logist & Maritime Studies
+1525	1	Hong Kong
+1525	2	Lingnan Univ
+1525	2	Fac Business
+1525	2	Tuen Mun
+1526	0	SUNY Binghamton
+1526	0	Sch Management
+1526	1	Georgia Inst Technol
+1526	1	H Milton Stewart Sch Ind & Syst Engn
+1527	0	Chinese Univ Hong Kong
+1527	0	Dept Syst Engn & Engn Management
+1527	0	Shatin
+1527	1	Penn State Univ
+1527	1	Sam & Irene Black Sch Business
+1528	0	Univ Calif Los Angeles
+1528	0	Anderson Grad Sch Management
+1528	1	Univ Chicago
+1528	2	Univ Rochester
+1528	2	William E Simon Grad Sch Business
+1529	0	Georgia Inst Technol
+1529	0	Coll Management
+1529	1	INSEAD Social Innovat Ctr
+1530	0	CATOLICA LISBON Sch Business & Econ
+1530	1	Clemson Univ
+1530	1	Coll Business & Behav Sci
+1531	0	Northwestern Univ
+1531	0	Dept Ind Engn & Management Sci
+1531	1	Univ Michigan
+1531	1	Stephen M Ross Sch Business
+1532	0	Duke Univ
+1532	0	Fuqua Sch Business
+1533	0	Univ British Columbia
+1533	0	Sauder Sch Business
+1533	0	Vancouver
+1533	1	Univ Texas Dallas
+1533	1	Sch Management
+1534	0	Natl Chung Hsing Univ
+1534	0	Dept Business Adm
+1534	1	Univ Calif Berkeley
+1534	1	Dept Ind Engn & Operat Res
+1535	0	City Univ Hong Kong
+1535	0	Dept Management Sci
+1535	0	Kowloon Tong
+1535	1	Huazhong Univ Sci & Technol
+1535	1	Sch Management
+1536	0	Univ N Carolina
+1536	0	Kenan Flagler Business Sch
+1537	0	Ohio State Univ
+1537	0	Fisher Coll Business
+1537	1	Univ Vienna
+1537	1	Dept Business Adm
+1538	0	Univ Texas Austin
+1538	0	McCombs Sch Business
+1538	1	Univ Richmond
+1538	1	Robins Sch Business
+1539	0	Univ Sci & Technol China
+1539	0	Sch Management
+1539	0	Hefei 230026
+1539	1	Univ Minnesota
+1540	0	Singapore Management Univ
+1540	0	Lee Kong Chian Sch Business
+1540	1	Syracuse Univ
+1540	1	Whitman Sch Management
+1541	0	Cornell Univ
+1541	0	Sch Hotel Adm
+1541	1	Shanghai Univ Finance & Econ
+1542	0	Old Dominion Univ
+1542	0	Dept Informat Technol & Decis Sci
+1542	0	Coll Business & Publ Adm
+1542	1	Old Domin Univ
+1542	1	Virginia Modeling Anal & Simulat Ctr
+1543	0	Univ N Carolina
+1544	0	Nanyang Technol Univ
+1544	0	Sch Civil & Environm Engn
+1544	1	Nanyang Technol Univ
+1544	1	Nanyang Business Sch
+1544	2	MIT
+1544	2	Sloan Sch Management
+1545	0	Northwestern Univ
+1545	0	Dept Ind Engn & Management Sci
+1545	1	Oklahoma State Univ
+1545	1	Sch Ind Engn & Management
+1545	2	MIT
+1545	2	Dept Civil & Environm Engn
+1546	0	DEREE Amer Coll Greece
+1546	0	Grad Sch Business
+1546	1	INSEAD Technol & Operat Management Area
+1546	2	INSEAD Technol & Operat Management Area
+1547	0	Univ Missouri
+1547	0	Henry W Bloch Sch Management
+1547	0	Dept Mkt & Supply Chain Management
+1547	1	Univ Texas Austin
+1547	1	McCombs Sch Business
+1547	1	Dept Informat Risk & Operat Management
+1548	0	Syracuse Univ
+1548	0	Whitman Sch Management
+1548	1	Iowa State Univ
+1548	1	Coll Business
+1548	2	Singapore Management Univ
+1548	2	Lee Kong Chian Sch Business
+1549	0	Univ Calif Berkeley
+1549	0	Dept Ind Engn & Operat Res
+1549	1	Purdue Univ
+1549	1	Krannert Sch Management
+1550	0	Washington Univ
+1550	0	Olin Business Sch
+1550	1	Univ Miami
+1550	1	Sch Business
+1550	1	Dept Management
+1551	0	Alcatel Lucent
+1551	0	Bell Labs Ireland
+1551	1	Rensselaer Polytech Inst
+1551	1	Ctr Ind Innovat
+1551	1	Dept Ind & Syst Engn
+1552	0	Univ Texas Dallas
+1552	0	Sch Management
+1552	1	Univ Texas Austin
+1552	1	McCombs Sch Business
+1552	2	Hong Kong Polytech Univ
+1552	2	Dept Logist
+1552	2	Kowloon
+1553	0	Chinese Univ Hong Kong
+1553	0	Shatin
+1553	1	Univ Michigan
+1553	2	Hong Kong Univ Sci Technol
+1553	2	Kowloon
+1554	0	Bilkent Univ
+1554	0	Fac Business Adm
+1554	1	Univ Texas Dallas
+1554	1	Sch Management
+1555	0	Univ Pittsburgh
+1555	0	Dept Ind Engn
+1556	0	City Univ London
+1556	0	Cass Business Sch
+1556	1	Univ Calif Los Angeles
+1556	1	Anderson Sch Management
+1557	0	Arizona State Univ
+1557	0	Dept Supply Chain Management
+1557	0	WP Carey Sch Business
+1557	1	MIT
+1557	1	Sloan Sch Management
+1558	0	INSEAD
+1558	1	Siemens AG
+1558	1	Corp Res & Technol
+1559	0	Univ Penn
+1559	0	Wharton Sch
+1559	0	OPIM Dept
+1559	1	Desautels Fac Management
+1559	1	Montreal
+1560	0	Univ Virginia
+1560	0	Darden Sch Business
+1560	1	Univ Toronto
+1560	1	Joseph L Rotman Sch Management
+1560	1	Toronto
+1561	0	Michigan State Univ
+1561	0	Eli Broad Coll Business
+1561	1	Georgia Inst Technol
+1561	1	Coll Management
+1562	0	Univ Bradford
+1562	0	Bradford Sch Management
+1562	0	Bradford BD9 4JL
+1562	1	Wageningen Univ
+1562	1	Dept Logist Decis & Informat Sci
+1563	0	Chungnam Natl Univ
+1563	0	Dept Business Adm
+1563	1	Rutgers Business Sch
+1563	1	Dept Supply Chain Management & Mkt Sci
+1563	2	New Jersey Inst Technol
+1563	2	Dept Comp Sci
+1563	3	NYU
+1563	3	Dept Informat Operat & Management Sci
+1563	3	Stern Sch Business
+1563	4	Univ Cologne
+1563	4	Wirtschafts & Sozialwissensch Fak
+1564	0	Fudan Univ
+1564	0	Dept Management Sci
+1564	1	Chinese Univ Hong Kong
+1564	1	Dept Syst Engn & Engn Management
+1564	1	Shatin
+1565	0	Calif State Univ Long Beach
+1565	0	Coll Business Adm
+1565	1	GSB SungKyunKwan Univ
+1566	0	Washington Univ
+1566	0	Olin Business Sch
+1566	1	NE Illinois Univ
+1566	1	Coll Business & Management
+1567	0	Univ Notre Dame
+1567	0	Dept Management
+1567	1	Univ Texas Dallas
+1567	1	Sch Management
+1568	0	Univ Richmond
+1568	0	Robins Sch Business
+1568	1	Washington Univ
+1568	1	Olin Business Sch
+1569	0	Natl Univ Singapore
+1569	0	Dept Decis Sci
+1569	0	NUS Business Sch
+1569	1	Hong Kong Polytech Univ
+1569	1	Dept Appl Math
+1569	1	Kowloon
+1569	2	Shanghai Jiao Tong Univ
+1569	2	Antai Coll Econ & Management
+1571	0	Cornell Univ
+1571	0	Samuel Curtis Johnson Grad Sch Management
+1572	0	Boston Univ
+1572	0	Sch Management
+1572	1	York Univ
+1572	1	Schulich Sch Business
+1572	1	Toronto
+1573	0	Vrije Univ Amsterdam
+1573	0	Fac Econ & Business Adm
+1573	1	BI Norwegian Business Sch
+1573	1	Dept Leadership & Org Behav
+1574	0	Univ Texas McCombs Sch Business
+1574	1	Tulane Univ
+1574	1	AB Freeman Sch Business
+1575	0	Univ Calif Davis
+1575	0	Grad Sch Management
+1575	1	Korea Univ
+1575	1	Sch Business
+1575	1	Dept LSOM
+1575	2	Univ Notre Dame
+1575	2	Dept Management
+1575	2	Mendoza Coll Business
+1576	0	Georgia Inst Technol
+1576	0	Scheller Coll Business
+1576	1	Univ New Hampshire
+1576	1	Whittemore Sch Business & Econ
+1577	0	Indiana Univ
+1577	0	Kelley Sch Business
+1577	1	Indiana Univ
+1577	1	Kelley Sch Business
+1577	2	Ball State Univ
+1577	2	Miller Coll Business
+1577	3	Lulea Univ Technol
+1577	3	Div Entrepreneurship
+1578	0	Indiana Univ
+1578	0	Kelley Sch Business
+1578	1	Tech Univ Munich
+1579	0	Johns Hopkins Univ
+1579	0	Carey Business Sch
+1580	0	Georgia Inst Technol
+1580	0	Coll Management
+1581	0	Univ Calif
+1581	0	San Diego Rady Sch Management
+1582	0	Univ Texas Austin
+1582	0	McCombs Sch
+1582	1	Tulane Univ
+1582	1	AB Freeman Sch Business
+1583	0	E3 Associates
+1584	0	Univ Texas Dallas
+1584	0	Sch Management
+1584	1	Univ Calif San Diego
+1584	1	Rady Sch Management
+1584	2	Calif State Univ Fresno
+1584	2	Craig Sch Business
+1585	0	Univ Cambridge
+1585	0	Judge Business Sch
+1585	1	Boston Univ
+1585	1	Sch Management
+1586	0	UCL
+1586	0	Dept Management Sci & Innovat
+1586	1	Univ Michigan
+1586	1	Ross Sch Business
+1586	2	Northwestern Univ
+1586	2	Dept Ind Engn & Management Sci
+1587	0	Coll William & Mary
+1587	0	Mason Sch Business
+1588	0	Univ Notre Dame
+1588	0	Mendoza Coll Business
+1588	1	Ohio State Univ
+1588	1	Fisher Coll Business
+1589	0	Indian Inst Management
+1589	0	Bangalore
+1589	1	MIT
+1589	1	Alfred P Sloan Sch Management
+1590	0	Univ San Diego
+1590	0	Sch Business Adm
+1590	1	Georgia Inst Technol
+1590	1	Ernest Scheller Jr Coll Business
+1592	0	Univ Toronto
+1592	0	Joseph L Rotman Sch Management
+1592	0	Toronto
+1592	1	Univ Virginia
+1592	1	Darden Sch Business
+1593	0	Emory Univ
+1593	0	Goizueta Business Sch
+1593	1	Cornell Univ
+1593	1	Johnson Grad Sch Management
+1593	2	Univ Texas Austin
+1593	2	McCombs Sch Business
+1593	2	Dept Informat Risk & Operat Management
+1594	0	Ohio State Univ
+1594	0	Fisher Coll Business
+1595	0	Georgia Inst Technol
+1595	0	Scheller Coll Business
+1595	1	INSEAD
+1596	0	Lingnan Univ
+1596	0	Fac Business
+1596	0	Tuen Mun
+1596	1	Univ British Columbia
+1596	1	Sauder Sch Business
+1596	1	Vancouver
+1597	0	Univ N Carolina
+1597	0	Kenan Flagler Business Sch
+1598	0	Univ British Columbia
+1598	0	Operat & Logist Div
+1598	0	Sauder Sch Businesss
+1598	0	Vancouver
+1598	1	Columbia Univ
+1598	1	Columbia Water Ctr
+1598	2	Columbia Univ
+1598	2	Dept Earth & Environm Engn
+1599	0	Georgia Inst Technol
+1599	0	H Milton Stewart Sch Ind & Syst Engn
+1599	1	McMaster Univ
+1599	1	Dept Comp & Software
+1599	1	Hamilton
+1600	0	Nanyang Technol Univ
+1600	0	Nanyang Business Sch
+1601	0	Cornell Univ
+1601	0	Sch Operat Res & Informat Engn
+1602	0	Univ Calif Los Angeles
+1602	0	Anderson Sch Management
+1603	0	Univ Calif Berkeley
+1603	0	Dept Ind Engn & Operat Res
+1603	1	Amer Express
+1604	0	Univ Richmond
+1604	0	Robins Sch Business
+1604	1	Univ Texas Dallas
+1604	1	Jindal Sch Management
+1604	2	SUNY Buffalo
+1604	2	Sch Management
+1605	0	San Francisco State Univ
+1605	0	Dept Decis Sci
+1605	0	Coll Business
+1606	0	Hong Kong Univ Sci & Technol
+1606	0	Dept Ind Engn & Logist Management
+1606	0	Hong Kong
+1606	1	Hong Kong Univ Sci & Technol
+1606	1	Sch Business & Management
+1606	1	Hong Kong
+1607	0	Univ Notre Dame
+1607	0	Mendoza Coll Business
+1607	0	Dept Management
+1607	1	Univ Florida
+1607	1	Dept Informat Syst & Operat Management
+1607	1	Warrington Coll Business Adm
+1608	0	Purdue Univ
+1608	0	Krannert Sch Management
+1608	1	Univ N Carolina
+1608	1	Kenan Flagler Business Sch
+1609	0	Univ Pennsylvania
+1609	0	Wharton Sch
+1609	0	Operat Informat Management Dept
+1610	0	McGill Univ
+1610	0	Desautels Fac Management
+1610	0	Montreal
+1610	1	Korea Adv Inst Sci & Technol
+1610	1	Coll Business
+1611	0	Koc Univ
+1611	0	Coll Adm Sci & Econ
+1611	1	McGill Univ
+1611	1	Desautels Fac Management
+1611	1	Montreal
+1611	2	Univ Colorado
+1611	2	Leeds Sch Business
+1612	0	Univ N Carolina
+1612	0	Kenan Flagler Business Sch
+1613	0	Texas A&M Univ
+1613	0	Mays Sch Business
+1613	1	Erasmus Univ
+1613	1	Rotterdam Sch Management
+1614	0	Cornell Univ
+1614	1	George Washington Univ
+1615	0	Auburn Univ
+1615	0	Coll Business
+1615	1	Univ Arkansas
+1615	1	Supply Chain Management Dept
+1615	1	Sam M Walton Coll Business
+1615	2	Univ So Indiana
+1615	2	Coll Business
+1616	0	Texas A&M Univ
+1616	0	Mays Business Sch
+1616	1	Univ N Carolina
+1616	1	Kenan Flagler Business Sch
+1617	0	Univ N Carolina
+1617	0	Kenan Flagler Business Sch
+1617	1	Indiana Univ
+1617	1	Kelley Sch Business
+1618	0	Lehigh Univ
+1618	0	Dept Management
+1618	0	Coll Business & Econ
+1618	0	Rauch Business Ctr
+1618	1	Arizona State Univ
+1618	1	WP Carey Sch Business
+1618	1	Dept Supply Chain Management
+1618	2	Korea Univ
+1618	2	Sch Business
+1618	3	Arizona State Univ
+1618	3	Sch Social & Family Dynam
+1619	0	Northeastern Univ
+1619	0	Coll Business Adm
+1619	1	Univ Arkansas
+1619	1	Dept Supply Chain Management
+1619	1	Sam M Walton Coll Business
+1620	0	Univ Neuchatel
+1620	0	Fac Econ & Business
+1620	1	Univ Surrey
+1620	1	Surrey Business Sch
+1620	1	Guildford GU2 7HX
+1620	2	Univ Bremen
+1620	2	Inst Logist & Supply Chain Management
+1620	3	Glasgow Caledonian Univ
+1620	3	Caledonian Business Sch
+1620	3	Glasgow G4 0BA
+1621	0	Univ Virginia
+1621	0	Darden Sch Business
+1621	1	George Mason Univ
+1621	1	Sch Management
+1621	2	Tel Aviv Univ
+1621	2	Leon Recanati Grad Sch Business Adm
+1622	0	Univ Virginia
+1622	0	Darden Sch Business
+1622	1	Stanford Univ
+1622	1	Coll Engn
+1622	1	Dept Management Sci & Engn
+1623	0	Univ Connecticut
+1623	0	Sch Business
+1623	1	George Mason Univ
+1623	1	Sch Management
+1623	2	Dow Chem Co USA
+1623	2	Portfolio Investments
+1624	0	Georgia Inst Technol
+1624	0	Coll Management
+1624	1	Indiana Univ
+1624	1	Kelley Sch Business
+1625	0	Univ S Carolina
+1625	0	Moore Sch Business
+1625	1	McGill Univ
+1625	1	Desautels Fac Management
+1625	1	Montreal
+1626	0	Univ Texas Dallas
+1626	0	Sch Management
+1626	1	Deutsche Bank
+1627	0	UCL
+1627	0	Dept Management Sci & Innovat
+1627	1	Northwestern Univ
+1627	1	Kellogg Sch Management
+1628	0	HEC Paris
+1628	0	Operat Management & Informat Technol Dept
+1628	1	INSEAD
+1628	1	Technol & Operat Management Area
+1629	0	Univ Victoria
+1629	0	Peter B Gustavson Sch Business
+1629	0	Victoria
+1629	1	Cornell Univ
+1629	1	Sch Hotel Adm
+1629	2	Univ Utah
+1629	2	David Eccles Sch Business
+1630	0	Washington Univ
+1630	0	Olin Sch Business
+1630	1	Washington State Univ
+1630	1	Coll Business
+1630	2	Southwestern Univ Finance & Econ
+1630	2	Sch Business Adm
+1630	2	Chengdu 610074
+1631	0	EM Lyon Business Sch
+1631	1	Erasmus Univ
+1631	1	Rotterdam Sch Management
+1631	2	Sabanci Univ
+1631	2	Fac Engn & Nat Sci
+1631	3	Erasmus Univ
+1631	3	Inst Econometr
+1632	0	Natl Univ Singapore
+1632	0	NUS Business Sch
+1632	1	Univ Calif Los Angeles
+1632	1	Anderson Sch
+1633	0	Penn State Univ
+1633	0	Smeal Coll Business
+1633	1	Indiana Univ
+1633	1	Kelly Sch Business
+1633	1	Business Sch 670F
+1634	0	Rensselaer Polytech Inst
+1634	0	Lally Sch Management & Technol
+1634	1	Univ N Carolina
+1634	1	Kenan Flagler Business Sch
+1635	0	City Univ Hong Kong
+1635	0	Dept Management Sci
+1635	0	Hong Kong
+1635	1	MIT
+1635	1	Engn Syst Div
+1635	2	MIT
+1635	2	Dept Civil & Environm Engn
+1636	0	Natl Taiwan Univ
+1636	0	Dept Business Adm
+1636	1	Univ Michigan
+1636	1	Ross Sch Business
+1636	2	Indiana Univ
+1636	2	Kelley Sch Business
+1637	0	Dalhousie Univ
+1637	0	Dept Ind Engn
+1637	0	Halifax
+1637	1	Univ Laval
+1637	1	Dept Operat & Syst Decis
+1637	1	Quebec City
+1637	2	Univ Laval
+1637	2	Fac Sci & Genie
+1637	2	Quebec City
+1637	3	Univ Laval
+1637	3	Fac Foresterie & Geomat
+1637	3	Quebec City
+1638	0	Purdue Univ
+1638	0	Krannert Sch Management
+1638	1	Univ N Carolina
+1638	1	Kenan Flagler Business Sch
+1639	0	Hong Kong Polytech Univ
+1639	0	Fac Business
+1639	0	Dept Logist & Maritime Studies
+1639	0	Kowloon
+1640	0	Northwestern Univ
+1640	0	Dept Ind Engn & Management Sci
+1640	1	MIT
+1640	1	Dept Civil & Environm Engn
+1640	2	Univ Hong Kong
+1640	2	Dept Ind & Mfg Syst Engn
+1640	2	Hong Kong
+1641	0	Texas Christian Univ
+1641	0	Neeley Business Sch
+1641	1	Michigan State Univ
+1641	1	Eli Broad Coll Business
+1641	2	Ohio State Univ
+1641	2	Fisher Coll Business
+1642	0	USN
+1642	0	Postgrad Sch
+1642	0	Grad Sch Business & Publ Policy
+1642	1	Auburn Univ
+1642	1	Dept Ind & Syst Engn
+1643	0	Dokuz Eylul Univ
+1643	0	Dept Ind Engn
+1643	1	Erasmus Univ
+1643	1	Rotterdam Sch Management
+1644	0	London Business Sch
+1644	1	Carnegie Mellon Univ
+1644	1	Tepper Sch Business
+1645	0	Purdue Univ
+1645	0	Krannert Sch Management
+1645	1	Stanford Univ
+1645	1	Grad Sch Business
+1645	2	Clemson Univ
+1645	2	Coll Business & Behav Sci
+1646	0	Stanford Univ
+1646	0	Management Sci & Engn Dept
+1646	1	Stanford Univ
+1646	1	Knight Management Ctr
+1646	1	Grad Sch Business
+1646	2	World Bank Grp
+1647	0	Eindhoven Univ Technol
+1647	0	Sch Ind Engn
+1647	1	Hong Kong Univ Sci & Technol
+1647	1	Dept Ind Engn & Logist Management
+1647	1	Kowloon
+1648	0	Washington Univ
+1648	0	Olin Business Sch
+1648	1	Penn State Univ
+1648	1	Harold & Inge Marcus Dept Ind & Mfg Engn
+1648	2	Depaul Univ
+1648	2	Charles H Kellstadt Grad Sch Business
+1648	2	Dept Management
+1649	0	Purdue Univ
+1649	0	Krannert Sch Management
+1649	1	Indian Inst Management
+1649	1	Bangalore 560076
+1649	2	Univ Texas Austin
+1649	2	McCombs Sch Business
+1650	0	Nankai Univ
+1650	0	Sch Business
+1650	0	Res Ctr Corp Governance
+1650	1	Chinese Univ Hong Kong
+1650	1	Fac Business Adm
+1650	1	Dept Decis Sci & Managerial Econ
+1650	1	Shatin
+1651	0	Univ Miami
+1651	0	Sch Business Adm
+1651	0	Dept Management
+1651	1	Michigan State Univ
+1651	1	Eli Broad Sch Business
+1651	1	Dept Supply Chain Management
+1651	2	Sun Yat Sen Univ
+1651	2	Sun Yat Sen Business Sch
+1651	2	Guangzhou 510275
+1651	3	Univ N Carolina
+1651	3	Kenan Flagler Business Sch
+1651	3	Dept Operat Technol & Innovat Management
+1652	0	Towson Univ
+1652	0	Coll Business & Econ
+1652	1	Univ Maryland
+1652	1	Robert H Smith Sch Business
+1653	0	Univ Calif Berkeley
+1653	0	Dept Ind Engn & Operat Res
+1653	1	Purdue Univ
+1653	1	Krannert Sch Management
+1654	0	Indiana Univ
+1654	0	Kelley Sch Business
+1654	1	INSEAD
+1655	0	Univ Torcuato Di Tella
+1655	0	Escuela Negocios
+1655	0	Buenos Aires
+1655	1	INCAE Business Sch
+1655	2	Univ Michigan
+1655	2	Ross Sch Business
+1655	2	William Davidson Inst
+1655	3	Univ Michigan
+1655	3	Sch Publ Hlth
+1656	0	Georgia Inst Technol
+1656	0	Coll Management
+1656	1	Erasmus Univ
+1656	1	Rotterdam Sch Management
+1656	2	Akdeniz Univ
+1656	2	Fac Econ & Adm Sci
+1656	3	INSEAD
+1657	0	Univ Navarra
+1657	0	IESE Business Sch
+1657	1	MIT
+1657	1	Ctr Operat Res
+1658	0	Univ Magdeburg
+1658	0	Fac Econ & Management
+1659	0	Columbia Univ
+1659	0	Grad Sch Business
+1659	1	Huazhong Univ Sci & Technol
+1659	1	Sch Management
+1659	2	Chinese Acad Sci
+1659	2	Acad Math & Syst Sci
+1659	3	NUS Business Sch
+1660	0	Univ Texas Dallas
+1660	0	Jindal Sch Management SM 30
+1661	0	Ohio State Univ
+1661	0	Fisher Coll Business
+1661	1	Univ Michigan
+1661	1	Coll Business
+1662	0	Rutgers Business Sch
+1662	0	Supply Chain Management & Mkt Sci Dept
+1662	1	Ball State Univ
+1662	1	Miller Coll Business
+1662	2	Lulea Univ Technol
+1662	2	Div Entreprenuership
+1663	0	Univ Texas Dallas
+1663	0	Jindal Sch Management
+1664	0	Georgia Inst Technol
+1664	0	Coll Management
+1664	1	Univ S Carolina
+1664	1	Moore Sch Business
+1665	0	Univ Magdeburg
+1665	0	Fac Econ & Management
+1666	0	Kuehne Logist Univ
+1666	1	Univ Warwick
+1666	1	Warwick Business Sch
+1666	1	Coventry CV4 7AL
+1666	2	ICREA
+1666	3	Univ Pompeu Fabra
+1667	0	New Jersey Inst Technol
+1667	0	Dept Mech & Ind Engn
+1667	1	Georgia State Univ
+1667	1	J Mack Robinson Coll Business
+1668	0	Hong Kong Polytech Univ
+1668	0	Fac Business
+1668	0	Hong Kong
+1668	1	Sun Yat Sen Univ
+1668	1	Lingnan Univ Coll
+1668	1	Guangzhou 510275
+1669	0	Georgia State Univ
+1669	0	J Mack Robinson Coll Business
+1670	0	Indiana Univ
+1670	0	Kelley Sch Business
+1670	1	Univ Miami
+1670	1	Sch Business Adm
+1671	0	Univ Int Business & Econ
+1671	0	Sch Business
+1671	1	Univ British Columbia
+1671	1	Sauder Sch Business
+1671	1	Vancouver
+1672	0	Washington Univ
+1672	0	John M Olin Sch Business
+1672	1	NE Illinois Univ
+1672	1	Coll Business & Management
+1673	0	Univ Memphis
+1673	0	Dept Mkt & Supply Chain Management
+1673	0	Fogelman Coll Business & Econ
+1673	1	Penn State Univ
+1673	1	Harold & Inge Marcus Dept Ind & Mfg Engn
+1673	2	Depaul Univ
+1673	2	Charles H Kellstadt Grad Sch Business
+1673	2	Euromed Management Marseille
+1674	0	Lingnan Univ
+1674	0	Dept Comp & Decis Sci
+1674	0	Fac Business
+1674	0	Tuen Mun
+1674	1	McMaster Univ
+1674	1	DeGroote Sch Business
+1674	1	Hamilton
+1674	2	Shenzhen Dev Bank
+1674	2	Shenzhen 518001
+1675	0	Texas A&M Univ
+1675	0	Mays Business Sch
+1675	1	Univ Dallas
+1675	1	Coll Business
+1676	0	Univ Alberta
+1676	0	Sch Business
+1676	0	Edmonton

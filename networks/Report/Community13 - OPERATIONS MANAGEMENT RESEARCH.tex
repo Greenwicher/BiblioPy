@@ -1,0 +1,193 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 10 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant).\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``OPERATIONS MANAGEMENT RESEARCH'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Keyword & f(\%) & $\sigma$\\
+\hline
+OPERATIONS MANAGEMENT &  & \\
+$\quad$ RESEARCH & 20.00 & 58.93\\
+EMPIRICAL RESEARCH & 20.00 & 1.87\\
+RESEARCH METHODS & 20.00 & 22.05\\
+SURVEY RESEARCH & 15.00 & 5.72\\
+THEORY BUILDING & 15.00 & 9.17\\
+INDUSTRIALIZATION & 10.00 & 4.89\\
+CITATION ANALYSIS & 10.00 & 7.04\\
+SOM RESEARCH & 10.00 & 19.51\\
+INTERNATIONAL OPERATIONS & 10.00 & 4.78\\
+FRAMEWORK & 10.00 & 4.45\\
+TESTING & 10.00 & 13.34\\
+LITERATURE REVIEW & 10.00 & 3.38\\
+INDUCTIVE & 10.00 & 13.34\\
+QUALITATIVE & 10.00 & 13.34\\
+DEDUCTIVE & 10.00 & 13.34\\
+THEORY & 10.00 & 5.81\\
+CLASSIFICATION & 10.00 & 4.50\\
+SOM CONTENT & 10.00 & 19.51\\
+METHODOLOGY & 10.00 & 12.78\\
+OPERATIONS MANAGEMENT & 10.00 & 2.18\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 95.83 & 3.11\\
+Engineering, Manufacturing & 4.17 & -3.12\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 95.83 & 4.24\\
+PROD OPER MANAG & 4.17 & -3.12\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 20.83 & 24.23\\
+ARIZONA STATE UNIV & 12.50 & 23.75\\
+LONDON & 8.33 & 22.62\\
+COLL BUSINESS & 8.33 & 11.52\\
+WAKE FOREST UNIV & 8.33 & 34.00\\
+COLL BUSINESS \& ECON & 8.33 & 30.40\\
+UNIV WESTERN ONTARIO & 8.33 & 22.62\\
+DEPT SUPPLY CHAIN MANAGEMENT & 8.33 & 17.68\\
+COLL BUSINESS ADM & 8.33 & 13.05\\
+UNIV PADUA & 4.17 & 34.03\\
+COLL BUSINESS \& PUBL AFFAIRS & 4.17 & 41.69\\
+SUPPLY CHAIN MANAGEMENT DEPT & 4.17 & 34.03\\
+N CAROLINA STATE UNIV & 4.17 & 13.46\\
+COLL MANAGEMENT & 4.17 & 7.69\\
+GIDEAO & 4.17 & 58.98\\
+CORNELL UNIV & 4.17 & 10.68\\
+DEPARTIMENTO TECH \& GEST &  & \\
+$\quad$ SISTEMI IND & 4.17 & 58.98\\
+UNIV SEVILLE & 4.17 & 41.69\\
+FLORIDA ATLANTIC UNIV & 4.17 & 24.04\\
+UNIV NOTRE DAME & 4.17 & 11.49\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 45.83 & 17.15\\
+Canada & 8.33 & 9.97\\
+England & 8.33 & 13.87\\
+Italy & 4.17 & 16.30\\
+Spain & 4.17 & 10.02\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Choi TY & 16.67 & 7.16\\
+Machuca JAD & 8.33 & 10.05\\
+Gonzalez-Zamora MD & 8.33 & 17.69\\
+Forza C & 8.33 & 6.74\\
+Hollingworth DG & 8.33 & 9.10\\
+Wu ZH & 8.33 & 7.33\\
+Ash RC & 8.33 & 39.29\\
+Barratt M & 8.33 & 5.84\\
+Smunt TL & 8.33 & 15.11\\
+Krajewski L & 8.33 & 10.33\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Buffa e S, 1980, J OPERATIONS MANAGEM (1), 1 & 95.83 & 322.46\\
+Chase RB, 1980, J OPERATIONS MANAGEM (1), 9 & 87.50 & 331.75\\
+Amoako-gyampah K, 1989, J OPERATIONS MANAGEM (8), &  & \\
+$\quad$ 250 & 58.33 & 224.20\\
+Miller JG, 1981, DECISION SCI (12), 547 & 58.33 & 236.34\\
+Meredith j R, 1989, J OPERATIONS MANAGEM (8), 297 & 54.17 & 174.18\\
+Barman S, 1991, J OPERATIONS MANAGEM (10), 194 & 50.00 & 199.01\\
+Scudder g D, 1998, Journal of Operations &  & \\
+$\quad$ Management (16), 0 & 41.67 & 131.15\\
+Swamidass PM, 1991, ACAD MANAGE REV (16), 793 & 41.67 & 121.31\\
+Vokurka RJ, 1996, J OPERATIONS MANAGEM (14), 345 & 33.33 & 177.20\\
+Mabert VA, 1982, J OPERATIONS MANAGEM (2), 203 & 33.33 & 143.48\\
+Barman S, 2001, J OPER MANAG (19), 367 & 33.33 & 182.97\\
+Malhotra MK, 1998, J OPER MANAG (16), 407 & 33.33 & 71.46\\
+Pannirselvam GP, 1999, J OPER MANAG (18), 95 & 33.33 & 122.74\\
+Goh C-H, 1997, J OPERATIONS MANAGEM (15), 123 & 29.17 & 175.74\\
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 25.00 & 41.77\\
+Neely A, 1993, International Journal of Operations &  & \\
+$\quad$ \& Production Management (13), 0 & 25.00 & 108.61\\
+Flynn B B, 1990, J OPERATIONS MANAGEM (9), 250 & 25.00 & 43.65\\
+Saladin b A, 1985, OPERATIONS MANAGEMEN (3), 3 & 25.00 & 111.98\\
+Young s T, 1996, J OPERATIONS MANAGEM (14), 41 & 25.00 & 119.27\\
+Flynn B B, 1994, Journal of Operations Management &  & \\
+$\quad$ (11), 0 & 20.83 & 34.05\\
+Ahire SL, 1996, DECISION SCI (27), 23 & 20.83 & 40.05\\
+Gilbert JP, 1990, INT J PROD RES (28), 1099 & 16.67 & 65.84\\
+Dillman d A, 1978, MAIL TELEPHONE SURVE (0), 0 & 16.67 & 34.10\\
+Wisner JD, 1996, INT J OPER PROD MAN (16), 62 & 16.67 & 82.38\\
+Vandeven AH, 1989, ACAD MANAGE REV (14), 486 & 16.67 & 88.65\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPERATIONS MANAGEM & 58.33 & 39.92\\
+J OPER MANAG & 50.00 & 26.20\\
+DECISION SCI & 45.83 & 27.42\\
+Journal of Operations Management & 41.67 & 32.80\\
+ACAD MANAGE REV & 37.50 & 23.49\\
+INT J OPER PROD MAN & 33.33 & 24.21\\
+OPERATIONS MANAGEMEN & 33.33 & 48.56\\
+MANAGE SCI & 25.00 & 9.18\\
+ACAD MANAGE J & 25.00 & 16.53\\
+PRODUCTION OPERATION & 25.00 & 22.20\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

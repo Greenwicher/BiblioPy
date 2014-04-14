@@ -1,0 +1,8 @@
+nodedef>name VARCHAR,label VARCHAR,CCcom VARCHAR, Sub CCcom VARCHAR, Modularity VARCHAR, firstAU VARCHAR,journal VARCHAR,year VARCHAR,nb_arts DOUBLE,doi VARCHAR, volume VARCHAR, page VARCHAR
+3853,'D'souza DE, J OPER MANAG, 2000',4,0,-0.000000,D'souza DE,J OPER MANAG,2000,16,10.1016/S0272-6963(00)00036-X,18,577
+86,'Gupta y P, Production and Operations Management, 1996',4,0,-0.000000,Gupta y P,Production and Operations Management,1996,25,NA,5,0
+2853,'Koste LL, J OPER MANAG, 1999',4,0,-0.000000,Koste LL,J OPER MANAG,1999,25,10.1016/S0272-6963(99)00010-8,18,75
+edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE,nb_comm_refs DOUBLE
+86,3853,0.400000,8
+86,2853,0.400000,10
+2853,3853,0.550000,11

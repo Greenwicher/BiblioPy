@@ -1,0 +1,191 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 10 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant).\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``REMANUFACTURING'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Keyword & f(\%) & $\sigma$\\
+\hline
+REMANUFACTURING & 53.85 & 33.02\\
+REVERSE LOGISTICS & 15.38 & 13.68\\
+CLOSED-LOOP SUPPLY CHAINS & 15.38 & 13.65\\
+CASH SUPPLY CHAIN & 10.26 & 16.95\\
+SIMULATION & 10.26 & 4.28\\
+QUEUING & 10.26 & 14.99\\
+PRICING & 10.26 & 3.24\\
+PRODUCT ACQUISITION &  & \\
+$\quad$ MANAGEMENT & 7.69 & 17.82\\
+PRODUCTION PLANNING & 7.69 & 7.42\\
+MODULAR DESIGN & 5.13 & 12.87\\
+VALUE OF INFORMATION & 5.13 & 5.18\\
+PRODUCT RECOVERY & 5.13 & 11.72\\
+CITATION ANALYSIS & 5.13 & 4.86\\
+SUPPLY CHAIN MANAGEMENT & 5.13 & -1.23\\
+BIBLIOMETRIC TECHNIQUES & 5.13 & 6.09\\
+QUALITY GRADING & 5.13 & 18.69\\
+FEDERAL RESERVE SYSTEM & 5.13 & 11.08\\
+COMPETITION & 5.13 & 2.45\\
+CROSS SHIPPING & 5.13 & 13.14\\
+ASSEMBLY LINES & 5.13 & 15.67\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 68.29 & 4.57\\
+Management & 31.71 & -4.58\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 68.29 & 4.57\\
+J OPER MANAG & 21.95 & -3.94\\
+M\&SOM-MANUF SERV OP & 9.76 & -0.62\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+PENN STATE UNIV & 19.51 & 60.06\\
+INSEAD & 17.07 & 48.62\\
+SMEAL COLL BUSINESS & 12.20 & 46.96\\
+GEORGIA INST TECHNOL & 12.20 & 28.73\\
+COLL MANAGEMENT & 12.20 & 29.74\\
+COLL BUSINESS & 12.20 & 22.14\\
+UNIV MARYLAND & 9.76 & 28.78\\
+SCH MANAGEMENT & 9.76 & 16.39\\
+LONDON & 7.32 & 25.95\\
+DEPT MANAGEMENT & 7.32 & 10.95\\
+UNIV WESTERN ONTARIO & 7.32 & 25.95\\
+ROBERT H SMITH SCH BUSINESS & 7.32 & 25.95\\
+DEPT SUPPLY CHAIN \& INFORMAT &  & \\
+$\quad$ SYST & 7.32 & 40.76\\
+DUQUESNE UNIV & 4.88 & 36.80\\
+DEPT IND \& SYST ENGN & 4.88 & 23.22\\
+UNIV PENN & 4.88 & 14.92\\
+COLORADO STATE UNIV & 4.88 & 30.03\\
+SMEAL COLL BUSINESS ADM & 4.88 & 63.80\\
+WHARTON SCH & 4.88 & 15.13\\
+UNIV MIAMI & 4.88 & 24.05\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 65.85 & 32.56\\
+France & 17.07 & 44.99\\
+Canada & 12.20 & 19.18\\
+Turkey & 2.44 & 10.55\\
+Italy & 2.44 & 12.44\\
+Singapore & 2.44 & 7.00\\
+Greece & 2.44 & 14.98\\
+England & 2.44 & 5.17\\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Guide VDR & 31.71 & 32.22\\
+Souza GC & 21.95 & 26.04\\
+Van Wassenhove LN & 17.07 & 10.79\\
+Sriskandarajah C & 9.76 & 7.41\\
+Akcali E & 9.76 & 27.09\\
+Ketzenberg ME & 9.76 & 11.33\\
+Atasu A & 9.76 & 10.52\\
+Ferguson M & 7.32 & 10.05\\
+Toktay LB & 7.32 & 8.11\\
+Ferguson ME & 4.88 & 6.56\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Guide VDR, 2000, J OPER MANAG (18), 467 & 82.93 & 428.49\\
+Guide VDR, 2001, PROD OPER MANAG (10), 142 & 75.61 & 433.89\\
+Thierry M, 1995, CALIF MANAGE REV (37), 114 & 41.46 & 226.67\\
+Guide v d r  JR, 2003, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (5), 0 & 39.02 & 275.59\\
+Savaskan RC, 2004, MANAGE SCI (50), 239 & 34.15 & 208.39\\
+Fleischmann M, 1997, EUR J OPER RES (103), 1 & 34.15 & 169.01\\
+Van der laan E, 1999, MANAGE SCI (45), 733 & 24.39 & 190.56\\
+Toktay LB, 2000, MANAGE SCI (46), 1412 & 21.95 & 163.78\\
+Klausner M, 2000, INTERFACES (30), 156 & 21.95 & 262.80\\
+Guide VDR, 2000, INTERFACES (30), 125 & 21.95 & 178.23\\
+Ray S, 2005, Manufacturing \& Service Operations &  & \\
+$\quad$ Management (7), 0 & 19.51 & 232.99\\
+Guide VDR, 1998, J OPER MANAG (16), 551 & 19.51 & 188.42\\
+Ferrer G, 2001, PROD OPER MANAG (10), 112 & 19.51 & 139.57\\
+Majumder P, 2001, PROD OPER MANAG (10), 125 & 19.51 & 130.98\\
+Krikke HR, 1999, OR SPEKTRUM (21), 381 & 19.51 & 211.85\\
+Guide jr v d R, 2003, BUSINESS ASPECTS CLO (0), 0 & 19.51 & 161.38\\
+Fleischmann M, 2001, PROD OPER MANAG (10), 156 & 17.07 & 130.20\\
+Guide VDR, 2003, J OPER MANAG (21), 259 & 17.07 & 105.17\\
+Debo LG, 2005, MANAGE SCI (51), 1193 & 17.07 & 92.23\\
+Dekker R, 2004, REVERSE LOGISTICS QU (0), 0 & 17.07 & 103.87\\
+Blackburn JD, 2004, CALIF MANAGE REV (46), 6 & 14.63 & 88.66\\
+Fleischmann M, 2000, THESIS ERASMUS U ROT (0), 0 & 14.63 & 146.14\\
+Ferguson ME, 2006, PROD OPER MANAG (15), 351 & 14.63 & 101.65\\
+Souza GC, 2002, PROD OPER MANAG (11), 231 & 14.63 & 126.90\\
+Guide VDR, 1999, ROBOT CIM-INT MANUF (15), 221 & 12.20 & 178.57\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 60.98 & 30.43\\
+J OPER MANAG & 60.98 & 41.89\\
+PROD OPER MANAG & 58.54 & 37.56\\
+CALIF MANAGE REV & 46.34 & 48.03\\
+INTERFACES & 41.46 & 47.50\\
+EUR J OPER RES & 41.46 & 32.26\\
+INT J PROD RES & 31.71 & 34.45\\
+Manufacturing \& Service Operations Management & 29.27 & 27.10\\
+OPER RES & 26.83 & 18.50\\
+HARVARD BUS REV & 26.83 & 18.81\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

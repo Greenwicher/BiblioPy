@@ -1,0 +1,192 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 10 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant).\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``SUPPLY CHAIN MANAGEMENT'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Keyword & f(\%) & $\sigma$\\
+\hline
+SUPPLY CHAIN MANAGEMENT & 22.92 & 3.56\\
+EMPIRICAL RESEARCH & 12.50 & 1.45\\
+RISK & 8.33 & 14.09\\
+SUPPLY CHAIN DISRUPTIONS & 6.25 & 15.64\\
+SUPPLY RISK & 5.21 & 8.77\\
+LITERATURE REVIEW & 5.21 & 3.31\\
+RESEARCH AGENDA & 5.21 & 5.51\\
+RISK MANAGEMENT & 5.21 & 6.62\\
+SUPPLY CHAIN INTEGRATION & 5.21 & 3.21\\
+STOCK PRICE PERFORMANCE & 5.21 & 10.75\\
+DISRUPTIONS & 5.21 & 12.24\\
+OPERATIONS STRATEGY & 5.21 & -0.37\\
+UNCERTAINTY & 4.17 & 2.63\\
+OPERATIONS MANAGEMENT & 4.17 & 1.08\\
+HEDGING & 4.17 & 12.58\\
+SUPPLY CHAIN & 4.17 & 1.18\\
+SUPPLY CHAIN RISK MANAGEMENT & 4.17 & 9.17\\
+QUALITY MANAGEMENT & 3.12 & -0.63\\
+INFORMATION TECHNOLOGY &  & \\
+$\quad$ ADOPTION & 3.12 & 8.20\\
+SECOND-TIER SUPPLIERS & 3.12 & 6.99\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 57.14 & -1.77\\
+Engineering, Manufacturing & 42.86 & 1.77\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 43.88 & -1.74\\
+PROD OPER MANAG & 42.86 & 1.77\\
+M\&SOM-MANUF SERV OP & 13.27 & 0.08\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+GEORGIA INST TECHNOL & 8.25 & 29.80\\
+COLL MANAGEMENT & 8.25 & 30.85\\
+COLL BUSINESS ADM & 5.15 & 16.11\\
+UNIV WESTERN ONTARIO & 4.12 & 22.42\\
+WHARTON SCH & 4.12 & 19.64\\
+COLL BUSINESS & 4.12 & 11.29\\
+MICHIGAN STATE UNIV & 4.12 & 12.20\\
+RICHARD IVEY SCH BUSINESS & 4.12 & 23.31\\
+SCH MANAGEMENT & 4.12 & 10.44\\
+LONDON & 4.12 & 22.42\\
+UNIV PENN & 4.12 & 19.36\\
+UNIV MICHIGAN & 4.12 & 17.47\\
+UNIV N CAROLINA & 3.09 & 10.65\\
+DEPT MANAGEMENT & 3.09 & 6.88\\
+GEORGIA SO UNIV & 3.09 & 35.86\\
+MERRICK SCH BUSINESS & 3.09 & 35.86\\
+UNIV BALTIMORE & 3.09 & 33.19\\
+AB FREEMAN SCH BUSINESS & 2.06 & 20.65\\
+WASHINGTON UNIV & 2.06 & 11.34\\
+LONDON BUSINESS SCH & 2.06 & 12.65\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 56.70 & 42.94\\
+Canada & 9.28 & 22.35\\
+England & 6.19 & 20.62\\
+France & 2.06 & 8.15\\
+Israel & 1.03 & 8.35\\
+Australia & 1.03 & 6.58\\
+Sweden & 1.03 & 11.90\\
+Netherlands & 1.03 & 3.78\\
+Germany & 1.03 & 5.96\\
+Greece & 1.03 & 9.68\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Singhal VR & 10.20 & 14.58\\
+Hendricks KB & 9.18 & 14.11\\
+Stratman JK & 5.10 & 6.37\\
+Gupta S & 4.08 & 4.17\\
+Singhal J & 4.08 & 3.67\\
+Sodhi MS & 4.08 & 8.61\\
+Modi SB & 3.06 & 4.57\\
+Tang CS & 3.06 & 4.00\\
+Shockley J & 3.06 & 9.43\\
+Ellis SC & 3.06 & 9.43\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Hendricks KB, 2005, PROD OPER MANAG (14), 35 & 69.39 & 339.85\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 53 & 60.20 & 315.75\\
+Hendricks KB, 2003, J OPER MANAG (21), 501 & 56.12 & 295.27\\
+Chopra S, 2004, MIT SLOAN MANAGE REV (46), 53 & 23.47 & 176.32\\
+Hendricks KB, 2005, MANAGE SCI (51), 695 & 22.45 & 148.12\\
+Sodhi MS, 2005, PROD OPER MANAG (14), 69 & 20.41 & 183.21\\
+Tomlin B, 2006, MANAGE SCI (52), 639 & 20.41 & 154.73\\
+Gan XH, 2005, PROD OPER MANAG (14), 80 & 15.31 & 117.69\\
+Lee HL, 1997, MANAGE SCI (43), 546 & 15.31 & 57.73\\
+Martinez-de-albeniz V, 2005, PROD OPER MANAG (14), &  & \\
+$\quad$ 90 & 13.27 & 107.63\\
+Sheffi Y, 2005, RESILIENT ENTERPRISE (0), 0 & 13.27 & 160.38\\
+Choi TY, 2006, J OPER MANAG (24), 637 & 13.27 & 86.06\\
+Tang CS, 2006, INT J PROD ECON (103), 451 & 12.24 & 122.46\\
+Carhart MM, 1997, J FINANC (52), 57 & 12.24 & 158.96\\
+Fine CH, 2000, PROD OPER MANAG (9), 213 & 11.22 & 64.95\\
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 11.22 & 37.74\\
+Fisher M, 1997, Production and Operations &  & \\
+$\quad$ Management (6), 0 & 11.22 & 81.94\\
+Sheffi Y, 2005, MIT SLOAN MANAGE REV (47), 41 & 11.22 & 149.43\\
+Gaur V, 2005, MANAGE SCI (51), 181 & 11.22 & 75.02\\
+Gan XH, 2004, PROD OPER MANAG (13), 135 & 11.22 & 91.24\\
+Lee HL, 2004, HARVARD BUS REV (82), 102 & 11.22 & 76.94\\
+Parker GG, 2002, PROD OPER MANAG (11), 75 & 11.22 & 62.97\\
+Huchzermeier A, 1996, OPER RES (44), 100 & 11.22 & 92.76\\
+Spekman r E, 2004, International Journal of &  & \\
+$\quad$ Physical Distribution \& Logistics Management &  & \\
+$\quad$ (34), 0 & 11.22 & 161.31\\
+Cachon GP, 2000, MANAGE SCI (46), 1032 & 11.22 & 53.82\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 58.16 & 44.82\\
+PROD OPER MANAG & 57.14 & 56.66\\
+J OPER MANAG & 46.94 & 49.64\\
+HARVARD BUS REV & 38.78 & 42.42\\
+OPER RES & 30.61 & 32.76\\
+STRATEGIC MANAGE J & 29.59 & 37.93\\
+ACAD MANAGE REV & 28.57 & 35.99\\
+EUR J OPER RES & 24.49 & 29.12\\
+DECISION SCI & 23.47 & 27.98\\
+ACAD MANAGE J & 23.47 & 31.31\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}
