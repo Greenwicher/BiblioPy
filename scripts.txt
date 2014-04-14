@@ -1,0 +1,5 @@
+python ./scripts/parser.py -i data-wos -o data -v
+
+python ./scripts/first_distrib.py -i data -v
+
+python ./scripts/CC.py -i data -o networks -v
