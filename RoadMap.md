@@ -15,3 +15,13 @@
     <li>tex自动编译为pdf
 </ol>
 </font>
+
+## BiblioPy 2#  
+<font color=blue>
+**【已完成】：**
+
+<ol>
+    <li>co-citation nodes的centrality(degree, closeness, betweenness)计算
+
+</ol>
+</font>

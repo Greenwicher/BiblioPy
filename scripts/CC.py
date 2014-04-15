@@ -144,6 +144,12 @@ def CC_network(in_dir, out_dir, verbose):
 	plt.savefig(dst)
 	plt.close('all')
 	
+	#... calculate basic centrality for each node
+	if verbose: print "..calculate basic centrality for each node"
+	degree = nx.degree_centrality(G)
+	closeness = nx.closeness_centrality(G)
+	betweenness =  nx.betweenness_centrality(G)
+	
 	#...
 	if verbose: print "....computing communities with Louvain algo"
 	dendogram = community.generate_dendogram(G, part_init=None)
@@ -189,7 +195,8 @@ def CC_network(in_dir, out_dir, verbose):
 	list_nodes= dict();
 	for com in set(partition.values()) :
 		list_nodes[com] = [nodes for nodes in partition.keys() if partition[nodes] == com]
-		
+
+	
 	#############################
 	# sub-community partition
 	subcomm = dict()
@@ -258,12 +265,12 @@ def CC_network(in_dir, out_dir, verbose):
 	filename = os.path.join(out_dir, "ResearchBase.dat")
 	f_out = open(filename, "w")
 	# header line
-	f_out.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % ('CommunityID', 'SubCommunityID', 'Modularity', 'Topic', 'SubTopic', 'RefID', 'Volume', 'Page', 'Lable', 'Title', 'Keywords', 'firstAU', 'Journal', 'Year', 'Citation', 'DOI'))
+	f_out.write("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % ('CommunityID', 'SubCommunityID', 'Modularity', 'Topic', 'SubTopic', 'RefID', 'Volume', 'Page', 'Lable', 'Title', 'Keywords', 'firstAU', 'Journal', 'Year', 'Citation', 'DOI', 'Degree', 'Closeness', 'Betweenness'))
 	for elm in Lcomm_size:
 		com = elm[0]
 		for ref in list_nodes[com]:
 			foo = ref_index[ref]['firstAU'] + ', ' + ref_index[ref]['journal'] + ', ' + str(ref_index[ref]['year'])
-			f_out.write("%s\t%s\t%1.6f\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % (str(com), str(ref_index[ref]['SubCommID']), ref_index[ref]['modularity'], '', '', str(ref), str(ref_index[ref]['volume']), str(ref_index[ref]['page']), foo, '', '', ref_index[ref]['firstAU'], ref_index[ref]['journal'], str(ref_index[ref]['year']), str(nA[ref]), ref_index[ref]['doi']))
+			f_out.write("%s\t%s\t%1.6f\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%1.6f\t%1.6f\t%1.6f\n" % (str(com), str(ref_index[ref]['SubCommID']), ref_index[ref]['modularity'], '', '', str(ref), str(ref_index[ref]['volume']), str(ref_index[ref]['page']), foo, '', '', ref_index[ref]['firstAU'], ref_index[ref]['journal'], str(ref_index[ref]['year']), str(nA[ref]), ref_index[ref]['doi'], degree[ref], closeness[ref], betweenness[ref]))
 	f_out.close()
 	if verbose: print "..Done!\n"	
 	

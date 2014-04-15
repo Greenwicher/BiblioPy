@@ -1,2 +1,6 @@
-
+data/*.*
+data-wos/*.*
+networks/*.*
+networks/Report/*.*
+networks/SubGraph/Gephi/*.*
 scripts/*.pyc
