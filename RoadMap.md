@@ -34,3 +34,13 @@
 
 </ol>
 </font>
+
+## BiblioPy 4#  2014-05-02 12:58:00
+<font color=blue>
+**【已完成】：**
+
+<ol>
+	<li>【2014-05-02】subGraph中的plot精细化表达（node颜色代表Sub Community ID, size代表被引用次数，edge的粗细代表相似度）
+
+</ol>
+</font>

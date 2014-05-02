@@ -14,5 +14,7 @@ This python scripts is based on [Sebastian Grauwin's BiblioTools](http://www.seb
 - Research Topic's Life-cycle plot via [Kleinberg's burst detection algorithm](http://www.cs.cornell.edu/home/kleinber/bhs.pdf)
 - Timeline visualization via Processing
 
+#Tutorial
+
 > Liu Weizhi copyright (2014)
 

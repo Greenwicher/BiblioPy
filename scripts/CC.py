@@ -204,13 +204,31 @@ def CC_network(in_dir, out_dir, verbose):
 		# plot SubGraph for each community
 		if verbose: print "....plot SubGraph for community %d" % (com)
 		subG = nx.subgraph(G, list_nodes[com])
-		nx.draw_spring(subG)
-		dst = os.path.join(out_dir, 'SubGraph/Plot/SubGraph-%d.png' % (com))
-		plt.savefig(dst)
-		plt.close('all')
 		# partition
 		if verbose: print "....sub clustering for community %d" % (com)
 		part = community.best_partition(subG) 
+		# plot SubGraph relationships network
+		node_color = [part[v] for v in subG]
+		node_size = [nA[v]*30 for v in subG]
+		labels = dict()
+		for refid in subG:
+			foo = ref_index[refid]['firstAU'] + ', ' + ref_index[refid]['journal'] + ', ' + str(ref_index[refid]['year'])
+			labels[refid] = foo
+		width = []
+		for e in subG.edges():
+			i = e[0]
+			j = e[1]
+			if i>j:
+				tmp = i
+				i = j
+				j = tmp
+			w_ij = (1.0 * CC_table[i][j]) / math.sqrt(nA[i] * nA[j]) * 10
+			width.append(w_ij)
+		#nx.draw_spring(subG, node_color=node_color, node_size=node_size, labels=labels, font_size=8)
+		nx.draw_spring(subG, node_color=node_color, node_size=node_size, width=width)
+		dst = os.path.join(out_dir, 'SubGraph/Plot/SubGraph-%d.png' % (com))
+		plt.savefig(dst)
+		plt.close('all')
 		# basic descriptive statistics
 		comm_size = len(subG.nodes())
 		nb_comm = len(set(part.values()))
@@ -244,6 +262,7 @@ def CC_network(in_dir, out_dir, verbose):
 							f_gephi.write("\n%d,%d,%f,%d" % (i, j, w_ij, CC_table[i][j])) 
 		# end
 		f_gephi.close()
+
 		
 	#.. comm_size
 	comm_size = dict(); 
