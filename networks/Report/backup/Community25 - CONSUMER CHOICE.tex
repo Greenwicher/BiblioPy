@@ -1,0 +1,190 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(frac{1}{p})$ is also given.\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``CONSUMER CHOICE'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+CONSUMER CHOICE & 26.32 & 1.78\\
+ASSORTMENT PLANNING & 26.32 & 1.72\\
+MULTINOMIAL LOGIT MODEL & 21.05 & 1.34\\
+ASSORTMENT OPTIMIZATION & 10.53 & 0.86\\
+MATHEMATICAL MODELS & 10.53 & 0.85\\
+MARKETING AND MANUFACTURING &  &\\
+$\quad$ INTERFACES & 10.53 & 0.85\\
+ORDERING AND PRICING & 10.53 & 0.85\\
+MARKETING INTERFACE & 10.53 & 0.83\\
+SLOTTING FEES & 10.53 & 0.83\\
+PRODUCT VARIETY & 15.79 & 0.82\\
+SUBSTITUTABLE PRODUCTS & 10.53 & 0.76\\
+VERTICAL DIFFERENTIATION & 10.53 & 0.69\\
+OM-MARKETING INTERFACE & 10.53 & 0.66\\
+PRICING & 15.79 & 0.59\\
+RETAIL OPERATIONS & 10.53 & 0.57\\
+SUPPLY CHAIN MANAGEMENT & 26.32 & 0.57\\
+OPERATIONS & 10.53 & 0.51\\
+GAME THEORY & 10.53 & 0.46\\
+INVENTORY & 10.53 & 0.45\\
+INVENTORY MANAGEMENT & 10.53 & 0.45\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 52.63 & -1.19\\
+Engineering, Manufacturing & 47.37 & 1.19\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+M\&SOM-MANUF SERV OP & 47.37 & 4.46\\
+PROD OPER MANAG & 47.37 & 1.19\\
+J OPER MANAG & 5.26 & -4.14\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT SCI & 10.53 & 19.46\\
+SAUDER SCH BUSINESS & 10.53 & 39.94\\
+FUQUA SCH BUSINESS & 10.53 & 34.18\\
+CITY UNIV HONG KONG & 10.53 & 38.23\\
+ARIZONA STATE UNIV & 10.53 & 17.78\\
+WP CAREY SCH BUSINESS & 10.53 & 21.42\\
+HONG KONG & 10.53 & 30.36\\
+FAC BUSINESS & 10.53 & 30.36\\
+DUKE UNIV & 10.53 & 32.10\\
+VANCOUVER & 10.53 & 36.73\\
+UNIV CALIF LOS ANGELES & 10.53 & 21.42\\
+UNIV BRITISH COLUMBIA & 10.53 & 36.73\\
+UNIV MICHIGAN & 10.53 & 19.90\\
+HENRY W BLOCH SCH MANAGEMENT & 5.26 & 66.29\\
+LEE KONG CHIAN SCH BUSINESS & 5.26 & 22.06\\
+UNIV MISSOURI & 5.26 & 25.02\\
+OWEN GRAD SCH MANAGEMENT & 5.26 & 17.67\\
+WASHINGTON UNIV & 5.26 & 12.93\\
+UNIV INT BUSINESS \& ECON & 5.26 & 66.29\\
+SCH INT BUSINESS ADM & 5.26 & 46.86\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 57.89 & 19.42\\
+Peoples r china & 26.32 & 30.77\\
+Canada & 10.53 & 11.25\\
+Singapore & 5.26 & 10.39\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Kok AG & 15.79 & 20.17\\
+Aydin G & 10.53 & 11.75\\
+Bernstein F & 10.53 & 16.87\\
+Hausman WH & 10.53 & 7.90\\
+Honhon D & 10.53 & 12.62\\
+Pan XA & 10.53 & 17.01\\
+Tang CS & 10.53 & 6.75\\
+Xie L & 10.53 & 30.37\\
+Li ZL & 10.53 & 18.66\\
+Yin R & 10.53 & 17.01\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Cachon g P, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 94.74 & 528.88\\
+Van ryzin G, 1999, MANAGE SCI (45), 1496 & 84.21 & 304.85\\
+Hopp w J, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 57.89 & 475.65\\
+Smith SA, 2000, OPER RES (48), 50 & 57.89 & 245.12\\
+Gaur V, 2006, MANAGE SCI (52), 1528 & 47.37 & 253.69\\
+Netessine S, 2003, OPER RES (51), 329 & 31.58 & 169.11\\
+Aydin G, 2008, OPER RES (56), 1247 & 26.32 & 151.84\\
+Cachon GP, 2007, MANAGE SCI (53), 934 & 26.32 & 216.77\\
+Petruzzi NC, 1999, OPER RES (47), 183 & 21.05 & 72.91\\
+Gaur V, 2005, PROD OPER MANAG (14), 377 & 21.05 & 152.34\\
+Mahajan S, 2001, OPER RES (49), 646 & 21.05 & 130.58\\
+Mussa M, 1978, J ECON THEORY (18), 301 & 21.05 & 87.09\\
+Moorthy k S, 1984, MARKET SCI (3), 288 & 21.05 & 85.03\\
+Mahajan S, 2001, OPER RES (49), 334 & 21.05 & 108.38\\
+Kok AG, 2008, RETAIL SUPPLY CHAIN (0), 0 & 21.05 & 331.20\\
+Dobson G, 1988, MARKET SCI (7), 107 & 21.05 & 125.69\\
+Netessine S, 2007, MARKET SCI (26), 101 & 15.79 & 109.16\\
+Guadagni P, 1983, MARKET SCI (2), 203 & 15.79 & 138.08\\
+Lippman SA, 1997, OPER RES (45), 54 & 15.79 & 98.22\\
+Cachon GP, 2008, MARKET SCI (27), 461 & 15.79 & 166.87\\
+Bassok Y, 1999, OPER RES (47), 632 & 15.79 & 98.68\\
+Chu WJ, 1992, MARKET SCI (11), 327 & 15.79 & 194.71\\
+Kok AG, 2007, OPER RES (55), 1001 & 15.79 & 122.10\\
+Cachon G, 2003, HDB OPERATIONS RES M (0), 0 & 15.79 & 84.16\\
+Elmaghraby W, 2003, MANAGE SCI (49), 1287 & 15.79 & 58.66\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 73.68 & 25.15\\
+Manufacturing \& Service Operations Management & 73.68 & 46.89\\
+OPER RES & 63.16 & 30.18\\
+MARKET SCI & 52.63 & 37.60\\
+M\&SOM-MANUF SERV OP & 36.84 & 25.73\\
+PROD OPER MANAG & 36.84 & 15.93\\
+NAV RES LOG & 31.58 & 26.64\\
+MANUFACTURING SERVIC & 26.32 & 29.64\\
+J IND ECON & 26.32 & 37.68\\
+HDB OPERATIONS RES M & 26.32 & 36.96\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

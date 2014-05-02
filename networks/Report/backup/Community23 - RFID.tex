@@ -1,0 +1,191 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(frac{1}{p})$ is also given.\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``RFID'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+RFID & 64.29 & 3.21\\
+REVERSE CHANNELS & 14.29 & 1.10\\
+INVENTORY RECORD INACCURACY &  &\\
+$\quad$ (IRI) & 14.29 & 1.09\\
+INVENTORY VISIBILITY & 14.29 & 1.09\\
+FIELD EXPERIMENT & 14.29 & 1.09\\
+BUSINESS PROCESS IMPROVEMENT & 14.29 & 1.03\\
+SIMULATION MODELING AND &  &\\
+$\quad$ ANALYSIS & 14.29 & 1.03\\
+ENABLERS AND BARRIERS & 14.29 & 1.03\\
+COLLABORATION AND &  &\\
+$\quad$ COORDINATION & 14.29 & 1.03\\
+COMPETITION AND CONFLICT & 14.29 & 1.03\\
+E-AUCTION & 14.29 & 1.03\\
+RADIO FREQUENCY IDENTIFICATION &  &\\
+$\quad$ (RFID) & 14.29 & 1.01\\
+BENEFITS & 14.29 & 0.93\\
+ADOPTION & 14.29 & 0.93\\
+BUSINESS VALUE OF IT & 14.29 & 0.93\\
+INVENTORY & 21.43 & 0.92\\
+VISIBILITY & 14.29 & 0.91\\
+INFORMATION TECHNOLOGY & 21.43 & 0.87\\
+VALUE OF INFORMATION & 14.29 & 0.81\\
+E-BUSINESS & 14.29 & 0.81\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 85.71 & 4.04\\
+Management & 14.29 & -4.05\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 85.71 & 4.04\\
+M\&SOM-MANUF SERV OP & 7.14 & -0.65\\
+J OPER MANAG & 7.14 & -3.41\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+MISSISSIPPI STATE UNIV & 7.14 & 77.23\\
+UNIV MARYLAND & 7.14 & 12.29\\
+SUPPLY CHAIN MANAGEMENT DEPT & 7.14 & 44.57\\
+WASHINGTON UNIV & 7.14 & 15.08\\
+ROBINS SCH BUSINESS & 7.14 & 34.52\\
+DEPT MANAGEMENT & 7.14 & 6.24\\
+FLORIDA INT UNIV & 7.14 & 34.52\\
+COLL BUSINESS & 7.14 & 7.52\\
+UNIV MEMPHIS & 7.14 & 44.57\\
+STANFORD GRAD SCH BUSINESS & 7.14 & 77.23\\
+ANTAI COLL ECON \& MANAGEMENT & 7.14 & 29.16\\
+UNIV ARKANSAS & 7.14 & 18.68\\
+ARIZONA STATE UNIV & 7.14 & 10.32\\
+ROSS SCH BUSINESS & 7.14 & 23.25\\
+UNIV SO INDIANA & 7.14 & 77.23\\
+WP CAREY SCH BUSINESS & 7.14 & 12.45\\
+SHANGHAI JIAO TONG UNIV & 7.14 & 31.50\\
+JOHN M OLIN SCH BUSINESS & 7.14 & 21.38\\
+COOK SYST INT & 7.14 & 77.23\\
+COLL BUSINESS \& INNOVAT & 7.14 & 77.23\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 64.29 & 18.56\\
+Canada & 7.14 & 6.50\\
+Peoples r china & 7.14 & 7.07\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Pitts MG & 14.29 & 19.69\\
+Whitaker J & 14.29 & 13.86\\
+Aloysius JA & 14.29 & 24.67\\
+Amini M & 14.29 & 19.69\\
+Mithas S & 14.29 & 10.34\\
+Krishnan MS & 14.29 & 13.86\\
+Kyparisis GJ & 14.29 & 19.53\\
+Hardgrave BC & 14.29 & 18.50\\
+Karaer O & 14.29 & 25.33\\
+Gupta S & 14.29 & 6.28\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Delen D, 2007, PROD OPER MANAG (16), 613 & 85.71 & 411.26\\
+Heese HS, 2007, PROD OPER MANAG (16), 542 & 85.71 & 389.24\\
+Lee H, 2007, PROD OPER MANAG (16), 40 & 57.14 & 192.89\\
+Ngai EWT, 2007, PROD OPER MANAG (16), 554 & 50.00 & 219.16\\
+Dutta A, 2007, PROD OPER MANAG (16), 646 & 42.86 & 196.58\\
+Whitaker J, 2007, PROD OPER MANAG (16), 599 & 42.86 & 179.34\\
+Gaukler GM, 2007, PROD OPER MANAG (16), 65 & 42.86 & 173.40\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 35.71 & 83.61\\
+Cachon GP, 2000, MANAGE SCI (46), 1032 & 35.71 & 64.89\\
+Mithas S, 2005, J MARKETING (69), 201 & 28.57 & 131.19\\
+Amini M, 2007, PROD OPER MANAG (16), 586 & 28.57 & 274.17\\
+Tsikriktsis N, 2004, PROD OPER MANAG (13), 216 & 28.57 & 72.54\\
+Blackburn JD, 2004, CALIF MANAGE REV (46), 6 & 28.57 & 101.19\\
+Murphy TF, 2005, AM J BIOETHICS (5), 18 & 28.57 & 218.51\\
+Mithas S, 2007, PROD OPER MANAG (16), 455 & 28.57 & 119.21\\
+Karaer O, 2007, PROD OPER MANAG (16), 625 & 28.57 & 183.27\\
+Johnson ME, 2002, PROD OPER MANAG (11), 413 & 28.57 & 72.34\\
+Barratt M, 2007, PROD OPER MANAG (16), 569 & 28.57 & 189.23\\
+Swaminathan JM, 2003, MANAGE SCI (49), 1387 & 28.57 & 81.57\\
+Bharadwaj AS, 1999, MANAGE SCI (45), 1008 & 21.43 & 58.64\\
+Camdereli AZ, 2010, PROD OPER MANAG (19), 1 & 21.43 & 157.56\\
+Prater E, 2005, SUPPLY CHAIN MANAG (10), 134 & 21.43 & 132.28\\
+Raman A, 2001, CALIF MANAGE REV (43), 136 & 21.43 & 81.66\\
+Brynjolfsson E, 1996, MANAGE SCI (42), 541 & 21.43 & 50.93\\
+Mukhopadhyay T, 1995, MIS QUART (19), 137 & 21.43 & 61.19\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 64.29 & 24.14\\
+MANAGE SCI & 50.00 & 14.50\\
+CALIF MANAGE REV & 35.71 & 21.58\\
+HARVARD BUS REV & 35.71 & 14.74\\
+M\&SOM-MANUF SERV OP & 28.57 & 17.08\\
+J OPER MANAG & 28.57 & 11.29\\
+J MARKETING & 28.57 & 15.55\\
+SUPPLY CHAIN MANAG & 28.57 & 26.88\\
+J MANAGE & 21.43 & 13.03\\
+INFORM SYST RES & 21.43 & 20.20\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

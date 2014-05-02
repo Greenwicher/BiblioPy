@@ -22,6 +22,15 @@
 
 <ol>
     <li>co-citation nodes的centrality(degree, closeness, betweenness)计算
+</ol>
+</font>
+
+## BiblioPy 3#  2014-05-02 12:58:00
+<font color=blue>
+**【已完成】：**
+
+<ol>
+	<li>【2014-05-02】keywords中依据tf-idf指标排序，并修正了原来keywords在整个database的比例p的计算，现在的database是指filtered co-citation network所引申出的包含重复的document集合;并生成了tf-idf的dat file，以供人工处理相似关键词但分开统计的情况
 
 </ol>
 </font>

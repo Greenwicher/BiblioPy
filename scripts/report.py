@@ -23,7 +23,7 @@ def community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,l
 	else:
 		filename = os.path.join(out_dir, "Report/Community%s - %s.tex" % (type, label[int(type)]))
 	f_out = open(filename,"w")
-	f_out.write("\documentclass[a4paper,11pt]{report}\n\usepackage[english]{babel}\n\usepackage[latin1]{inputenc}\n\usepackage{amsfonts,amssymb,amsmath}\n\usepackage{pdflscape}\n\usepackage{color}\n\n\\addtolength{\evensidemargin}{-60pt}\n\\addtolength{\oddsidemargin}{-60pt}\n\\addtolength{\\textheight}{80pt}\n\n\\title{{\\bf Communities ID Cards}}\n\date{\\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\\\\n The CC network was built by keeping a link between articles sharing at least %d references. The communities characterized here correspond to the ones found in the level %d (in the sense of the Louvain algo) which gathers more than %d articles.\\\\\n These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant).\\\\\n\\vspace{1cm}\n\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}\n\n\\begin{document}\n\\begin{landscape}\n\maketitle\n" % (ccthr, level, thr))
+	f_out.write("\documentclass[a4paper,11pt]{report}\n\usepackage[english]{babel}\n\usepackage[latin1]{inputenc}\n\usepackage{amsfonts,amssymb,amsmath}\n\usepackage{pdflscape}\n\usepackage{color}\n\n\\addtolength{\evensidemargin}{-60pt}\n\\addtolength{\oddsidemargin}{-60pt}\n\\addtolength{\\textheight}{80pt}\n\n\\title{{\\bf Communities ID Cards}}\n\date{\\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\\\\n The CC network was built by keeping a link between articles sharing at least %d references. The communities characterized here correspond to the ones found in the level %d (in the sense of the Louvain algo) which gathers more than %d articles.\\\\\n These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(1/p)$ is also given.\\\\\n\\vspace{1cm}\n\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}\n\n\\begin{document}\n\\begin{landscape}\n\maketitle\n" % (ccthr, level, thr))
 
 
 	#.. quantitative
@@ -47,7 +47,7 @@ def community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,l
 
 	#.. frequency / significance of keywords, etc...
 	comm_label = dict();
-	(stuffK, stuffS, stuffJ, stuffA, stuffI, stuffC, stuffR, stuffRJ) = CCUtils.comm_tables(in_dir,partition,art_table,thr,verbose)
+	(stuffK, stuffS, stuffJ, stuffA, stuffI, stuffC, stuffR, stuffRJ) = CCUtils.comm_tables(in_dir,out_dir,partition,art_table,thr,type,label,verbose)
 	
 	#.. output tables
 	for elm in Lcomm_size:
@@ -57,22 +57,22 @@ def community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,l
 			if com in stuffK:
 				if len(stuffK[com]) > 0 : comm_label[com] = stuffK[com][0][0].replace('/', '-').replace('\\', '-')
 				else: comm_label[com] = 'XXXX'
-				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``%s'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r r|}\n\hline\nKeyword & f(\\%%) & $\sigma$\\\\\n\hline\n" % (com, comm_label[com], comm_size[com], comm_innerw[com] ) )
+				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``%s'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r  r|}\n\hline\nKeyword & f(\\%%) & tf-idf \\\\\n\hline\n" % (com, comm_label[com], comm_size[com], comm_innerw[com] ) )
 				for i in range(len(stuffK[com])):
 					if len(stuffK[com][i][0]) < 30:
-						f_out.write("%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0], stuffK[com][i][1], stuffK[com][i][2]) )
+						f_out.write("%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0], stuffK[com][i][1], stuffK[com][i][3]))
 					else:
 						aux = stuffK[com][i][0].rfind(' ')
 						while aux > 30: 
 							aux = stuffK[com][i][0][0:aux].rfind(' ')
-						f_out.write("%s &  & \\\\\n" % ( stuffK[com][i][0][0:aux] ) )
-						f_out.write("$\quad$%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0][aux:], stuffK[com][i][1], stuffK[com][i][2]) )
+						f_out.write("%s &  &\\\\\n" % ( stuffK[com][i][0][0:aux] ) )
+						f_out.write("$\quad$%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0][aux:], stuffK[com][i][1], stuffK[com][i][3]))
 				for i in range(max(0,20-len(stuffK[com]))):
-					f_out.write(" &  & \\\\\n")
+					f_out.write(" & & \\\\\n")
 			else:
-				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``?'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r r|}\n\hline\nKeyword & f(\\%%) & $\sigma$\\\\\n\hline\n" % (com, comm_size[com], comm_innerw[com] ) )
+				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``?'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r r |}\n\hline\nKeyword & f(\\%%) & tf-idf \\\\\n\hline\n" % (com, comm_size[com], comm_innerw[com] ) )
 				for i in range(20):
-					f_out.write(" &  & \\\\\n")	
+					f_out.write(" & & \\\\\n")	
 			#S
 			f_out.write("\hline\n\hline\nSubject & f(\\%) & $\sigma$\\\\\n\hline\n")
 			if com in stuffS:

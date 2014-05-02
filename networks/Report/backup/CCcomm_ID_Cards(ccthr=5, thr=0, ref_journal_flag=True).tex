@@ -1,0 +1,4870 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 1 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(frac{1}{p})$ is also given.\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 4 - ``SUPPLY CHAIN MANAGEMENT'' contains $N = 53$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/32$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+SUPPLY CHAIN MANAGEMENT & 25.49 & 0.55\\
+BUYER-SUPPLIER RELATIONSHIPS & 10.03 & 0.42\\
+SUPPLY CHAIN INTEGRATION & 9.42 & 0.40\\
+SUPPLY MANAGEMENT & 8.70 & 0.34\\
+TRUST & 6.55 & 0.31\\
+EMPIRICAL RESEARCH & 10.85 & 0.27\\
+STRUCTURAL EQUATION MODELING & 6.76 & 0.25\\
+CHINA & 4.61 & 0.23\\
+PERFORMANCE & 5.22 & 0.20\\
+PRODUCT DEVELOPMENT & 5.02 & 0.18\\
+OUTSOURCING & 4.91 & 0.18\\
+PURCHASING & 3.99 & 0.16\\
+SOCIAL CAPITAL & 2.97 & 0.16\\
+OPERATIONS STRATEGY & 5.53 & 0.15\\
+SUPPLIER INTEGRATION & 2.87 & 0.15\\
+OPERATIONAL PERFORMANCE & 2.87 & 0.15\\
+SOCIAL EXCHANGE THEORY & 2.15 & 0.13\\
+RELATIONSHIP COMMITMENT & 2.15 & 0.13\\
+INTERNAL INTEGRATION & 2.05 & 0.12\\
+SURVEY RESEARCH & 2.66 & 0.12\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 93.29 & 18.25\\
+Engineering, Manufacturing & 6.71 & -18.26\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 91.96 & 24.68\\
+PROD OPER MANAG & 6.71 & -18.26\\
+M\&SOM-MANUF SERV OP & 1.32 & -10.88\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 5.30 & 38.41\\
+MICHIGAN STATE UNIV & 3.36 & 31.44\\
+COLL BUSINESS ADM & 3.16 & 31.01\\
+COLL BUSINESS & 2.75 & 23.58\\
+DEPT SUPPLY CHAIN MANAGEMENT & 2.75 & 36.83\\
+ARIZONA STATE UNIV & 2.55 & 30.30\\
+SCH MANAGEMENT & 2.34 & 18.36\\
+OHIO STATE UNIV & 2.04 & 25.88\\
+FISHER COLL BUSINESS & 1.93 & 26.02\\
+WP CAREY SCH BUSINESS & 1.83 & 26.27\\
+DEPT MANAGEMENT SCI & 1.73 & 22.39\\
+ELI BROAD GRAD SCH MANAGEMENT & 1.73 & 21.89\\
+DEPT MKT \& SUPPLY CHAIN &  & \\
+$\quad$ MANAGEMENT & 1.63 & 21.53\\
+UNIV MINNESOTA & 1.53 & 14.61\\
+SCH BUSINESS & 1.43 & 12.43\\
+UNIV WESTERN ONTARIO & 1.32 & 22.51\\
+INDIANA UNIV & 1.32 & 16.02\\
+CARLSON SCH MANAGEMENT & 1.32 & 16.37\\
+LONDON & 1.32 & 22.51\\
+COLL MANAGEMENT & 1.22 & 13.85\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 25.46 & 59.13\\
+Canada & 2.95 & 21.78\\
+Peoples r china & 2.04 & 16.05\\
+England & 1.83 & 18.80\\
+Spain & 0.81 & 12.02\\
+Netherlands & 0.81 & 9.35\\
+Italy & 0.61 & 14.96\\
+Australia & 0.51 & 10.11\\
+Switzerland & 0.41 & 9.45\\
+South korea & 0.31 & 5.39\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Huo BF & 4.07 & 18.79\\
+Zhao XD & 4.07 & 15.08\\
+Narasimhan R & 3.97 & 6.27\\
+Paulraj A & 3.26 & 10.28\\
+Chen IJ & 3.26 & 10.28\\
+Benton WC & 2.95 & 6.46\\
+Swink M & 2.95 & 3.87\\
+Handley SM & 2.95 & 7.19\\
+Flynn BB & 2.75 & 9.14\\
+Rosenzweig ED & 2.44 & 3.39\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Fornell C, 1981, J MARKETING RES (18), 39 & 39.78 & 299.21\\
+Armstrong JS, 1977, J MARKETING RES (14), 396 & 35.30 & 312.59\\
+Podsakoff PM, 2003, J APPL PSYCHOL (88), 879 & 33.67 & 297.44\\
+Frohlich MT, 2001, J OPER MANAG (19), 185 & 33.27 & 364.61\\
+Anderson JC, 1988, PSYCHOL BULL (103), 411 & 30.52 & 272.62\\
+Carr AS, 1999, J OPER MANAG (17), 497 & 29.20 & 349.55\\
+Dyer JH, 1998, ACAD MANAGE REV (23), 660 & 28.08 & 298.96\\
+Podsakoff PM, 1986, J MANAGE (12), 531 & 25.64 & 245.60\\
+Bagozzi RP, 1991, ADMIN SCI QUART (36), 421 & 22.48 & 252.64\\
+O'leary-kelly SW, 1998, J OPER MANAG (16), 387 & 21.57 & 245.17\\
+Barney J, 1991, J MANAGE (17), 99 & 20.55 & 183.37\\
+Vickery SK, 2003, J OPER MANAG (21), 523 & 20.35 & 301.16\\
+Chen IJ, 2004, J OPER MANAG (22), 119 & 20.14 & 285.88\\
+Nunnally JC, 1978, PSYCHOMETRIC THEORY (0), 0 & 19.63 & 173.55\\
+Bollen kenneth A, 1989, STRUCTURAL EQUATIONS (0), &  & \\
+$\quad$ 0 & 19.02 & 192.95\\
+Petersen KJ, 2005, J OPER MANAG (23), 371 & 18.92 & 288.60\\
+Rosenzweig ED, 2003, J OPER MANAG (21), 437 & 18.31 & 291.40\\
+Narasimhan R, 2002, J OPER MANAG (20), 303 & 17.09 & 276.23\\
+Paulraj A, 2008, J OPER MANAG (26), 45 & 16.68 & 299.33\\
+Heide JB, 1990, J MARKETING RES (27), 24 & 16.38 & 265.87\\
+Anderson E, 1992, J MARKETING RES (29), 18 & 16.38 & 264.48\\
+Krause DR, 1999, J OPER MANAG (17), 205 & 16.28 & 258.50\\
+Miller JG, 1994, MANAGE SCI (40), 285 & 16.17 & 156.80\\
+Narasimhan R, 1998, DECISION SCI (29), 579 & 15.56 & 237.97\\
+Morgan RM, 1994, J MARKETING (58), 20 & 15.46 & 225.46\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 28.59 & 94.62\\
+MANAGE SCI & 25.23 & 59.32\\
+ACAD MANAGE REV & 22.08 & 87.51\\
+HARVARD BUS REV & 21.87 & 74.56\\
+STRATEGIC MANAGE J & 21.67 & 87.33\\
+DECISION SCI & 21.26 & 80.05\\
+ACAD MANAGE J & 20.14 & 84.79\\
+J MARKETING RES & 19.53 & 84.59\\
+ADMIN SCI QUART & 17.19 & 81.32\\
+J OPERATIONS MANAGEM & 16.68 & 71.48\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 2 - ``QUALITY MANAGEMENT'' contains $N = 43$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/27$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+QUALITY MANAGEMENT & 23.44 & 0.73\\
+PERFORMANCE & 9.43 & 0.36\\
+EMPIRICAL RESEARCH & 14.42 & 0.36\\
+SIX SIGMA & 6.80 & 0.32\\
+CONTINGENCY THEORY & 6.66 & 0.30\\
+TOTAL QUALITY MANAGEMENT & 6.24 & 0.29\\
+QUALITY & 7.35 & 0.28\\
+EVENT STUDY & 4.99 & 0.27\\
+BEST PRACTICE & 3.74 & 0.23\\
+LEAN PRODUCTION & 4.85 & 0.23\\
+CONTINGENCY RESEARCH & 3.74 & 0.22\\
+THEORY DEVELOPMENT & 3.74 & 0.19\\
+PROCESS IMPROVEMENT & 3.47 & 0.18\\
+ENVIRONMENTAL UNCERTAINTY & 3.33 & 0.17\\
+EMPIRICAL RESEARCH METHODS & 4.16 & 0.17\\
+TQM & 3.19 & 0.17\\
+MANUFACTURING STRATEGY & 4.02 & 0.16\\
+ORGANIZATIONAL STRUCTURE & 2.64 & 0.15\\
+STRUCTURAL EQUATION MODELING & 4.02 & 0.15\\
+META-ANALYSIS & 2.77 & 0.15\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 84.92 & 11.01\\
+Engineering, Manufacturing & 15.08 & -11.02\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 82.88 & 16.42\\
+PROD OPER MANAG & 15.08 & -11.02\\
+M\&SOM-MANUF SERV OP & 2.04 & -8.84\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 5.84 & 36.81\\
+UNIV MINNESOTA & 4.21 & 36.34\\
+CARLSON SCH MANAGEMENT & 3.40 & 37.40\\
+COLL BUSINESS & 3.12 & 23.33\\
+COLL BUSINESS ADM & 2.72 & 22.99\\
+MICHIGAN STATE UNIV & 2.58 & 20.71\\
+SCH BUSINESS & 1.90 & 14.66\\
+ARIZONA STATE UNIV & 1.77 & 17.98\\
+SCH MANAGEMENT & 1.49 & 9.78\\
+DEPT SUPPLY CHAIN MANAGEMENT & 1.49 & 17.05\\
+OHIO STATE UNIV & 1.49 & 16.27\\
+OPERAT \& MANAGEMENT SCI DEPT & 1.49 & 25.15\\
+FISHER COLL BUSINESS & 1.36 & 15.63\\
+EMORY UNIV & 1.36 & 17.73\\
+CLEMSON UNIV & 1.22 & 16.99\\
+DEPT MANAGEMENT SCI & 1.22 & 13.50\\
+ELI BROAD GRAD SCH MANAGEMENT & 1.22 & 13.19\\
+INDIANA UNIV & 1.22 & 12.76\\
+HONG KONG POLYTECH UNIV & 1.09 & 16.24\\
+KELLEY SCH BUSINESS & 1.09 & 12.08\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 26.49 & 53.41\\
+Canada & 2.99 & 19.10\\
+Peoples r china & 2.31 & 15.89\\
+England & 2.17 & 19.45\\
+Spain & 1.36 & 17.73\\
+Netherlands & 1.09 & 11.03\\
+Portugal & 0.82 & 18.96\\
+South korea & 0.68 & 10.92\\
+Australia & 0.68 & 11.81\\
+Italy & 0.54 & 11.48\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Schroeder RG & 11.01 & 17.69\\
+Linderman K & 6.66 & 13.77\\
+Sousa R & 4.35 & 18.80\\
+Nair A & 4.21 & 11.52\\
+Voss CA & 3.67 & 16.55\\
+Yeung ACL & 3.67 & 10.48\\
+Shah R & 3.53 & 10.15\\
+Ward PT & 3.26 & 6.87\\
+Swink M & 3.12 & 3.75\\
+Zhang DL & 2.99 & 15.78\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Flynn B B, 1994, Journal of Operations Management &  & \\
+$\quad$ (11), 0 & 44.16 & 400.52\\
+Powell TC, 1995, STRATEGIC MANAGE J (16), 15 & 41.17 & 399.58\\
+Flynn BB, 1995, DECISION SCI (26), 659 & 33.42 & 363.83\\
+Dow D, 1999, PROD OPER MANAG (8), 1 & 32.61 & 387.41\\
+Samson D, 1999, J OPER MANAG (17), 393 & 31.66 & 372.28\\
+Ahire SL, 1996, DECISION SCI (27), 23 & 29.62 & 315.64\\
+Kaynak H, 2003, J OPER MANAG (21), 405 & 25.41 & 350.07\\
+Shah R, 2003, J OPER MANAG (21), 129 & 23.91 & 313.89\\
+Cua KO, 2001, J OPER MANAG (19), 675 & 23.78 & 330.88\\
+Choi TY, 1998, J OPER MANAG (17), 59 & 23.37 & 328.42\\
+Hendricks KB, 1997, MANAGE SCI (43), 1258 & 23.10 & 325.32\\
+Saraph JV, 1989, DECISION SCI (20), 810 & 22.83 & 282.66\\
+Dean JW, 1994, ACAD MANAGE REV (19), 392 & 21.06 & 284.94\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 20.38 & 132.11\\
+Sitkin SB, 1994, ACAD MANAGE REV (19), 537 & 20.38 & 281.85\\
+Hackman JR, 1995, ADMIN SCI QUART (40), 309 & 19.43 & 254.08\\
+Anderson JC, 1994, ACAD MANAGE REV (19), 472 & 19.29 & 244.17\\
+Benson PG, 1991, MANAGE SCI (37), 1107 & 18.89 & 307.13\\
+Sousa R, 2002, J OPER MANAG (20), 91 & 18.75 & 350.18\\
+Anderson JC, 1995, DECISION SCI (26), 637 & 18.61 & 271.07\\
+Sousa R, 2001, PROD OPER MANAG (10), 383 & 17.80 & 279.64\\
+Hendricks KB, 2001, J OPER MANAG (19), 269 & 17.80 & 304.08\\
+Amundson SD, 1998, J OPER MANAG (16), 341 & 17.12 & 241.82\\
+Ahire SL, 2000, J OPER MANAG (18), 549 & 16.17 & 278.37\\
+Deming WE, 1986, OUT CRISIS (0), 0 & 16.03 & 196.32\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 30.98 & 88.93\\
+MANAGE SCI & 26.77 & 54.67\\
+ACAD MANAGE REV & 23.51 & 80.76\\
+DECISION SCI & 23.23 & 75.90\\
+STRATEGIC MANAGE J & 21.47 & 74.85\\
+HARVARD BUS REV & 21.33 & 62.86\\
+ACAD MANAGE J & 21.06 & 76.80\\
+Journal of Operations Management & 20.79 & 89.78\\
+J OPERATIONS MANAGEM & 20.38 & 75.98\\
+PROD OPER MANAG & 19.29 & 50.64\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 1 - ``OPERATIONS STRATEGY'' contains $N = 42$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/23$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+OPERATIONS STRATEGY & 22.93 & 0.64\\
+MANUFACTURING STRATEGY & 15.55 & 0.62\\
+EMPIRICAL RESEARCH & 23.81 & 0.59\\
+TAXONOMY & 4.41 & 0.24\\
+SUPPLY CHAIN MANAGEMENT & 9.70 & 0.21\\
+TECHNOLOGY MANAGEMENT & 4.85 & 0.21\\
+COMPETITIVE CAPABILITIES & 3.64 & 0.20\\
+ADVANCED MANUFACTURING &  &\\
+$\quad$ TECHNOLOGIES & 2.98 & 0.19\\
+CUMULATIVE CAPABILITIES & 2.98 & 0.18\\
+RESOURCE-BASED VIEW & 3.53 & 0.17\\
+MANUFACTURING CAPABILITIES & 2.65 & 0.17\\
+MEASUREMENT AND METHODOLOGY & 3.20 & 0.17\\
+TRADE-OFFS & 2.43 & 0.16\\
+TRADEOFFS & 2.32 & 0.15\\
+FLEXIBILITY & 3.53 & 0.15\\
+META-ANALYSIS & 2.65 & 0.14\\
+OPERATIONS MANAGEMENT & 3.64 & 0.13\\
+CONTINGENCY THEORY & 2.98 & 0.13\\
+EMPIRICAL RESEARCH METHODS & 3.31 & 0.13\\
+HIGH-TECH MANUFACTURING & 1.98 & 0.12\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 72.13 & 4.15\\
+Engineering, Manufacturing & 27.87 & -4.15\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 69.96 & 10.52\\
+PROD OPER MANAG & 27.87 & -4.15\\
+M\&SOM-MANUF SERV OP & 2.17 & -9.77\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 7.06 & 50.01\\
+MICHIGAN STATE UNIV & 4.34 & 39.64\\
+COLL BUSINESS ADM & 4.02 & 38.47\\
+COLL BUSINESS & 3.58 & 30.08\\
+UNIV MINNESOTA & 3.04 & 29.08\\
+ELI BROAD GRAD SCH MANAGEMENT & 2.39 & 29.52\\
+CARLSON SCH MANAGEMENT & 2.39 & 29.20\\
+OHIO STATE UNIV & 2.17 & 26.77\\
+DEPT MANAGEMENT SCI & 1.95 & 24.57\\
+DEPT MKT \& SUPPLY CHAIN &  & \\
+$\quad$ MANAGEMENT & 1.95 & 25.15\\
+INDIANA UNIV & 1.95 & 23.26\\
+SCH MANAGEMENT & 1.85 & 13.77\\
+FISHER COLL BUSINESS & 1.85 & 24.01\\
+KELLEY SCH BUSINESS & 1.74 & 22.02\\
+CLEMSON UNIV & 1.63 & 25.51\\
+UNIV N CAROLINA & 1.63 & 16.88\\
+DEPT SUPPLY CHAIN MANAGEMENT & 1.52 & 19.41\\
+LONDON BUSINESS SCH & 1.52 & 28.62\\
+UNIV S CAROLINA & 1.52 & 25.12\\
+COLL MANAGEMENT & 1.41 & 15.61\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 30.94 & 70.44\\
+England & 3.04 & 30.77\\
+Canada & 2.39 & 16.83\\
+Peoples r china & 1.95 & 14.87\\
+Spain & 0.98 & 14.09\\
+Italy & 0.65 & 15.47\\
+France & 0.65 & 7.43\\
+Finland & 0.65 & 21.32\\
+South korea & 0.54 & 9.66\\
+Netherlands & 0.54 & 5.78\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Rosenzweig ED & 9.65 & 23.05\\
+Swink M & 6.94 & 13.84\\
+Roth AV & 6.83 & 8.31\\
+Boyer KK & 6.51 & 16.27\\
+Schroeder RG & 6.40 & 9.71\\
+Verma R & 3.25 & 8.18\\
+Ward PT & 2.93 & 6.61\\
+Narasimhan R & 2.71 & 2.96\\
+Pagell M & 2.49 & 6.26\\
+Easton GS & 2.39 & 13.26\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Miller JG, 1994, MANAGE SCI (40), 285 & 38.61 & 363.86\\
+Ferdows K, 1990, J OPERATIONS MANAGEM (9), 168 & 37.96 & 422.08\\
+Hayes RH, 1984, RESTORING OUR COMPET (0), 0 & 34.92 & 350.11\\
+Flynn B B, 1990, J OPERATIONS MANAGEM (9), 250 & 26.57 & 287.64\\
+Hayes r H, 1996, PRODUCTION OPERATION (5), 25 & 24.73 & 378.02\\
+Schmenner RW, 1998, J OPER MANAG (17), 97 & 23.64 & 284.63\\
+Boyer KK, 2002, PROD OPER MANAG (11), 9 & 23.54 & 337.21\\
+Swamidass PM, 1987, MANAGE SCI (33), 509 & 23.21 & 253.95\\
+Vickery SK, 1993, DECISION SCI (24), 435 & 21.58 & 277.64\\
+Skinner W, 1969, HARVARD BUS REV (47), 136 & 20.72 & 283.45\\
+Nunnally JC, 1978, PSYCHOMETRIC THEORY (0), 0 & 20.50 & 175.53\\
+Safizadeh MH, 1996, MANAGE SCI (42), 1576 & 20.39 & 266.99\\
+Noble MA, 1995, DECISION SCI (26), 693 & 19.85 & 346.62\\
+Gerwin D, 1993, MANAGE SCI (39), 395 & 19.31 & 237.40\\
+Safizadeh MH, 2000, PROD OPER MANAG (9), 111 & 18.22 & 342.62\\
+Rosenzweig ED, 2004, PROD OPER MANAG (13), 354 & 18.11 & 267.62\\
+Barney J, 1991, J MANAGE (17), 99 & 17.90 & 154.52\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 17.79 & 128.89\\
+Malhotra MK, 1998, J OPER MANAG (16), 407 & 17.57 & 233.15\\
+Ward PT, 1998, DECISION SCI (29), 1035 & 17.46 & 312.25\\
+Skinner W, 1996, PRODUCTION OPERATION (5), 3 & 17.35 & 288.27\\
+Flynn BB, 1999, J OPER MANAG (17), 249 & 17.03 & 310.31\\
+Giffi C, 1990, COMPETING WORLD CLAS (0), 0 & 16.92 & 272.24\\
+Boyer K K, 1997, Journal of Operations Management &  & \\
+$\quad$ (15), 0 & 16.81 & 269.74\\
+Bollen kenneth A, 1989, STRUCTURAL EQUATIONS (0), &  & \\
+$\quad$ 0 & 16.70 & 163.96\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 32.54 & 104.69\\
+MANAGE SCI & 31.45 & 72.58\\
+HARVARD BUS REV & 26.79 & 89.05\\
+STRATEGIC MANAGE J & 25.92 & 101.64\\
+ACAD MANAGE REV & 25.27 & 97.36\\
+J OPERATIONS MANAGEM & 24.62 & 103.19\\
+DECISION SCI & 24.19 & 88.53\\
+ACAD MANAGE J & 21.58 & 88.15\\
+INT J OPER PROD MAN & 20.50 & 91.48\\
+PROD OPER MANAG & 20.28 & 59.74\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 7 - ``SERVICE OPERATIONS'' contains $N = 24$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/16$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+SERVICE OPERATIONS & 32.69 & 0.96\\
+E-COMMERCE & 11.22 & 0.53\\
+E-SERVICES & 9.62 & 0.47\\
+CUSTOMER SATISFACTION & 9.29 & 0.40\\
+SERVICE OPERATIONS MANAGEMENT & 8.33 & 0.39\\
+MIS/OPERATIONS INTERFACE & 6.41 & 0.37\\
+LOGISTICS/DISTRIBUTION & 6.41 & 0.33\\
+NEW SERVICE DEVELOPMENT & 5.45 & 0.30\\
+SERVICE DESIGN & 4.81 & 0.26\\
+OPERATIONS STRATEGY & 8.01 & 0.22\\
+EMPIRICAL RESEARCH & 8.97 & 0.22\\
+SERVICE RECOVERY & 4.17 & 0.22\\
+SERVICE COPRODUCTION & 3.21 & 0.21\\
+SERVICE DELIVERY SYSTEM & 3.21 & 0.19\\
+SERVICE QUALITY & 4.17 & 0.19\\
+ARCHIVAL DATA & 3.21 & 0.19\\
+INTERNET RETAILING & 2.56 & 0.18\\
+MARGINS & 2.56 & 0.18\\
+PHYSICAL SERVICE DISTRIBUTION & 2.56 & 0.18\\
+DROP-SHIPPING & 2.56 & 0.18\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 58.65 & -2.60\\
+Engineering, Manufacturing & 41.35 & 2.59\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 52.24 & -0.15\\
+PROD OPER MANAG & 41.35 & 2.59\\
+M\&SOM-MANUF SERV OP & 6.41 & -3.46\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 5.13 & 20.95\\
+MICHIGAN STATE UNIV & 4.17 & 22.11\\
+UNIV MINNESOTA & 3.85 & 21.56\\
+CLEMSON UNIV & 3.53 & 32.53\\
+SCH MANAGEMENT & 3.53 & 15.92\\
+COLL BUSINESS \& BEHAV SCI & 2.88 & 37.79\\
+SCH BUSINESS & 2.88 & 14.77\\
+ARIZONA STATE UNIV & 2.56 & 17.20\\
+COLL BUSINESS & 2.56 & 12.35\\
+CARLSON SCH MANAGEMENT & 2.56 & 18.28\\
+WP CAREY SCH BUSINESS & 2.56 & 20.86\\
+UNIV N CAROLINA & 2.24 & 13.72\\
+UNIV UTAH & 2.24 & 25.34\\
+DEPT SUPPLY CHAIN MANAGEMENT & 2.24 & 16.87\\
+DAVID ECCLES SCH BUSINESS & 2.24 & 25.34\\
+INDIANA UNIV & 2.24 & 15.61\\
+COLL BUSINESS ADM & 2.24 & 12.26\\
+UNIV WESTERN ONTARIO & 1.92 & 18.58\\
+KENAN FLAGLER BUSINESS SCH & 1.92 & 13.60\\
+RICHARD IVEY SCH BUSINESS & 1.92 & 19.33\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 37.50 & 50.17\\
+Canada & 3.85 & 16.20\\
+England & 2.56 & 15.03\\
+Australia & 1.60 & 18.50\\
+Peoples r china & 1.60 & 6.98\\
+Switzerland & 0.96 & 12.89\\
+Spain & 0.96 & 8.06\\
+Netherlands & 0.64 & 4.05\\
+South korea & 0.64 & 6.69\\
+Portugal & 0.32 & 4.73\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Rabinovich E & 14.42 & 23.78\\
+Roth AV & 13.78 & 12.64\\
+Menor LJ & 7.05 & 11.76\\
+Field JM & 5.13 & 16.73\\
+Verma R & 5.13 & 8.42\\
+Froehle CM & 4.81 & 12.21\\
+Karwan KR & 3.53 & 14.34\\
+Rao S & 3.21 & 9.85\\
+Sinha KK & 3.21 & 8.34\\
+Sampson SE & 3.21 & 7.81\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Roth AV, 2003, PROD OPER MANAG (12), 145 & 47.76 & 375.92\\
+Boyer KK, 2002, J OPER MANAG (20), 175 & 33.33 & 343.95\\
+Kellogg DL, 1995, MANAGE SCI (41), 1734 & 28.85 & 293.70\\
+Roth AV, 1995, MANAGE SCI (41), 1720 & 25.32 & 207.25\\
+Goldstein SM, 2002, J OPER MANAG (20), 121 & 20.51 & 284.91\\
+Hill AV, 2002, J OPER MANAG (20), 189 & 20.19 & 267.30\\
+Rabinovich E, 2004, J OPER MANAG (21), 651 & 18.91 & 298.84\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 18.91 & 79.76\\
+Thirumalai S, 2005, J OPER MANAG (23), 291 & 18.91 & 283.20\\
+Cook LS, 2002, J OPER MANAG (20), 159 & 18.91 & 256.25\\
+Chase RB, 1981, OPER RES (29), 698 & 18.59 & 181.48\\
+Kellogg d L, 1995, Journal of Operations &  & \\
+$\quad$ Management (13), 0 & 18.27 & 251.73\\
+Chase RB, 1983, MANAGE SCI (29), 1037 & 18.27 & 186.27\\
+Menor LJ, 2002, J OPER MANAG (20), 135 & 18.27 & 250.35\\
+Froehle CA, 2004, J OPER MANAG (22), 1 & 18.27 & 205.39\\
+Schmenner RW, 1986, SLOAN MANAGE REV (27), 21 & 17.63 & 192.70\\
+Soteriou AC, 1998, J OPER MANAG (16), 495 & 16.99 & 255.49\\
+Heim g R, 2001, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (3), 0 & 16.99 & 273.95\\
+Chase RB, 1978, HARVARD BUS REV (56), 137 & 16.35 & 182.57\\
+Karmarkar u S, 1995, Journal of Operations &  & \\
+$\quad$ Management (12), 0 & 16.35 & 272.85\\
+Boyer KK, 2006, J OPER MANAG (24), 124 & 16.03 & 251.41\\
+Zeithaml VA, 2002, J ACAD MARKET SCI (30), 362 & 15.71 & 226.59\\
+Barney J, 1991, J MANAGE (17), 99 & 15.38 & 77.19\\
+Stewart DM, 2003, PROD OPER MANAG (12), 246 & 15.06 & 219.34\\
+Stewart DM, 1999, PROD OPER MANAG (8), 240 & 15.06 & 202.29\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 37.82 & 51.22\\
+J OPER MANAG & 36.86 & 69.21\\
+PROD OPER MANAG & 31.73 & 55.36\\
+HARVARD BUS REV & 31.73 & 61.65\\
+J MARKETING & 26.60 & 68.29\\
+ACAD MANAGE REV & 25.32 & 56.75\\
+DECISION SCI & 24.04 & 51.18\\
+J MARKETING RES & 24.04 & 58.94\\
+SLOAN MANAGE REV & 20.19 & 55.25\\
+STRATEGIC MANAGE J & 19.87 & 45.01\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 6 - ``EMPIRICAL RESEARCH'' contains $N = 18$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/11$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+EMPIRICAL RESEARCH & 17.98 & 0.45\\
+OPERATIONS MANAGEMENT & 11.40 & 0.42\\
+THEORY BUILDING & 7.46 & 0.39\\
+THEORY VERIFYING & 5.26 & 0.32\\
+LABORATORY RESEARCH & 5.26 & 0.32\\
+MULTIVARIATE STATISTICAL &  &\\
+$\quad$ TECHNIQUES & 5.26 & 0.32\\
+APPLICATIONS & 5.26 & 0.32\\
+ARCHIVAL RESEARCH & 5.26 & 0.32\\
+OPERATIONS STRATEGY & 10.53 & 0.29\\
+ELWOOD SPENCER BUFFA & 4.39 & 0.29\\
+QUALITATIVE RESEARCH & 5.26 & 0.29\\
+FIELD RESEARCH & 5.26 & 0.29\\
+SERVICE & 5.26 & 0.29\\
+E-AUCTION & 3.95 & 0.28\\
+COLLABORATION AND &  &\\
+$\quad$ COORDINATION & 3.95 & 0.28\\
+ENABLERS AND BARRIERS & 3.95 & 0.28\\
+COMPETITION AND CONFLICT & 3.95 & 0.28\\
+INTERDISCIPLINARY & 6.14 & 0.27\\
+MANUFACTURING & 5.70 & 0.26\\
+ENTREPRENEURSHIP & 4.39 & 0.23\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 65.94 & 10.06\\
+Management & 34.06 & -10.06\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 65.94 & 10.06\\
+J OPER MANAG & 26.64 & -7.89\\
+M\&SOM-MANUF SERV OP & 7.42 & -2.51\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+SCH MANAGEMENT & 5.24 & 20.54\\
+GEORGIA INST TECHNOL & 4.37 & 24.05\\
+COLL MANAGEMENT & 4.37 & 24.91\\
+COLL BUSINESS & 4.37 & 18.39\\
+MICHIGAN STATE UNIV & 3.49 & 15.80\\
+DEPT MANAGEMENT & 3.49 & 12.02\\
+SCH BUSINESS & 3.06 & 13.44\\
+GOIZUETA BUSINESS SCH & 2.62 & 21.00\\
+DEPT SUPPLY CHAIN MANAGEMENT & 2.62 & 16.93\\
+UNIV MINNESOTA & 2.62 & 12.43\\
+EMORY UNIV & 2.62 & 19.35\\
+UNIV TEXAS DALLAS & 2.62 & 18.03\\
+INSEAD & 2.18 & 14.40\\
+SCHULICH SCH BUSINESS & 2.18 & 30.03\\
+YORK UNIV & 2.18 & 28.62\\
+UNIV WESTERN ONTARIO & 2.18 & 18.11\\
+UNIV UTAH & 2.18 & 21.12\\
+ARIZONA STATE UNIV & 2.18 & 12.49\\
+DAVID ECCLES SCH BUSINESS & 2.18 & 21.12\\
+CARLSON SCH MANAGEMENT & 2.18 & 13.28\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 43.67 & 50.37\\
+Canada & 4.80 & 17.49\\
+France & 2.18 & 13.28\\
+Netherlands & 1.75 & 10.12\\
+England & 1.75 & 8.63\\
+South korea & 1.75 & 16.04\\
+Turkey & 0.87 & 8.78\\
+Portugal & 0.87 & 11.34\\
+Israel & 0.44 & 5.33\\
+Singapore & 0.44 & 2.69\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Gupta S & 17.47 & 31.31\\
+Singhal J & 9.61 & 15.04\\
+Singhal K & 7.42 & 12.73\\
+Starr MK & 6.99 & 17.39\\
+Subramanian R & 5.68 & 11.78\\
+Verma R & 5.24 & 7.41\\
+Sriskandarajah C & 5.24 & 8.84\\
+Rosenzweig ED & 5.24 & 5.46\\
+Stratman JK & 5.24 & 10.02\\
+Victorino L & 5.24 & 13.42\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 482 & 44.54 & 370.87\\
+Boyer KK, 2005, PROD OPER MANAG (14), 442 & 37.12 & 302.98\\
+Buhman C, 2005, PROD OPER MANAG (14), 493 & 36.68 & 365.24\\
+Kouvelis P, 2005, PROD OPER MANAG (14), 450 & 31.88 & 374.39\\
+Krishnan V, 2005, PROD OPER MANAG (14), 433 & 29.26 & 324.56\\
+Schroeder RG, 2005, PROD OPER MANAG (14), 468 & 26.64 & 308.10\\
+Tsikriktsis N, 2004, PROD OPER MANAG (13), 216 & 26.20 & 269.03\\
+Mallick DN, 2005, PROD OPER MANAG (14), 142 & 25.76 & 250.01\\
+Schmidt GM, 2005, PROD OPER MANAG (14), 272 & 20.09 & 251.02\\
+Carrillo JE, 2005, PROD OPER MANAG (14), 125 & 19.21 & 221.50\\
+Rosenzweig ED, 2004, PROD OPER MANAG (13), 354 & 19.21 & 141.50\\
+Heim GR, 2002, PROD OPER MANAG (11), 54 & 17.47 & 194.00\\
+Kreipl S, 2004, PROD OPER MANAG (13), 77 & 17.03 & 210.63\\
+Sousa R, 2001, PROD OPER MANAG (10), 383 & 16.59 & 145.40\\
+Ketokivi M, 2006, PROD OPER MANAG (15), 215 & 15.72 & 194.03\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 53 & 15.72 & 125.83\\
+Sroufe R, 2003, PROD OPER MANAG (12), 416 & 14.85 & 188.92\\
+Hendricks KB, 2005, PROD OPER MANAG (14), 35 & 14.41 & 107.65\\
+Field JM, 2004, PROD OPER MANAG (13), 291 & 14.41 & 220.50\\
+Lapre MA, 2004, PROD OPER MANAG (13), 123 & 13.54 & 170.25\\
+Craighead CW, 2004, PROD OPER MANAG (13), 307 & 13.54 & 170.16\\
+Singhal K, 1992, PRODUCTION OPERATION (1), 1 & 13.54 & 196.77\\
+Anand G, 2004, PROD OPER MANAG (13), 369 & 12.23 & 123.63\\
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 11.79 & 60.62\\
+Miller JG, 1994, MANAGE SCI (40), 285 & 11.79 & 55.03\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 48.47 & 73.24\\
+MANAGE SCI & 43.23 & 50.44\\
+J OPER MANAG & 29.69 & 47.49\\
+HARVARD BUS REV & 29.69 & 49.34\\
+STRATEGIC MANAGE J & 23.14 & 45.10\\
+DECISION SCI & 21.83 & 39.71\\
+ACAD MANAGE REV & 21.40 & 40.90\\
+ACAD MANAGE J & 20.09 & 40.81\\
+PRODUCTION OPERATION & 17.47 & 47.67\\
+ORGAN SCI & 17.47 & 42.70\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 9 - ``SUPPLY CHAIN MANAGEMENT'' contains $N = 17$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/12$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+SUPPLY CHAIN MANAGEMENT & 16.07 & 0.35\\
+RESEARCH AGENDA & 6.43 & 0.32\\
+SUPPLY CHAIN DISRUPTIONS & 4.29 & 0.28\\
+OUTSOURCING & 7.50 & 0.27\\
+OPERATIONS MANAGEMENT & 6.79 & 0.25\\
+HEDGING & 3.57 & 0.25\\
+DISRUPTIVE RISKS & 3.21 & 0.23\\
+OPERATIONAL RISKS & 3.21 & 0.23\\
+PRODUCTION AND OPERATIONS &  &\\
+$\quad$ MANAGEMENT & 3.57 & 0.23\\
+INTERORGANIZATIONAL & 3.93 & 0.23\\
+ENTERPRISE TRANSFORMATION & 3.93 & 0.23\\
+ENTERPRISE NETWORKS & 3.93 & 0.23\\
+NETWORK-CENTRIC ENTERPRISE & 3.93 & 0.23\\
+BUSINESS PROCESSES & 3.93 & 0.23\\
+SUPPLY CHAIN INTEGRATION & 5.36 & 0.23\\
+RISK & 3.93 & 0.23\\
+OPERATING RISK & 2.50 & 0.22\\
+OPERATIONS AND RISK & 2.50 & 0.22\\
+DEMAND UNCERTAINTY & 3.93 & 0.22\\
+LITERATURE REVIEW & 5.00 & 0.22\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 66.20 & 11.29\\
+Management & 33.80 & -11.30\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 66.20 & 11.29\\
+J OPER MANAG & 27.11 & -8.62\\
+M\&SOM-MANUF SERV OP & 6.69 & -3.16\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+GEORGIA INST TECHNOL & 4.59 & 28.15\\
+COLL MANAGEMENT & 4.24 & 26.88\\
+SCH MANAGEMENT & 3.89 & 16.78\\
+UNIV N CAROLINA & 3.53 & 20.85\\
+COLL BUSINESS ADM & 3.18 & 16.77\\
+DEPT MANAGEMENT & 3.18 & 12.10\\
+INSEAD & 2.83 & 20.84\\
+MICHIGAN STATE UNIV & 2.83 & 14.11\\
+UNIV MICHIGAN & 2.47 & 17.75\\
+COLL BUSINESS & 2.47 & 11.33\\
+CLEMSON UNIV & 2.12 & 18.50\\
+UNIV PENN & 2.12 & 16.83\\
+UNIV MINNESOTA & 2.12 & 11.09\\
+WHARTON SCH & 2.12 & 17.08\\
+UNIV TEXAS & 2.12 & 17.90\\
+GEORGETOWN UNIV & 1.77 & 23.62\\
+KENAN FLAGLER BUSINESS SCH & 1.77 & 11.87\\
+HONG KONG POLYTECH UNIV & 1.77 & 16.55\\
+UNIV TEXAS DALLAS & 1.77 & 13.39\\
+TULANE UNIV & 1.77 & 30.21\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 46.64 & 59.95\\
+Canada & 4.24 & 17.08\\
+Peoples r china & 3.53 & 15.41\\
+England & 3.18 & 17.87\\
+France & 2.83 & 19.23\\
+Germany & 1.41 & 14.05\\
+South korea & 1.41 & 14.38\\
+Netherlands & 1.06 & 6.66\\
+Switzerland & 1.06 & 13.56\\
+Australia & 0.71 & 7.63\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Singhal VR & 5.28 & 12.30\\
+Gupta S & 5.28 & 9.58\\
+Roth AV & 5.28 & 2.95\\
+Singhal J & 4.93 & 7.86\\
+Hendricks KB & 4.93 & 12.41\\
+Anderson EG & 4.23 & 7.26\\
+Kekre S & 3.87 & 10.28\\
+Buhman C & 3.87 & 11.58\\
+Sodhi MS & 3.87 & 13.86\\
+Parker GG & 3.52 & 6.52\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Hendricks KB, 2005, PROD OPER MANAG (14), 35 & 45.07 & 375.67\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 53 & 39.79 & 355.14\\
+Gan XH, 2005, PROD OPER MANAG (14), 80 & 27.82 & 364.29\\
+Hendricks KB, 2003, J OPER MANAG (21), 501 & 27.46 & 245.82\\
+Martinez-de-albeniz V, 2005, PROD OPER MANAG (14), &  & \\
+$\quad$ 90 & 24.30 & 335.74\\
+Gan XH, 2004, PROD OPER MANAG (13), 135 & 22.54 & 312.03\\
+Fisher M, 1997, Production and Operations &  & \\
+$\quad$ Management (6), 0 & 22.54 & 280.28\\
+Sodhi MS, 2005, PROD OPER MANAG (14), 69 & 22.54 & 344.41\\
+Fine CH, 2000, PROD OPER MANAG (9), 213 & 22.18 & 218.80\\
+Parker GG, 2002, PROD OPER MANAG (11), 75 & 21.48 & 205.40\\
+Gerchak Y, 2004, PROD OPER MANAG (13), 23 & 17.25 & 249.64\\
+Lee HL, 1997, MANAGE SCI (43), 546 & 14.79 & 94.94\\
+Lederer PJ, 2005, PROD OPER MANAG (14), 21 & 14.08 & 246.15\\
+Kraiselburd S, 2004, PROD OPER MANAG (13), 46 & 12.68 & 243.92\\
+Boyaci T, 2004, PROD OPER MANAG (13), 3 & 12.68 & 217.67\\
+Mallick DN, 2005, PROD OPER MANAG (14), 142 & 12.32 & 133.04\\
+Miller LT, 2005, PROD OPER MANAG (14), 5 & 12.32 & 226.68\\
+Huchzermeier A, 1996, OPER RES (44), 100 & 12.32 & 173.40\\
+Hendricks KB, 2005, MANAGE SCI (51), 695 & 12.32 & 138.31\\
+Anderson EG, 2002, PROD OPER MANAG (11), 313 & 11.97 & 144.34\\
+Tomlin B, 2006, MANAGE SCI (52), 639 & 11.97 & 154.42\\
+Souza GC, 2004, PROD OPER MANAG (13), 34 & 11.62 & 204.71\\
+Carrillo JE, 2005, PROD OPER MANAG (14), 125 & 11.27 & 144.56\\
+Chopra S, 2004, MIT SLOAN MANAGE REV (46), 53 & 10.56 & 134.98\\
+Cachon GP, 2005, MANAGE SCI (51), 30 & 10.56 & 127.98\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 48.24 & 62.92\\
+PROD OPER MANAG & 47.54 & 79.95\\
+J OPER MANAG & 28.87 & 51.38\\
+HARVARD BUS REV & 28.87 & 53.39\\
+STRATEGIC MANAGE J & 24.30 & 52.79\\
+OPER RES & 23.24 & 41.97\\
+ACAD MANAGE REV & 21.83 & 46.50\\
+EUR J OPER RES & 19.72 & 39.65\\
+ORGAN SCI & 19.01 & 51.86\\
+ACAD MANAGE J & 18.31 & 41.32\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 8 - ``RESEARCH METHODS'' contains $N = 11$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/3$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+RESEARCH METHODS & 14.66 & 0.94\\
+OPERATIONS MANAGEMENT &  &\\
+$\quad$ RESEARCH & 9.48 & 0.79\\
+SOM CONTENT & 9.48 & 0.72\\
+SOM RESEARCH & 9.48 & 0.72\\
+CITATION ANALYSIS & 11.21 & 0.63\\
+OPERATIONS MANAGEMENT & 16.38 & 0.61\\
+POM JOURNALS & 7.76 & 0.60\\
+RELEVANCE & 7.76 & 0.57\\
+SURVEY RESEARCH & 12.07 & 0.54\\
+SERVICE OPERATIONS MANAGEMENT & 11.21 & 0.53\\
+JOURNAL EVALUATION & 6.90 & 0.46\\
+THEORY BUILDING & 8.62 & 0.46\\
+OM HISTORY & 6.03 & 0.44\\
+METHODOLOGY & 6.03 & 0.41\\
+PRODUCTION AND OPERATIONS &  &\\
+$\quad$ MANAGEMENT (POM) & 4.31 & 0.36\\
+QUALITATIVE & 5.17 & 0.35\\
+INDUCTIVE & 5.17 & 0.35\\
+DEDUCTIVE & 5.17 & 0.35\\
+TESTING & 5.17 & 0.35\\
+EMPIRICAL RESEARCH & 13.79 & 0.34\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 90.24 & 5.75\\
+Engineering, Manufacturing & 9.76 & -5.75\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 90.24 & 8.35\\
+PROD OPER MANAG & 9.76 & -5.75\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 9.76 & 25.44\\
+UNIV WESTERN ONTARIO & 5.69 & 34.91\\
+LONDON & 5.69 & 34.91\\
+RICHARD IVEY SCH BUSINESS & 4.88 & 31.08\\
+DEPT SUPPLY CHAIN MANAGEMENT & 4.07 & 19.39\\
+ARIZONA STATE UNIV & 4.07 & 17.29\\
+UNIV MINNESOTA & 3.25 & 11.39\\
+WAKE FOREST UNIV & 3.25 & 29.96\\
+MICHIGAN STATE UNIV & 3.25 & 10.76\\
+COLL BUSINESS & 3.25 & 9.94\\
+ELI BROAD GRAD SCH MANAGEMENT & 3.25 & 14.78\\
+CARLSON SCH MANAGEMENT & 3.25 & 14.63\\
+LONDON BUSINESS SCH & 2.44 & 16.89\\
+BABCOCK GRAD SCH MANAGEMENT & 2.44 & 25.95\\
+COLL BUSINESS \& ECON & 2.44 & 20.04\\
+DEPT MKT \& SUPPLY CHAIN &  & \\
+$\quad$ MANAGEMENT & 2.44 & 11.53\\
+DEPAUL UNIV & 2.44 & 20.04\\
+SCH MANAGEMENT & 2.44 & 6.78\\
+COLL BUSINESS ADM & 2.44 & 8.40\\
+WP CAREY SCH BUSINESS & 2.44 & 12.45\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 30.08 & 24.98\\
+Canada & 6.50 & 17.51\\
+England & 4.88 & 18.24\\
+Italy & 1.63 & 14.32\\
+Australia & 0.81 & 5.81\\
+Netherlands & 0.81 & 3.30\\
+Germany & 0.81 & 5.25\\
+Greece & 0.81 & 8.57\\
+Wales & 0.81 & 12.95\\
+South korea & 0.81 & 5.38\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Choi TY & 11.38 & 10.70\\
+Aguilar-Escobar VG & 8.94 & 42.99\\
+Gonzalez-Zamora MD & 8.94 & 42.99\\
+Machuca JAD & 8.94 & 24.44\\
+Hanna MD & 7.32 & 31.66\\
+Laforge RL & 7.32 & 27.53\\
+Barman S & 7.32 & 38.35\\
+Menor LJ & 6.50 & 6.73\\
+Smunt TL & 6.50 & 26.64\\
+Shafer SM & 6.50 & 27.59\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Buffa e S, 1980, J OPERATIONS MANAGEM (1), 1 & 54.47 & 414.86\\
+Chase RB, 1980, J OPERATIONS MANAGEM (1), 9 & 49.59 & 425.61\\
+Barman S, 1991, J OPERATIONS MANAGEM (10), 194 & 47.15 & 424.89\\
+Meredith j R, 1989, J OPERATIONS MANAGEM (8), 297 & 45.53 & 331.41\\
+Amoako-gyampah K, 1989, J OPERATIONS MANAGEM (8), &  & \\
+$\quad$ 250 & 44.72 & 389.03\\
+Barman S, 2001, J OPER MANAG (19), 367 & 42.28 & 525.37\\
+Scudder g D, 1998, Journal of Operations &  & \\
+$\quad$ Management (16), 0 & 42.28 & 301.24\\
+Vokurka RJ, 1996, J OPERATIONS MANAGEM (14), 345 & 40.65 & 489.23\\
+Miller JG, 1981, DECISION SCI (12), 547 & 39.84 & 365.35\\
+Goh C-H, 1997, J OPERATIONS MANAGEM (15), 123 & 38.21 & 521.26\\
+Pannirselvam GP, 1999, J OPER MANAG (18), 95 & 37.40 & 311.76\\
+Swamidass PM, 1991, ACAD MANAGE REV (16), 793 & 33.33 & 219.67\\
+Malhotra MK, 1998, J OPER MANAG (16), 407 & 30.08 & 145.97\\
+Soteriou AC, 1999, J OPER MANAG (17), 225 & 30.08 & 520.38\\
+Flynn B B, 1990, J OPERATIONS MANAGEM (9), 250 & 28.46 & 112.53\\
+Saladin b A, 1985, OPERATIONS MANAGEMEN (3), 3 & 25.20 & 255.58\\
+Young s T, 1996, J OPERATIONS MANAGEM (14), 41 & 24.39 & 263.43\\
+Mabert VA, 1982, J OPERATIONS MANAGEM (2), 203 & 22.76 & 221.79\\
+Wacker JG, 1998, J OPER MANAG (16), 361 & 17.07 & 142.61\\
+Neely A, 1993, International Journal of Operations &  & \\
+$\quad$ \& Production Management (13), 0 & 16.26 & 159.88\\
+Miller JG, 1994, MANAGE SCI (40), 285 & 16.26 & 55.76\\
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 15.45 & 58.31\\
+Meredith J, 1998, J OPER MANAG (16), 441 & 15.45 & 82.49\\
+Ansari A, 1992, INT J OPER PROD MAN (12), 56 & 15.45 & 435.06\\
+Goh CH, 1996, OMEGA-INT J MANAGE S (24), 337 & 15.45 & 435.06\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 34.96 & 41.16\\
+J OPERATIONS MANAGEM & 33.33 & 51.31\\
+Journal of Operations Management & 23.58 & 41.72\\
+INT J OPER PROD MAN & 21.95 & 35.83\\
+MANAGE SCI & 20.33 & 16.63\\
+DECISION SCI & 19.51 & 25.91\\
+HARVARD BUS REV & 19.51 & 23.42\\
+ACAD MANAGE REV & 19.51 & 27.26\\
+J MARKETING RES & 17.07 & 26.06\\
+PROD OPER MANAG & 15.45 & 16.36\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``REMANUFACTURING'' contains $N = 10$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/9$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+REMANUFACTURING & 49.24 & 2.26\\
+REVERSE LOGISTICS & 18.18 & 0.98\\
+CLOSED-LOOP SUPPLY CHAINS & 14.39 & 0.77\\
+PRODUCT ACQUISITION &  &\\
+$\quad$ MANAGEMENT & 6.82 & 0.49\\
+SUSTAINABILITY & 9.85 & 0.47\\
+USED PRODUCT SORTING & 5.30 & 0.41\\
+PRICING & 9.85 & 0.37\\
+SUSTAINABLE OPERATIONS & 6.82 & 0.37\\
+ENVIRONMENT & 6.82 & 0.35\\
+REUSE ECONOMICS & 4.55 & 0.34\\
+PRODUCTION PLANNING & 6.06 & 0.34\\
+QUEUING & 5.30 & 0.34\\
+QUALITY GRADING & 3.79 & 0.31\\
+PRODUCT RETURNS & 5.30 & 0.30\\
+COMPETITIVE ADVANTAGE & 4.55 & 0.28\\
+RECYCLING & 4.55 & 0.27\\
+GREEN PRODUCTS & 3.79 & 0.27\\
+ENVIRONMENTAL MANAGEMENT AND &  &\\
+$\quad$ OPERATIONS & 3.79 & 0.27\\
+ECO-LOGISTICS & 3.79 & 0.27\\
+LEAN AND GREEN OPERATIONS & 3.79 & 0.27\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 70.29 & 8.88\\
+Management & 29.71 & -8.89\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 70.29 & 8.88\\
+J OPER MANAG & 15.22 & -8.81\\
+M\&SOM-MANUF SERV OP & 14.49 & 0.53\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+COLL MANAGEMENT & 11.59 & 51.85\\
+GEORGIA INST TECHNOL & 10.87 & 46.95\\
+INSEAD & 7.25 & 37.71\\
+PENN STATE UNIV & 6.52 & 36.67\\
+COLL BUSINESS & 4.35 & 14.21\\
+SMEAL COLL BUSINESS & 4.35 & 30.59\\
+MOORE SCH BUSINESS & 2.90 & 21.29\\
+UNIV MARYLAND & 2.90 & 15.51\\
+SCH MANAGEMENT & 2.90 & 8.62\\
+UNIV S CAROLINA & 2.90 & 18.73\\
+DUQUESNE UNIV & 2.17 & 30.03\\
+ROBERT H SMITH SCH BUSINESS & 2.17 & 14.00\\
+UNIV WESTERN ONTARIO & 2.17 & 14.00\\
+MONTREAL & 2.17 & 14.56\\
+MCGILL UNIV & 2.17 & 16.32\\
+DEPT MANAGEMENT & 2.17 & 5.62\\
+UNIV CALIF LOS ANGELES & 2.17 & 11.73\\
+LONDON & 2.17 & 14.00\\
+DEPT SUPPLY CHAIN \& INFORMAT &  & \\
+$\quad$ SYST & 2.17 & 22.12\\
+UNIV MIAMI & 1.45 & 13.00\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 42.75 & 38.25\\
+Canada & 7.97 & 22.84\\
+France & 7.97 & 38.39\\
+Singapore & 2.17 & 11.42\\
+Turkey & 1.45 & 11.43\\
+Peoples r china & 1.45 & 4.16\\
+Australia & 0.72 & 5.47\\
+Italy & 0.72 & 6.68\\
+Sweden & 0.72 & 9.94\\
+Netherlands & 0.72 & 3.08\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Guide VDR & 20.29 & 37.56\\
+Van Wassenhove LN & 18.12 & 21.07\\
+Souza GC & 14.49 & 31.32\\
+Atasu A & 10.87 & 21.58\\
+Galbreth MR & 7.97 & 28.01\\
+Toktay LB & 7.97 & 16.26\\
+Kleindorfer PR & 6.52 & 15.44\\
+Ketzenberg ME & 5.80 & 12.10\\
+Corbett CJ & 5.80 & 7.96\\
+Blackburn JD & 5.80 & 25.33\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Guide VDR, 2000, J OPER MANAG (18), 467 & 48.55 & 460.19\\
+Guide VDR, 2001, PROD OPER MANAG (10), 142 & 44.93 & 472.95\\
+Guide v d r  JR, 2003, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (5), 0 & 42.03 & 544.54\\
+Majumder P, 2001, PROD OPER MANAG (10), 125 & 38.41 & 473.09\\
+Savaskan RC, 2004, MANAGE SCI (50), 239 & 35.51 & 397.55\\
+Ferguson ME, 2006, PROD OPER MANAG (15), 351 & 34.06 & 434.14\\
+Debo LG, 2005, MANAGE SCI (51), 1193 & 33.33 & 330.49\\
+Thierry M, 1995, CALIF MANAGE REV (37), 114 & 30.43 & 305.20\\
+Fleischmann M, 1997, EUR J OPER RES (103), 1 & 30.43 & 276.35\\
+Toktay LB, 2000, MANAGE SCI (46), 1412 & 24.64 & 337.27\\
+Fleischmann M, 2001, PROD OPER MANAG (10), 156 & 22.46 & 314.33\\
+Ferrer G, 2001, PROD OPER MANAG (10), 112 & 21.01 & 275.78\\
+Ferrer G, 2006, MANAGE SCI (52), 15 & 21.01 & 314.55\\
+Guide VDR, 2003, J OPER MANAG (21), 259 & 20.29 & 229.33\\
+Van der laan E, 1999, MANAGE SCI (45), 733 & 19.57 & 280.43\\
+Guide VDR, 2000, INTERFACES (30), 125 & 18.12 & 269.83\\
+Atasu A, 2008, PROD OPER MANAG (17), 483 & 17.39 & 284.67\\
+Guide jr v d R, 2003, BUSINESS ASPECTS CLO (0), 0 & 17.39 & 263.88\\
+Klausner M, 2000, INTERFACES (30), 156 & 16.67 & 366.06\\
+Corbett CJ, 2001, PROD OPER MANAG (10), 107 & 15.94 & 199.14\\
+Dekker R, 2004, REVERSE LOGISTICS QU (0), 0 & 15.94 & 177.94\\
+Guide VDR, 2006, MANAGE SCI (52), 1200 & 13.77 & 239.82\\
+Blackburn JD, 2004, CALIF MANAGE REV (46), 6 & 13.77 & 153.03\\
+Krikke HR, 1999, OR SPEKTRUM (21), 381 & 13.04 & 259.79\\
+King AA, 2001, PROD OPER MANAG (10), 244 & 13.04 & 128.07\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 41.30 & 37.34\\
+PROD OPER MANAG & 40.58 & 47.41\\
+J OPER MANAG & 26.81 & 33.18\\
+EUR J OPER RES & 26.09 & 36.88\\
+CALIF MANAGE REV & 25.36 & 47.90\\
+OPER RES & 18.84 & 23.52\\
+HARVARD BUS REV & 17.39 & 22.00\\
+INTERFACES & 16.67 & 34.64\\
+Manufacturing \& Service Operations Management & 16.67 & 27.96\\
+INT J PROD RES & 15.22 & 29.98\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 15 - ``FLEXIBILITY'' contains $N = 9$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/8$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+FLEXIBILITY & 32.23 & 1.36\\
+EMPIRICAL RESEARCH & 33.06 & 0.82\\
+MANUFACTURING FLEXIBILITY & 12.40 & 0.64\\
+OPERATIONS STRATEGY & 22.31 & 0.62\\
+VOLUME FLEXIBILITY & 7.44 & 0.45\\
+ENVIRONMENTAL UNCERTAINTY & 8.26 & 0.41\\
+ENVIRONMENTAL DYNAMISM & 5.79 & 0.39\\
+FIT & 5.79 & 0.35\\
+OPERATIONAL ABSORPTIVE &  &\\
+$\quad$ CAPACITY & 5.79 & 0.33\\
+OPERATIONAL AMBIDEXTERITY & 4.96 & 0.33\\
+LATENT MODERATED STRUCTURAL &  &\\
+$\quad$ EQUATIONS & 4.96 & 0.33\\
+MEASUREMENT & 5.79 & 0.32\\
+ORGANIZATIONAL-SLACK & 4.13 & 0.29\\
+TRANSFORMATION MODEL & 4.13 & 0.29\\
+MANUFACTURING & 5.79 & 0.26\\
+SUPPLY-CHAIN & 4.13 & 0.26\\
+RESOURCE-BASED THEORY & 4.13 & 0.26\\
+DISRUPTION RISK MITIGATION AND &  &\\
+$\quad$ RESPONSE & 3.31 & 0.23\\
+COMPETITIVE PROGRESSION &  &\\
+$\quad$ THEORY & 3.31 & 0.23\\
+SUPPLY CHAIN FLEXIBILITY & 3.31 & 0.22\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 74.59 & 2.08\\
+Engineering, Manufacturing & 25.41 & -2.08\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 71.31 & 4.13\\
+PROD OPER MANAG & 25.41 & -2.08\\
+M\&SOM-MANUF SERV OP & 3.28 & -3.19\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 15.57 & 40.72\\
+MICHIGAN STATE UNIV & 7.38 & 24.76\\
+COLL BUSINESS ADM & 6.56 & 23.07\\
+COLL BUSINESS & 5.74 & 17.76\\
+DEPT SUPPLY CHAIN MANAGEMENT & 4.92 & 23.42\\
+ELI BROAD GRAD SCH MANAGEMENT & 4.92 & 22.40\\
+SCH BUSINESS & 4.92 & 16.01\\
+DEPT MANAGEMENT SCI & 4.10 & 19.04\\
+ZICKLIN SCH BUSINESS & 3.28 & 39.46\\
+UNIV ARKANSAS & 3.28 & 25.23\\
+DEPT MKT \& SUPPLY CHAIN &  & \\
+$\quad$ MANAGEMENT & 3.28 & 15.53\\
+UNIV S CAROLINA & 3.28 & 19.95\\
+BALL STATE UNIV & 3.28 & 32.98\\
+SAM M WALTON COLL BUSINESS & 2.46 & 22.53\\
+GOIZUETA BUSINESS SCH & 2.46 & 14.37\\
+MILLER COLL BUSINESS & 2.46 & 31.95\\
+ARIZONA STATE UNIV & 2.46 & 10.30\\
+CUNY BERNARD M BARUCH COLL & 2.46 & 35.02\\
+INDIANA UNIV & 2.46 & 10.72\\
+ELI BROAD COLL BUSINESS & 2.46 & 19.47\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 44.26 & 37.28\\
+Canada & 4.10 & 10.82\\
+England & 2.46 & 9.00\\
+Netherlands & 1.64 & 6.91\\
+Italy & 1.64 & 14.38\\
+Singapore & 1.64 & 8.03\\
+France & 1.64 & 7.21\\
+India & 0.82 & 5.84\\
+Australia & 0.82 & 5.84\\
+South korea & 0.82 & 5.40\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Malhotra MK & 10.66 & 11.44\\
+Patel PC & 8.20 & 7.96\\
+Narasimhan R & 7.38 & 5.29\\
+Jack EP & 7.38 & 14.73\\
+Rosenzweig ED & 6.56 & 5.30\\
+Koste LL & 6.56 & 15.83\\
+Ward PT & 5.74 & 5.72\\
+Anand G & 5.74 & 8.81\\
+Swink M & 5.74 & 3.93\\
+Sharma S & 4.92 & 15.10\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Gerwin D, 1993, MANAGE SCI (39), 395 & 63.11 & 282.93\\
+Koste LL, 1999, J OPER MANAG (18), 75 & 59.02 & 353.52\\
+Gupta y P, 1996, Production and Operations &  & \\
+$\quad$ Management (5), 0 & 54.92 & 311.18\\
+Sethi a K, 1990, International Journal of Flexible &  & \\
+$\quad$ Manufacturing Systems (2), 0 & 50.00 & 318.80\\
+Swamidass PM, 1987, MANAGE SCI (33), 509 & 49.18 & 196.08\\
+Upton DM, 1994, CALIF MANAGE REV (36), 72 & 47.54 & 332.07\\
+D'souza DE, 2000, J OPER MANAG (18), 577 & 43.44 & 322.68\\
+Upton DM, 1997, MANAGE SCI (43), 1079 & 39.34 & 226.87\\
+Suarez FF, 1996, OPER RES (44), 223 & 36.07 & 250.89\\
+Pagell M, 1999, J OPER MANAG (17), 307 & 31.15 & 288.35\\
+Slack N, 1983, International Journal of Operations &  & \\
+$\quad$ \& Production Management (3), 0 & 29.51 & 270.88\\
+Dixon JR, 1992, EUR J OPER RES (60), 131 & 28.69 & 285.99\\
+Hayes RH, 1984, RESTORING OUR COMPET (0), 0 & 28.69 & 104.56\\
+Narasimhan R, 1999, DECISION SCI (30), 683 & 27.87 & 177.61\\
+Vokurka RJ, 2000, J OPER MANAG (18), 485 & 27.05 & 288.50\\
+Browne J, 1984, FMS Magazine (2), 0 & 26.23 & 268.14\\
+Skinner W, 1996, PRODUCTION OPERATION (5), 3 & 24.59 & 148.68\\
+Gerwin D, 1987, INT J OPER PROD MAN (7), 38 & 24.59 & 246.79\\
+Upton d M, 1995, Journal of Operations Management &  & \\
+$\quad$ (12), 0 & 23.77 & 247.17\\
+Miller JG, 1994, MANAGE SCI (40), 285 & 23.77 & 81.35\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 22.95 & 60.63\\
+Slack N, 1987, INT J OPER PROD MAN (7), 35 & 22.95 & 246.16\\
+Kekre S, 1990, MANAGE SCI (36), 1216 & 22.13 & 150.07\\
+Ferdows K, 1990, J OPERATIONS MANAGEM (9), 168 & 22.13 & 89.39\\
+Boyer KK, 1999, MANAGE SCI (45), 824 & 20.49 & 203.00\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 49.18 & 42.07\\
+J OPER MANAG & 44.26 & 52.17\\
+HARVARD BUS REV & 43.44 & 53.15\\
+J OPERATIONS MANAGEM & 36.07 & 55.35\\
+Journal of Operations Management & 35.25 & 62.45\\
+STRATEGIC MANAGE J & 35.25 & 50.57\\
+DECISION SCI & 34.43 & 46.22\\
+ACAD MANAGE REV & 34.43 & 48.55\\
+INT J OPER PROD MAN & 33.61 & 55.03\\
+CALIF MANAGE REV & 30.33 & 53.99\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 19 - ``CALL CENTERS'' contains $N = 9$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/6$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+CALL CENTERS & 30.00 & 1.47\\
+STAFFING & 18.18 & 0.92\\
+FINANCIAL SERVICES & 11.82 & 0.66\\
+SKILL-BASED ROUTING & 11.82 & 0.65\\
+CALL CENTER MANAGEMENT & 9.09 & 0.62\\
+CONTACT CENTERS & 7.27 & 0.47\\
+BANKING & 9.09 & 0.46\\
+LOSS MODEL & 5.45 & 0.44\\
+BRANCH AND BOUND & 5.45 & 0.44\\
+APPLIED OPTIMIZATION & 5.45 & 0.42\\
+CROSS-TRAINING & 5.45 & 0.37\\
+FINANCIAL SERVICE OPERATIONS & 4.55 & 0.36\\
+TIME-DEPENDENT OVERFLOW & 4.55 & 0.36\\
+QUEUEING MODELS OF CALL &  &\\
+$\quad$ CENTERS & 4.55 & 0.36\\
+MATHEMATICAL MODELING & 5.45 & 0.36\\
+REAL-TIME OPTIMIZATION & 4.55 & 0.34\\
+CALL CENTER OPERATIONS & 4.55 & 0.34\\
+DOUBLY STOCHASTIC PROCESSES & 4.55 & 0.34\\
+CAPACITY PLANNING & 6.36 & 0.34\\
+HEURISTICS & 6.36 & 0.32\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 60.00 & 5.66\\
+Management & 40.00 & -5.66\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 60.00 & 5.66\\
+M\&SOM-MANUF SERV OP & 39.09 & 8.14\\
+J OPER MANAG & 0.91 & -10.87\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+COLUMBIA UNIV & 10.00 & 44.46\\
+SCH BUSINESS & 6.36 & 19.77\\
+GRAD SCH BUSINESS & 5.45 & 22.24\\
+NORTHWESTERN UNIV & 4.55 & 25.39\\
+NYU & 3.64 & 21.87\\
+UNIV N CAROLINA & 3.64 & 13.38\\
+KOC UNIV & 3.64 & 41.57\\
+COLL ADM SCI \& ECON & 3.64 & 41.57\\
+DEPT IND ENGN \& OPERAT RES & 3.64 & 20.64\\
+KELLOGG SCH MANAGEMENT & 3.64 & 26.59\\
+VRIJE UNIV AMSTERDAM & 2.73 & 36.89\\
+IEOR DEPT & 2.73 & 36.89\\
+DEPT DECIS SCI & 2.73 & 19.33\\
+DEPT MATH & 2.73 & 31.15\\
+STANFORD UNIV & 2.73 & 13.56\\
+GEORGIA INST TECHNOL & 1.82 & 6.78\\
+TEXAS A\&M UNIV & 1.82 & 10.23\\
+CARNEGIE MELLON UNIV & 1.82 & 11.58\\
+SAN FRANCISCO STATE UNIV & 1.82 & 24.57\\
+STERN SCH BUSINESS & 1.82 & 13.22\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 36.36 & 28.84\\
+Turkey & 3.64 & 25.83\\
+Canada & 3.64 & 9.07\\
+Netherlands & 3.64 & 14.88\\
+Germany & 1.82 & 11.32\\
+England & 0.91 & 2.97\\
+Singapore & 0.91 & 4.13\\
+Denmark & 0.91 & 15.85\\
+France & 0.91 & 3.68\\
+Chile & 0.91 & 15.85\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Whitt W & 15.45 & 23.89\\
+Mehrotra V & 10.91 & 18.84\\
+Nair SK & 8.18 & 13.52\\
+Armony M & 7.27 & 12.40\\
+Pinedo M & 6.36 & 8.65\\
+Stolletz R & 6.36 & 27.04\\
+Seifert MJ & 5.45 & 27.75\\
+Van Den schrieck JC & 5.45 & 32.90\\
+Meester GA & 5.45 & 27.75\\
+Zhou YP & 5.45 & 17.51\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Gans N, 2003, Manufacturing \& Service Operations &  & \\
+$\quad$ Management (5), 0 & 81.82 & 537.93\\
+Brown L, 2005, J AM STAT ASSOC (100), 36 & 43.64 & 337.76\\
+Wallace r B, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 41.82 & 439.29\\
+Aksin ZN, 2007, PROD OPER MANAG (16), 665 & 39.09 & 513.75\\
+Green LV, 2007, PROD OPER MANAG (16), 13 & 34.55 & 342.75\\
+Whitt W, 2006, PROD OPER MANAG (15), 88 & 30.91 & 348.99\\
+Avramidis AN, 2004, MANAGE SCI (50), 896 & 30.00 & 289.92\\
+Halfin S, 1981, OPER RES (29), 567 & 30.00 & 272.67\\
+Garnett O, 2002, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (4), 0 & 29.09 & 274.03\\
+Harrison j M, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 29.09 & 317.81\\
+Borst S, 2004, OPER RES (52), 17 & 29.09 & 310.53\\
+Whitt W, 2006, OPER RES (54), 37 & 25.45 & 239.33\\
+Chevalier P, 2008, PROD OPER MANAG (17), 306 & 25.45 & 335.70\\
+Whitt W, 1999, OPER RES LETT (24), 205 & 22.73 & 229.51\\
+Jongbloed G, 2001, APPL STOCH MODEL BUS (17), 307 & 22.73 & 236.04\\
+Chevalier P, 2003, INT J PROD ECON (85), 47 & 21.82 & 313.42\\
+Gans N, 2007, M\&SOM-MANUF SERV OP (9), 33 & 20.00 & 285.68\\
+Franx GJ, 2006, PERFORM EVALUATION (63), 799 & 19.09 & 289.80\\
+Zohar E, 2002, MANAGE SCI (48), 566 & 19.09 & 167.33\\
+Armony M, 2004, OPER RES (52), 527 & 18.18 & 177.26\\
+Gans N, 2003, OPER RES (51), 255 & 18.18 & 196.36\\
+Armony M, 2004, OPER RES (52), 271 & 18.18 & 226.88\\
+Green LV, 2001, OPER RES (49), 549 & 17.27 & 216.69\\
+Bassamboo A, 2006, OPER RES (54), 419 & 17.27 & 219.31\\
+Shumsky RA, 2004, OR SPECTRUM (26), 307 & 17.27 & 225.63\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 39.09 & 31.48\\
+Manufacturing \& Service Operations Management & 39.09 & 59.52\\
+OPER RES & 37.27 & 42.47\\
+PROD OPER MANAG & 31.82 & 32.96\\
+M\&SOM-MANUF SERV OP & 20.00 & 33.32\\
+QUEUEING SYST & 19.09 & 88.06\\
+J AM STAT ASSOC & 16.36 & 61.27\\
+INTERFACES & 13.64 & 25.20\\
+ANN APPL PROBAB & 13.64 & 79.40\\
+ANN OPER RES & 10.00 & 35.19\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 20 - ``COMPETITIVE ADVANTAGE'' contains $N = 9$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/3$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+COMPETITIVE ADVANTAGE & 22.67 & 1.41\\
+ENVIRONMENTAL MANAGEMENT & 18.67 & 0.95\\
+ENVIRONMENTAL MANAGEMENT AND &  &\\
+$\quad$ OPERATIONS & 12.00 & 0.84\\
+ECO-LOGISTICS & 12.00 & 0.84\\
+LEAN AND GREEN OPERATIONS & 12.00 & 0.84\\
+GREEN PRODUCTS & 12.00 & 0.84\\
+LABORATORY RESEARCH & 12.00 & 0.73\\
+MULTIVARIATE STATISTICAL &  &\\
+$\quad$ TECHNIQUES & 12.00 & 0.73\\
+ARCHIVAL RESEARCH & 12.00 & 0.73\\
+APPLICATIONS & 12.00 & 0.73\\
+THEORY VERIFYING & 12.00 & 0.73\\
+SUSTAINABILITY & 14.67 & 0.70\\
+QUALITATIVE RESEARCH & 12.00 & 0.67\\
+FIELD RESEARCH & 12.00 & 0.65\\
+SERVICE & 12.00 & 0.65\\
+SUSTAINABLE OPERATIONS & 12.00 & 0.65\\
+CLOSED-LOOP SUPPLY CHAINS & 12.00 & 0.64\\
+THEORY BUILDING & 12.00 & 0.64\\
+GREEN SUPPLY CHAIN MANAGEMENT & 9.33 & 0.56\\
+TQM & 10.67 & 0.55\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 60.24 & 4.96\\
+Management & 39.76 & -4.97\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 60.24 & 4.96\\
+J OPER MANAG & 31.33 & -3.89\\
+M\&SOM-MANUF SERV OP & 8.43 & -1.23\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+UNIV CALIF LOS ANGELES & 7.23 & 30.69\\
+MICHIGAN STATE UNIV & 6.02 & 16.62\\
+COLL BUSINESS & 6.02 & 15.40\\
+UNIV WESTERN ONTARIO & 4.82 & 24.26\\
+LONDON & 4.82 & 24.26\\
+SCH MANAGEMENT & 3.61 & 8.42\\
+DEPT MKT \& SUPPLY CHAIN &  & \\
+$\quad$ MANAGEMENT & 3.61 & 14.14\\
+RICHARD IVEY SCH BUSINESS & 3.61 & 18.88\\
+ELI BROAD GRAD SCH MANAGEMENT & 3.61 & 13.52\\
+SCH BUSINESS & 3.61 & 9.63\\
+IOWA STATE UNIV & 2.41 & 19.97\\
+SAM M WALTON COLL BUSINESS & 2.41 & 18.21\\
+GOIZUETA BUSINESS SCH & 2.41 & 11.61\\
+SCHULICH SCH BUSINESS & 2.41 & 19.97\\
+YORK UNIV & 2.41 & 19.03\\
+BOSTON COLL & 2.41 & 16.84\\
+UNIV UTAH & 2.41 & 14.05\\
+FISHER COLL BUSINESS & 2.41 & 9.47\\
+MERRICK SCH BUSINESS & 2.41 & 25.83\\
+GRAD SCH MANAGEMENT & 2.41 & 17.48\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 36.14 & 24.90\\
+Canada & 8.43 & 18.76\\
+Australia & 1.20 & 7.14\\
+England & 1.20 & 3.50\\
+Singapore & 1.20 & 4.82\\
+Cyprus & 1.20 & 18.26\\
+France & 1.20 & 4.31\\
+South korea & 1.20 & 6.62\\
+Peoples r china & 1.20 & 2.62\\
+Spain & 1.20 & 5.26\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Kleindorfer PR & 19.28 & 36.25\\
+Corbett CJ & 19.28 & 22.16\\
+Verma R & 10.84 & 10.11\\
+Victorino L & 10.84 & 17.27\\
+Gupta S & 10.84 & 11.42\\
+Van Wassenhove LN & 10.84 & 9.43\\
+Singhal K & 10.84 & 11.54\\
+Klassen RD & 9.64 & 8.38\\
+Hofer C & 8.43 & 16.29\\
+Rothenberg S & 8.43 & 24.41\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Corbett CJ, 2001, PROD OPER MANAG (10), 327 & 63.86 & 422.18\\
+King AA, 2001, PROD OPER MANAG (10), 244 & 59.04 & 449.94\\
+Rothenberg S, 2001, PROD OPER MANAG (10), 228 & 59.04 & 528.08\\
+Delmas M, 2001, PROD OPER MANAG (10), 343 & 56.63 & 465.14\\
+Angell LC, 2001, PRODUCTION OPERATION (10), 306 & 55.42 & 491.13\\
+Bowen FE, 2001, PROD OPER MANAG (10), 174 & 51.81 & 470.64\\
+Klassen RD, 2001, PROD OPER MANAG (10), 257 & 48.19 & 481.18\\
+Chinander KR, 2001, PROD OPER MANAG (10), 276 & 45.78 & 507.31\\
+Sroufe R, 2003, PROD OPER MANAG (12), 416 & 43.37 & 332.47\\
+Klassen RD, 1996, MANAGE SCI (42), 1199 & 38.55 & 253.45\\
+Porter ME, 1995, HARVARD BUS REV (73), 120 & 38.55 & 265.15\\
+Wolf FG, 2001, PROD OPER MANAG (10), 292 & 37.35 & 372.90\\
+Kassinis GI, 2003, PROD OPER MANAG (12), 386 & 32.53 & 253.84\\
+Pil FK, 2003, PROD OPER MANAG (12), 404 & 31.33 & 222.61\\
+Ferrer G, 2001, PROD OPER MANAG (10), 112 & 30.12 & 306.59\\
+Walley N, 1994, HARVARD BUS REV (72), 46 & 28.92 & 210.05\\
+Guide VDR, 2001, PROD OPER MANAG (10), 142 & 28.92 & 236.03\\
+Corbett CJ, 2001, PROD OPER MANAG (10), 107 & 27.71 & 268.51\\
+Florida R, 1996, CALIF MANAGE REV (39), 80 & 27.71 & 266.70\\
+Snir EM, 2001, PROD OPER MANAG (10), 190 & 27.71 & 376.27\\
+Fleischmann M, 2001, PROD OPER MANAG (10), 156 & 26.51 & 287.65\\
+Majumder P, 2001, PROD OPER MANAG (10), 125 & 26.51 & 253.19\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 482 & 26.51 & 132.80\\
+Russo MV, 1997, ACAD MANAGE J (40), 534 & 25.30 & 170.13\\
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 25.30 & 78.62\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 40.96 & 37.12\\
+MANAGE SCI & 32.53 & 22.56\\
+HARVARD BUS REV & 30.12 & 30.14\\
+J OPER MANAG & 30.12 & 29.01\\
+ACAD MANAGE REV & 30.12 & 34.95\\
+STRATEGIC MANAGE J & 26.51 & 31.20\\
+ACAD MANAGE J & 25.30 & 31.12\\
+INT J OPER PROD MAN & 22.89 & 30.72\\
+CALIF MANAGE REV & 19.28 & 28.10\\
+DECISION SCI & 18.07 & 19.66\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 3 - ``AUCTIONS'' contains $N = 6$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/4$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+AUCTIONS & 16.95 & 0.89\\
+INFORMATION ASYMMETRY & 15.25 & 0.85\\
+PROCUREMENT & 15.25 & 0.77\\
+PROCUREMENT AUCTION & 10.17 & 0.75\\
+MECHANISM DESIGN & 13.56 & 0.74\\
+PROCUREMENT OPERATIONS & 8.47 & 0.72\\
+AUDITING & 10.17 & 0.69\\
+PROCUREMENT AUCTIONS & 10.17 & 0.65\\
+ELECTRONIC MARKETS & 8.47 & 0.65\\
+COLLABORATION AND &  &\\
+$\quad$ COORDINATION & 8.47 & 0.61\\
+ENABLERS AND BARRIERS & 8.47 & 0.61\\
+COMPETITION AND CONFLICT & 8.47 & 0.61\\
+E-AUCTION & 8.47 & 0.61\\
+DYNAMIC OPTIMIZATION & 6.78 & 0.53\\
+RFID & 10.17 & 0.51\\
+SUPPLY CHAIN COORDINATION & 10.17 & 0.50\\
+RANK & 6.78 & 0.50\\
+BIDDING BEHAVIOR & 6.78 & 0.50\\
+E-BUSINESS & 8.47 & 0.48\\
+SUPPLY CHAIN COMPETITION & 6.78 & 0.46\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 74.58 & 6.50\\
+Management & 25.42 & -6.51\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 74.58 & 6.50\\
+M\&SOM-MANUF SERV OP & 20.34 & 1.68\\
+J OPER MANAG & 5.08 & -7.32\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+SCH MANAGEMENT & 6.78 & 13.58\\
+NYU & 5.08 & 22.45\\
+UNIV MARYLAND & 5.08 & 17.91\\
+DEPT MANAGEMENT & 5.08 & 9.03\\
+SCH BUSINESS & 5.08 & 11.52\\
+UNIV TEXAS DALLAS & 5.08 & 17.91\\
+UNIV MICHIGAN & 5.08 & 16.85\\
+GEORGIA INST TECHNOL & 3.39 & 9.43\\
+WASHINGTON UNIV & 3.39 & 14.63\\
+JOHN M OLIN SCH BUSINESS & 3.39 & 20.78\\
+ROBERT H SMITH SCH BUSINESS & 3.39 & 14.35\\
+TECH UNIV MUNICH & 3.39 & 53.18\\
+UNIV FLORIDA & 3.39 & 19.33\\
+UNIV VIRGINIA & 3.39 & 20.01\\
+STERN SCH BUSINESS & 3.39 & 18.14\\
+DEPT IND \& OPERAT ENGN & 3.39 & 26.53\\
+UNIV CALIF BERKELEY & 3.39 & 14.35\\
+INDIANA UNIV & 3.39 & 10.35\\
+PURDUE UNIV & 3.39 & 17.15\\
+HONG KONG & 3.39 & 17.15\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 47.46 & 27.87\\
+Peoples r china & 5.08 & 10.25\\
+India & 3.39 & 17.15\\
+Germany & 3.39 & 15.57\\
+Canada & 1.69 & 2.93\\
+England & 1.69 & 4.24\\
+Colombia & 1.69 & 37.60\\
+Greece & 1.69 & 12.46\\
+Spain & 1.69 & 6.30\\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Seshadri S & 13.56 & 14.66\\
+Chen YJ & 13.56 & 19.22\\
+Katok E & 10.17 & 12.83\\
+Zemel E & 10.17 & 30.55\\
+Steinberg R & 8.47 & 45.54\\
+Bichler M & 8.47 & 45.54\\
+Kyparisis GJ & 8.47 & 23.70\\
+Gupta S & 8.47 & 7.39\\
+Koulamas C & 8.47 & 23.70\\
+Zaretsky M & 6.78 & 26.06\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Elmaghraby W, 2007, PROD OPER MANAG (16), 409 & 67.80 & 485.24\\
+Rothkopf MH, 2007, PROD OPER MANAG (16), 404 & 50.85 & 570.81\\
+Mithas S, 2007, PROD OPER MANAG (16), 455 & 49.15 & 421.07\\
+Elmaghraby w J, 2000, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (2), 0 & 49.15 & 357.19\\
+Kwasnica AM, 2007, PROD OPER MANAG (16), 483 & 38.98 & 444.82\\
+Feng J, 2007, PROD OPER MANAG (16), 510 & 37.29 & 535.55\\
+Vickrey W, 1961, J FINANC (16), 8 & 33.90 & 279.34\\
+Krishna V, 2002, AUCTION THEORY (0), 0 & 33.90 & 324.35\\
+Sosic G, 2007, PROD OPER MANAG (16), 471 & 33.90 & 520.87\\
+Bichler M, 2007, PROD OPER MANAG (16), 401 & 27.12 & 326.71\\
+Caplice C, 2007, PROD OPER MANAG (16), 423 & 27.12 & 465.53\\
+Shen ZJM, 2007, PROD OPER MANAG (16), 713 & 27.12 & 222.88\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 25.42 & 122.15\\
+Schvartzman LJ, 2007, PROD OPER MANAG (16), 495 & 25.42 & 412.33\\
+Myerson RB, 1981, MATH OPER RES (6), 58 & 25.42 & 272.53\\
+Chen FR, 2007, MANAGE SCI (53), 1562 & 22.03 & 241.19\\
+Milgrom PR, 1982, ECONOMETRICA (50), 1089 & 20.34 & 183.17\\
+Chen F, 2003, HDBK OPER R (11), 341 & 18.64 & 151.64\\
+Etzion H, 2008, PROD OPER MANAG (17), 150 & 18.64 & 342.69\\
+Klemperer PAUL, 1999, J EC SURVEYS (13), 227 & 18.64 & 183.36\\
+Heydenreich B, 2007, PROD OPER MANAG (16), 437 & 18.64 & 438.05\\
+Che YK, 1993, RAND J ECON (24), 668 & 16.95 & 248.02\\
+Beall S, 2003, ROLE REVERSE AUCTION (0), 0 & 15.25 & 144.41\\
+Dasgupta S, 1990, INFORMATION EC POLIC (4), 5 & 15.25 & 250.77\\
+Armstrong M, 2000, REV ECON STUD (67), 455 & 15.25 & 271.18\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 47.46 & 28.20\\
+PROD OPER MANAG & 42.37 & 32.40\\
+Manufacturing \& Service Operations Management & 35.59 & 39.64\\
+OPER RES & 32.20 & 26.78\\
+MARKET SCI & 20.34 & 25.32\\
+HARVARD BUS REV & 20.34 & 16.94\\
+EUR J OPER RES & 18.64 & 17.05\\
+J MARKETING & 18.64 & 20.66\\
+ECONOMETRICA & 18.64 & 28.50\\
+AM ECON REV & 15.25 & 21.82\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 21 - ``CASE STUDIES'' contains $N = 6$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/8$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+CASE STUDIES & 13.08 & 0.58\\
+CASE STUDY RESEARCH & 11.54 & 0.56\\
+CASE STUDY & 9.23 & 0.41\\
+SUPPLY CHAIN MANAGEMENT & 16.92 & 0.37\\
+CASE/FIELD STUDY & 5.38 & 0.30\\
+SUPPLIER-SUPPLIER &  &\\
+$\quad$ RELATIONSHIPS & 3.85 & 0.25\\
+MARKETING-OPERATIONS &  &\\
+$\quad$ INTERFACE & 3.85 & 0.21\\
+SUPPLY CHAIN & 5.38 & 0.20\\
+RESEARCH METHODS & 3.08 & 0.20\\
+AGILE & 3.08 & 0.20\\
+AIRCRAFT MANUFACTURING & 3.08 & 0.20\\
+OPERATIONS STRATEGY & 6.92 & 0.19\\
+COMPLEXITY & 3.85 & 0.19\\
+LEARNING CURVES & 3.08 & 0.19\\
+SUPPLY NETWORKS & 3.08 & 0.19\\
+RESOURCE-BASED THEORY & 3.08 & 0.19\\
+INFORMATION TECHNOLOGY & 4.62 & 0.19\\
+MANUFACTURING STRATEGY & 4.62 & 0.18\\
+OPERATION STRATEGY & 3.08 & 0.17\\
+ARCHETYPES & 2.31 & 0.17\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 92.48 & 6.52\\
+Engineering, Manufacturing & 7.52 & -6.52\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 90.98 & 8.85\\
+PROD OPER MANAG & 7.52 & -6.52\\
+M\&SOM-MANUF SERV OP & 1.50 & -3.94\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 12.88 & 34.94\\
+ARIZONA STATE UNIV & 12.12 & 53.99\\
+WP CAREY SCH BUSINESS & 9.85 & 52.82\\
+DEPT SUPPLY CHAIN MANAGEMENT & 7.58 & 37.67\\
+COLL BUSINESS & 6.82 & 22.03\\
+COLL BUSINESS ADM & 5.30 & 19.34\\
+UNIV MINNESOTA & 3.79 & 13.80\\
+MICHIGAN STATE UNIV & 3.03 & 10.36\\
+OREGON STATE UNIV & 3.03 & 33.42\\
+CARLSON SCH MANAGEMENT & 3.03 & 14.10\\
+FAC BUSINESS & 2.27 & 17.14\\
+UNIV WESTERN ONTARIO & 2.27 & 14.32\\
+TEXAS CHRISTIAN UNIV & 2.27 & 19.33\\
+GRAD SCH BUSINESS & 2.27 & 9.98\\
+KENAN FLAGLER BUSINESS SCH & 2.27 & 10.51\\
+DEPT MKT \& SUPPLY CHAIN &  & \\
+$\quad$ MANAGEMENT & 2.27 & 11.12\\
+RENSSELAER POLYTECH INST & 2.27 & 18.14\\
+UNIV N CAROLINA & 2.27 & 9.04\\
+RICHARD IVEY SCH BUSINESS & 2.27 & 14.90\\
+OPERAT \& MANAGEMENT SCI DEPT & 2.27 & 16.29\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 48.48 & 42.62\\
+Canada & 7.58 & 21.21\\
+England & 7.58 & 29.53\\
+Spain & 3.79 & 21.34\\
+Finland & 2.27 & 28.42\\
+Netherlands & 2.27 & 10.08\\
+Italy & 2.27 & 20.79\\
+Australia & 1.52 & 11.37\\
+India & 1.52 & 11.37\\
+South korea & 1.52 & 10.54\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Choi TY & 10.53 & 10.20\\
+Wu ZH & 5.26 & 10.68\\
+Barratt M & 5.26 & 8.40\\
+Browning TR & 4.51 & 5.85\\
+Klassen RD & 3.76 & 3.46\\
+Roth AV & 3.76 & 0.90\\
+Rabinovich E & 3.01 & 2.32\\
+Heath RD & 3.01 & 8.07\\
+Schroeder RG & 3.01 & 0.87\\
+Menor LJ & 2.26 & 1.72\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 54.89 & 216.30\\
+Meredith J, 1998, J OPER MANAG (16), 441 & 50.38 & 280.27\\
+Mccutcheon d M, 1993, Journal of Operations &  & \\
+$\quad$ Management (11), 0 & 37.59 & 271.45\\
+Glaser BARNEY, 1967, DISCOVERY GROUNDED T (0), 0 & 30.08 & 180.32\\
+Stuart I, 2002, J OPER MANAG (20), 419 & 28.57 & 221.97\\
+Handfield RB, 1998, J OPER MANAG (16), 321 & 25.56 & 190.96\\
+Choi TY, 2002, J OPER MANAG (20), 469 & 20.30 & 171.64\\
+Choi TY, 2001, J OPER MANAG (19), 351 & 18.80 & 150.21\\
+Voss C, 2002, INT J OPER PROD MAN (22), 195 & 18.80 & 149.99\\
+Flynn B B, 1990, J OPERATIONS MANAGEM (9), 250 & 18.05 & 74.08\\
+Jick TD, 1979, ADMIN SCI QUART (24), 602 & 15.79 & 124.84\\
+Lee HL, 1997, MANAGE SCI (43), 546 & 15.79 & 69.39\\
+Yin RK, 1989, CASE STUDY RES DESIG (0), 0 & 14.29 & 144.18\\
+Barney J, 1991, J MANAGE (17), 99 & 14.29 & 46.77\\
+Huberman a M, 1984, QUALITATIVE DATA ANA (0), 0 & 14.29 & 150.02\\
+Miles MB, 1994, QUALITATIVE DATA ANA (0), 0 & 13.53 & 95.72\\
+Yin r K, 1994, CASE STUDY RES DESIG (0), 0 & 13.53 & 91.85\\
+Wu ZH, 2005, J OPER MANAG (24), 27 & 13.53 & 109.34\\
+Eisenhardt KM, 2007, ACAD MANAGE J (50), 25 & 13.53 & 122.34\\
+Schmenner RW, 1998, J OPER MANAG (17), 97 & 13.53 & 61.75\\
+Hayes RH, 1984, RESTORING OUR COMPET (0), 0 & 12.03 & 45.58\\
+Miller JG, 1994, MANAGE SCI (40), 285 & 12.03 & 42.80\\
+Wernerfelt B, 1984, STRATEGIC MANAGE J (5), 171 & 10.53 & 48.82\\
+Yin R, 2003, CASE STUDY RES DESIG (5), 0 & 10.53 & 85.97\\
+Williamson O, 1985, EC I CAPITALISM (0), 0 & 9.77 & 47.74\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 66.92 & 82.90\\
+ACAD MANAGE REV & 57.14 & 84.74\\
+MANAGE SCI & 53.38 & 47.81\\
+HARVARD BUS REV & 48.87 & 62.55\\
+DECISION SCI & 43.61 & 61.38\\
+INT J OPER PROD MAN & 43.61 & 74.78\\
+Journal of Operations Management & 40.60 & 75.23\\
+STRATEGIC MANAGE J & 39.85 & 59.82\\
+J OPERATIONS MANAGEM & 39.10 & 62.72\\
+ACAD MANAGE J & 38.35 & 60.13\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 13 - ``BEHAVIORAL OPERATIONS'' contains $N = 5$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/4$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+BEHAVIORAL OPERATIONS & 23.81 & 1.12\\
+BEHAVIORAL OPERATIONS &  &\\
+$\quad$ MANAGEMENT & 10.71 & 0.58\\
+BOUNDED RATIONALITY & 8.33 & 0.51\\
+FEEDBACK & 5.95 & 0.33\\
+KNOWLEDGE WORK & 5.95 & 0.32\\
+LEARNING & 7.14 & 0.32\\
+HEURISTICS AND BIASES & 3.57 & 0.32\\
+EXPERIMENTAL AND BEHAVIORAL &  &\\
+$\quad$ ECONOMICS & 3.57 & 0.32\\
+JUDGMENT AND DECISION MAKING & 3.57 & 0.32\\
+TASK EFFICACY & 4.76 & 0.32\\
+RESOURCE SHARING & 4.76 & 0.32\\
+PSYCHOLOGICAL OWNERSHIP & 4.76 & 0.32\\
+CONSUMER BEHAVIOR & 4.76 & 0.30\\
+FAIRNESS & 4.76 & 0.28\\
+DECISION MAKING & 4.76 & 0.28\\
+MOTIVATION & 4.76 & 0.27\\
+INERTIA & 3.57 & 0.26\\
+BEHAVIORAL DECISION-MAKING & 3.57 & 0.26\\
+BEHAVIORAL EXPERIMENT & 4.76 & 0.25\\
+PLANT MANAGERS & 3.57 & 0.25\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 76.47 & 2.10\\
+Engineering, Manufacturing & 23.53 & -2.10\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 48.24 & -0.82\\
+M\&SOM-MANUF SERV OP & 28.24 & 4.18\\
+PROD OPER MANAG & 23.53 & -2.10\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+UNIV MINNESOTA & 8.24 & 24.42\\
+KENAN FLAGLER BUSINESS SCH & 8.24 & 31.13\\
+UNIV N CAROLINA & 7.06 & 23.08\\
+SCH BUSINESS & 7.06 & 19.31\\
+GOIZUETA BUSINESS SCH & 4.71 & 23.12\\
+UNIV WESTERN ONTARIO & 4.71 & 23.97\\
+COLL BUSINESS & 4.71 & 12.10\\
+SMEAL COLL BUSINESS & 4.71 & 26.00\\
+CARLSON SCH MANAGEMENT & 4.71 & 17.70\\
+LONDON & 4.71 & 23.97\\
+PENN STATE UNIV & 4.71 & 20.71\\
+RICHARD IVEY SCH BUSINESS & 4.71 & 24.92\\
+EMORY UNIV & 4.71 & 21.32\\
+CORNELL UNIV & 3.53 & 17.00\\
+NORTHWESTERN UNIV & 3.53 & 17.29\\
+FISHER COLL BUSINESS & 3.53 & 14.14\\
+DEPT SUPPLY CHAIN MANAGEMENT & 3.53 & 13.97\\
+WHARTON SCH & 3.53 & 15.71\\
+OHIO STATE UNIV & 3.53 & 13.36\\
+SCH MANAGEMENT & 3.53 & 8.32\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 56.47 & 40.03\\
+Canada & 5.88 & 13.13\\
+England & 5.88 & 18.34\\
+Netherlands & 3.53 & 12.69\\
+Germany & 3.53 & 19.46\\
+Peoples r china & 3.53 & 8.43\\
+France & 2.35 & 8.74\\
+Pakistan & 1.18 & 31.32\\
+Singapore & 1.18 & 4.76\\
+Costa rica & 1.18 & 18.04\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Bendoly E & 9.41 & 6.28\\
+Croson R & 8.24 & 14.67\\
+Roth AV & 7.06 & 2.65\\
+Katok E & 5.88 & 8.68\\
+Staats BR & 5.88 & 6.81\\
+Su XM & 4.71 & 6.13\\
+Anand G & 4.71 & 5.92\\
+Bachrach DG & 4.71 & 8.50\\
+Siemsen E & 4.71 & 9.43\\
+Schultz K & 4.71 & 10.52\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Bendoly E, 2006, J OPER MANAG (24), 737 & 57.65 & 313.43\\
+Boudreau J, 2003, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (5), 0 & 50.59 & 250.11\\
+Gino F, 2008, M\&SOM-MANUF SERV OP (10), 676 & 40.00 & 312.45\\
+Su XM, 2008, M\&SOM-MANUF SERV OP (10), 566 & 23.53 & 285.28\\
+Schweitzer ME, 2000, MANAGE SCI (46), 404 & 21.18 & 162.49\\
+Siemsen E, 2008, J OPER MANAG (26), 426 & 17.65 & 168.47\\
+Tversky A, 1974, SCIENCE (185), 1124 & 14.12 & 105.99\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 14.12 & 30.98\\
+Schultz KL, 2003, J OPER MANAG (21), 81 & 14.12 & 103.77\\
+Sterman JD, 1989, MANAGE SCI (35), 321 & 12.94 & 74.10\\
+Kahneman D, 1979, ECONOMETRICA (47), 263 & 12.94 & 112.35\\
+Bendoly E, 2010, PROD OPER MANAG (19), 434 & 11.76 & 102.96\\
+Bendoly E, 2007, J OPER MANAG (25), 604 & 11.76 & 75.60\\
+Cantor DE, 2009, J OPER MANAG (27), 220 & 10.59 & 158.45\\
+Croson R, 2002, INTERFACES (32), 74 & 10.59 & 109.63\\
+Edmondson A, 1999, ADMIN SCI QUART (44), 350 & 9.41 & 55.95\\
+Bendoly E, 2007, J OPER MANAG (25), 1 & 9.41 & 73.36\\
+Schultz KL, 1998, MANAGE SCI (44), 1595 & 9.41 & 88.25\\
+Mantel SP, 2006, J OPER MANAG (24), 822 & 9.41 & 84.02\\
+Bolton GE, 2008, M\&SOM-MANUF SERV OP (10), 519 & 9.41 & 127.18\\
+Lim N, 2007, MARKET SCI (26), 312 & 8.24 & 122.98\\
+Liu Q, 2008, MANAGE SCI (54), 1115 & 8.24 & 85.41\\
+Maister DH, 1985, SERVICE ENCOUNTER (0), 113 & 8.24 & 70.85\\
+Anderson JC, 1988, PSYCHOL BULL (103), 411 & 8.24 & 21.40\\
+Su XM, 2007, MANAGE SCI (53), 726 & 8.24 & 66.52\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 61.18 & 43.97\\
+J OPER MANAG & 57.65 & 56.98\\
+PROD OPER MANAG & 45.88 & 42.19\\
+Manufacturing \& Service Operations Management & 36.47 & 48.77\\
+ACAD MANAGE J & 35.29 & 44.19\\
+J APPL PSYCHOL & 32.94 & 57.24\\
+HARVARD BUS REV & 32.94 & 33.44\\
+ACAD MANAGE REV & 30.59 & 35.93\\
+ADMIN SCI QUART & 29.41 & 41.33\\
+M\&SOM-MANUF SERV OP & 28.24 & 41.58\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 10 - ``SUPPLY UNCERTAINTY'' contains $N = 4$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/2$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+SUPPLY UNCERTAINTY & 20.41 & 1.28\\
+DUAL SOURCING & 18.37 & 1.12\\
+SUPPLY DIVERSIFICATION & 10.20 & 0.71\\
+SUPPLY RISK & 10.20 & 0.59\\
+RESPONSIVE PRICING & 8.16 & 0.58\\
+COURNOT COMPETITION & 8.16 & 0.53\\
+SUPPLY CHAIN MANAGEMENT & 22.45 & 0.49\\
+EQUILIBRIUM & 6.12 & 0.48\\
+AUCTIONS AND MECHANISM DESIGN & 6.12 & 0.48\\
+FINANCIAL DEFAULTS & 6.12 & 0.47\\
+CAPACITY INVESTMENTS & 6.12 & 0.45\\
+INVENTORY & 10.20 & 0.44\\
+RISK MANAGEMENT & 8.16 & 0.43\\
+OPERATIONS AND FINANCE &  &\\
+$\quad$ INTERFACE & 6.12 & 0.43\\
+BANKRUPTCY & 6.12 & 0.41\\
+RANDOM YIELD & 6.12 & 0.40\\
+INCENTIVES AND CONTRACTING & 6.12 & 0.37\\
+MARKOV DECISION PROCESSES & 6.12 & 0.36\\
+SUPPLIER MANAGEMENT & 6.12 & 0.35\\
+DUAL-SOURCING & 4.08 & 0.33\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 61.22 & -0.65\\
+Engineering, Manufacturing & 38.78 & 0.65\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+M\&SOM-MANUF SERV OP & 55.10 & 8.77\\
+PROD OPER MANAG & 38.78 & 0.65\\
+J OPER MANAG & 6.12 & -6.52\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+WASHINGTON UNIV & 10.20 & 40.37\\
+KENAN FLAGLER BUSINESS SCH & 8.16 & 23.43\\
+UNIV N CAROLINA & 8.16 & 20.30\\
+DEPT MANAGEMENT & 6.12 & 9.97\\
+JOHN M OLIN SCH BUSINESS & 6.12 & 34.27\\
+ARIZONA STATE UNIV & 6.12 & 16.53\\
+WP CAREY SCH BUSINESS & 6.12 & 19.95\\
+UNIV MICHIGAN & 6.12 & 18.52\\
+UNIV MIAMI & 6.12 & 33.02\\
+INDIANA UNIV & 4.08 & 11.39\\
+MCDONOUGH SCH BUSINESS & 4.08 & 22.82\\
+GEORGETOWN UNIV & 4.08 & 22.82\\
+OLIN BUSINESS SCH & 4.08 & 26.04\\
+NORTHWESTERN UNIV & 4.08 & 15.21\\
+SCH BUSINESS & 4.08 & 8.38\\
+TUCK SCH BUSINESS & 4.08 & 36.88\\
+KELLEY SCH BUSINESS & 4.08 & 12.15\\
+DARTMOUTH COLL & 4.08 & 31.15\\
+UNIV CALIF BERKELEY & 4.08 & 15.77\\
+COLL BUSINESS \& MANAGEMENT & 2.04 & 20.60\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 53.06 & 28.50\\
+Peoples r china & 6.12 & 11.30\\
+England & 2.04 & 4.70\\
+Spain & 2.04 & 6.94\\
+France & 2.04 & 5.73\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Tomlin B & 20.41 & 30.67\\
+Gilland W & 12.24 & 23.95\\
+Kouvelis P & 12.24 & 9.26\\
+Wang YM & 12.24 & 25.91\\
+Babich V & 12.24 & 18.54\\
+Sethi SP & 8.16 & 6.27\\
+Tang SY & 8.16 & 24.20\\
+Li T & 8.16 & 26.31\\
+Zhang J & 8.16 & 13.16\\
+Yang ZB & 6.12 & 20.80\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Dada M, 2007, M\&SOM-MANUF SERV OP (9), 9 & 77.55 & 599.33\\
+Tomlin B, 2006, MANAGE SCI (52), 639 & 67.35 & 361.26\\
+Babich V, 2007, M\&SOM-MANUF SERV OP (9), 123 & 61.22 & 552.29\\
+Anupindi R, 1993, MANAGE SCI (39), 944 & 57.14 & 386.88\\
+Agrawal N, 1997, Production and Operations &  & \\
+$\quad$ Management (6), 0 & 48.98 & 353.44\\
+Tomlin B, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 46.94 & 448.19\\
+Yano CA, 1995, OPER RES (43), 311 & 40.82 & 240.65\\
+Parlar M, 1993, EUR J OPER RES (66), 52 & 40.82 & 486.62\\
+Gerchak Y, 1990, NAV RES LOG (37), 341 & 38.78 & 422.62\\
+Ciarallo FW, 1994, MANAGE SCI (40), 320 & 32.65 & 371.09\\
+Swaminathan JM, 1999, OPER RES LETT (24), 213 & 32.65 & 371.83\\
+Babich V, 2006, NAV RES LOG (53), 656 & 22.45 & 381.01\\
+Henig M, 1990, OPER RES (38), 634 & 18.37 & 213.43\\
+Yang ZB, 2009, MANAGE SCI (55), 192 & 18.37 & 187.57\\
+Tomlin B, 2009, M\&SOM-MANUF SERV OP (11), 192 & 18.37 & 273.30\\
+Wang YM, 2010, M\&SOM-MANUF SERV OP (12), 489 & 16.33 & 257.34\\
+Federgruen A, 2009, OPER RES (57), 1451 & 14.29 & 255.19\\
+Gurnani H, 2000, IIE TRANS (32), 701 & 14.29 & 219.39\\
+Parlar M, 1995, INT J PROD ECON (42), 131 & 14.29 & 252.72\\
+Federgruen A, 2008, OPER RES (56), 916 & 14.29 & 171.80\\
+Feng Q, 2010, MANAGE SCI (56), 2154 & 14.29 & 241.38\\
+Kazaz B, 2004, Manufacturing \& Service Operations &  & \\
+$\quad$ Management (6), 0 & 14.29 & 163.63\\
+Krause DR, 1998, J OPER MANAG (17), 39 & 14.29 & 58.06\\
+Lee HL, 1997, MANAGE SCI (43), 546 & 14.29 & 38.09\\
+Sheffi Y, 2005, RESILIENT ENTERPRISE (0), 0 & 14.29 & 122.13\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 57.14 & 31.12\\
+OPER RES & 44.90 & 34.28\\
+M\&SOM-MANUF SERV OP & 42.86 & 48.14\\
+PROD OPER MANAG & 34.69 & 24.05\\
+EUR J OPER RES & 32.65 & 27.65\\
+Manufacturing \& Service Operations Management & 30.61 & 31.01\\
+NAV RES LOG & 24.49 & 33.10\\
+HARVARD BUS REV & 24.49 & 18.71\\
+Production and Operations Management & 24.49 & 39.16\\
+IIE TRANS & 18.37 & 20.16\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 12 - ``APPOINTMENT SCHEDULING'' contains $N = 4$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/2$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+APPOINTMENT SCHEDULING & 58.97 & 3.12\\
+SIMULATION & 30.77 & 1.27\\
+HEALTH CARE & 20.51 & 1.11\\
+SERVICE OPERATIONS & 35.90 & 1.06\\
+HEALTHCARE & 20.51 & 0.96\\
+NONLINEAR REGRESSION & 10.26 & 0.78\\
+OUTPATIENT & 10.26 & 0.76\\
+OUTPATIENT SERVICES & 10.26 & 0.67\\
+PATIENT FLOW & 10.26 & 0.66\\
+OVERBOOKING & 10.26 & 0.64\\
+HEALTH CARE OPERATIONS & 10.26 & 0.62\\
+PROBABILITY: STOCHASTIC MODEL &  &\\
+$\quad$ APPLICATIONS & 7.69 & 0.57\\
+SIMULATION OPTIMIZATION & 7.69 & 0.55\\
+SERVICE OPERATIONS MANAGEMENT & 10.26 & 0.48\\
+HEALTH-CARE MANAGEMENT & 7.69 & 0.48\\
+URGENT PATIENTS & 5.13 & 0.41\\
+ADVANCED-ACCESS & 5.13 & 0.41\\
+PRIMARY CARE & 5.13 & 0.41\\
+OUTPATIENT CLINICS & 5.13 & 0.39\\
+RESOURCE PLANNING & 5.13 & 0.34\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 72.50 & 5.08\\
+Management & 27.50 & -5.08\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 72.50 & 5.08\\
+M\&SOM-MANUF SERV OP & 20.00 & 1.32\\
+J OPER MANAG & 7.50 & -5.72\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+GRAD SCH MANAGEMENT & 7.50 & 37.95\\
+DEPT MANAGEMENT & 7.50 & 11.09\\
+CORNELL UNIV & 5.00 & 16.57\\
+DEPT OPERAT \& DECIS TECHNOL & 5.00 & 40.83\\
+ZICKLIN SCH BUSINESS & 5.00 & 34.49\\
+OZYEGIN UNIV & 5.00 & 52.73\\
+JOHNSON GRAD SCH MANAGEMENT & 5.00 & 34.49\\
+MENTAL HLTH CTR DENVER & 5.00 & 64.60\\
+ST CATHARINES & 5.00 & 52.73\\
+INDIANA UNIV & 5.00 & 12.65\\
+BROCK UNIV & 5.00 & 52.73\\
+UNIV CALIF DAVIS & 5.00 & 40.83\\
+KELLEY SCH BUSINESS & 5.00 & 13.48\\
+DEPT STAT \& OPERAT RES & 5.00 & 32.25\\
+COLL BUSINESS ADM & 5.00 & 10.03\\
+DEPT IND ENGN & 5.00 & 18.95\\
+SCH BUSINESS & 5.00 & 9.32\\
+SHATIN & 2.50 & 9.03\\
+DUQUESNE UNIV & 2.50 & 18.60\\
+NYU & 2.50 & 9.03\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 45.00 & 21.72\\
+Canada & 10.00 & 15.49\\
+Turkey & 5.00 & 21.45\\
+Netherlands & 5.00 & 12.40\\
+Singapore & 5.00 & 14.32\\
+South korea & 2.50 & 9.64\\
+Peoples r china & 2.50 & 4.03\\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Cayirli T & 17.50 & 24.89\\
+Klassen KJ & 17.50 & 32.29\\
+Bretthauer KM & 12.50 & 18.80\\
+Salzarulo PA & 10.00 & 29.93\\
+Cote MJ & 10.00 & 29.93\\
+White DL & 10.00 & 25.46\\
+Laganga LR & 10.00 & 19.08\\
+Yang KK & 10.00 & 16.75\\
+Schultz KL & 10.00 & 14.01\\
+Quek SA & 10.00 & 28.42\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Cayirli T, 2003, PROD OPER MANAG (12), 519 & 82.50 & 510.48\\
+Ho CJ, 1992, MANAGE SCI (38), 1750 & 67.50 & 480.20\\
+Cayirli T, 2008, PROD OPER MANAG (17), 338 & 65.00 & 520.11\\
+Klassen k J, 1996, Journal of Operations &  & \\
+$\quad$ Management (14), 0 & 60.00 & 443.64\\
+Denton B, 2003, IIE TRANS (35), 1003 & 57.50 & 414.22\\
+Bailey NTJ, 1952, J ROY STAT SOC B (14), 185 & 57.50 & 439.88\\
+Gupta D, 2008, IIE TRANS (40), 800 & 55.00 & 368.15\\
+Cayirli TUGBA, 2006, Health Care Manag Sci (9), &  & \\
+$\quad$ 47 & 52.50 & 470.38\\
+Laganga LR, 2007, DECISION SCI (38), 251 & 52.50 & 396.00\\
+White MJB, 1964, MED CARE (2), 133 & 52.50 & 468.97\\
+Robinson LW, 2003, IIE TRANS (35), 295 & 50.00 & 396.27\\
+Fries BE, 1981, OPER RES (29), 324 & 47.50 & 430.82\\
+Rohleder TR, 2000, OMEGA-INT J MANAGE S (28), 293 & 45.00 & 390.96\\
+Soriano A, 1966, OPER RES (14), 388 & 42.50 & 375.15\\
+Vissers J, 1979, EUR J OPER RES (3), 459 & 42.50 & 383.69\\
+Klassen KJ, 2009, PROD OPER MANAG (18), 447 & 42.50 & 416.25\\
+Hassin R, 2008, MANAGE SCI (54), 565 & 42.50 & 423.97\\
+Wang PP, 1993, NAV RES LOG (40), 345 & 40.00 & 358.38\\
+Kaandorp guido C, 2007, Health Care Manag Sci &  & \\
+$\quad$ (10), 217 & 40.00 & 369.72\\
+Wang PP, 1997, COMPUT OPER RES (24), 703 & 37.50 & 335.47\\
+Okeefe RM, 1985, J OPER RES SOC (36), 705 & 37.50 & 353.50\\
+Weiss EN, 1990, IIE TRANS (22), 143 & 37.50 & 301.50\\
+Fetter RB, 1966, HEALTH SERV REP (1), 66 & 37.50 & 360.19\\
+Cox t F, 1985, J APPL STAT (12), 113 & 30.00 & 305.03\\
+Vissers J, 1979, MED CARE (17), 1207 & 30.00 & 312.41\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+EUR J OPER RES & 50.00 & 38.53\\
+OPER RES & 47.50 & 32.80\\
+MANAGE SCI & 47.50 & 23.24\\
+PROD OPER MANAG & 45.00 & 28.37\\
+DECISION SCI & 42.50 & 32.79\\
+IIE TRANS & 37.50 & 37.60\\
+Health Care Manag Sci & 32.50 & 121.21\\
+J ROY STAT SOC B & 32.50 & 129.59\\
+J OPER RES SOC & 30.00 & 41.83\\
+Journal of Operations Management & 30.00 & 30.38\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 17 - ``DYNAMIC PRICING'' contains $N = 4$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/3$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+DYNAMIC PRICING & 37.25 & 1.77\\
+STRATEGIC CONSUMERS & 17.65 & 1.20\\
+CUSTOMER BEHAVIOR & 19.61 & 1.07\\
+REVENUE MANAGEMENT & 21.57 & 0.91\\
+STRATEGIC CUSTOMER BEHAVIOR & 11.76 & 0.83\\
+STOCHASTIC GAMES & 7.84 & 0.64\\
+PRICING & 15.69 & 0.59\\
+INERTIA & 7.84 & 0.58\\
+BEHAVIORAL DECISION-MAKING & 7.84 & 0.58\\
+CONSUMER BEHAVIOR & 7.84 & 0.50\\
+PRICING AND REVENUE &  &\\
+$\quad$ MANAGEMENT & 7.84 & 0.48\\
+CUSTOMER LEARNING & 5.88 & 0.45\\
+SELF-REGULATING & 5.88 & 0.45\\
+SMOOTHING & 5.88 & 0.45\\
+WAIT-OR-BUY & 5.88 & 0.45\\
+DISAPPOINTMENT AVERSION & 5.88 & 0.45\\
+CAPACITY RATIONING & 5.88 & 0.45\\
+VALUATION UNCERTAINTY & 5.88 & 0.42\\
+RETAILING & 7.84 & 0.41\\
+STRATEGIC CONSUMER BEHAVIOR & 5.88 & 0.41\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 56.86 & 3.38\\
+Management & 43.14 & -3.38\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 56.86 & 3.38\\
+M\&SOM-MANUF SERV OP & 43.14 & 6.40\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+UNIV CALIF BERKELEY & 9.80 & 38.82\\
+WASHINGTON UNIV & 5.88 & 23.69\\
+UNIV N CAROLINA & 5.88 & 14.87\\
+DEPT IND ENGN \& OPERAT RES & 5.88 & 22.82\\
+UNIV MICHIGAN & 5.88 & 18.14\\
+MIT & 3.92 & 15.45\\
+JOHN M OLIN SCH BUSINESS & 3.92 & 22.36\\
+MONTREAL & 3.92 & 16.07\\
+ARIZONA STATE UNIV & 3.92 & 10.73\\
+MCGILL UNIV & 3.92 & 17.99\\
+DEPT IND \& OPERAT ENGN & 3.92 & 28.55\\
+HAAS SCH BUSINESS & 3.92 & 24.32\\
+KENAN FLAGLER BUSINESS SCH & 3.92 & 11.39\\
+KOWLOON & 3.92 & 13.54\\
+UNIV CALIF LOS ANGELES & 3.92 & 12.98\\
+DESAUTELS FAC MANAGEMENT & 3.92 & 20.80\\
+ANDERSON SCH & 3.92 & 30.53\\
+WP CAREY SCH BUSINESS & 3.92 & 12.98\\
+SCH BUSINESS & 3.92 & 8.21\\
+HONG KONG UNIV SCI \& TECHNOL & 3.92 & 20.80\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 49.02 & 26.79\\
+Peoples r china & 9.80 & 18.62\\
+Canada & 7.84 & 13.66\\
+India & 1.96 & 9.18\\
+Singapore & 1.96 & 6.24\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Su XM & 13.73 & 14.74\\
+Nediak M & 7.84 & 32.27\\
+Mcgill J & 7.84 & 32.27\\
+Zhang D & 7.84 & 14.16\\
+Levin Y & 7.84 & 32.27\\
+Shum S & 5.88 & 12.87\\
+Milner JM & 5.88 & 14.64\\
+Parlakturk AK & 5.88 & 15.49\\
+Liu Q & 5.88 & 13.72\\
+Tang CS & 5.88 & 5.97\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Su XM, 2007, MANAGE SCI (53), 726 & 76.47 & 479.11\\
+Aviv Y, 2008, M\&SOM-MANUF SERV OP (10), 339 & 72.55 & 549.28\\
+Elmaghraby W, 2008, M\&SOM-MANUF SERV OP (10), &  & \\
+$\quad$ 126 & 68.63 & 536.18\\
+Liu Q, 2008, MANAGE SCI (54), 1115 & 58.82 & 472.97\\
+Shen ZJM, 2007, PROD OPER MANAG (16), 713 & 54.90 & 419.58\\
+Besanko D, 1990, MANAGE SCI (36), 555 & 45.10 & 346.44\\
+Cachon GP, 2009, MANAGE SCI (55), 497 & 39.22 & 331.86\\
+Xie JH, 2001, MARKET SCI (20), 219 & 37.25 & 264.09\\
+Gallego G, 1994, MANAGE SCI (40), 999 & 35.29 & 208.10\\
+Talluri KT, 2004, THEORY PRACTICE REVE (0), 0 & 35.29 & 172.75\\
+Zhang D, 2008, PROD OPER MANAG (17), 416 & 33.33 & 392.77\\
+Su XM, 2008, MANAGE SCI (54), 1759 & 31.37 & 316.89\\
+Popescu I, 2007, OPER RES (55), 413 & 27.45 & 276.44\\
+Levin Y, 2009, MANAGE SCI (55), 32 & 25.49 & 281.88\\
+Elmaghraby W, 2003, MANAGE SCI (49), 1287 & 25.49 & 155.21\\
+Stokey NL, 1979, Q J ECON (93), 355 & 25.49 & 229.72\\
+Gallego G, 2008, PROD OPER MANAG (17), 402 & 25.49 & 352.64\\
+Su XM, 2008, M\&SOM-MANUF SERV OP (10), 566 & 23.53 & 220.97\\
+Bitran G, 2003, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (5), 0 & 23.53 & 159.36\\
+Lai GM, 2010, M\&SOM-MANUF SERV OP (12), 33 & 19.61 & 275.98\\
+Dana JD, 1998, J POLIT ECON (106), 395 & 19.61 & 153.01\\
+Yin R, 2009, MANAGE SCI (55), 1391 & 19.61 & 255.82\\
+Caldentey R, 2007, MANAGE SCI (53), 795 & 17.65 & 218.97\\
+Nair H, 2007, QME-QUANT MARK ECON (5), 239 & 13.73 & 222.42\\
+Che YK, 1996, J IND ECON (44), 17 & 13.73 & 184.23\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 52.94 & 29.35\\
+M\&SOM-MANUF SERV OP & 43.14 & 49.44\\
+OPER RES & 41.18 & 32.02\\
+PROD OPER MANAG & 41.18 & 29.25\\
+MARKET SCI & 33.33 & 38.85\\
+Q J ECON & 27.45 & 50.45\\
+Manufacturing \& Service Operations Management & 27.45 & 28.32\\
+AM ECON REV & 23.53 & 31.49\\
+THEORY PRACTICE REVE & 19.61 & 57.68\\
+RAND J ECON & 17.65 & 30.09\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 24 - ``DIRECT CHANNEL'' contains $N = 3$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/3$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+DIRECT CHANNEL & 12.50 & 0.91\\
+DUAL CHANNELS & 9.38 & 0.72\\
+SUPPLY CHAIN CONTRACTING & 9.38 & 0.72\\
+PRODUCT AVAILABILITY & 9.38 & 0.72\\
+SERVICE COMPETITION & 9.38 & 0.59\\
+E-COMMERCE & 12.50 & 0.59\\
+COLLABORATIVE PARTNERSHIPS & 6.25 & 0.58\\
+EXPERIMENTAL ECONOMICS & 9.38 & 0.54\\
+CHANNEL COORDINATION & 6.25 & 0.50\\
+COST-PER-CLICK & 6.25 & 0.49\\
+COORDINATION & 9.38 & 0.49\\
+COALITION FORMATION & 6.25 & 0.48\\
+JOINT REPLENISHMENT & 6.25 & 0.48\\
+COALITION STRUCTURE CORE & 6.25 & 0.48\\
+FRACTIONAL PROGRAMMING & 6.25 & 0.48\\
+COOPERATIVE GAME THEORY & 6.25 & 0.48\\
+PROPORTIONAL ALLOCATIONS & 6.25 & 0.48\\
+LONG-RUN STOCK PRICE & 6.25 & 0.48\\
+EQUITY RISK & 6.25 & 0.48\\
+PRICING & 12.50 & 0.47\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 87.50 & 6.33\\
+Management & 12.50 & -6.33\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 87.50 & 6.33\\
+M\&SOM-MANUF SERV OP & 9.38 & -0.61\\
+J OPER MANAG & 3.12 & -5.61\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+HONG KONG & 6.25 & 23.36\\
+DEPT IND \& SYST ENGN & 6.25 & 26.31\\
+COLL BUSINESS ADM & 6.25 & 11.25\\
+SCH BUSINESS ADM & 6.25 & 19.21\\
+UNIV MICHIGAN & 6.25 & 15.28\\
+GEORGIA INST TECHNOL & 3.12 & 6.39\\
+SHATIN & 3.12 & 10.12\\
+MARQUETTE UNIV & 3.12 & 25.51\\
+CHINESE UNIV HONG KONG & 3.12 & 9.73\\
+GUANGZHOU 510275 & 3.12 & 22.81\\
+COLL BUSINESS \& PUBL AFFAIRS & 3.12 & 36.10\\
+WASHINGTON UNIV & 3.12 & 9.92\\
+NYU & 3.12 & 10.12\\
+GSB & 3.12 & 51.07\\
+W CHESTER UNIV & 3.12 & 51.07\\
+DEPT MANAGEMENT SCI \& &  & \\
+$\quad$ INFORMAT SYST & 3.12 & 29.46\\
+CTR EBUSINESS INNOVAT & 3.12 & 51.07\\
+JOHNS HOPKINS UNIV & 3.12 & 36.10\\
+BELL LABS IRELAND & 3.12 & 51.07\\
+UNIV N CAROLINA & 3.12 & 6.18\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 56.25 & 24.46\\
+Peoples r china & 12.50 & 18.86\\
+Canada & 6.25 & 8.57\\
+Turkey & 3.12 & 11.96\\
+France & 3.12 & 7.16\\
+Ireland & 3.12 & 29.46\\
+South korea & 3.12 & 10.80\\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Ozer O & 9.38 & 9.76\\
+Chambers C & 9.38 & 8.44\\
+Chen KY & 9.38 & 24.12\\
+Kaya M & 9.38 & 24.12\\
+Kekre S & 6.25 & 5.77\\
+Elomri A & 6.25 & 16.46\\
+Singhal VR & 6.25 & 4.96\\
+Hendricks KB & 6.25 & 5.37\\
+Buhman C & 6.25 & 6.45\\
+Dallery Y & 6.25 & 11.72\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Tsay AA, 2004, PROD OPER MANAG (13), 93 & 84.38 & 405.12\\
+Boyaci T, 2004, PROD OPER MANAG (13), 3 & 43.75 & 252.31\\
+Cattani K, 2006, PROD OPER MANAG (15), 40 & 40.62 & 358.47\\
+Chiang WYK, 2003, MANAGE SCI (49), 1 & 40.62 & 262.77\\
+Gan XH, 2004, PROD OPER MANAG (13), 135 & 25.00 & 116.20\\
+Boyaci T, 2005, IIE TRANS (37), 407 & 25.00 & 322.17\\
+Gan XH, 2005, PROD OPER MANAG (14), 80 & 25.00 & 109.89\\
+Shin HJ, 2004, PROD OPER MANAG (13), 63 & 25.00 & 173.54\\
+Souza GC, 2004, PROD OPER MANAG (13), 34 & 25.00 & 147.91\\
+Sodhi MS, 2005, PROD OPER MANAG (14), 69 & 21.88 & 112.22\\
+Kraiselburd S, 2004, PROD OPER MANAG (13), 46 & 21.88 & 141.33\\
+Fisher M, 1997, Production and Operations &  & \\
+$\quad$ Management (6), 0 & 21.88 & 91.32\\
+Poundarikapuram S, 2004, PROD OPER MANAG (13), &  & \\
+$\quad$ 111 & 21.88 & 171.68\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 18.75 & 66.32\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 53 & 18.75 & 56.12\\
+Bernstein F, 2004, OPER RES (52), 868 & 18.75 & 135.98\\
+Mcguire t W, 1983, MARKET SCI (2), 161 & 18.75 & 91.48\\
+Cattani KD, 2002, PROD OPER MANAG (11), 441 & 18.75 & 141.71\\
+Gerchak Y, 2004, PROD OPER MANAG (13), 23 & 18.75 & 91.07\\
+Kreipl S, 2004, PROD OPER MANAG (13), 77 & 18.75 & 86.69\\
+Hendershott T, 2006, J ECON MANAGE STRAT (15), &  & \\
+$\quad$ 279 & 15.62 & 257.94\\
+Cachon GP, 2005, MANAGE SCI (51), 30 & 15.62 & 63.58\\
+Jeuland a P, 1983, MARKET SCI (2), 239 & 15.62 & 66.03\\
+Mahajan S, 2001, OPER RES (49), 646 & 15.62 & 125.76\\
+Lal R, 1999, MARKET SCI (18), 485 & 15.62 & 163.12\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 68.75 & 39.07\\
+MANAGE SCI & 65.62 & 28.99\\
+OPER RES & 40.62 & 25.01\\
+MARKET SCI & 34.38 & 31.75\\
+Manufacturing \& Service Operations Management & 31.25 & 25.59\\
+EUR J OPER RES & 25.00 & 17.00\\
+RAND J ECON & 25.00 & 33.87\\
+IIE TRANS & 21.88 & 19.47\\
+PRODUCTION OPERATION & 21.88 & 22.40\\
+HARVARD BUS REV & 21.88 & 13.45\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 5 - ``ENVIRONMENTAL ISSUES'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+ENVIRONMENTAL ISSUES & 20.00 & 1.07\\
+ECO-LOGISTICS & 13.33 & 0.93\\
+ENVIRONMENTAL MANAGEMENT AND &  &\\
+$\quad$ OPERATIONS & 13.33 & 0.93\\
+GREEN PRODUCTS & 13.33 & 0.93\\
+LEAN AND GREEN OPERATIONS & 13.33 & 0.93\\
+CROSS-FUNCTIONAL INTERFACE & 13.33 & 0.84\\
+COMPETITIVE ADVANTAGE & 13.33 & 0.83\\
+MULTIVARIATE STATISTICAL &  &\\
+$\quad$ TECHNIQUES & 13.33 & 0.81\\
+THEORY VERIFYING & 13.33 & 0.81\\
+LABORATORY RESEARCH & 13.33 & 0.81\\
+ARCHIVAL RESEARCH & 13.33 & 0.81\\
+APPLICATIONS & 13.33 & 0.81\\
+BUSINESS PROCESSES & 13.33 & 0.78\\
+ENTERPRISE TRANSFORMATION & 13.33 & 0.78\\
+INTERORGANIZATIONAL & 13.33 & 0.78\\
+NETWORK-CENTRIC ENTERPRISE & 13.33 & 0.78\\
+ENTERPRISE NETWORKS & 13.33 & 0.78\\
+QUALITATIVE RESEARCH & 13.33 & 0.74\\
+IMPLEMENTATION & 13.33 & 0.73\\
+FIELD RESEARCH & 13.33 & 0.73\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 60.00 & 2.09\\
+Management & 40.00 & -2.09\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 60.00 & 2.09\\
+J OPER MANAG & 26.67 & -2.02\\
+M\&SOM-MANUF SERV OP & 13.33 & 0.04\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+LONDON & 13.33 & 28.66\\
+COLL BUSINESS ADM & 13.33 & 16.57\\
+UNIV BALTIMORE & 13.33 & 56.38\\
+RICHARD IVEY SCH BUSINESS & 13.33 & 29.79\\
+UNIV WESTERN ONTARIO & 13.33 & 28.66\\
+MERRICK SCH BUSINESS & 13.33 & 60.90\\
+UNIV CONNECTICUT & 6.67 & 24.84\\
+UNIV MINNESOTA & 6.67 & 8.28\\
+INDIANA UNIV & 6.67 & 10.36\\
+TIDE PROGRAM & 6.67 & 74.61\\
+KELLEY SCH BUSINESS & 6.67 & 11.04\\
+UNIV LOUISVILLE & 6.67 & 43.06\\
+CARLSON SCH MANAGEMENT & 6.67 & 10.57\\
+CORNELL UNIV & 6.67 & 13.55\\
+CTR EBUSINESS INNOVAT & 6.67 & 74.61\\
+FLORIDA INT UNIV & 6.67 & 33.34\\
+CARNEGIE MELLON UNIV & 6.67 & 15.85\\
+GEORGE MASON UNIV & 6.67 & 21.50\\
+UNIV OREGON & 6.67 & 28.17\\
+UNIV PENN & 6.67 & 12.36\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 66.67 & 19.94\\
+Canada & 13.33 & 12.70\\
+France & 6.67 & 10.57\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Klassen RD & 20.00 & 7.79\\
+Kekre S & 13.33 & 8.68\\
+Buhman C & 13.33 & 9.65\\
+Verma R & 13.33 & 5.37\\
+Gupta S & 13.33 & 6.04\\
+Carter CR & 13.33 & 6.76\\
+Kleindorfer PR & 13.33 & 10.60\\
+Corbett CJ & 13.33 & 6.42\\
+Gattiker TF & 13.33 & 9.36\\
+Victorino L & 13.33 & 9.08\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Pil FK, 2003, PROD OPER MANAG (12), 404 & 86.67 & 261.91\\
+Kassinis GI, 2003, PROD OPER MANAG (12), 386 & 80.00 & 265.44\\
+Klassen RD, 2003, PROD OPER MANAG (12), 336 & 53.33 & 172.98\\
+Angell LC, 2001, PRODUCTION OPERATION (10), 306 & 46.67 & 175.80\\
+Melnyk SA, 2003, PROD OPER MANAG (12), 369 & 46.67 & 203.68\\
+Sroufe R, 2003, PROD OPER MANAG (12), 416 & 46.67 & 152.07\\
+Corbett CJ, 2001, PROD OPER MANAG (10), 327 & 46.67 & 131.15\\
+Flowers AD, 2003, PROD OPER MANAG (12), 307 & 40.00 & 179.27\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 53 & 40.00 & 82.05\\
+Wolf FG, 2001, PROD OPER MANAG (10), 292 & 40.00 & 169.78\\
+Singhal K, 1992, PRODUCTION OPERATION (1), 1 & 40.00 & 148.89\\
+Rothenberg S, 2001, PROD OPER MANAG (10), 228 & 40.00 & 152.09\\
+Delmas M, 2001, PROD OPER MANAG (10), 343 & 40.00 & 139.67\\
+King AA, 2001, PROD OPER MANAG (10), 244 & 40.00 & 129.58\\
+Porter ME, 1995, HARVARD BUS REV (73), 120 & 40.00 & 116.95\\
+Bowen FE, 2001, PROD OPER MANAG (10), 174 & 40.00 & 154.47\\
+Caro F, 2003, PROD OPER MANAG (12), 290 & 40.00 & 179.27\\
+Reiskin E, 2000, J IND ECOL (3), 19 & 33.33 & 163.91\\
+Hays JM, 2001, PROD OPER MANAG (10), 405 & 33.33 & 118.43\\
+Sousa R, 2001, PROD OPER MANAG (10), 383 & 33.33 & 74.82\\
+Craighead CW, 2004, PROD OPER MANAG (13), 307 & 33.33 & 107.30\\
+Dow D, 1999, PROD OPER MANAG (8), 1 & 33.33 & 56.54\\
+Klassen RD, 1996, MANAGE SCI (42), 1199 & 33.33 & 93.15\\
+Kathuria R, 2001, PROD OPER MANAG (10), 460 & 33.33 & 136.27\\
+Carter CR, 2000, TRANSPORT RES E-LOG (36), 219 & 26.67 & 140.08\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 66.67 & 25.92\\
+J OPER MANAG & 66.67 & 27.74\\
+MANAGE SCI & 60.00 & 18.11\\
+HARVARD BUS REV & 60.00 & 25.87\\
+ACAD MANAGE REV & 46.67 & 23.19\\
+PRODUCTION OPERATION & 40.00 & 28.21\\
+ACAD MANAGE J & 40.00 & 21.08\\
+DECISION SCI & 33.33 & 15.68\\
+J MANAGE & 33.33 & 21.11\\
+J MARKETING & 33.33 & 18.83\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 11 - ``EMPIRICAL ANALYSIS'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+EMPIRICAL ANALYSIS & 17.39 & 0.97\\
+SUPPLY CHAIN MANAGEMENT & 34.78 & 0.76\\
+EMPIRICAL RESEARCH & 26.09 & 0.65\\
+SUBSTITUTE PRODUCTS & 8.70 & 0.62\\
+VENDOR-MANAGED INVENTORY & 8.70 & 0.60\\
+CPFR & 8.70 & 0.59\\
+INFORMATION SYSTEMS VALUE & 8.70 & 0.59\\
+SUPPLY CHAIN FIT & 8.70 & 0.58\\
+CASE STUDIES & 13.04 & 0.58\\
+INTERNAL LINKAGES & 8.70 & 0.57\\
+EXTERNAL LINKAGES & 8.70 & 0.57\\
+LITERATURE REVIEW & 13.04 & 0.56\\
+RESEARCH OPPORTUNITIES IN &  &\\
+$\quad$ SUPPLY CHAIN MANAGEMENT & 8.70 & 0.56\\
+SUPPLY CHAIN MANAGEMENT &  &\\
+$\quad$ RESEARCH & 8.70 & 0.56\\
+DEMAND CHAIN MANAGEMENT & 8.70 & 0.53\\
+ARCHIVAL RESEARCH & 8.70 & 0.53\\
+MULTIVARIATE STATISTICAL &  &\\
+$\quad$ TECHNIQUES & 8.70 & 0.53\\
+APPLICATIONS & 8.70 & 0.53\\
+LABORATORY RESEARCH & 8.70 & 0.53\\
+THEORY VERIFYING & 8.70 & 0.53\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 56.52 & -0.92\\
+Engineering, Manufacturing & 43.48 & 0.92\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 56.52 & 0.37\\
+PROD OPER MANAG & 43.48 & 0.92\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT & 13.04 & 14.77\\
+ARIZONA STATE UNIV & 13.04 & 24.26\\
+WP CAREY SCH BUSINESS & 13.04 & 29.23\\
+LONDON BUSINESS SCH & 8.70 & 26.23\\
+COLL BUSINESS \& ECON & 8.70 & 31.06\\
+UNIV WISCONSIN & 8.70 & 28.34\\
+SCH MANAGEMENT & 8.70 & 10.92\\
+COLL BUSINESS ADM & 8.70 & 13.33\\
+FAC MANAGEMENT & 4.35 & 30.10\\
+GEORGIA STATE UNIV & 4.35 & 19.01\\
+OWEN GRAD SCH MANAGEMENT & 4.35 & 16.05\\
+WASHINGTON UNIV & 4.35 & 11.74\\
+NYU & 4.35 & 11.97\\
+SCH GLOBAL MANAGEMENT \& &  & \\
+$\quad$ LEADERSHIP & 4.35 & 60.25\\
+UNIV CALIF RIVERSIDE & 4.35 & 26.91\\
+CORNELL UNIV & 4.35 & 10.91\\
+DEPT INFORMAT SYST & 4.35 & 26.91\\
+FLORIDA INT UNIV & 4.35 & 26.91\\
+FLORIDA ATLANTIC UNIV & 4.35 & 24.56\\
+COLL BUSINESS & 4.35 & 5.80\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 65.22 & 24.14\\
+England & 8.70 & 14.17\\
+Canada & 4.35 & 5.00\\
+Switzerland & 4.35 & 16.05\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Barratt M & 13.04 & 9.13\\
+Kraiselburd S & 8.70 & 10.88\\
+Cederlund J & 8.70 & 12.42\\
+Wagner SM & 8.70 & 9.52\\
+Raman A & 8.70 & 7.62\\
+Kouvelis P & 8.70 & 4.38\\
+Wang HY & 8.70 & 10.11\\
+Barratt R & 8.70 & 10.70\\
+Kohli R & 8.70 & 9.18\\
+Grosse-Ruyken PT & 8.70 & 11.90\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Clark TH, 1997, PRODUCTION OPERATION (6), 248 & 86.96 & 260.51\\
+Cachon G, 1997, Production and Operations &  & \\
+$\quad$ Management (6), 0 & 73.91 & 293.17\\
+Lee HL, 1997, MANAGE SCI (43), 546 & 34.78 & 63.72\\
+Aviv Y, 2001, MANAGE SCI (47), 1326 & 34.78 & 134.78\\
+Kopczak LR, 1997, PRODUCTION OPERATION (6), 226 & 30.43 & 109.75\\
+Fisher M, 1997, Production and Operations &  & \\
+$\quad$ Management (6), 0 & 26.09 & 92.34\\
+Gavirneni S, 1999, MANAGE SCI (45), 16 & 26.09 & 74.24\\
+Aviv Y, 2002, Manufacturing \& Service Operations &  & \\
+$\quad$ Management (4), 0 & 26.09 & 126.06\\
+Lee HL, 2000, MANAGE SCI (46), 626 & 26.09 & 73.99\\
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 21.74 & 35.54\\
+Croson R, 2003, PROD OPER MANAG (12), 1 & 21.74 & 85.48\\
+Vollmann TE, 2000, PROD OPER MANAG (9), 81 & 21.74 & 118.49\\
+Chen F, 2000, MANAGE SCI (46), 436 & 21.74 & 73.35\\
+Agrawal N, 2002, PROD OPER MANAG (11), 157 & 21.74 & 114.86\\
+Whang S, 1995, J OPERATIONS MANAGEM (12), 413 & 21.74 & 120.87\\
+Barratt M, 2001, INT J PHYS DISTRIB (31), 266 & 21.74 & 121.99\\
+Jeuland a P, 1983, MARKET SCI (2), 239 & 21.74 & 77.91\\
+Mabert VA, 1998, DECISION SCI (29), 537 & 21.74 & 70.53\\
+Subramani M, 2004, MIS QUART (28), 45 & 21.74 & 59.88\\
+Klassen RD, 2003, PROD OPER MANAG (12), 336 & 17.39 & 69.81\\
+Chapman SN, 1990, DECISION SCI (21), 35 & 17.39 & 51.45\\
+Boyer KK, 2000, PROD OPER MANAG (9), 128 & 17.39 & 48.67\\
+Kreipl S, 2004, PROD OPER MANAG (13), 77 & 17.39 & 68.17\\
+Chen CY, 2002, PROD OPER MANAG (11), 424 & 17.39 & 118.67\\
+Agrawal N, 1997, Production and Operations &  & \\
+$\quad$ Management (6), 0 & 17.39 & 85.95\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 60.87 & 22.75\\
+PRODUCTION OPERATION & 60.87 & 53.30\\
+PROD OPER MANAG & 60.87 & 29.27\\
+HARVARD BUS REV & 47.83 & 25.45\\
+Production and Operations Management & 47.83 & 52.60\\
+DECISION SCI & 43.48 & 25.45\\
+J OPER MANAG & 43.48 & 22.24\\
+J OPERATIONS MANAGEM & 39.13 & 26.10\\
+ACAD MANAGE J & 39.13 & 25.53\\
+EUR J OPER RES & 34.78 & 20.20\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 14 - ``RFID'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+RFID & 42.86 & 2.14\\
+INVENTORY MISPLACEMENT & 14.29 & 1.10\\
+FIELD EXPERIMENT & 14.29 & 1.09\\
+INVENTORY RECORD INACCURACY &  &\\
+$\quad$ (IRI) & 14.29 & 1.09\\
+INVENTORY VISIBILITY & 14.29 & 1.09\\
+ENABLERS AND BARRIERS & 14.29 & 1.03\\
+COLLABORATION AND &  &\\
+$\quad$ COORDINATION & 14.29 & 1.03\\
+COMPETITION AND CONFLICT & 14.29 & 1.03\\
+E-AUCTION & 14.29 & 1.03\\
+RADIO FREQUENCY IDENTIFICATION &  &\\
+$\quad$ (RFID) & 14.29 & 1.01\\
+TECHNOLOGY ADOPTION & 14.29 & 0.93\\
+ENVIRONMENTAL COMPLEXITY & 14.29 & 0.89\\
+INFORMATION SYSTEMS &  &\\
+$\quad$ CAPABILITIES & 14.29 & 0.89\\
+TOBIN'S Q & 14.29 & 0.89\\
+STRATEGIC IT ALIGNMENT & 14.29 & 0.89\\
+OPERATIONAL ABSORPTIVE &  &\\
+$\quad$ CAPACITY & 14.29 & 0.82\\
+INCENTIVES & 14.29 & 0.81\\
+E-BUSINESS & 14.29 & 0.81\\
+THEORY DEVELOPMENT & 14.29 & 0.72\\
+SUPPLY CHAIN COORDINATION & 14.29 & 0.71\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 78.57 & 3.48\\
+Management & 21.43 & -3.48\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 78.57 & 3.48\\
+J OPER MANAG & 21.43 & -2.34\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+UNIV ARKANSAS & 14.29 & 37.42\\
+SAM M WALTON COLL BUSINESS & 14.29 & 44.55\\
+INDIANA UNIV & 7.14 & 10.73\\
+UNIV SO INDIANA & 7.14 & 77.23\\
+SUPPLY CHAIN MANAGEMENT DEPT & 7.14 & 44.57\\
+KELLEY SCH BUSINESS & 7.14 & 11.43\\
+COLL BUSINESS ADM & 7.14 & 8.52\\
+CRAIG SCH BUSINESS & 7.14 & 44.57\\
+FLORIDA INT UNIV & 7.14 & 34.52\\
+COLL BUSINESS & 7.14 & 7.52\\
+GEORGETOWN UNIV & 7.14 & 21.38\\
+PENN STATE UNIV & 7.14 & 12.80\\
+ARIZONA STATE UNIV & 7.14 & 10.32\\
+MCDONOUGH SCH BUSINESS & 7.14 & 21.38\\
+WP CAREY SCH BUSINESS & 7.14 & 12.45\\
+KENAN FLAGLER BUSINESS SCH & 7.14 & 10.95\\
+UNIV N CAROLINA & 7.14 & 9.48\\
+DEPT DECIS SCI \& INFORMAT &  & \\
+$\quad$ SYST & 7.14 & 44.57\\
+COLL BUSINESS \& INNOVAT & 7.14 & 77.23\\
+UNIV TOLEDO & 7.14 & 21.38\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 64.29 & 18.56\\
+Canada & 7.14 & 6.50\\
+Germany & 7.14 & 16.05\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Choi T & 14.29 & 11.91\\
+Aloysius JA & 14.29 & 24.67\\
+Camdereli AZ & 14.29 & 25.33\\
+Barratt M & 14.29 & 7.82\\
+Swaminathan JM & 14.29 & 6.68\\
+Setia P & 14.29 & 12.03\\
+Kyparisis GJ & 14.29 & 19.53\\
+Patel PC & 14.29 & 4.98\\
+Hardgrave BC & 14.29 & 18.50\\
+Gupta S & 14.29 & 6.28\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Dutta A, 2007, PROD OPER MANAG (16), 646 & 85.71 & 393.18\\
+Whitaker J, 2007, PROD OPER MANAG (16), 599 & 85.71 & 358.72\\
+Delen D, 2007, PROD OPER MANAG (16), 613 & 50.00 & 239.89\\
+Lee H, 2007, PROD OPER MANAG (16), 40 & 42.86 & 144.66\\
+Gaukler GM, 2007, PROD OPER MANAG (16), 65 & 42.86 & 173.40\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 35.71 & 83.61\\
+Buhman C, 2005, PROD OPER MANAG (14), 493 & 35.71 & 87.92\\
+Heese HS, 2007, PROD OPER MANAG (16), 542 & 35.71 & 162.16\\
+Bardhan I, 2007, PROD OPER MANAG (16), 747 & 28.57 & 85.82\\
+Amini M, 2007, PROD OPER MANAG (16), 586 & 28.57 & 274.17\\
+Raman A, 2001, CALIF MANAGE REV (43), 136 & 28.57 & 108.89\\
+Dehoratius N, 2008, M\&SOM-MANUF SERV OP (10), &  & \\
+$\quad$ 257 & 28.57 & 238.03\\
+Ngai EWT, 2007, PROD OPER MANAG (16), 554 & 28.57 & 125.22\\
+Sambamurthy V, 2003, MIS QUART (27), 237 & 28.57 & 71.19\\
+Rai A, 2006, MIS QUART (30), 225 & 28.57 & 70.19\\
+Dehoratius N, 2008, MANAGE SCI (54), 627 & 28.57 & 106.82\\
+Banker RD, 2006, MIS QUART (30), 315 & 28.57 & 86.97\\
+Cotteleer MJ, 2006, MIS QUART (30), 643 & 28.57 & 100.72\\
+Barratt M, 2007, PROD OPER MANAG (16), 569 & 28.57 & 189.23\\
+Kang Y, 2005, IIE TRANS (37), 843 & 28.57 & 161.79\\
+Swaminathan JM, 2003, MANAGE SCI (49), 1387 & 28.57 & 81.57\\
+Karaer O, 2007, PROD OPER MANAG (16), 625 & 28.57 & 183.27\\
+Boyer KK, 2002, PROD OPER MANAG (11), 480 & 28.57 & 81.39\\
+Mithas S, 2005, J MARKETING (69), 201 & 21.43 & 98.38\\
+Bharadwaj AS, 1999, MANAGE SCI (45), 1008 & 21.43 & 58.64\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 64.29 & 24.14\\
+MANAGE SCI & 50.00 & 14.50\\
+HARVARD BUS REV & 42.86 & 17.76\\
+J MARKETING & 35.71 & 19.51\\
+STRATEGIC MANAGE J & 35.71 & 17.36\\
+INT J PROD ECON & 35.71 & 21.04\\
+MARKET SCI & 28.57 & 17.42\\
+J MANAGE & 28.57 & 17.44\\
+INFORM SYST RES & 28.57 & 26.98\\
+MIS QUART & 28.57 & 23.99\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 16 - ``RFID'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+RFID & 43.33 & 2.16\\
+SUPPLY UNCERTAINTY & 13.33 & 0.83\\
+RADIO FREQUENCY IDENTIFICATION &  &\\
+$\quad$ (RFID) & 10.00 & 0.71\\
+INCENTIVES & 10.00 & 0.57\\
+INVENTORY RECORD INACCURACY & 6.67 & 0.54\\
+SAFETY LEAD TIMES & 6.67 & 0.53\\
+STOCHASTIC ORDERINGS & 6.67 & 0.53\\
+FLEXIBLE BACKUP SUPPLY & 6.67 & 0.53\\
+VALUE ASSESSMENT & 6.67 & 0.53\\
+MARKETING AND OPERATIONS &  &\\
+$\quad$ INTERFACE & 6.67 & 0.53\\
+ARCHITECTURE & 6.67 & 0.53\\
+TRACEABILITY SYSTEM & 6.67 & 0.53\\
+CRITICAL SUCCESS FACTORS & 6.67 & 0.53\\
+GLOBAL SUPPLY CHAINS & 6.67 & 0.52\\
+STOCHASTIC LEAD TIMES & 6.67 & 0.52\\
+EMERGENCY ORDERING & 6.67 & 0.52\\
+ORDER PROGRESS INFORMATION & 6.67 & 0.52\\
+INVENTORY CONTROL & 10.00 & 0.51\\
+BARGAINING & 6.67 & 0.50\\
+SECURITY & 6.67 & 0.50\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 86.67 & 6.03\\
+Management & 13.33 & -6.03\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 86.67 & 6.03\\
+M\&SOM-MANUF SERV OP & 10.00 & -0.49\\
+J OPER MANAG & 3.33 & -5.41\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+KENAN FLAGLER BUSINESS SCH & 13.33 & 30.03\\
+UNIV N CAROLINA & 13.33 & 26.04\\
+STANFORD UNIV & 10.00 & 26.28\\
+WASHINGTON UNIV & 6.67 & 20.60\\
+GRAD SCH BUSINESS & 6.67 & 14.23\\
+ROTTERDAM SCH MANAGEMENT & 6.67 & 35.12\\
+TEXAS A\&M UNIV & 6.67 & 19.85\\
+ERASMUS UNIV & 6.67 & 28.14\\
+UNIV MARYLAND & 6.67 & 16.78\\
+COLL BUSINESS \& MANAGEMENT & 3.33 & 26.35\\
+GEORGIA INST TECHNOL & 3.33 & 6.61\\
+INDIANA UNIV & 3.33 & 7.26\\
+MCDONOUGH SCH BUSINESS & 3.33 & 14.57\\
+UNIV SO INDIANA & 3.33 & 52.75\\
+SUPPLY CHAIN MANAGEMENT DEPT & 3.33 & 30.43\\
+ROBINS SCH BUSINESS & 3.33 & 23.56\\
+COLL MANAGEMENT & 3.33 & 6.85\\
+CRANFIELD UNIV & 3.33 & 52.75\\
+DEPT MANAGEMENT & 3.33 & 4.14\\
+DEPT LOGIST & 3.33 & 17.53\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 56.67 & 23.87\\
+Peoples r china & 10.00 & 14.57\\
+Netherlands & 6.67 & 14.36\\
+England & 6.67 & 12.37\\
+France & 3.33 & 7.41\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Lee HL & 10.00 & 14.08\\
+So KC & 6.67 & 16.79\\
+Gaimon C & 6.67 & 5.84\\
+Choi T & 6.67 & 8.01\\
+Dutta A & 6.67 & 19.85\\
+Gaukler GM & 6.67 & 12.95\\
+Hausman WH & 6.67 & 6.17\\
+Barratt M & 6.67 & 5.15\\
+Whang SJ & 6.67 & 13.26\\
+Liu SX & 6.67 & 19.85\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Lee H, 2007, PROD OPER MANAG (16), 40 & 93.33 & 461.24\\
+Gaukler GM, 2007, PROD OPER MANAG (16), 65 & 73.33 & 434.37\\
+Raman A, 2001, CALIF MANAGE REV (43), 136 & 26.67 & 148.77\\
+Dehoratius N, 2008, MANAGE SCI (54), 627 & 23.33 & 127.69\\
+Delen D, 2007, PROD OPER MANAG (16), 613 & 23.33 & 163.85\\
+Heese HS, 2007, PROD OPER MANAG (16), 542 & 23.33 & 155.08\\
+Kang Y, 2005, IIE TRANS (37), 843 & 23.33 & 193.41\\
+Dutta A, 2007, PROD OPER MANAG (16), 646 & 20.00 & 134.26\\
+Whitaker J, 2007, PROD OPER MANAG (16), 599 & 20.00 & 122.49\\
+Fleisch E, 2005, INT J PROD ECON (95), 373 & 16.67 & 156.83\\
+Ngai EWT, 2007, PROD OPER MANAG (16), 554 & 16.67 & 106.91\\
+Kok AG, 2007, M\&SOM-MANUF SERV OP (9), 185 & 16.67 & 189.58\\
+Song JS, 1994, MANAGE SCI (40), 603 & 16.67 & 127.38\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 13.33 & 45.64\\
+Zipkin P, 1986, NAV RES LOG (33), 763 & 13.33 & 136.53\\
+Elmaghraby W, 2007, PROD OPER MANAG (16), 409 & 13.33 & 68.00\\
+Song JS, 1996, MANAGE SCI (42), 1409 & 13.33 & 119.98\\
+Moinzadeh K, 1991, OPER RES (39), 308 & 13.33 & 132.09\\
+Heim GR, 2002, PROD OPER MANAG (11), 54 & 13.33 & 53.58\\
+Smith a D, 2005, Information Management \& &  & \\
+$\quad$ Computer Security (13), 0 & 13.33 & 207.85\\
+Yano CA, 1995, OPER RES (43), 311 & 13.33 & 61.47\\
+Dutta A, 2007, PROD OPER MANAG (16), 523 & 13.33 & 171.10\\
+Kaplan RS, 1970, MANAGE SCI (16), 491 & 13.33 & 124.36\\
+Prater E, 2005, SUPPLY CHAIN MANAG (10), 134 & 13.33 & 120.48\\
+Barney J, 1991, J MANAGE (17), 99 & 13.33 & 20.72\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 66.67 & 36.66\\
+MANAGE SCI & 60.00 & 25.61\\
+IIE TRANS & 36.67 & 31.83\\
+OPER RES & 36.67 & 21.81\\
+CALIF MANAGE REV & 36.67 & 32.44\\
+INT J PROD ECON & 26.67 & 22.91\\
+EUR J OPER RES & 20.00 & 13.08\\
+NAV RES LOG & 20.00 & 21.10\\
+HARVARD BUS REV & 20.00 & 11.87\\
+M\&SOM-MANUF SERV OP & 20.00 & 17.40\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 18 - ``FIELD STUDY'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/2$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+FIELD STUDY & 13.04 & 0.79\\
+CASE STUDIES & 17.39 & 0.77\\
+RESEARCH & 13.04 & 0.74\\
+ETHNOGRAPHY & 8.70 & 0.71\\
+DATA ANALYSIS & 8.70 & 0.64\\
+HYPOTHESIS TESTING & 8.70 & 0.64\\
+INVENTORY DYNAMICS & 8.70 & 0.64\\
+LONG-TERM STOCK RETURNS & 8.70 & 0.64\\
+FINANCIAL ANALYSIS & 8.70 & 0.64\\
+MAJOR CUSTOMER & 8.70 & 0.60\\
+SALES CONCENTRATION & 8.70 & 0.60\\
+SUPPLY CHAIN CONCENTRATION & 8.70 & 0.60\\
+QUALITATIVE & 8.70 & 0.59\\
+TESTING & 8.70 & 0.59\\
+INDUCTIVE & 8.70 & 0.59\\
+DEDUCTIVE & 8.70 & 0.59\\
+METHODOLOGY & 8.70 & 0.58\\
+OPERATIONS MANAGEMENT/FINANCE &  &\\
+$\quad$ INTERFACE & 8.70 & 0.58\\
+PETROLEUM/NATURAL GAS &  &\\
+$\quad$ INDUSTRIES & 8.70 & 0.58\\
+RESEARCH METHODS & 8.70 & 0.56\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 76.00 & 1.09\\
+Engineering, Manufacturing & 24.00 & -1.09\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 64.00 & 1.14\\
+PROD OPER MANAG & 24.00 & -1.09\\
+M\&SOM-MANUF SERV OP & 12.00 & -0.15\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+ARIZONA STATE UNIV & 8.70 & 16.13\\
+DEPT MANAGEMENT & 8.70 & 9.78\\
+COLL BUSINESS & 8.70 & 11.77\\
+TEXAS CHRISTIAN UNIV & 8.70 & 31.06\\
+UNIV ARKANSAS & 8.70 & 29.17\\
+LEHIGH UNIV & 8.70 & 45.51\\
+SAM M WALTON COLL BUSINESS & 8.70 & 34.74\\
+COLL BUSINESS \& ECON & 8.70 & 31.06\\
+UNIV MINNESOTA & 4.35 & 6.64\\
+UNIV SO INDIANA & 4.35 & 60.25\\
+SUPPLY CHAIN MANAGEMENT DEPT & 4.35 & 34.77\\
+IOWA STATE UNIV & 4.35 & 19.01\\
+MANAGEMENT SCI \& OPERAT GRP & 4.35 & 60.25\\
+CARLSON SCH MANAGEMENT & 4.35 & 8.50\\
+MICHIGAN STATE UNIV & 4.35 & 6.27\\
+WHITMAN SCH MANAGEMENT & 4.35 & 26.91\\
+CORNELL UNIV & 4.35 & 10.91\\
+FUQUA SCH BUSINESS & 4.35 & 15.50\\
+OHIO STATE UNIV & 4.35 & 8.59\\
+INSEAD SOCIAL INNOVAT CTR & 4.35 & 42.59\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 69.57 & 25.79\\
+Canada & 4.35 & 5.00\\
+England & 4.35 & 7.02\\
+France & 4.35 & 8.50\\
+Germany & 4.35 & 12.49\\
+Switzerland & 4.35 & 16.05\\
+Spain & 4.35 & 10.24\\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Secomandi N & 8.00 & 9.47\\
+Wempe WF & 8.00 & 12.24\\
+Choi TY & 8.00 & 3.23\\
+Barratt M & 8.00 & 5.71\\
+Rabinovich E & 8.00 & 3.51\\
+[anonymous] & 8.00 & 25.16\\
+Lanier D & 8.00 & 12.24\\
+Steinker S & 8.00 & 15.62\\
+Li M & 8.00 & 7.51\\
+Hoberg K & 8.00 & 15.62\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Roth AV, 2007, M\&SOM-MANUF SERV OP (9), 353 & 80.00 & 337.69\\
+Fisher M, 2007, M\&SOM-MANUF SERV OP (9), 368 & 68.00 & 333.83\\
+Eisenhardt KM, 1989, ACAD MANAGE REV (14), 532 & 24.00 & 40.92\\
+Wu ZH, 2005, J OPER MANAG (24), 27 & 24.00 & 84.12\\
+Meredith J, 1998, J OPER MANAG (16), 441 & 24.00 & 57.84\\
+Boyer K, 2008, J OPER MANAG (26), 337 & 20.00 & 106.25\\
+Voss C, 2002, INT J OPER PROD MAN (22), 195 & 20.00 & 69.19\\
+Hayes RH, 1984, RESTORING OUR COMPET (0), 0 & 20.00 & 32.95\\
+Pagell M, 2004, J OPER MANAG (22), 459 & 20.00 & 66.48\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 16.00 & 50.01\\
+Rabinovich E, 2007, J OPER MANAG (25), 661 & 16.00 & 100.58\\
+Chen H, 2007, M\&SOM-MANUF SERV OP (9), 430 & 16.00 & 97.93\\
+Miller JG, 1994, MANAGE SCI (40), 285 & 16.00 & 24.73\\
+Gaur V, 2005, MANAGE SCI (51), 181 & 16.00 & 54.05\\
+Edmondson AC, 2007, ACAD MANAGE REV (32), 1155 & 16.00 & 118.04\\
+Shah R, 2007, J OPER MANAG (25), 768 & 16.00 & 86.94\\
+Yin RK, 1989, CASE STUDY RES DESIG (0), 0 & 16.00 & 70.02\\
+Hendricks KB, 2003, J OPER MANAG (21), 501 & 16.00 & 42.45\\
+Dyer JH, 1996, STRATEGIC MANAGE J (17), 271 & 16.00 & 49.52\\
+Swamidass PM, 1991, ACAD MANAGE REV (16), 793 & 12.00 & 35.60\\
+Seawright KK, 2007, J OPER MANAG (25), 1055 & 12.00 & 83.59\\
+Boyer KK, 2005, PROD OPER MANAG (14), 442 & 12.00 & 32.30\\
+Dwyer FR, 1987, J MARKETING (51), 11 & 12.00 & 35.45\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 482 & 12.00 & 32.95\\
+Jick TD, 1979, ADMIN SCI QUART (24), 602 & 12.00 & 41.12\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+M\&SOM-MANUF SERV OP & 76.00 & 61.22\\
+MANAGE SCI & 68.00 & 26.58\\
+J OPER MANAG & 64.00 & 34.36\\
+PROD OPER MANAG & 60.00 & 30.07\\
+ACAD MANAGE REV & 52.00 & 33.40\\
+HARVARD BUS REV & 44.00 & 24.37\\
+DECISION SCI & 40.00 & 24.38\\
+PRODUCTION OPERATION & 40.00 & 36.42\\
+ORGAN SCI & 40.00 & 32.70\\
+ACAD MANAGE J & 40.00 & 27.21\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 22 - ``SUSTAINABILITY'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+SUSTAINABILITY & 22.22 & 1.07\\
+ENVIRONMENTAL ISSUES & 16.67 & 0.89\\
+DECISION-MAKING & 11.11 & 0.78\\
+BY-PRODUCTS & 11.11 & 0.76\\
+STAKEHOLDER PRESSURE & 11.11 & 0.76\\
+HUMAN RESOURCE TRAINING & 11.11 & 0.76\\
+ENVIRONMENTAL AND OPERATIONS &  &\\
+$\quad$ MANAGEMENT & 11.11 & 0.76\\
+MEDIATION & 11.11 & 0.76\\
+LIFE CYCLE ASSESSMENT & 11.11 & 0.74\\
+SUSTAINABLE DEVELOPMENT &  &\\
+$\quad$ INNOVATION & 11.11 & 0.74\\
+US MANUFACTURING INDUSTRIES & 11.11 & 0.72\\
+CROSS-FUNCTIONAL INTERFACE & 11.11 & 0.70\\
+COMPLEXITY THEORY & 11.11 & 0.69\\
+GREEN SUPPLY CHAIN MANAGEMENT & 11.11 & 0.67\\
+IMPLEMENTATION & 11.11 & 0.61\\
+ENVIRONMENTAL MANAGEMENT & 11.11 & 0.56\\
+QUESTIONNAIRES/SURVEYS/INTERVIEW &  &\\
+$\quad$S & 11.11 & 0.54\\
+COMPETITION & 11.11 & 0.50\\
+SUPPLY CHAIN & 11.11 & 0.42\\
+AWARDS & 5.56 & 0.41\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 94.44 & 2.57\\
+Engineering, Manufacturing & 5.56 & -2.57\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 94.44 & 3.55\\
+PROD OPER MANAG & 5.56 & -2.57\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+COLL BUSINESS & 22.22 & 26.85\\
+SCH MANAGEMENT & 16.67 & 18.67\\
+TORONTO & 11.11 & 32.05\\
+LONDON & 11.11 & 26.15\\
+COLL BUSINESS ADM & 11.11 & 15.11\\
+SCHULICH SCH BUSINESS & 11.11 & 43.04\\
+SCH BUSINESS & 11.11 & 14.07\\
+YORK UNIV & 11.11 & 41.03\\
+UNIV WESTERN ONTARIO & 11.11 & 26.15\\
+OREGON STATE UNIV & 11.11 & 45.37\\
+SCH ENGN & 5.56 & 34.03\\
+IOWA STATE UNIV & 5.56 & 21.50\\
+GEORGIA INST TECHNOL & 5.56 & 8.61\\
+ARIZONA STATE UNIV & 5.56 & 9.08\\
+MICHIGAN STATE UNIV & 5.56 & 7.13\\
+COLL MANAGEMENT & 5.56 & 8.92\\
+DEPT MANAGEMENT & 5.56 & 5.47\\
+GEORGIA SO UNIV & 5.56 & 27.78\\
+RICHARD IVEY SCH BUSINESS & 5.56 & 13.55\\
+IVEY SCH MANAGEMENT & 5.56 & 68.11\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 55.56 & 18.11\\
+Canada & 27.78 & 29.17\\
+Peoples r china & 11.11 & 12.56\\
+Spain & 5.56 & 11.60\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Pagell M & 16.67 & 7.92\\
+Hofer C & 11.11 & 10.06\\
+Wu ZH & 11.11 & 8.54\\
+Sarkis J & 11.11 & 8.42\\
+Dai J & 11.11 & 12.03\\
+Adenso-Diaz B & 11.11 & 14.15\\
+Gonzalez-Torre P & 11.11 & 14.15\\
+Cantor DE & 11.11 & 9.94\\
+Carter CR & 11.11 & 6.11\\
+Klassen R & 11.11 & 14.48\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Zhu QH, 2004, J OPER MANAG (22), 265 & 88.89 & 287.99\\
+Melnyk SA, 2003, J OPER MANAG (21), 329 & 77.78 & 313.91\\
+Kleindorfer PR, 2005, PROD OPER MANAG (14), 482 & 44.44 & 103.75\\
+Sroufe R, 2003, PROD OPER MANAG (12), 416 & 38.89 & 138.82\\
+Hart SL, 1995, ACAD MANAGE REV (20), 986 & 38.89 & 126.24\\
+Walley N, 1994, HARVARD BUS REV (72), 46 & 38.89 & 131.58\\
+Montabon F, 2007, J OPER MANAG (25), 998 & 33.33 & 172.96\\
+Corbett CJ, 2006, M\&SOM-MANUF SERV OP (8), 5 & 33.33 & 142.07\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 33.33 & 33.90\\
+Guide VDR, 2003, J OPER MANAG (21), 259 & 33.33 & 136.10\\
+Delmas M, 2001, PROD OPER MANAG (10), 343 & 27.78 & 106.23\\
+Russo MV, 1997, ACAD MANAGE J (40), 534 & 27.78 & 86.99\\
+Porter M, 1980, COMPETITIVE STRATEGY (0), 0 & 27.78 & 46.74\\
+Hall J, 2003, MIT SLOAN MANAGE REV (45), 61 & 27.78 & 198.56\\
+Freeman r E, 1984, STRATEGIC MANAGEMENT (0), 0 & 27.78 & 134.88\\
+Christmann P, 2000, ACAD MANAGE J (43), 663 & 27.78 & 128.56\\
+Porter ME, 1995, HARVARD BUS REV (73), 120 & 27.78 & 88.95\\
+Linton JD, 2007, J OPER MANAG (25), 1075 & 27.78 & 128.56\\
+Choi TY, 2001, J OPER MANAG (19), 351 & 27.78 & 81.69\\
+Aiken LS, 1991, MULTIPLE REGRESSION (0), 0 & 27.78 & 52.92\\
+Cyert r M, 1963, BEHAV THEORY FIRM (0), 0 & 27.78 & 76.03\\
+Cohen J, 2003, APPL MULTIPLE REGRES (0), 0 & 27.78 & 61.32\\
+Klassen RD, 1996, MANAGE SCI (42), 1199 & 27.78 & 85.02\\
+Carter c R, 2004, Journal of Business Logistics &  & \\
+$\quad$ (25), 0 & 27.78 & 135.14\\
+Angell LC, 1999, J OPER MANAG (17), 575 & 27.78 & 105.27\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 66.67 & 30.38\\
+PROD OPER MANAG & 61.11 & 26.00\\
+ACAD MANAGE J & 61.11 & 35.44\\
+ACAD MANAGE REV & 61.11 & 33.36\\
+MANAGE SCI & 55.56 & 18.32\\
+INT J OPER PROD MAN & 55.56 & 35.13\\
+STRATEGIC MANAGE J & 55.56 & 30.81\\
+J MANAGE & 44.44 & 30.91\\
+HARVARD BUS REV & 44.44 & 20.89\\
+ORGAN SCI & 44.44 & 30.86\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 23 - ``RFID'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+RFID & 64.29 & 3.21\\
+REVERSE CHANNELS & 14.29 & 1.10\\
+INVENTORY RECORD INACCURACY &  &\\
+$\quad$ (IRI) & 14.29 & 1.09\\
+INVENTORY VISIBILITY & 14.29 & 1.09\\
+FIELD EXPERIMENT & 14.29 & 1.09\\
+BUSINESS PROCESS IMPROVEMENT & 14.29 & 1.03\\
+SIMULATION MODELING AND &  &\\
+$\quad$ ANALYSIS & 14.29 & 1.03\\
+ENABLERS AND BARRIERS & 14.29 & 1.03\\
+COLLABORATION AND &  &\\
+$\quad$ COORDINATION & 14.29 & 1.03\\
+COMPETITION AND CONFLICT & 14.29 & 1.03\\
+E-AUCTION & 14.29 & 1.03\\
+RADIO FREQUENCY IDENTIFICATION &  &\\
+$\quad$ (RFID) & 14.29 & 1.01\\
+BENEFITS & 14.29 & 0.93\\
+ADOPTION & 14.29 & 0.93\\
+BUSINESS VALUE OF IT & 14.29 & 0.93\\
+INVENTORY & 21.43 & 0.92\\
+VISIBILITY & 14.29 & 0.91\\
+INFORMATION TECHNOLOGY & 21.43 & 0.87\\
+VALUE OF INFORMATION & 14.29 & 0.81\\
+E-BUSINESS & 14.29 & 0.81\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 85.71 & 4.04\\
+Management & 14.29 & -4.05\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 85.71 & 4.04\\
+M\&SOM-MANUF SERV OP & 7.14 & -0.65\\
+J OPER MANAG & 7.14 & -3.41\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+MISSISSIPPI STATE UNIV & 7.14 & 77.23\\
+UNIV MARYLAND & 7.14 & 12.29\\
+SUPPLY CHAIN MANAGEMENT DEPT & 7.14 & 44.57\\
+WASHINGTON UNIV & 7.14 & 15.08\\
+ROBINS SCH BUSINESS & 7.14 & 34.52\\
+DEPT MANAGEMENT & 7.14 & 6.24\\
+FLORIDA INT UNIV & 7.14 & 34.52\\
+COLL BUSINESS & 7.14 & 7.52\\
+UNIV MEMPHIS & 7.14 & 44.57\\
+STANFORD GRAD SCH BUSINESS & 7.14 & 77.23\\
+ANTAI COLL ECON \& MANAGEMENT & 7.14 & 29.16\\
+UNIV ARKANSAS & 7.14 & 18.68\\
+ARIZONA STATE UNIV & 7.14 & 10.32\\
+ROSS SCH BUSINESS & 7.14 & 23.25\\
+UNIV SO INDIANA & 7.14 & 77.23\\
+WP CAREY SCH BUSINESS & 7.14 & 12.45\\
+SHANGHAI JIAO TONG UNIV & 7.14 & 31.50\\
+JOHN M OLIN SCH BUSINESS & 7.14 & 21.38\\
+COOK SYST INT & 7.14 & 77.23\\
+COLL BUSINESS \& INNOVAT & 7.14 & 77.23\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 64.29 & 18.56\\
+Canada & 7.14 & 6.50\\
+Peoples r china & 7.14 & 7.07\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Pitts MG & 14.29 & 19.69\\
+Whitaker J & 14.29 & 13.86\\
+Aloysius JA & 14.29 & 24.67\\
+Amini M & 14.29 & 19.69\\
+Mithas S & 14.29 & 10.34\\
+Krishnan MS & 14.29 & 13.86\\
+Kyparisis GJ & 14.29 & 19.53\\
+Hardgrave BC & 14.29 & 18.50\\
+Karaer O & 14.29 & 25.33\\
+Gupta S & 14.29 & 6.28\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Delen D, 2007, PROD OPER MANAG (16), 613 & 85.71 & 411.26\\
+Heese HS, 2007, PROD OPER MANAG (16), 542 & 85.71 & 389.24\\
+Lee H, 2007, PROD OPER MANAG (16), 40 & 57.14 & 192.89\\
+Ngai EWT, 2007, PROD OPER MANAG (16), 554 & 50.00 & 219.16\\
+Dutta A, 2007, PROD OPER MANAG (16), 646 & 42.86 & 196.58\\
+Whitaker J, 2007, PROD OPER MANAG (16), 599 & 42.86 & 179.34\\
+Gaukler GM, 2007, PROD OPER MANAG (16), 65 & 42.86 & 173.40\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 35.71 & 83.61\\
+Cachon GP, 2000, MANAGE SCI (46), 1032 & 35.71 & 64.89\\
+Mithas S, 2005, J MARKETING (69), 201 & 28.57 & 131.19\\
+Amini M, 2007, PROD OPER MANAG (16), 586 & 28.57 & 274.17\\
+Tsikriktsis N, 2004, PROD OPER MANAG (13), 216 & 28.57 & 72.54\\
+Blackburn JD, 2004, CALIF MANAGE REV (46), 6 & 28.57 & 101.19\\
+Murphy TF, 2005, AM J BIOETHICS (5), 18 & 28.57 & 218.51\\
+Mithas S, 2007, PROD OPER MANAG (16), 455 & 28.57 & 119.21\\
+Karaer O, 2007, PROD OPER MANAG (16), 625 & 28.57 & 183.27\\
+Johnson ME, 2002, PROD OPER MANAG (11), 413 & 28.57 & 72.34\\
+Barratt M, 2007, PROD OPER MANAG (16), 569 & 28.57 & 189.23\\
+Swaminathan JM, 2003, MANAGE SCI (49), 1387 & 28.57 & 81.57\\
+Bharadwaj AS, 1999, MANAGE SCI (45), 1008 & 21.43 & 58.64\\
+Camdereli AZ, 2010, PROD OPER MANAG (19), 1 & 21.43 & 157.56\\
+Prater E, 2005, SUPPLY CHAIN MANAG (10), 134 & 21.43 & 132.28\\
+Raman A, 2001, CALIF MANAGE REV (43), 136 & 21.43 & 81.66\\
+Brynjolfsson E, 1996, MANAGE SCI (42), 541 & 21.43 & 50.93\\
+Mukhopadhyay T, 1995, MIS QUART (19), 137 & 21.43 & 61.19\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 64.29 & 24.14\\
+MANAGE SCI & 50.00 & 14.50\\
+CALIF MANAGE REV & 35.71 & 21.58\\
+HARVARD BUS REV & 35.71 & 14.74\\
+M\&SOM-MANUF SERV OP & 28.57 & 17.08\\
+J OPER MANAG & 28.57 & 11.29\\
+J MARKETING & 28.57 & 15.55\\
+SUPPLY CHAIN MANAG & 28.57 & 26.88\\
+J MANAGE & 21.43 & 13.03\\
+INFORM SYST RES & 21.43 & 20.20\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 25 - ``CONSUMER CHOICE'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+CONSUMER CHOICE & 26.32 & 1.78\\
+ASSORTMENT PLANNING & 26.32 & 1.72\\
+MULTINOMIAL LOGIT MODEL & 21.05 & 1.34\\
+ASSORTMENT OPTIMIZATION & 10.53 & 0.86\\
+MATHEMATICAL MODELS & 10.53 & 0.85\\
+MARKETING AND MANUFACTURING &  &\\
+$\quad$ INTERFACES & 10.53 & 0.85\\
+ORDERING AND PRICING & 10.53 & 0.85\\
+MARKETING INTERFACE & 10.53 & 0.83\\
+SLOTTING FEES & 10.53 & 0.83\\
+PRODUCT VARIETY & 15.79 & 0.82\\
+SUBSTITUTABLE PRODUCTS & 10.53 & 0.76\\
+VERTICAL DIFFERENTIATION & 10.53 & 0.69\\
+OM-MARKETING INTERFACE & 10.53 & 0.66\\
+PRICING & 15.79 & 0.59\\
+RETAIL OPERATIONS & 10.53 & 0.57\\
+SUPPLY CHAIN MANAGEMENT & 26.32 & 0.57\\
+OPERATIONS & 10.53 & 0.51\\
+GAME THEORY & 10.53 & 0.46\\
+INVENTORY & 10.53 & 0.45\\
+INVENTORY MANAGEMENT & 10.53 & 0.45\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 52.63 & -1.19\\
+Engineering, Manufacturing & 47.37 & 1.19\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+M\&SOM-MANUF SERV OP & 47.37 & 4.46\\
+PROD OPER MANAG & 47.37 & 1.19\\
+J OPER MANAG & 5.26 & -4.14\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+DEPT MANAGEMENT SCI & 10.53 & 19.46\\
+SAUDER SCH BUSINESS & 10.53 & 39.94\\
+FUQUA SCH BUSINESS & 10.53 & 34.18\\
+CITY UNIV HONG KONG & 10.53 & 38.23\\
+ARIZONA STATE UNIV & 10.53 & 17.78\\
+WP CAREY SCH BUSINESS & 10.53 & 21.42\\
+HONG KONG & 10.53 & 30.36\\
+FAC BUSINESS & 10.53 & 30.36\\
+DUKE UNIV & 10.53 & 32.10\\
+VANCOUVER & 10.53 & 36.73\\
+UNIV CALIF LOS ANGELES & 10.53 & 21.42\\
+UNIV BRITISH COLUMBIA & 10.53 & 36.73\\
+UNIV MICHIGAN & 10.53 & 19.90\\
+HENRY W BLOCH SCH MANAGEMENT & 5.26 & 66.29\\
+LEE KONG CHIAN SCH BUSINESS & 5.26 & 22.06\\
+UNIV MISSOURI & 5.26 & 25.02\\
+OWEN GRAD SCH MANAGEMENT & 5.26 & 17.67\\
+WASHINGTON UNIV & 5.26 & 12.93\\
+UNIV INT BUSINESS \& ECON & 5.26 & 66.29\\
+SCH INT BUSINESS ADM & 5.26 & 46.86\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 57.89 & 19.42\\
+Peoples r china & 26.32 & 30.77\\
+Canada & 10.53 & 11.25\\
+Singapore & 5.26 & 10.39\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Kok AG & 15.79 & 20.17\\
+Aydin G & 10.53 & 11.75\\
+Bernstein F & 10.53 & 16.87\\
+Hausman WH & 10.53 & 7.90\\
+Honhon D & 10.53 & 12.62\\
+Pan XA & 10.53 & 17.01\\
+Tang CS & 10.53 & 6.75\\
+Xie L & 10.53 & 30.37\\
+Li ZL & 10.53 & 18.66\\
+Yin R & 10.53 & 17.01\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Cachon g P, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 94.74 & 528.88\\
+Van ryzin G, 1999, MANAGE SCI (45), 1496 & 84.21 & 304.85\\
+Hopp w J, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 57.89 & 475.65\\
+Smith SA, 2000, OPER RES (48), 50 & 57.89 & 245.12\\
+Gaur V, 2006, MANAGE SCI (52), 1528 & 47.37 & 253.69\\
+Netessine S, 2003, OPER RES (51), 329 & 31.58 & 169.11\\
+Aydin G, 2008, OPER RES (56), 1247 & 26.32 & 151.84\\
+Cachon GP, 2007, MANAGE SCI (53), 934 & 26.32 & 216.77\\
+Petruzzi NC, 1999, OPER RES (47), 183 & 21.05 & 72.91\\
+Gaur V, 2005, PROD OPER MANAG (14), 377 & 21.05 & 152.34\\
+Mahajan S, 2001, OPER RES (49), 646 & 21.05 & 130.58\\
+Mussa M, 1978, J ECON THEORY (18), 301 & 21.05 & 87.09\\
+Moorthy k S, 1984, MARKET SCI (3), 288 & 21.05 & 85.03\\
+Mahajan S, 2001, OPER RES (49), 334 & 21.05 & 108.38\\
+Kok AG, 2008, RETAIL SUPPLY CHAIN (0), 0 & 21.05 & 331.20\\
+Dobson G, 1988, MARKET SCI (7), 107 & 21.05 & 125.69\\
+Netessine S, 2007, MARKET SCI (26), 101 & 15.79 & 109.16\\
+Guadagni P, 1983, MARKET SCI (2), 203 & 15.79 & 138.08\\
+Lippman SA, 1997, OPER RES (45), 54 & 15.79 & 98.22\\
+Cachon GP, 2008, MARKET SCI (27), 461 & 15.79 & 166.87\\
+Bassok Y, 1999, OPER RES (47), 632 & 15.79 & 98.68\\
+Chu WJ, 1992, MARKET SCI (11), 327 & 15.79 & 194.71\\
+Kok AG, 2007, OPER RES (55), 1001 & 15.79 & 122.10\\
+Cachon G, 2003, HDB OPERATIONS RES M (0), 0 & 15.79 & 84.16\\
+Elmaghraby W, 2003, MANAGE SCI (49), 1287 & 15.79 & 58.66\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 73.68 & 25.15\\
+Manufacturing \& Service Operations Management & 73.68 & 46.89\\
+OPER RES & 63.16 & 30.18\\
+MARKET SCI & 52.63 & 37.60\\
+M\&SOM-MANUF SERV OP & 36.84 & 25.73\\
+PROD OPER MANAG & 36.84 & 15.93\\
+NAV RES LOG & 31.58 & 26.64\\
+MANUFACTURING SERVIC & 26.32 & 29.64\\
+J IND ECON & 26.32 & 37.68\\
+HDB OPERATIONS RES M & 26.32 & 36.96\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 26 - ``OUTSOURCING'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+OUTSOURCING & 54.55 & 1.95\\
+INTER-ORGANIZATIONAL CONTROL & 18.18 & 1.03\\
+INTER-ORGANIZATIONAL POWER & 13.64 & 0.80\\
+EMERGING MARKETS & 13.64 & 0.76\\
+FIRM BOUNDARY THEORY & 9.09 & 0.60\\
+RELATIONAL VIEW OF &  &\\
+$\quad$ INTER-ORGANIZATIONAL COMPETITIVE ADVANTAGE & 9.09 & 0.60\\
+ORGANIZATIONAL CAPABILITIES & 9.09 & 0.60\\
+GLOBAL OUTSOURCING STRATEGIES & 9.09 & 0.59\\
+INFORMATION TECHNOLOGY ENABLED &  &\\
+$\quad$ SERVICES & 9.09 & 0.59\\
+BPO INTEGRATION & 9.09 & 0.59\\
+STRATEGIC SOURCING & 9.09 & 0.58\\
+INTER-ORGANIZATIONAL &  &\\
+$\quad$ COORDINATION & 9.09 & 0.57\\
+AGENCY THEORY & 9.09 & 0.53\\
+SOFTWARE DEVELOPMENT & 9.09 & 0.52\\
+SUPPLY CHAIN INTEGRATION & 9.09 & 0.39\\
+PROJECT MANAGEMENT & 9.09 & 0.36\\
+ORGANISATIONAL BEHAVIOR & 4.55 & 0.34\\
+CUSTOMER POWER & 4.55 & 0.33\\
+INVENTORIES & 4.55 & 0.33\\
+FDI & 4.55 & 0.33\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 77.27 & 1.15\\
+Engineering, Manufacturing & 22.73 & -1.15\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 77.27 & 2.31\\
+PROD OPER MANAG & 22.73 & -1.15\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+OHIO STATE UNIV & 22.73 & 44.37\\
+FISHER COLL BUSINESS & 22.73 & 46.89\\
+DEPT MANAGEMENT SCI & 13.64 & 27.15\\
+DEPT MANAGEMENT & 13.64 & 15.12\\
+RUTGERS BUSINESS SCH & 13.64 & 61.57\\
+DEPT SUPPLY CHAIN MANAGEMENT &  & \\
+$\quad$ \& MKT SCI & 13.64 & 65.31\\
+RUTGERS STATE UNIV & 13.64 & 53.31\\
+MICHIGAN STATE UNIV & 9.09 & 12.99\\
+ELI BROAD SCH BUSINESS & 9.09 & 43.53\\
+UNIV NOTRE DAME & 9.09 & 24.09\\
+SCH BUSINESS ADM & 9.09 & 23.21\\
+UNIV N CAROLINA & 9.09 & 15.16\\
+OFF 986 & 9.09 & 87.12\\
+DEPT OPERAT TECHNOL \& INNOVAT &  & \\
+$\quad$ MANAGEMENT & 9.09 & 71.12\\
+UNIV MIAMI & 9.09 & 32.88\\
+KENAN FLAGLER BUSINESS SCH & 9.09 & 17.50\\
+SCH MANAGEMENT & 9.09 & 11.18\\
+DEPT SUPPLY CHAIN MANAGEMENT & 9.09 & 18.48\\
+VLERICK LEUVEN GENT MANAGEMENT &  & \\
+$\quad$ SCH & 4.55 & 61.60\\
+UNIV VERONA & 4.55 & 61.60\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 54.55 & 19.65\\
+Peoples r china & 9.09 & 11.33\\
+U arab emirates & 4.55 & 43.55\\
+Italy & 4.55 & 17.03\\
+Portugal & 4.55 & 18.53\\
+North ireland & 4.55 & 30.78\\
+Belgium & 4.55 & 18.53\\
+England & 4.55 & 7.18\\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Handley SM & 40.91 & 20.49\\
+Benton WC & 22.73 & 10.52\\
+Luo YD & 13.64 & 9.11\\
+Swaminathan JM & 13.64 & 7.97\\
+Narayanan S & 13.64 & 9.18\\
+Jayaraman V & 13.64 & 9.51\\
+Gray JV & 9.09 & 7.15\\
+Anderson EG & 9.09 & 4.80\\
+Parker GG & 9.09 & 5.25\\
+Roodhooft F & 4.55 & 6.27\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Ellram LM, 2008, J OPER MANAG (26), 148 & 81.82 & 281.55\\
+Handley SM, 2009, J OPER MANAG (27), 344 & 72.73 & 246.39\\
+Podsakoff PM, 2003, J APPL PSYCHOL (88), 879 & 50.00 & 66.15\\
+Poppo L, 2002, STRATEGIC MANAGE J (23), 707 & 45.45 & 122.79\\
+Klein B, 1978, J LAW ECON (21), 297 & 40.91 & 134.55\\
+Nunnally JC, 1978, PSYCHOMETRIC THEORY (0), 0 & 40.91 & 54.28\\
+Hair j F, 1998, MULTIVARIATE DATA AN (0), 0 & 40.91 & 91.32\\
+Marquard.dw, 1970, TECHNOMETRICS (12), 591 & 40.91 & 203.06\\
+Armstrong JS, 1977, J MARKETING RES (14), 396 & 36.36 & 48.18\\
+Wathne KH, 2000, J MARKETING (64), 36 & 36.36 & 129.25\\
+Anderson E, 1992, J MARKETING RES (29), 18 & 36.36 & 87.96\\
+Das TK, 1998, ACAD MANAGE REV (23), 491 & 36.36 & 100.00\\
+Aron R, 2008, J OPER MANAG (26), 303 & 36.36 & 149.18\\
+O'leary-kelly SW, 1998, J OPER MANAG (16), 387 & 36.36 & 61.93\\
+Carmines edward G, 1979, RELIABILITY VALIDITY (0), &  & \\
+$\quad$ 0 & 31.82 & 93.65\\
+Landis k M, 2005, CALLING CHANGE OUTSO (0), 0 & 31.82 & 154.58\\
+Williamson O, 1975, MARKETS HIERARCHIES (0), 0 & 31.82 & 59.19\\
+Cohen J, 2003, APPL MULTIPLE REGRES (0), 0 & 31.82 & 77.67\\
+Anderson JC, 1988, PSYCHOL BULL (103), 411 & 31.82 & 42.53\\
+Baron RM, 1986, J PERS SOC PSYCHOL (51), 1173 & 31.82 & 56.56\\
+Galbraith j R, 1973, DESIGNING COMPLEX OR (0), 0 & 31.82 & 97.52\\
+Ring PS, 1994, ACAD MANAGE REV (19), 90 & 31.82 & 111.98\\
+Dibbern J, 2008, MIS QUART (32), 333 & 31.82 & 170.81\\
+Menor LJ, 2007, J OPER MANAG (25), 825 & 31.82 & 107.89\\
+Tosi HL, 1997, ACAD MANAGE J (40), 584 & 31.82 & 142.43\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 72.73 & 36.68\\
+ACAD MANAGE REV & 68.18 & 41.19\\
+MANAGE SCI & 63.64 & 23.29\\
+ADMIN SCI QUART & 63.64 & 45.85\\
+ACAD MANAGE J & 63.64 & 40.81\\
+J MARKETING & 54.55 & 37.51\\
+J MARKETING RES & 54.55 & 35.94\\
+ORGAN SCI & 54.55 & 41.94\\
+STRATEGIC MANAGE J & 54.55 & 33.43\\
+PROD OPER MANAG & 50.00 & 23.43\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 27 - ``CHOICE BEHAVIOR'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/1$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+CHOICE BEHAVIOR & 43.75 & 2.73\\
+NETWORK REVENUE MANAGEMENT & 31.25 & 2.03\\
+MULTINOMIAL LOGIT & 25.00 & 1.83\\
+CUSTOMER CHOICE & 25.00 & 1.66\\
+NETWORK CAPACITY CONTROL & 18.75 & 1.34\\
+DYNAMIC PROGRAMMING & 25.00 & 1.30\\
+AIRLINE & 12.50 & 1.08\\
+APPROXIMATE DYNAMIC &  &\\
+$\quad$ PROGRAMMING & 12.50 & 1.08\\
+REVENUE MANAGEMENT & 25.00 & 1.05\\
+ASSORTMENT & 12.50 & 1.03\\
+CAPACITY CONTROL & 12.50 & 0.98\\
+EM METHOD & 12.50 & 0.98\\
+MAXIMUM LIKELIHOOD & 12.50 & 0.98\\
+STOCHASTIC GRADIENT METHODS & 12.50 & 0.97\\
+PRICING & 25.00 & 0.94\\
+SIMULATION-BASED OPTIMIZATION & 12.50 & 0.90\\
+MULTINOMIAL LOGIT CHOICE &  &\\
+$\quad$ MODEL & 12.50 & 0.89\\
+BUYER BEHAVIOR & 12.50 & 0.89\\
+MARKETING & 12.50 & 0.66\\
+PRODUCT VARIETY & 12.50 & 0.65\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 50.00 & -1.32\\
+Engineering, Manufacturing & 50.00 & 1.32\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+M\&SOM-MANUF SERV OP & 50.00 & 4.40\\
+PROD OPER MANAG & 50.00 & 1.32\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+CORNELL UNIV & 18.75 & 39.51\\
+NYU & 12.50 & 28.84\\
+GRAD SCH BUSINESS & 12.50 & 19.57\\
+COLUMBIA UNIV & 12.50 & 21.22\\
+LEONARD N STERN SCH BUSINESS & 12.50 & 48.13\\
+SCH OPERAT RES \& INFORMAT &  & \\
+$\quad$ ENGN & 12.50 & 83.41\\
+UNIV MINNESOTA & 6.25 & 8.01\\
+GEORGIA INST TECHNOL & 6.25 & 9.15\\
+UNIV WARWICK & 6.25 & 32.28\\
+NEW YORK UNIV & 6.25 & 72.24\\
+COLL MANAGEMENT & 6.25 & 9.47\\
+SCH CIVIL \& ENVIRONM ENGN & 6.25 & 51.07\\
+RA-1428 BUENOS AIRES & 6.25 & 72.24\\
+HYDERABAD 500032 & 6.25 & 32.28\\
+INDIAN SCH BUSINESS & 6.25 & 29.46\\
+PROGRAM IND \& SYST ENGN & 6.25 & 51.07\\
+DEPT INFORMAT OPERAT \& &  & \\
+$\quad$ MANAGEMENT SCI & 6.25 & 36.10\\
+RES GRP & 6.25 & 51.07\\
+MICROSOFT CORP & 6.25 & 72.24\\
+KUEHNE LOGIST UNIV & 6.25 & 72.24\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 50.00 & 15.32\\
+Canada & 6.25 & 6.06\\
+England & 6.25 & 8.46\\
+India & 6.25 & 16.52\\
+Germany & 6.25 & 15.00\\
+Argentina & 6.25 & 41.69\\
+Peoples r china & 6.25 & 6.59\\
+Spain & 6.25 & 12.31\\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Vulcano G & 31.25 & 30.63\\
+Topaloglu H & 25.00 & 47.46\\
+Van Ryzin G & 18.75 & 19.18\\
+Chaneton JM & 12.50 & 24.72\\
+Zhang D & 12.50 & 12.73\\
+Xie XQ & 12.50 & 25.09\\
+Kunnumkal S & 12.50 & 37.27\\
+Chaar W & 12.50 & 25.48\\
+Anderson CK & 12.50 & 25.09\\
+Bodea T & 6.25 & 15.35\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Talluri K, 2004, MANAGE SCI (50), 15 & 100.00 & 340.45\\
+Liu Q, 2008, M\&SOM-MANUF SERV OP (10), 288 & 87.50 & 612.40\\
+Van ryzin G, 2008, M\&SOM-MANUF SERV OP (10), 448 & 87.50 & 619.58\\
+Zhang D, 2005, OPER RES (53), 415 & 68.75 & 354.39\\
+Talluri KT, 2004, THEORY PRACTICE REVE (0), 0 & 56.25 & 154.24\\
+Zhang D, 2009, TRANSPORT SCI (43), 381 & 56.25 & 473.51\\
+Bront JJM, 2009, OPER RES (57), 769 & 56.25 & 491.89\\
+Belobaba PP, 1996, DECISION SCI (27), 343 & 43.75 & 377.19\\
+Belobaba PP, 1987, THESIS MIT CAMBRIDGE (0), 0 & 43.75 & 328.96\\
+Andersson S-E, 1998, International Transactions in &  & \\
+$\quad$ Operational Research (5), 0 & 43.75 & 352.21\\
+Talluri K, 1998, MANAGE SCI (44), 1577 & 37.50 & 238.84\\
+Kunnumkal S, 2008, NAV RES LOG (55), 563 & 37.50 & 432.26\\
+Mahajan S, 2001, OPER RES (49), 334 & 31.25 & 147.65\\
+Algers S, 2001, International Journal of Services &  & \\
+$\quad$ Technology and Management (2), 0 & 31.25 & 282.57\\
+Ben-akiva M, 1994, DISCRETE CHOICE ANAL (0), 0 & 25.00 & 256.46\\
+Farias VF, 2007, APPROXIMATE DYNAMIC (0), 0 & 25.00 & 319.69\\
+Talluri KT, 2005, THEORY PRACTICE REVE (0), 0 & 25.00 & 112.14\\
+Bertsekas DP, 1996, NEURODYNAMIC PROGRAM (0), 0 & 25.00 & 237.27\\
+Topaloglu H, 2009, OPER RES (57), 637 & 25.00 & 268.71\\
+Boyd e A, 2004, J REVENUE PRICING MA (3), 171 & 25.00 & 281.22\\
+Gallego G, 1997, OPER RES (45), 24 & 25.00 & 101.22\\
+Ratliff EM, 2008, J REVENUE PRICING MA (7), 153 & 25.00 & 317.26\\
+Train k E, 2003, DISCRETE CHOICE METH (0), 0 & 25.00 & 196.52\\
+Adelman D, 2007, OPER RES (55), 647 & 25.00 & 248.01\\
+Gallego G, 2004, TR200401 COL U COMP (0), 0 & 25.00 & 375.96\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+MANAGE SCI & 62.50 & 19.50\\
+M\&SOM-MANUF SERV OP & 62.50 & 40.23\\
+OPER RES & 62.50 & 27.41\\
+THEORY PRACTICE REVE & 50.00 & 82.53\\
+TRANSPORT SCI & 37.50 & 52.11\\
+J REVENUE PRICING MA & 31.25 & 87.60\\
+EUR J OPER RES & 31.25 & 15.11\\
+DECISION SCI & 31.25 & 15.16\\
+International Transactions in Operational &  & \\
+$\quad$ Research &  & \\
+THESIS MIT CAMBRIDGE & 25.00 & 48.11\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 28 - ``PRODUCT DEVELOPMENT'' contains $N = 2$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/2$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+PRODUCT DEVELOPMENT & 36.36 & 1.28\\
+COMPETITIVE CAPABILITIES & 13.64 & 0.74\\
+DISRUPTION RISK MITIGATION AND &  &\\
+$\quad$ RESPONSE & 9.09 & 0.64\\
+ROLE CHANGE & 9.09 & 0.62\\
+DESIGN ENGINEERS & 9.09 & 0.62\\
+PLATFORM STRATEGY & 9.09 & 0.61\\
+SUPPLY MANAGEMENT PRACTICES & 9.09 & 0.61\\
+SOCIAL NETWORK THEORY & 9.09 & 0.61\\
+PRODUCT-PROCESS-SUPPLY CHAIN &  &\\
+$\quad$ DESIGN & 9.09 & 0.60\\
+MANUFACTURING STRATEGY &  &\\
+$\quad$ PROCESS & 9.09 & 0.59\\
+ORGANIZATIONAL KNOWLEDGE & 9.09 & 0.59\\
+AGILITY & 9.09 & 0.58\\
+MEASUREMENT/METHODOLOGY & 9.09 & 0.56\\
+MARKETING/MANUFACTURING &  &\\
+$\quad$ INTERFACE & 9.09 & 0.51\\
+TEAMS & 9.09 & 0.49\\
+ENVIRONMENT & 9.09 & 0.47\\
+RESOURCE-BASED VIEW & 9.09 & 0.44\\
+SUPPLY CHAIN INTEGRATION & 9.09 & 0.39\\
+FLEXIBILITY & 9.09 & 0.38\\
+EMPIRICAL RESEARCH & 13.64 & 0.34\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 95.45 & 2.94\\
+Engineering, Manufacturing & 4.55 & -2.95\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 95.45 & 4.02\\
+PROD OPER MANAG & 4.55 & -2.95\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+COLL BUSINESS ADM & 22.73 & 34.32\\
+UNIV TOLEDO & 22.73 & 85.40\\
+FLORIDA ATLANTIC UNIV & 18.18 & 100.59\\
+UNIV MINNESOTA & 9.09 & 13.73\\
+MICHIGAN STATE UNIV & 9.09 & 12.99\\
+CARLSON SCH MANAGEMENT & 9.09 & 17.50\\
+COLL BUSINESS & 9.09 & 12.05\\
+DEPT MANAGEMENT \& MKT & 9.09 & 34.12\\
+OHIO STATE UNIV & 9.09 & 17.68\\
+UNIV WISCONSIN & 9.09 & 28.98\\
+SCH MANAGEMENT & 9.09 & 11.18\\
+FISHER COLL BUSINESS & 9.09 & 18.69\\
+DEPT MANAGEMENT & 9.09 & 10.01\\
+DEPT IND ENGN \& MANAGEMENT & 4.55 & 25.12\\
+UNIV MODENA \& REGGIO EMILIA & 4.55 & 43.55\\
+SHATIN & 4.55 & 12.24\\
+TEXAS A\&M UNIV & 4.55 & 11.56\\
+CHINESE UNIV HONG KONG & 4.55 & 11.78\\
+LOUISIANA TECH UNIV & 4.55 & 61.60\\
+LAMAR UNIV & 4.55 & 61.60\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 72.73 & 26.40\\
+Peoples r china & 9.09 & 11.33\\
+Brazil & 4.55 & 30.78\\
+U arab emirates & 4.55 & 43.55\\
+Italy & 4.55 & 17.03\\
+Finland & 4.55 & 23.25\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Vonderembse MA & 27.27 & 13.72\\
+Koufteros XA & 22.73 & 17.14\\
+Doll WJ & 18.18 & 17.68\\
+Nahm AY & 13.64 & 12.67\\
+Braunscheidel MJ & 9.09 & 14.20\\
+Lai KH & 9.09 & 6.61\\
+Hong P & 9.09 & 12.63\\
+Roth AV & 9.09 & 1.96\\
+Cheng TCE & 9.09 & 4.59\\
+Paiva EL & 9.09 & 11.04\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Koufteros XA, 1999, J OPER MANAG (17), 467 & 77.27 & 264.62\\
+Koufteros X, 2001, J OPER MANAG (19), 97 & 68.18 & 282.70\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 63.64 & 71.73\\
+Clark k B, 1991, PRODUCT DEV PERFORMA (0), 0 & 36.36 & 68.21\\
+Gerbing DW, 1988, J MARKETING RES (25), 186 & 36.36 & 73.86\\
+Teece DJ, 1997, STRATEGIC MANAGE J (18), 509 & 31.82 & 52.03\\
+Bentler PM, 1980, PSYCHOL BULL (88), 588 & 31.82 & 65.11\\
+Hair JF, 1995, MULTIVARIATE DATA AN (0), 0 & 31.82 & 78.22\\
+Armstrong JS, 1977, J MARKETING RES (14), 396 & 27.27 & 36.09\\
+Doll WJ, 1991, OMEGA-INT J MANAGE S (19), 401 & 27.27 & 123.09\\
+Koufteros XA, 2002, J OPER MANAG (20), 331 & 27.27 & 99.96\\
+Nunnally JC, 1978, PSYCHOMETRIC THEORY (0), 0 & 27.27 & 36.13\\
+Blackburn j D, 1991, TIME BASED COMPETITI (0), 0 & 27.27 & 94.27\\
+Krause DR, 2001, J OPER MANAG (19), 497 & 22.73 & 87.10\\
+Narasimhan R, 2006, J OPER MANAG (24), 440 & 22.73 & 81.29\\
+Cohen WM, 1990, ADMIN SCI QUART (35), 128 & 22.73 & 38.82\\
+Koufteros x A, 1998, Journal of Operations &  & \\
+$\quad$ Management (16), 0 & 22.73 & 79.63\\
+Churchill GA, 1979, J MARKETING RES (16), 64 & 22.73 & 39.37\\
+Hall RW, 1991, MEASURING CHARTING P (0), 0 & 22.73 & 158.61\\
+Byrne BM, 1998, STRUCTURAL EQUATION (0), 0 & 22.73 & 76.68\\
+Frohlich MT, 2001, J OPER MANAG (19), 185 & 22.73 & 37.22\\
+Hartley j L, 1997, Journal of Operations &  & \\
+$\quad$ Management (15), 0 & 22.73 & 72.88\\
+Carr AS, 1999, J OPER MANAG (17), 497 & 22.73 & 40.68\\
+Tatikonda MV, 2000, J OPER MANAG (18), 401 & 22.73 & 59.00\\
+Clark KB, 1989, MANAGE SCI (35), 1247 & 22.73 & 58.03\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 77.27 & 39.00\\
+DECISION SCI & 68.18 & 39.24\\
+HARVARD BUS REV & 63.64 & 33.25\\
+ACAD MANAGE REV & 63.64 & 38.42\\
+J MARKETING RES & 63.64 & 41.98\\
+MANAGE SCI & 59.09 & 21.59\\
+Journal of Operations Management & 54.55 & 41.20\\
+ADMIN SCI QUART & 54.55 & 39.26\\
+ACAD MANAGE J & 54.55 & 34.93\\
+STRATEGIC MANAGE J & 54.55 & 33.43\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

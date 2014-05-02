@@ -1,0 +1,194 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(frac{1}{p})$ is also given.\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``OUTSOURCING'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+OUTSOURCING & 54.55 & 1.95\\
+INTER-ORGANIZATIONAL CONTROL & 18.18 & 1.03\\
+INTER-ORGANIZATIONAL POWER & 13.64 & 0.80\\
+EMERGING MARKETS & 13.64 & 0.76\\
+FIRM BOUNDARY THEORY & 9.09 & 0.60\\
+RELATIONAL VIEW OF &  &\\
+$\quad$ INTER-ORGANIZATIONAL COMPETITIVE ADVANTAGE & 9.09 & 0.60\\
+ORGANIZATIONAL CAPABILITIES & 9.09 & 0.60\\
+GLOBAL OUTSOURCING STRATEGIES & 9.09 & 0.59\\
+INFORMATION TECHNOLOGY ENABLED &  &\\
+$\quad$ SERVICES & 9.09 & 0.59\\
+BPO INTEGRATION & 9.09 & 0.59\\
+STRATEGIC SOURCING & 9.09 & 0.58\\
+INTER-ORGANIZATIONAL &  &\\
+$\quad$ COORDINATION & 9.09 & 0.57\\
+AGENCY THEORY & 9.09 & 0.53\\
+SOFTWARE DEVELOPMENT & 9.09 & 0.52\\
+SUPPLY CHAIN INTEGRATION & 9.09 & 0.39\\
+PROJECT MANAGEMENT & 9.09 & 0.36\\
+ORGANISATIONAL BEHAVIOR & 4.55 & 0.34\\
+CUSTOMER POWER & 4.55 & 0.33\\
+INVENTORIES & 4.55 & 0.33\\
+FDI & 4.55 & 0.33\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 77.27 & 1.15\\
+Engineering, Manufacturing & 22.73 & -1.15\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 77.27 & 2.31\\
+PROD OPER MANAG & 22.73 & -1.15\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+OHIO STATE UNIV & 22.73 & 44.37\\
+FISHER COLL BUSINESS & 22.73 & 46.89\\
+DEPT MANAGEMENT SCI & 13.64 & 27.15\\
+DEPT MANAGEMENT & 13.64 & 15.12\\
+RUTGERS BUSINESS SCH & 13.64 & 61.57\\
+DEPT SUPPLY CHAIN MANAGEMENT &  & \\
+$\quad$ \& MKT SCI & 13.64 & 65.31\\
+RUTGERS STATE UNIV & 13.64 & 53.31\\
+MICHIGAN STATE UNIV & 9.09 & 12.99\\
+ELI BROAD SCH BUSINESS & 9.09 & 43.53\\
+UNIV NOTRE DAME & 9.09 & 24.09\\
+SCH BUSINESS ADM & 9.09 & 23.21\\
+UNIV N CAROLINA & 9.09 & 15.16\\
+OFF 986 & 9.09 & 87.12\\
+DEPT OPERAT TECHNOL \& INNOVAT &  & \\
+$\quad$ MANAGEMENT & 9.09 & 71.12\\
+UNIV MIAMI & 9.09 & 32.88\\
+KENAN FLAGLER BUSINESS SCH & 9.09 & 17.50\\
+SCH MANAGEMENT & 9.09 & 11.18\\
+DEPT SUPPLY CHAIN MANAGEMENT & 9.09 & 18.48\\
+VLERICK LEUVEN GENT MANAGEMENT &  & \\
+$\quad$ SCH & 4.55 & 61.60\\
+UNIV VERONA & 4.55 & 61.60\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 54.55 & 19.65\\
+Peoples r china & 9.09 & 11.33\\
+U arab emirates & 4.55 & 43.55\\
+Italy & 4.55 & 17.03\\
+Portugal & 4.55 & 18.53\\
+North ireland & 4.55 & 30.78\\
+Belgium & 4.55 & 18.53\\
+England & 4.55 & 7.18\\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Handley SM & 40.91 & 20.49\\
+Benton WC & 22.73 & 10.52\\
+Luo YD & 13.64 & 9.11\\
+Swaminathan JM & 13.64 & 7.97\\
+Narayanan S & 13.64 & 9.18\\
+Jayaraman V & 13.64 & 9.51\\
+Gray JV & 9.09 & 7.15\\
+Anderson EG & 9.09 & 4.80\\
+Parker GG & 9.09 & 5.25\\
+Roodhooft F & 4.55 & 6.27\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Ellram LM, 2008, J OPER MANAG (26), 148 & 81.82 & 281.55\\
+Handley SM, 2009, J OPER MANAG (27), 344 & 72.73 & 246.39\\
+Podsakoff PM, 2003, J APPL PSYCHOL (88), 879 & 50.00 & 66.15\\
+Poppo L, 2002, STRATEGIC MANAGE J (23), 707 & 45.45 & 122.79\\
+Klein B, 1978, J LAW ECON (21), 297 & 40.91 & 134.55\\
+Nunnally JC, 1978, PSYCHOMETRIC THEORY (0), 0 & 40.91 & 54.28\\
+Hair j F, 1998, MULTIVARIATE DATA AN (0), 0 & 40.91 & 91.32\\
+Marquard.dw, 1970, TECHNOMETRICS (12), 591 & 40.91 & 203.06\\
+Armstrong JS, 1977, J MARKETING RES (14), 396 & 36.36 & 48.18\\
+Wathne KH, 2000, J MARKETING (64), 36 & 36.36 & 129.25\\
+Anderson E, 1992, J MARKETING RES (29), 18 & 36.36 & 87.96\\
+Das TK, 1998, ACAD MANAGE REV (23), 491 & 36.36 & 100.00\\
+Aron R, 2008, J OPER MANAG (26), 303 & 36.36 & 149.18\\
+O'leary-kelly SW, 1998, J OPER MANAG (16), 387 & 36.36 & 61.93\\
+Carmines edward G, 1979, RELIABILITY VALIDITY (0), &  & \\
+$\quad$ 0 & 31.82 & 93.65\\
+Landis k M, 2005, CALLING CHANGE OUTSO (0), 0 & 31.82 & 154.58\\
+Williamson O, 1975, MARKETS HIERARCHIES (0), 0 & 31.82 & 59.19\\
+Cohen J, 2003, APPL MULTIPLE REGRES (0), 0 & 31.82 & 77.67\\
+Anderson JC, 1988, PSYCHOL BULL (103), 411 & 31.82 & 42.53\\
+Baron RM, 1986, J PERS SOC PSYCHOL (51), 1173 & 31.82 & 56.56\\
+Galbraith j R, 1973, DESIGNING COMPLEX OR (0), 0 & 31.82 & 97.52\\
+Ring PS, 1994, ACAD MANAGE REV (19), 90 & 31.82 & 111.98\\
+Dibbern J, 2008, MIS QUART (32), 333 & 31.82 & 170.81\\
+Menor LJ, 2007, J OPER MANAG (25), 825 & 31.82 & 107.89\\
+Tosi HL, 1997, ACAD MANAGE J (40), 584 & 31.82 & 142.43\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 72.73 & 36.68\\
+ACAD MANAGE REV & 68.18 & 41.19\\
+MANAGE SCI & 63.64 & 23.29\\
+ADMIN SCI QUART & 63.64 & 45.85\\
+ACAD MANAGE J & 63.64 & 40.81\\
+J MARKETING & 54.55 & 37.51\\
+J MARKETING RES & 54.55 & 35.94\\
+ORGAN SCI & 54.55 & 41.94\\
+STRATEGIC MANAGE J & 54.55 & 33.43\\
+PROD OPER MANAG & 50.00 & 23.43\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

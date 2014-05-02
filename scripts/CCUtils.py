@@ -18,7 +18,7 @@ import Utils
 ## ##################################################
 ## ##################################################
 ## ##################################################
-def comm_tables(in_dir,partition,art_table,thr,verbose):
+def comm_tables(in_dir,out_dir,partition,art_table,thr,type,label,verbose):
 
 	## INPUT DATA
 	src1  = os.path.join(in_dir, "articles.dat") 
@@ -65,38 +65,77 @@ def comm_tables(in_dir,partition,art_table,thr,verbose):
 		if (l.ktype == 'AK'):
 			if l.id not in art_wK: art_wK[l.id] = dict()
 			for ref_id in art_table[l.id]:
-				# list the articles with keywords
-				if ref_id not in art_wK[l.id]: 
-					art_wK[l.id][ref_id] = ''
-					NK += 1
-					if ref_id in list_id:
+				# the whole database should be the duplicate documents of the filtered co-citation 
+				if ref_id in list_id:
+					# list the articles with keywords
+					if ref_id not in art_wK[l.id]: 
+						art_wK[l.id][ref_id] = ''
+						# record the total number of documents (contains duplicates)
+						NK += 1
 						if partition[ref_id] not in cs: cs[partition[ref_id]] = 0
 						cs[partition[ref_id]] += 1
-				# record the number of occurrence of a given K
-				if l.keyword not in probaK: probaK[l.keyword] = 0
-				probaK[l.keyword] += 1
-				# record the occurrence of a given K within each community
-				if ref_id in list_id:
+					# record the number of occurrence of a given K
+					if l.keyword not in probaK: probaK[l.keyword] = 0
+					probaK[l.keyword] += 1
+					# record the occurrence of a given K within each community
 					com = partition[ref_id]
 					if l.keyword not in freqK[com]:freqK[com][l.keyword] = 0
 					freqK[com][l.keyword] += 1
-			
+	
 	# extract the 20 most frequent keywords within each community, normalize their frequencies and compute their significance
 	stuffK = dict();
+	tf_idf = dict();
+	tf = dict();
+	df = dict()
+	sigma = dict()
 	if NK > 0:
+		# calculate each term's tf-idf for each community
 		for com in cs:
 			nk = cs[com]
+			tf_idf[com] = dict()
+			tf[com] = dict()
+			df[com] = dict()
+			sigma[com] = dict()
+			for k in freqK[com]:
+				f = freqK[com][k]*1.0 / nk
+				p = probaK[k]*1.0 / NK
+				tf[com][k] = f
+				df[com][k] = p
+				tf_idf[com][k] = f*math.log(1.0/p) 
+				if p < 1: sigma[com][k] = math.sqrt(nk) * (f - p) * 1.0 / math.sqrt(p*(1-p)) 
+				else: sigma[com][k] = 0	
+		# extract the 20 keywords with highest tf-idf value
+		
+		for com in cs:
+			#print 'com is %d' % com
+			nk = cs[com]
 			stuffK[com] = dict()
-			L = freqK[com].items()
+			#L = []
+			#for k in tf_idf[0]:
+			#	L.append((k, tf_idf[0][k]))
+			#L = freqK[com].items()
+			tmp = dict()
+			for k in tf_idf[com]:
+				tmp[k] = int(10000*tf_idf[com][k])
+			L = tmp.items()
 			L.sort(cmpval)
+			#print L
 			for i in range(min(20,len(L))):
-				keyw = L[i][0]
-				f = L[i][1] * 1.0 / nk 
-				p = probaK[keyw] * 1.0 / NK 
-				if p < 1: sigma = math.sqrt(nk) * (f - p) * 1.0 / math.sqrt(p*(1-p)) 
-				else: sigma = 0
-				stuffK[com][i] = [keyw, f*100, sigma]
-			
+				k = L[i][0]							
+				stuffK[com][i] = [k, tf[com][k]*100, sigma[com][k], tf_idf[com][k]]
+		
+		# generate tf-idf file
+		if type=='main':
+			name = 'Keywords Extraction/tf-idf - Main Community.dat'
+		else:
+			name = 'Keywords Extraction/tf-idf - SubCommunity %s - %s.dat' % (type, label[int(type)])
+		dst = os.path.join(out_dir, name)
+		f_tmp = open(dst, 'w')
+		f_tmp.write('CommunityID\tKeywords\tTF\tDF\tTF-IDF\tSigma\n')
+		for com in cs:
+			for k in tf_idf[com]:
+				f_tmp.write('%d\t%s\t%1.4f\t%1.4f\t%1.4f\t%1.4f\n' % (com,k,tf[com][k],df[com][k],tf_idf[com][k],sigma[com][k]))
+		f_tmp.close()
 			
 	#######
 	# Subjects

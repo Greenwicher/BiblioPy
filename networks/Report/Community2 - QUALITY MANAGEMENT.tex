@@ -12,7 +12,7 @@
 \title{{\bf Communities ID Cards}}
 \date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
  The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 1 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
- These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant).\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(1/p)$ is also given.\\
 \vspace{1cm}
 \copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
 
@@ -22,32 +22,32 @@
 \clearpage
 
 \begin{table}[!ht]
-\caption{The community 1 - ``QUALITY MANAGEMENT'' contains $N = 16$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/10$ }
+\caption{The community 1 - ``QUALITY MANAGEMENT'' contains $N = 17$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/8$ }
 \textcolor{white}{aa}\\
-{\scriptsize\begin{tabular}{|l r r|}
+{\scriptsize\begin{tabular}{|l r  r|}
 \hline
-Keyword & f(\%) & $\sigma$\\
+Keyword & f(\%) & tf-idf \\
 \hline
-QUALITY MANAGEMENT & 36.44 & 29.20\\
-EMPIRICAL RESEARCH & 22.60 & 9.63\\
-PERFORMANCE & 11.86 & 12.38\\
-QUALITY & 11.02 & 11.66\\
-TOTAL QUALITY MANAGEMENT & 7.63 & 13.27\\
-SUPPLY CHAIN MANAGEMENT & 7.34 & -2.39\\
-TQM & 6.21 & 14.18\\
-CONTINGENCY THEORY & 5.37 & 7.73\\
-OPERATIONS STRATEGY & 4.80 & -1.03\\
-SIX SIGMA & 4.80 & 7.91\\
-EMPIRICAL RESEARCH METHODS & 4.24 & 3.28\\
-STRUCTURAL EQUATION MODELING & 4.24 & 2.05\\
-ISO 9000 & 4.24 & 11.78\\
-CONTINGENCY RESEARCH & 4.24 & 15.05\\
-ORGANIZATIONAL PERFORMANCE & 3.95 & 8.86\\
-MANUFACTURING STRATEGY & 3.95 & 2.95\\
-INTERDISCIPLINARY & 3.95 & 4.65\\
-THEORY DEVELOPMENT & 3.67 & 6.98\\
-META-ANALYSIS & 3.39 & 7.58\\
-EVENT STUDY & 3.11 & 7.61\\
+QUALITY MANAGEMENT & 36.44 & 0.53\\
+EMPIRICAL RESEARCH & 22.60 & 0.44\\
+QUALITY & 11.02 & 0.29\\
+PERFORMANCE & 11.86 & 0.28\\
+TQM & 6.21 & 0.21\\
+TOTAL QUALITY MANAGEMENT & 7.63 & 0.21\\
+SUPPLY CHAIN MANAGEMENT & 7.34 & 0.20\\
+ISO 9000 & 4.24 & 0.16\\
+INTERDISCIPLINARY & 3.95 & 0.15\\
+OPERATIONS STRATEGY & 4.80 & 0.15\\
+CONTINGENCY THEORY & 5.37 & 0.15\\
+ORGANIZATIONAL PERFORMANCE & 3.95 & 0.14\\
+CONTINGENCY RESEARCH & 4.24 & 0.14\\
+STRUCTURAL EQUATION MODELING & 4.24 & 0.14\\
+EMPIRICAL RESEARCH METHODS & 4.24 & 0.13\\
+SIX SIGMA & 4.80 & 0.13\\
+ELECTRONICS INDUSTRY & 3.11 & 0.13\\
+MANUFACTURING STRATEGY & 3.95 & 0.13\\
+PURCHASING & 3.11 & 0.12\\
+TECHNOLOGY MANAGEMENT & 3.11 & 0.12\\
 \hline
 \hline
 Subject & f(\%) & $\sigma$\\
@@ -187,32 +187,32 @@ PROD OPER MANAG & 23.14 & 43.03\\
 \clearpage
 
 \begin{table}[!ht]
-\caption{The community 0 - ``LEAN PRODUCTION'' contains $N = 14$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/16$ }
+\caption{The community 0 - ``LEAN PRODUCTION'' contains $N = 15$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/16$ }
 \textcolor{white}{aa}\\
-{\scriptsize\begin{tabular}{|l r r|}
+{\scriptsize\begin{tabular}{|l r  r|}
 \hline
-Keyword & f(\%) & $\sigma$\\
+Keyword & f(\%) & tf-idf \\
 \hline
-LEAN PRODUCTION & 11.61 & 17.84\\
-EMPIRICAL RESEARCH & 8.48 & 0.05\\
-PERFORMANCE & 8.04 & 5.95\\
-CONTINGENCY THEORY & 7.59 & 9.35\\
-SUPPLY CHAIN MANAGEMENT & 7.14 & -2.00\\
-BEST PRACTICE & 5.80 & 19.23\\
-EMPIRICAL RESEARCH METHODS & 4.91 & 3.35\\
-QUALITY MANAGEMENT & 4.91 & 0.34\\
-PROCESS IMPROVEMENT & 4.91 & 8.33\\
-MANUFACTURING STRATEGY & 4.91 & 3.41\\
-THEORY DEVELOPMENT & 4.46 & 7.01\\
-COMPLEXITY & 4.02 & 6.10\\
-STRUCTURAL EQUATION MODELING & 4.02 & 1.42\\
-EVENT STUDY & 4.02 & 8.11\\
-CONTINGENCY RESEARCH & 4.02 & 11.31\\
-OPERATIONS STRATEGY & 4.02 & -1.31\\
-JUST-IN-TIME PRACTICES & 3.57 & 15.10\\
-SIX SIGMA & 3.57 & 4.32\\
-META-ANALYSIS OF CORRELATIONS & 3.57 & 15.10\\
-LEAN MANUFACTURING & 3.57 & 7.70\\
+LEAN PRODUCTION & 11.61 & 0.35\\
+CONTINGENCY THEORY & 7.59 & 0.21\\
+SUPPLY CHAIN MANAGEMENT & 7.14 & 0.20\\
+BEST PRACTICE & 5.80 & 0.19\\
+PERFORMANCE & 8.04 & 0.19\\
+PROCESS IMPROVEMENT & 4.91 & 0.17\\
+COMPLEXITY & 4.02 & 0.16\\
+EMPIRICAL RESEARCH & 8.48 & 0.16\\
+MANUFACTURING STRATEGY & 4.91 & 0.16\\
+JUST-IN-TIME PRACTICES & 3.57 & 0.16\\
+META-ANALYSIS OF CORRELATIONS & 3.57 & 0.16\\
+EMPIRICAL RESEARCH METHODS & 4.91 & 0.16\\
+LEAN MANUFACTURING & 3.57 & 0.15\\
+THEORY DEVELOPMENT & 4.46 & 0.15\\
+INVENTORY & 3.12 & 0.14\\
+DYNAMISM & 3.12 & 0.14\\
+LEAN OPERATIONS & 3.12 & 0.14\\
+LEAN PURCHASING & 3.12 & 0.14\\
+CONFIRMATORY FACTOR ANALYSIS & 3.12 & 0.14\\
+SUPPLY CHAIN INTEGRATION & 3.12 & 0.14\\
 \hline
 \hline
 Subject & f(\%) & $\sigma$\\
@@ -355,33 +355,33 @@ INT J OPER PROD MAN & 32.30 & 71.95\\
 \clearpage
 
 \begin{table}[!ht]
-\caption{The community 2 - ``SIX SIGMA'' contains $N = 6$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/6$ }
+\caption{The community 2 - ``SIX SIGMA'' contains $N = 7$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/5$ }
 \textcolor{white}{aa}\\
-{\scriptsize\begin{tabular}{|l r r|}
+{\scriptsize\begin{tabular}{|l r  r|}
 \hline
-Keyword & f(\%) & $\sigma$\\
+Keyword & f(\%) & tf-idf \\
 \hline
-SIX SIGMA & 26.74 & 25.71\\
-QUALITY MANAGEMENT & 25.58 & 9.51\\
-EVENT STUDY & 18.60 & 25.51\\
-TOTAL QUALITY MANAGEMENT & 11.63 & 10.44\\
-PROCESS IMPROVEMENT & 8.14 & 9.03\\
-FIRM PERFORMANCE & 6.98 & 8.32\\
-CONTINGENCY THEORY & 6.98 & 5.25\\
-AWARD & 6.98 & 20.79\\
-PERFORMANCE & 6.98 & 3.02\\
-OPERATING PERFORMANCE & 6.98 & 20.65\\
-QUALITY & 6.98 & 3.14\\
-PROCESS INNOVATION & 6.98 & 15.30\\
-ENVIRONMENTAL UNCERTAINTY & 5.81 & 5.78\\
-MOTIVATION & 4.65 & 6.84\\
-LEARNING & 4.65 & 3.19\\
-ACTION RESEARCH & 4.65 & 16.34\\
-HIERARCHICAL LINEAR MODELING & 4.65 & 12.09\\
-STRUCTURED PROBLEM-SOLVING &  & \\
-$\quad$ PROCESS & 4.65 & 13.58\\
-CULTURE & 4.65 & 4.98\\
-QUALITY IMPROVEMENT TEAMS & 4.65 & 13.58\\
+SIX SIGMA & 26.74 & 0.72\\
+EVENT STUDY & 18.60 & 0.56\\
+QUALITY MANAGEMENT & 25.58 & 0.37\\
+OPERATING PERFORMANCE & 6.98 & 0.32\\
+PROCESS INNOVATION & 6.98 & 0.32\\
+TOTAL QUALITY MANAGEMENT & 11.63 & 0.32\\
+AWARD & 6.98 & 0.29\\
+FIRM PERFORMANCE & 6.98 & 0.28\\
+PROCESS IMPROVEMENT & 8.14 & 0.27\\
+MOTIVATION & 4.65 & 0.24\\
+ACTION RESEARCH & 4.65 & 0.24\\
+STRUCTURED PROBLEM-SOLVING &  &\\
+$\quad$ PROCESS & 4.65 & 0.24\\
+QUALITY IMPROVEMENT TEAMS & 4.65 & 0.24\\
+PROCESS IMPROVEMENT PROJECTS & 4.65 & 0.24\\
+EXPERIENCE & 4.65 & 0.24\\
+PROJECT CONTEXT & 4.65 & 0.24\\
+CONFIGURATIONS & 4.65 & 0.24\\
+DMAIC & 4.65 & 0.24\\
+PROJECT SUCCESS & 4.65 & 0.24\\
+HIERARCHICAL LINEAR MODELING & 4.65 & 0.22\\
 \hline
 \hline
 Subject & f(\%) & $\sigma$\\
@@ -520,34 +520,34 @@ J OPERATIONS MANAGEM & 34.09 & 44.40\\
 \clearpage
 
 \begin{table}[!ht]
-\caption{The community 3 - ``QUALITY MANAGEMENT'' contains $N = 3$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/4$ }
+\caption{The community 3 - ``OPERATIONS'' contains $N = 4$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/6$ }
 \textcolor{white}{aa}\\
-{\scriptsize\begin{tabular}{|l r r|}
+{\scriptsize\begin{tabular}{|l r  r|}
 \hline
-Keyword & f(\%) & $\sigma$\\
+Keyword & f(\%) & tf-idf \\
 \hline
-QUALITY MANAGEMENT & 12.28 & 2.87\\
-CONTINGENCY THEORY & 10.53 & 6.85\\
-OPERATIONS STRATEGY & 8.77 & 0.84\\
-EMPIRICAL RESEARCH & 7.02 & -0.38\\
-THEORY & 7.02 & 6.72\\
-OPERATIONS & 7.02 & 5.39\\
-MANUFACTURING STRATEGY & 7.02 & 2.90\\
-RESOURCE-BASED VIEW & 7.02 & 5.41\\
-ORGANIZATIONAL STRUCTURE & 7.02 & 8.50\\
-SUPPLY CHAIN MANAGEMENT & 5.26 & -1.45\\
-THEORY DEVELOPMENT & 5.26 & 4.28\\
-CULTURE & 5.26 & 4.66\\
-THEORY OF PERFORMANCE &  & \\
-$\quad$ FRONTIERS & 5.26 & 9.42\\
-CASE STUDY RESEARCH & 5.26 & 3.76\\
-RESOURCE-BASED VIEW OF THE &  & \\
-$\quad$ FIRM & 5.26 & 10.19\\
-INDIVIDUALISM/COLLECTIVISM & 5.26 & 10.19\\
-ASIA & 5.26 & 6.32\\
-BEHAVIORAL THEORY & 3.51 & 8.57\\
-CONSTRAINTS & 3.51 & 8.57\\
-CONCEPTUAL METHODS & 3.51 & 13.54\\
+OPERATIONS & 7.02 & 0.33\\
+RESOURCE-BASED VIEW & 7.02 & 0.32\\
+THEORY & 7.02 & 0.30\\
+CONTINGENCY THEORY & 10.53 & 0.29\\
+OPERATIONS STRATEGY & 8.77 & 0.27\\
+CASE STUDY RESEARCH & 5.26 & 0.26\\
+ORGANIZATIONAL STRUCTURE & 7.02 & 0.26\\
+THEORY OF PERFORMANCE &  &\\
+$\quad$ FRONTIERS & 5.26 & 0.25\\
+RESOURCE-BASED VIEW OF THE &  &\\
+$\quad$ FIRM & 5.26 & 0.25\\
+INDIVIDUALISM/COLLECTIVISM & 5.26 & 0.25\\
+MANUFACTURING STRATEGY & 7.02 & 0.23\\
+ASIA & 5.26 & 0.21\\
+MEASUREMENT METHODOLOGY & 3.51 & 0.21\\
+SUPPLY-CHAIN MANAGEMENT & 3.51 & 0.21\\
+MIS-OPERATIONS INTERFACE & 3.51 & 0.21\\
+GENERAL METHODOLOGY & 3.51 & 0.21\\
+THEORIZING & 3.51 & 0.21\\
+DISSOLUTION & 3.51 & 0.21\\
+CONCEPTUAL METHODS & 3.51 & 0.21\\
+CHANGE DRIVERS & 3.51 & 0.21\\
 \hline
 \hline
 Subject & f(\%) & $\sigma$\\

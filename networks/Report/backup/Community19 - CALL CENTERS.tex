@@ -1,0 +1,532 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 1 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(frac{1}{p})$ is also given.\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 1 - ``CALL CENTERS'' contains $N = 4$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/3$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+CALL CENTERS & 30.56 & 1.50\\
+STAFFING & 13.89 & 0.70\\
+FINANCIAL SERVICES & 12.50 & 0.70\\
+CONTACT CENTERS & 9.72 & 0.62\\
+SKILL-BASED ROUTING & 11.11 & 0.61\\
+CALL CENTER MANAGEMENT & 8.33 & 0.57\\
+HEURISTICS & 9.72 & 0.49\\
+CONTACT RATES & 5.56 & 0.48\\
+APPLIED OPTIMIZATION & 5.56 & 0.43\\
+QUEUEING & 6.94 & 0.37\\
+MATHEMATICAL MODELING & 5.56 & 0.37\\
+BANKING & 6.94 & 0.35\\
+TIME-DEPENDENT OVERFLOW & 4.17 & 0.33\\
+FINANCIAL SERVICE OPERATIONS & 4.17 & 0.33\\
+QUEUEING MODELS OF CALL &  &\\
+$\quad$ CENTERS & 4.17 & 0.33\\
+CUSTOMER RELATIONSHIP &  &\\
+$\quad$ MANAGEMENT & 4.17 & 0.32\\
+FLEXIBLE SERVICE RESOURCES & 4.17 & 0.32\\
+DYNAMIC RESOURCE ALLOCATION & 4.17 & 0.32\\
+OVERLAPPING FLEXIBILITY &  &\\
+$\quad$ STRUCTURE & 4.17 & 0.32\\
+OPTIMIZATION & 5.56 & 0.31\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 54.17 & 3.54\\
+Management & 45.83 & -3.54\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 54.17 & 3.54\\
+M\&SOM-MANUF SERV OP & 44.44 & 7.94\\
+J OPER MANAG & 1.39 & -8.71\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+COLUMBIA UNIV & 9.72 & 34.96\\
+SCH BUSINESS & 9.72 & 24.59\\
+GRAD SCH BUSINESS & 6.94 & 22.97\\
+NYU & 5.56 & 27.11\\
+UNIV N CAROLINA & 5.56 & 16.67\\
+NORTHWESTERN UNIV & 5.56 & 25.15\\
+KOC UNIV & 5.56 & 51.42\\
+COLL ADM SCI \& ECON & 5.56 & 51.42\\
+VRIJE UNIV AMSTERDAM & 4.17 & 45.63\\
+IEOR DEPT & 4.17 & 45.63\\
+DEPT DECIS SCI & 4.17 & 23.96\\
+KELLOGG SCH MANAGEMENT & 4.17 & 24.66\\
+DEPT MATH & 4.17 & 38.55\\
+TEXAS A\&M UNIV & 2.78 & 12.72\\
+CARNEGIE MELLON UNIV & 2.78 & 14.39\\
+SAN FRANCISCO STATE UNIV & 2.78 & 30.40\\
+STERN SCH BUSINESS & 2.78 & 16.40\\
+LEONARD N STERN SCH BUSINESS & 2.78 & 22.62\\
+HARVARD UNIV & 2.78 & 13.21\\
+KENAN FLAGLER BUSINESS SCH & 2.78 & 9.53\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 48.61 & 31.56\\
+Turkey & 5.56 & 31.99\\
+Canada & 5.56 & 11.39\\
+Netherlands & 5.56 & 18.51\\
+Germany & 2.78 & 14.07\\
+England & 1.39 & 3.80\\
+Singapore & 1.39 & 5.20\\
+Denmark & 1.39 & 19.61\\
+France & 1.39 & 4.66\\
+Chile & 1.39 & 19.61\\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Whitt W & 11.11 & 13.74\\
+Nair SK & 9.72 & 13.10\\
+Mehrotra V & 8.33 & 11.52\\
+Pinedo M & 6.94 & 7.69\\
+Stolletz R & 6.94 & 23.89\\
+Seifert MJ & 5.56 & 22.87\\
+Bollapragada S & 5.56 & 36.32\\
+Meester GA & 5.56 & 22.87\\
+Koole G & 5.56 & 20.13\\
+Zhou YP & 5.56 & 14.43\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Gans N, 2003, Manufacturing \& Service Operations &  & \\
+$\quad$ Management (5), 0 & 84.72 & 450.66\\
+Aksin ZN, 2007, PROD OPER MANAG (16), 665 & 41.67 & 443.03\\
+Brown L, 2005, J AM STAT ASSOC (100), 36 & 38.89 & 243.52\\
+Wallace r B, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 30.56 & 259.66\\
+Chevalier P, 2008, PROD OPER MANAG (17), 306 & 29.17 & 311.21\\
+Garnett O, 2002, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (4), 0 & 26.39 & 201.10\\
+Avramidis AN, 2004, MANAGE SCI (50), 896 & 26.39 & 206.31\\
+Halfin S, 1981, OPER RES (29), 567 & 26.39 & 194.03\\
+Borst S, 2004, OPER RES (52), 17 & 26.39 & 227.89\\
+Green LV, 2007, PROD OPER MANAG (16), 13 & 23.61 & 189.50\\
+Mehrotra V, 2010, PROD OPER MANAG (19), 353 & 20.83 & 238.44\\
+Whitt W, 2006, PROD OPER MANAG (15), 88 & 19.44 & 177.59\\
+Jongbloed G, 2001, APPL STOCH MODEL BUS (17), 307 & 19.44 & 163.37\\
+Whitt W, 1999, OPER RES LETT (24), 205 & 18.06 & 147.50\\
+Whitt W, 2006, OPER RES (54), 37 & 18.06 & 137.32\\
+Zohar E, 2002, MANAGE SCI (48), 566 & 18.06 & 128.03\\
+Harrison j M, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 18.06 & 159.55\\
+Chevalier P, 2003, INT J PROD ECON (85), 47 & 16.67 & 193.68\\
+Armony M, 2004, OPER RES (52), 527 & 16.67 & 131.45\\
+Gans N, 2007, M\&SOM-MANUF SERV OP (9), 33 & 16.67 & 192.60\\
+Gans N, 2003, OPER RES (51), 255 & 15.28 & 133.47\\
+Franx GJ, 2006, PERFORM EVALUATION (63), 799 & 15.28 & 187.62\\
+Pinedo ML, 2000, CREATING VALUE FINAN (0), 357 & 13.89 & 153.76\\
+Shumsky RA, 2004, OR SPECTRUM (26), 307 & 13.89 & 146.77\\
+Bhulai S, 2003, IEEE T AUTOMAT CONTR (48), 1434 & 13.89 & 165.66\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+Manufacturing \& Service Operations Management & 55.56 & 68.68\\
+MANAGE SCI & 52.78 & 34.76\\
+OPER RES & 50.00 & 46.36\\
+PROD OPER MANAG & 41.67 & 35.18\\
+M\&SOM-MANUF SERV OP & 27.78 & 37.64\\
+QUEUEING SYST & 25.00 & 93.36\\
+J AM STAT ASSOC & 23.61 & 71.63\\
+INTERFACES & 20.83 & 31.40\\
+ANN APPL PROBAB & 18.06 & 85.10\\
+J MARKETING & 13.89 & 16.85\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``STAFFING'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+STAFFING & 31.25 & 1.58\\
+CALL CENTERS & 31.25 & 1.53\\
+LOSS MODEL & 12.50 & 1.01\\
+BRANCH AND BOUND & 12.50 & 1.01\\
+BANKING & 18.75 & 0.96\\
+REAL-TIME OPTIMIZATION & 12.50 & 0.95\\
+DOUBLY STOCHASTIC PROCESSES & 12.50 & 0.95\\
+CALL CENTER OPERATIONS & 12.50 & 0.95\\
+STOCHASTIC CONVEXITY & 12.50 & 0.93\\
+UNOBSERVABLE QUEUES & 12.50 & 0.93\\
+SAMPLE PATH CONVEXITY & 12.50 & 0.93\\
+RENEGING & 12.50 & 0.88\\
+INTEGER PROGRAMMING & 12.50 & 0.87\\
+BALKING & 12.50 & 0.86\\
+CROSS-TRAINING & 12.50 & 0.86\\
+CALL CENTER MANAGEMENT & 12.50 & 0.85\\
+WORKFORCE SCHEDULING & 12.50 & 0.85\\
+FLUID MODELS & 12.50 & 0.84\\
+TIME-VARYING DEMAND & 12.50 & 0.82\\
+QUEUES WITH TIME-VARYING &  &\\
+$\quad$ ARRIVAL RATE & 12.50 & 0.82\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 62.50 & 2.37\\
+Management & 37.50 & -2.37\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 62.50 & 2.37\\
+M\&SOM-MANUF SERV OP & 37.50 & 2.92\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+NYU & 18.75 & 43.29\\
+GRAD SCH BUSINESS & 18.75 & 29.41\\
+COLUMBIA UNIV & 18.75 & 31.87\\
+DEPT DECIS SCI & 12.50 & 34.01\\
+COLL ADM SCI \& ECON & 12.50 & 54.58\\
+COLL BUSINESS & 12.50 & 14.18\\
+SAN FRANCISCO STATE UNIV & 12.50 & 64.60\\
+SCH BUSINESS & 12.50 & 14.94\\
+KOC UNIV & 12.50 & 54.58\\
+LEONARD N STERN SCH BUSINESS & 12.50 & 48.13\\
+STANFORD UNIV & 12.50 & 24.01\\
+UNIV CONNECTICUT & 6.25 & 24.04\\
+DEPT MANAGEMENT SCI & 6.25 & 10.56\\
+SIMON GRAD SCH BUSINESS & 6.25 & 41.69\\
+SACHS \& CO & 6.25 & 72.24\\
+OPIM DEPT & 6.25 & 41.69\\
+IEOR DEPT & 6.25 & 32.28\\
+UNIV PENN & 6.25 & 11.96\\
+DEPT IND ENGN \& OPERAT RES & 6.25 & 13.58\\
+DEPT INFORMAT OPERAT \& &  & \\
+$\quad$ MANAGEMENT SCI & 6.25 & 36.10\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 56.25 & 17.30\\
+Turkey & 12.50 & 34.01\\
+Belgium & 6.25 & 21.74\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Whitt W & 18.75 & 11.11\\
+Mehrotra V & 18.75 & 12.52\\
+Armony M & 18.75 & 12.56\\
+Green LV & 12.50 & 9.58\\
+Peter JKE & 12.50 & 13.11\\
+Ozluk O & 12.50 & 22.22\\
+Plambeck E & 12.50 & 20.56\\
+Seshadri S & 12.50 & 7.01\\
+Chevalier P & 12.50 & 28.85\\
+Tezcan T & 12.50 & 21.96\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Harrison j M, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 81.25 & 338.60\\
+Gans N, 2003, Manufacturing \& Service Operations &  & \\
+$\quad$ Management (5), 0 & 81.25 & 203.73\\
+Whitt W, 2006, PROD OPER MANAG (15), 88 & 81.25 & 349.93\\
+Brown L, 2005, J AM STAT ASSOC (100), 36 & 68.75 & 202.98\\
+Whitt W, 2006, OPER RES (54), 37 & 50.00 & 179.33\\
+Wallace r B, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 50.00 & 200.33\\
+Garnett O, 2002, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (4), 0 & 43.75 & 157.20\\
+Avramidis AN, 2004, MANAGE SCI (50), 896 & 43.75 & 161.27\\
+Whitt W, 1999, OPER RES LETT (24), 205 & 43.75 & 168.54\\
+Bassamboo A, 2006, OPER RES (54), 419 & 43.75 & 211.91\\
+Borst S, 2004, OPER RES (52), 17 & 37.50 & 152.68\\
+Whitt W, 2005, MANAGE SCI (51), 221 & 37.50 & 181.23\\
+Whitt W, 2006, OPER RES (54), 247 & 31.25 & 169.79\\
+Halfin S, 1981, OPER RES (29), 567 & 31.25 & 108.33\\
+Green LV, 2001, OPER RES (49), 549 & 31.25 & 149.55\\
+Armony M, 2004, OPER RES (52), 271 & 31.25 & 148.75\\
+Green LV, 2007, PROD OPER MANAG (16), 13 & 31.25 & 118.24\\
+Jongbloed G, 2001, APPL STOCH MODEL BUS (17), 307 & 31.25 & 123.79\\
+Zeltyn S, 2005, QUEUEING SYST (51), 361 & 31.25 & 153.40\\
+Whitt W, 2002, STOCHASTIC PROCESS L (0), 0 & 31.25 & 174.97\\
+Zohar E, 2002, MANAGE SCI (48), 566 & 25.00 & 83.58\\
+Chevalier P, 2003, INT J PROD ECON (85), 47 & 25.00 & 136.97\\
+Jennings OB, 1996, MANAGE SCI (42), 1383 & 25.00 & 121.61\\
+Whitt W, 2004, OPER RES (52), 922 & 25.00 & 125.30\\
+Shumsky RA, 2004, OR SPECTRUM (26), 307 & 25.00 & 124.56\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+Manufacturing \& Service Operations Management & 68.75 & 40.13\\
+OPER RES & 68.75 & 30.18\\
+MANAGE SCI & 62.50 & 19.50\\
+PROD OPER MANAG & 62.50 & 25.08\\
+QUEUEING SYST & 56.25 & 99.13\\
+J AM STAT ASSOC & 50.00 & 71.64\\
+ANN APPL PROBAB & 43.75 & 97.31\\
+EUR J OPER RES & 31.25 & 15.11\\
+OPER RES LETT & 31.25 & 42.20\\
+OR SPECTRUM & 31.25 & 61.02\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 2 - ``CALL CENTERS'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+CALL CENTERS & 27.27 & 1.34\\
+STAFFING & 22.73 & 1.15\\
+SKILL-BASED ROUTING & 18.18 & 1.00\\
+TIME-VARYING ARRIVAL RATES & 13.64 & 0.96\\
+FINANCIAL SERVICES & 13.64 & 0.76\\
+LOSS MODEL & 9.09 & 0.74\\
+BRANCH AND BOUND & 9.09 & 0.74\\
+QUEUEING MODELS OF CALL &  &\\
+$\quad$ CENTERS & 9.09 & 0.73\\
+FINANCIAL SERVICE OPERATIONS & 9.09 & 0.73\\
+TIME-DEPENDENT OVERFLOW & 9.09 & 0.73\\
+APPLIED OPTIMIZATION & 9.09 & 0.71\\
+ASSIGNMENT PROBLEM & 9.09 & 0.69\\
+PREFERENCE-BASED ROUTING & 9.09 & 0.69\\
+VALUE-BASED ROUTING & 9.09 & 0.69\\
+CUSTOMER CONTACT CENTERS & 9.09 & 0.69\\
+TURNOVER & 9.09 & 0.69\\
+TELEPHONE CALL CENTERS & 9.09 & 0.63\\
+CHURN & 9.09 & 0.63\\
+CROSS-TRAINING & 9.09 & 0.62\\
+CALL CENTER MANAGEMENT & 9.09 & 0.62\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 77.27 & 4.24\\
+Management & 22.73 & -4.24\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 77.27 & 4.24\\
+M\&SOM-MANUF SERV OP & 22.73 & 1.36\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+COLUMBIA UNIV & 27.27 & 54.42\\
+SCH BUSINESS & 13.64 & 19.13\\
+DEPT DECIS SCI & 9.09 & 28.98\\
+NYU & 9.09 & 24.57\\
+GRAD SCH BUSINESS & 9.09 & 16.66\\
+IEOR DEPT & 9.09 & 55.08\\
+DEPT IND ENGN \& OPERAT RES & 9.09 & 23.21\\
+SAN FRANCISCO STATE UNIV & 9.09 & 55.08\\
+COLL BUSINESS & 9.09 & 12.05\\
+LEONARD N STERN SCH BUSINESS & 9.09 & 41.03\\
+UNIV CONNECTICUT & 4.55 & 20.49\\
+DEPT MANAGEMENT SCI & 4.55 & 8.98\\
+PFIZER PHARMACEUT INC & 4.55 & 61.60\\
+ARCHSTONE CONSULTING & 4.55 & 61.60\\
+EDMONTON & 4.55 & 27.52\\
+GOLDMAN SACHS ASSET &  & \\
+$\quad$ MANAGEMENT & 4.55 & 61.60\\
+DEPT STAT \& OPERAT RES & 4.55 & 21.74\\
+GEORGIA INST TECHNOL & 4.55 & 7.77\\
+HSCH SPARKASSEN FINANZGRP & 4.55 & 61.60\\
+TECH UNIV DENMARK & 4.55 & 61.60\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 63.64 & 23.03\\
+Turkey & 4.55 & 14.46\\
+Canada & 4.55 & 5.12\\
+Netherlands & 4.55 & 8.35\\
+Denmark & 4.55 & 35.55\\
+Germany & 4.55 & 12.77\\
+Belgium & 4.55 & 18.53\\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Whitt W & 27.27 & 19.09\\
+Mehrotra V & 13.64 & 10.60\\
+Van Den schrieck JC & 9.09 & 24.58\\
+Mehrotra A & 9.09 & 20.75\\
+Aksin ZN & 9.09 & 8.16\\
+Barth W & 9.09 & 23.22\\
+Manitz M & 9.09 & 23.22\\
+Chevalier P & 9.09 & 24.58\\
+Sisselman ME & 9.09 & 18.48\\
+Natarajan HP & 9.09 & 20.75\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Green LV, 2007, PROD OPER MANAG (16), 13 & 72.73 & 322.75\\
+Gans N, 2003, Manufacturing \& Service Operations &  & \\
+$\quad$ Management (5), 0 & 72.73 & 213.83\\
+Wallace r B, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 72.73 & 341.70\\
+Halfin S, 1981, OPER RES (29), 567 & 40.91 & 166.30\\
+Aksin ZN, 2007, PROD OPER MANAG (16), 665 & 40.91 & 240.44\\
+Brown L, 2005, J AM STAT ASSOC (100), 36 & 40.91 & 141.61\\
+Chevalier P, 2003, INT J PROD ECON (85), 47 & 36.36 & 233.63\\
+Borst S, 2004, OPER RES (52), 17 & 31.82 & 151.90\\
+Avramidis AN, 2004, MANAGE SCI (50), 896 & 31.82 & 137.52\\
+Whitt W, 2006, OPER RES (54), 37 & 31.82 & 133.80\\
+Whitt W, 2006, PROD OPER MANAG (15), 88 & 31.82 & 160.66\\
+Gans N, 2007, M\&SOM-MANUF SERV OP (9), 33 & 31.82 & 203.28\\
+Garnett O, 2002, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (4), 0 & 27.27 & 114.89\\
+Harrison j M, 2005, Manufacturing \& Service &  & \\
+$\quad$ Operations Management (7), 0 & 27.27 & 133.24\\
+Jongbloed G, 2001, APPL STOCH MODEL BUS (17), 307 & 27.27 & 126.68\\
+Franx GJ, 2006, PERFORM EVALUATION (63), 799 & 27.27 & 185.16\\
+Witt LA, 2004, J MANAGE (30), 149 & 27.27 & 180.66\\
+Gans N, 2003, OPER RES (51), 255 & 27.27 & 131.74\\
+Whitt W, 2006, OPER RES (54), 247 & 22.73 & 144.78\\
+Jennings OB, 1996, MANAGE SCI (42), 1383 & 22.73 & 129.64\\
+Whitt W, 2004, OPER RES (52), 922 & 22.73 & 133.56\\
+Shumsky RA, 2004, OR SPECTRUM (26), 307 & 22.73 & 132.78\\
+Armony M, 2004, OPER RES (52), 527 & 22.73 & 99.10\\
+Green LV, 2001, OPER RES (49), 549 & 22.73 & 127.52\\
+Whitt W, 2004, MANAGE SCI (50), 1449 & 22.73 & 133.41\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 77.27 & 36.46\\
+OPER RES & 72.73 & 37.47\\
+MANAGE SCI & 68.18 & 25.00\\
+Manufacturing \& Service Operations Management & 63.64 & 43.53\\
+M\&SOM-MANUF SERV OP & 45.45 & 34.23\\
+QUEUEING SYST & 40.91 & 84.51\\
+INTERFACES & 36.36 & 30.49\\
+ANN APPL PROBAB & 36.36 & 94.83\\
+J AM STAT ASSOC & 36.36 & 61.06\\
+ANN OPER RES & 31.82 & 50.38\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

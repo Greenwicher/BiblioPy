@@ -1,0 +1,193 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(frac{1}{p})$ is also given.\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``PRODUCT DEVELOPMENT'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+PRODUCT DEVELOPMENT & 36.36 & 1.28\\
+COMPETITIVE CAPABILITIES & 13.64 & 0.74\\
+DISRUPTION RISK MITIGATION AND &  &\\
+$\quad$ RESPONSE & 9.09 & 0.64\\
+ROLE CHANGE & 9.09 & 0.62\\
+DESIGN ENGINEERS & 9.09 & 0.62\\
+PLATFORM STRATEGY & 9.09 & 0.61\\
+SUPPLY MANAGEMENT PRACTICES & 9.09 & 0.61\\
+SOCIAL NETWORK THEORY & 9.09 & 0.61\\
+PRODUCT-PROCESS-SUPPLY CHAIN &  &\\
+$\quad$ DESIGN & 9.09 & 0.60\\
+MANUFACTURING STRATEGY &  &\\
+$\quad$ PROCESS & 9.09 & 0.59\\
+ORGANIZATIONAL KNOWLEDGE & 9.09 & 0.59\\
+AGILITY & 9.09 & 0.58\\
+MEASUREMENT/METHODOLOGY & 9.09 & 0.56\\
+MARKETING/MANUFACTURING &  &\\
+$\quad$ INTERFACE & 9.09 & 0.51\\
+TEAMS & 9.09 & 0.49\\
+ENVIRONMENT & 9.09 & 0.47\\
+RESOURCE-BASED VIEW & 9.09 & 0.44\\
+SUPPLY CHAIN INTEGRATION & 9.09 & 0.39\\
+FLEXIBILITY & 9.09 & 0.38\\
+EMPIRICAL RESEARCH & 13.64 & 0.34\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Management & 95.45 & 2.94\\
+Engineering, Manufacturing & 4.55 & -2.95\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 95.45 & 4.02\\
+PROD OPER MANAG & 4.55 & -2.95\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+COLL BUSINESS ADM & 22.73 & 34.32\\
+UNIV TOLEDO & 22.73 & 85.40\\
+FLORIDA ATLANTIC UNIV & 18.18 & 100.59\\
+UNIV MINNESOTA & 9.09 & 13.73\\
+MICHIGAN STATE UNIV & 9.09 & 12.99\\
+CARLSON SCH MANAGEMENT & 9.09 & 17.50\\
+COLL BUSINESS & 9.09 & 12.05\\
+DEPT MANAGEMENT \& MKT & 9.09 & 34.12\\
+OHIO STATE UNIV & 9.09 & 17.68\\
+UNIV WISCONSIN & 9.09 & 28.98\\
+SCH MANAGEMENT & 9.09 & 11.18\\
+FISHER COLL BUSINESS & 9.09 & 18.69\\
+DEPT MANAGEMENT & 9.09 & 10.01\\
+DEPT IND ENGN \& MANAGEMENT & 4.55 & 25.12\\
+UNIV MODENA \& REGGIO EMILIA & 4.55 & 43.55\\
+SHATIN & 4.55 & 12.24\\
+TEXAS A\&M UNIV & 4.55 & 11.56\\
+CHINESE UNIV HONG KONG & 4.55 & 11.78\\
+LOUISIANA TECH UNIV & 4.55 & 61.60\\
+LAMAR UNIV & 4.55 & 61.60\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 72.73 & 26.40\\
+Peoples r china & 9.09 & 11.33\\
+Brazil & 4.55 & 30.78\\
+U arab emirates & 4.55 & 43.55\\
+Italy & 4.55 & 17.03\\
+Finland & 4.55 & 23.25\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Vonderembse MA & 27.27 & 13.72\\
+Koufteros XA & 22.73 & 17.14\\
+Doll WJ & 18.18 & 17.68\\
+Nahm AY & 13.64 & 12.67\\
+Braunscheidel MJ & 9.09 & 14.20\\
+Lai KH & 9.09 & 6.61\\
+Hong P & 9.09 & 12.63\\
+Roth AV & 9.09 & 1.96\\
+Cheng TCE & 9.09 & 4.59\\
+Paiva EL & 9.09 & 11.04\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Koufteros XA, 1999, J OPER MANAG (17), 467 & 77.27 & 264.62\\
+Koufteros X, 2001, J OPER MANAG (19), 97 & 68.18 & 282.70\\
+Fornell C, 1981, J MARKETING RES (18), 39 & 63.64 & 71.73\\
+Clark k B, 1991, PRODUCT DEV PERFORMA (0), 0 & 36.36 & 68.21\\
+Gerbing DW, 1988, J MARKETING RES (25), 186 & 36.36 & 73.86\\
+Teece DJ, 1997, STRATEGIC MANAGE J (18), 509 & 31.82 & 52.03\\
+Bentler PM, 1980, PSYCHOL BULL (88), 588 & 31.82 & 65.11\\
+Hair JF, 1995, MULTIVARIATE DATA AN (0), 0 & 31.82 & 78.22\\
+Armstrong JS, 1977, J MARKETING RES (14), 396 & 27.27 & 36.09\\
+Doll WJ, 1991, OMEGA-INT J MANAGE S (19), 401 & 27.27 & 123.09\\
+Koufteros XA, 2002, J OPER MANAG (20), 331 & 27.27 & 99.96\\
+Nunnally JC, 1978, PSYCHOMETRIC THEORY (0), 0 & 27.27 & 36.13\\
+Blackburn j D, 1991, TIME BASED COMPETITI (0), 0 & 27.27 & 94.27\\
+Krause DR, 2001, J OPER MANAG (19), 497 & 22.73 & 87.10\\
+Narasimhan R, 2006, J OPER MANAG (24), 440 & 22.73 & 81.29\\
+Cohen WM, 1990, ADMIN SCI QUART (35), 128 & 22.73 & 38.82\\
+Koufteros x A, 1998, Journal of Operations &  & \\
+$\quad$ Management (16), 0 & 22.73 & 79.63\\
+Churchill GA, 1979, J MARKETING RES (16), 64 & 22.73 & 39.37\\
+Hall RW, 1991, MEASURING CHARTING P (0), 0 & 22.73 & 158.61\\
+Byrne BM, 1998, STRUCTURAL EQUATION (0), 0 & 22.73 & 76.68\\
+Frohlich MT, 2001, J OPER MANAG (19), 185 & 22.73 & 37.22\\
+Hartley j L, 1997, Journal of Operations &  & \\
+$\quad$ Management (15), 0 & 22.73 & 72.88\\
+Carr AS, 1999, J OPER MANAG (17), 497 & 22.73 & 40.68\\
+Tatikonda MV, 2000, J OPER MANAG (18), 401 & 22.73 & 59.00\\
+Clark KB, 1989, MANAGE SCI (35), 1247 & 22.73 & 58.03\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+J OPER MANAG & 77.27 & 39.00\\
+DECISION SCI & 68.18 & 39.24\\
+HARVARD BUS REV & 63.64 & 33.25\\
+ACAD MANAGE REV & 63.64 & 38.42\\
+J MARKETING RES & 63.64 & 41.98\\
+MANAGE SCI & 59.09 & 21.59\\
+Journal of Operations Management & 54.55 & 41.20\\
+ADMIN SCI QUART & 54.55 & 39.26\\
+ACAD MANAGE J & 54.55 & 34.93\\
+STRATEGIC MANAGE J & 54.55 & 33.43\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}

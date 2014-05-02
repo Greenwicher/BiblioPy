@@ -386,10 +386,9 @@ def CC_network(in_dir, out_dir, verbose):
 			sub_list_nodes = dict()
 			for ref in sub_partition:
 				sub_comm = sub_partition[ref]
-				if sub_comm in sub_list_nodes:
-					sub_list_nodes[sub_comm].append(ref)
-				else:
+				if sub_comm not in sub_list_nodes:
 					sub_list_nodes[sub_comm] = []
+				sub_list_nodes[sub_comm].append(ref)
 			sub_label[com] = report.community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,subG,level,sub_partition,sub_list_nodes,art_table,verbose,label)
 	##############################
 	# Community Characteristics PDF generation

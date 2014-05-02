@@ -1,0 +1,190 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+
+\addtolength{\evensidemargin}{-60pt}
+\addtolength{\oddsidemargin}{-60pt}
+\addtolength{\textheight}{80pt}
+
+\title{{\bf Communities ID Cards}}
+\date{\begin{flushleft}This document gather the ``ID Cards'' of the CC communities found within your database.\\
+ The CC network was built by keeping a link between articles sharing at least 5 references. The communities characterized here correspond to the ones found in the level 0 (in the sense of the Louvain algo) which gathers more than 0 articles.\\
+ These ID cards displays the most frequent keywords, subject categories, journals of publication, institution, countries, authors, references and reference journals of the articles of each community. The significance of an item $\sigma = \sqrt{N} (f - p) / \sqrt{p(1-p)}$ [where $N$ is the number of articles within the community and $f$ and $p$ are the proportion of articles respectively within the community and within the database displaying that item ] is also given (for example $\sigma > 5$ is really highly significant). The tf-idf value which can be calculated by $tf-idf = f*log(frac{1}{p})$ is also given.\\
+\vspace{1cm}
+\copyright Sebastian Grauwin, Liu Weizhi - (2014) \end{flushleft}}
+
+\begin{document}
+\begin{landscape}
+\maketitle
+\clearpage
+
+\begin{table}[!ht]
+\caption{The community 0 - ``RFID'' contains $N = 1$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/-9999$ }
+\textcolor{white}{aa}\\
+{\scriptsize\begin{tabular}{|l r  r|}
+\hline
+Keyword & f(\%) & tf-idf \\
+\hline
+RFID & 43.33 & 2.16\\
+SUPPLY UNCERTAINTY & 13.33 & 0.83\\
+RADIO FREQUENCY IDENTIFICATION &  &\\
+$\quad$ (RFID) & 10.00 & 0.71\\
+INCENTIVES & 10.00 & 0.57\\
+INVENTORY RECORD INACCURACY & 6.67 & 0.54\\
+SAFETY LEAD TIMES & 6.67 & 0.53\\
+STOCHASTIC ORDERINGS & 6.67 & 0.53\\
+FLEXIBLE BACKUP SUPPLY & 6.67 & 0.53\\
+VALUE ASSESSMENT & 6.67 & 0.53\\
+MARKETING AND OPERATIONS &  &\\
+$\quad$ INTERFACE & 6.67 & 0.53\\
+ARCHITECTURE & 6.67 & 0.53\\
+TRACEABILITY SYSTEM & 6.67 & 0.53\\
+CRITICAL SUCCESS FACTORS & 6.67 & 0.53\\
+GLOBAL SUPPLY CHAINS & 6.67 & 0.52\\
+STOCHASTIC LEAD TIMES & 6.67 & 0.52\\
+EMERGENCY ORDERING & 6.67 & 0.52\\
+ORDER PROGRESS INFORMATION & 6.67 & 0.52\\
+INVENTORY CONTROL & 10.00 & 0.51\\
+BARGAINING & 6.67 & 0.50\\
+SECURITY & 6.67 & 0.50\\
+\hline
+\hline
+Subject & f(\%) & $\sigma$\\
+\hline
+Operations Research \& Management Science & 100.00 & 0.00\\
+Engineering, Manufacturing & 86.67 & 6.03\\
+Management & 13.33 & -6.03\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Journal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 86.67 & 6.03\\
+M\&SOM-MANUF SERV OP & 10.00 & -0.49\\
+J OPER MANAG & 3.33 & -5.41\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Institution & f(\%) & $\sigma$\\
+\hline
+KENAN FLAGLER BUSINESS SCH & 13.33 & 30.03\\
+UNIV N CAROLINA & 13.33 & 26.04\\
+STANFORD UNIV & 10.00 & 26.28\\
+WASHINGTON UNIV & 6.67 & 20.60\\
+GRAD SCH BUSINESS & 6.67 & 14.23\\
+ROTTERDAM SCH MANAGEMENT & 6.67 & 35.12\\
+TEXAS A\&M UNIV & 6.67 & 19.85\\
+ERASMUS UNIV & 6.67 & 28.14\\
+UNIV MARYLAND & 6.67 & 16.78\\
+COLL BUSINESS \& MANAGEMENT & 3.33 & 26.35\\
+GEORGIA INST TECHNOL & 3.33 & 6.61\\
+INDIANA UNIV & 3.33 & 7.26\\
+MCDONOUGH SCH BUSINESS & 3.33 & 14.57\\
+UNIV SO INDIANA & 3.33 & 52.75\\
+SUPPLY CHAIN MANAGEMENT DEPT & 3.33 & 30.43\\
+ROBINS SCH BUSINESS & 3.33 & 23.56\\
+COLL MANAGEMENT & 3.33 & 6.85\\
+CRANFIELD UNIV & 3.33 & 52.75\\
+DEPT MANAGEMENT & 3.33 & 4.14\\
+DEPT LOGIST & 3.33 & 17.53\\
+\hline
+\hline
+Country & f(\%) & $\sigma$\\
+\hline
+Usa & 56.67 & 23.87\\
+Peoples r china & 10.00 & 14.57\\
+Netherlands & 6.67 & 14.36\\
+England & 6.67 & 12.37\\
+France & 3.33 & 7.41\\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+ &  & \\
+\hline
+\hline
+Author & f(\%) & $\sigma$\\
+\hline
+Lee HL & 10.00 & 14.08\\
+So KC & 6.67 & 16.79\\
+Gaimon C & 6.67 & 5.84\\
+Choi T & 6.67 & 8.01\\
+Dutta A & 6.67 & 19.85\\
+Gaukler GM & 6.67 & 12.95\\
+Hausman WH & 6.67 & 6.17\\
+Barratt M & 6.67 & 5.15\\
+Whang SJ & 6.67 & 13.26\\
+Liu SX & 6.67 & 19.85\\
+\hline
+\end{tabular}
+}
+{\scriptsize\begin{tabular}{|l r r|}
+\hline
+Reference & f(\%) & $\sigma$\\
+\hline
+Lee H, 2007, PROD OPER MANAG (16), 40 & 93.33 & 461.24\\
+Gaukler GM, 2007, PROD OPER MANAG (16), 65 & 73.33 & 434.37\\
+Raman A, 2001, CALIF MANAGE REV (43), 136 & 26.67 & 148.77\\
+Dehoratius N, 2008, MANAGE SCI (54), 627 & 23.33 & 127.69\\
+Delen D, 2007, PROD OPER MANAG (16), 613 & 23.33 & 163.85\\
+Heese HS, 2007, PROD OPER MANAG (16), 542 & 23.33 & 155.08\\
+Kang Y, 2005, IIE TRANS (37), 843 & 23.33 & 193.41\\
+Dutta A, 2007, PROD OPER MANAG (16), 646 & 20.00 & 134.26\\
+Whitaker J, 2007, PROD OPER MANAG (16), 599 & 20.00 & 122.49\\
+Fleisch E, 2005, INT J PROD ECON (95), 373 & 16.67 & 156.83\\
+Ngai EWT, 2007, PROD OPER MANAG (16), 554 & 16.67 & 106.91\\
+Kok AG, 2007, M\&SOM-MANUF SERV OP (9), 185 & 16.67 & 189.58\\
+Song JS, 1994, MANAGE SCI (40), 603 & 16.67 & 127.38\\
+Kouvelis P, 2006, PROD OPER MANAG (15), 449 & 13.33 & 45.64\\
+Zipkin P, 1986, NAV RES LOG (33), 763 & 13.33 & 136.53\\
+Elmaghraby W, 2007, PROD OPER MANAG (16), 409 & 13.33 & 68.00\\
+Song JS, 1996, MANAGE SCI (42), 1409 & 13.33 & 119.98\\
+Moinzadeh K, 1991, OPER RES (39), 308 & 13.33 & 132.09\\
+Heim GR, 2002, PROD OPER MANAG (11), 54 & 13.33 & 53.58\\
+Smith a D, 2005, Information Management \& &  & \\
+$\quad$ Computer Security (13), 0 & 13.33 & 207.85\\
+Yano CA, 1995, OPER RES (43), 311 & 13.33 & 61.47\\
+Dutta A, 2007, PROD OPER MANAG (16), 523 & 13.33 & 171.10\\
+Kaplan RS, 1970, MANAGE SCI (16), 491 & 13.33 & 124.36\\
+Prater E, 2005, SUPPLY CHAIN MANAG (10), 134 & 13.33 & 120.48\\
+Barney J, 1991, J MANAGE (17), 99 & 13.33 & 20.72\\
+\hline
+\hline
+RefJournal & f(\%) & $\sigma$\\
+\hline
+PROD OPER MANAG & 66.67 & 36.66\\
+MANAGE SCI & 60.00 & 25.61\\
+IIE TRANS & 36.67 & 31.83\\
+OPER RES & 36.67 & 21.81\\
+CALIF MANAGE REV & 36.67 & 32.44\\
+INT J PROD ECON & 26.67 & 22.91\\
+EUR J OPER RES & 20.00 & 13.08\\
+NAV RES LOG & 20.00 & 21.10\\
+HARVARD BUS REV & 20.00 & 11.87\\
+M\&SOM-MANUF SERV OP & 20.00 & 17.40\\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\end{landscape}
+
+\end{document}
