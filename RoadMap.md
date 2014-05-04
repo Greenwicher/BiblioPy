@@ -41,6 +41,6 @@
 
 <ol>
 	<li>【2014-05-02】subGraph中的plot精细化表达（node颜色代表Sub Community ID, size代表被引用次数，edge的粗细代表相似度）
-
+	<li>【2014-05-04】Bug Fixes - Gephi文件中输出了未超过阈值的边，已解决
 </ol>
 </font>

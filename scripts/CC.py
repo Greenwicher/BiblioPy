@@ -98,18 +98,17 @@ def CC_network(in_dir, out_dir, verbose):
 		
 	
 	# choose threshold
-	confirm = 'n'; thr=5;
+	confirm = 'n'; ccthr=5;
   
 	while confirm != 'y':
-		if thr == 1: print "Keep BC links between articles sharing at least %d reference" % (thr)
-		else: print "Keep BC links between articles sharing at least %d references" % (thr)
+		if ccthr == 1: print "Keep BC links between articles sharing at least %d reference" % (ccthr)
+		else: print "Keep BC links between articles sharing at least %d references" % (ccthr)
 		confirm = raw_input("Confirm (y/n): ")
 		while confirm not in ['n','y']:
 			confirm = raw_input("...typing error!\n Confirm (y/n): ")
 		if confirm == 'n':
-			thr = input("threshold for BC links -- articles should be share at least ? references:")
+			ccthr = input("threshold for BC links -- articles should be share at least ? references:")
 
-	ccthr = thr
 	confirm = 'n'; 
 	ref_journal_list = ['J OPER MANA IN PRESS', 'J OPER MANAG', 'J OPER MANAG FORTHCO', 'J OPERATIONS MANAGE',
 	                   'J OPERATIONS MANAGEM', 'J. Oper. Manag.', 'Journal of Operations Management', 
@@ -136,13 +135,9 @@ def CC_network(in_dir, out_dir, verbose):
 	G=nx.Graph()
 	for i in CC_table:
 		for j in CC_table[i]:
-			if ((not ref_journal_flag) or (ref_journal_flag and ref_index[i]['journal'] in ref_journal_list and ref_index[j]['journal'] in ref_journal_list)) and (CC_table[i][j]>=thr):
+			if ((not ref_journal_flag) or (ref_journal_flag and ref_index[i]['journal'] in ref_journal_list and ref_index[j]['journal'] in ref_journal_list)) and (CC_table[i][j]>=ccthr):
 				w_ij = (1.0 * CC_table[i][j]) / math.sqrt(nA[i] * nA[j])
 				G.add_edge(i, j, weight=w_ij)
-	nx.draw_spring(G)
-	dst = os.path.join(out_dir, 'CC-Network(ccthr=%d, thr=%d, ref_journal_flag=%s).png' % (ccthr, thr, ref_journal_flag))
-	plt.savefig(dst)
-	plt.close('all')
 	
 	#... calculate basic centrality for each node
 	if verbose: print "..calculate basic centrality for each node"
@@ -189,6 +184,11 @@ def CC_network(in_dir, out_dir, verbose):
 		if confirm == 'n':
 			level  = input("......level you want to extract:")
 			thr  = input("......keep communities of size > to:")
+	# plot Co-citation after filtering (ccthr, ref_journal)
+	nx.draw_spring(G)
+	dst = os.path.join(out_dir, 'CC-Network(ccthr=%d, thr=%d, ref_journal_flag=%s).png' % (ccthr, thr, ref_journal_flag))
+	plt.savefig(dst)
+	plt.close('all')
 
 	#... partition
 	partition = community.partition_at_level(dendogram, level)
@@ -258,8 +258,9 @@ def CC_network(in_dir, out_dir, verbose):
 				if(i<j):
 					if i in CC_table:
 						if j in CC_table[i]:
-							w_ij = (1.0 * CC_table[i][j]) / math.sqrt(nA[i] * nA[j])
-							f_gephi.write("\n%d,%d,%f,%d" % (i, j, w_ij, CC_table[i][j])) 
+							if (CC_table[i][j]>=ccthr):
+								w_ij = (1.0 * CC_table[i][j]) / math.sqrt(nA[i] * nA[j])
+								f_gephi.write("\n%d,%d,%f,%d" % (i, j, w_ij, CC_table[i][j])) 
 		# end
 		f_gephi.close()
 
@@ -374,7 +375,7 @@ def CC_network(in_dir, out_dir, verbose):
 		f_gephi.write("edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE,nb_comm_refs DOUBLE")
 		for i in CC_table:
 			for j in CC_table[i]:
-				if (i<j) and (i in partition) and (j in partition):
+				if (i<j) and (i in partition) and (j in partition) and (CC_table[i][j]>=ccthr):
 					commi_size = comm_size[partition[i]]
 					commj_size = comm_size[partition[j]]
 					if (commi_size > thr) and (commj_size > thr):
