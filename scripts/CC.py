@@ -31,6 +31,15 @@ def CC_network(in_dir, out_dir, verbose):
 	src1 = os.path.join(in_dir, "articles.dat")
 	src5 = os.path.join(in_dir, "references.dat")
 	
+	# processing references' journal 
+	ref_journal_dict = {'JOM':['J OPER MANA IN PRESS', 'J OPER MANAG', 'J OPER MANAG FORTHCO', 'J OPERATIONS MANAGE',
+	                   'J OPERATIONS MANAGEM', 'J. Oper. Manag.', 'Journal of Operations Management', 'JOM'], 
+					   'MSOM':['M&SOM-MANUF SERV OP', 'MANUF SERV IN PRESS', 'MANUF SERV OPER MANA', 'MANUF SERV OPERAT MA',
+					   'MANUF SERVICE OPERAT', 'Manufacturing & Service Operations Management', 'MANUFACTURING SERVIC', 'MSOM'],
+					   'POM': ['PROD OPER M IN PRESS', 'PROD OPER MANAG', 'PROD OPERAT MANAGEM', 'Production and Operations Management', 
+					   'PRODUCTION OPER MANA', 'Production Oper. Management', 'PRODUCTION OPERATION', 'PRODUCTIONS OPERATIO', 'POM']}
+	ref_journal_list = [v for k in ref_journal_dict for v in ref_journal_dict[k]]
+	
 	Ymin = 2100; Ymax = 1900
 	pl = Utils.Article()
 	pl.read_file(src1)
@@ -72,6 +81,11 @@ def CC_network(in_dir, out_dir, verbose):
 			ref_index[l.refid] = dict()
 			ref_index[l.refid]['firstAU'] = l.firstAU
 			ref_index[l.refid]['year'] = l.year
+			# transform the references' journal to their standard abbreviation
+			if l.journal in ref_journal_list:
+				for foo in ref_journal_dict:
+					if l.journal in ref_journal_dict[foo]:
+						l.journal = foo
 			ref_index[l.refid]['journal'] = l.journal
 			ref_index[l.refid]['volume'] = l.volume
 			ref_index[l.refid]['page'] = l.page
@@ -110,12 +124,6 @@ def CC_network(in_dir, out_dir, verbose):
 			ccthr = input("threshold for BC links -- articles should be share at least ? references:")
 
 	confirm = 'n'; 
-	ref_journal_list = ['J OPER MANA IN PRESS', 'J OPER MANAG', 'J OPER MANAG FORTHCO', 'J OPERATIONS MANAGE',
-	                   'J OPERATIONS MANAGEM', 'J. Oper. Manag.', 'Journal of Operations Management', 
-					   'M&SOM-MANUF SERV OP', 'MANUF SERV IN PRESS', 'MANUF SERV OPER MANA', 'MANUF SERV OPERAT MA',
-					   'MANUF SERVICE OPERAT', 'Manufacturing & Service Operations Management', 'MANUFACTURING SERVIC',
-					   'PROD OPER M IN PRESS', 'PROD OPER MANAG', 'PROD OPERAT MANAGEM', 'Production and Operations Management', 
-					   'PRODUCTION OPER MANA', 'Production Oper. Management', 'PRODUCTION OPERATION', 'PRODUCTIONS OPERATIO']
 	ref_journal_flag = False
 	print "Do you want the journal of references belong to the list below?"
 	for foo in ref_journal_list:
@@ -224,8 +232,8 @@ def CC_network(in_dir, out_dir, verbose):
 				j = tmp
 			w_ij = (1.0 * CC_table[i][j]) / math.sqrt(nA[i] * nA[j]) * 10
 			width.append(w_ij)
-		#nx.draw_spring(subG, node_color=node_color, node_size=node_size, labels=labels, font_size=8)
-		nx.draw_spring(subG, node_color=node_color, node_size=node_size, width=width)
+		nx.draw_spring(subG, node_color=node_color, node_size=node_size, labels=labels, font_size=8)
+		#nx.draw_spring(subG, node_color=node_color, node_size=node_size, width=width)
 		dst = os.path.join(out_dir, 'SubGraph/Plot/SubGraph-%d.png' % (com))
 		plt.savefig(dst)
 		plt.close('all')
