@@ -260,7 +260,7 @@ def CC_network(in_dir, out_dir, verbose):
 			foo = ref_index[refid]['firstAU'] + ', ' + ref_index[refid]['journal'] + ', ' + str(ref_index[refid]['year'])	
 			f_gephi.write("%d,'%s',%s,%s,%1.6f,%s,%s,%d,%d,%s,%s,%s\n" % (refid, foo, str(com), str(ref_index[refid]['SubCommID']), ref_index[refid]['modularity'], ref_index[refid]['firstAU'], ref_index[refid]['journal'],ref_index[refid]['year'],nA[refid], ref_index[refid]['doi'], ref_index[refid]['volume'], ref_index[refid]['page'])) 
 		# edges
-		f_gephi.write("edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE,nb_comm_refs DOUBLE")
+		f_gephi.write("edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE,nb_comm_refs DOUBLE\n")
 		for i in part.keys():
 			for j in part.keys():
 				if(i<j):
@@ -268,7 +268,7 @@ def CC_network(in_dir, out_dir, verbose):
 						if j in CC_table[i]:
 							if (CC_table[i][j]>=ccthr):
 								w_ij = (1.0 * CC_table[i][j]) / math.sqrt(nA[i] * nA[j])
-								f_gephi.write("\n%d,%d,%f,%d" % (i, j, w_ij, CC_table[i][j])) 
+								f_gephi.write("%d,%d,%f,%d\n" % (i, j, w_ij, CC_table[i][j])) 
 		# end
 		f_gephi.close()
 
@@ -380,7 +380,7 @@ def CC_network(in_dir, out_dir, verbose):
 					f_gephi.write("%d,'%s',%s,%s,%1.6f,%s,%s,%d,%d,%s,%s,%s\n" % (refid, foo, str(CCcom), str(ref_index[refid]['SubCommID']), ref_index[refid]['modularity'], ref_index[refid]['firstAU'], ref_index[refid]['journal'],ref_index[refid]['year'],nA[refid], ref_index[refid]['doi'], ref_index[refid]['volume'], ref_index[refid]['page'])) 
 		## ... prep edges
 		if verbose: print "....edges"
-		f_gephi.write("edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE,nb_comm_refs DOUBLE")
+		f_gephi.write("edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE,nb_comm_refs DOUBLE\n")
 		for i in CC_table:
 			for j in CC_table[i]:
 				if (i<j) and (i in partition) and (j in partition) and (CC_table[i][j]>=ccthr):
@@ -388,7 +388,7 @@ def CC_network(in_dir, out_dir, verbose):
 					commj_size = comm_size[partition[j]]
 					if (commi_size > thr) and (commj_size > thr):
 						w_ij = (1.0 * CC_table[i][j]) / math.sqrt(nA[i] * nA[j])
-						f_gephi.write("\n%d,%d,%f,%d" % (i, j, w_ij, CC_table[i][j])) 
+						f_gephi.write("%d,%d,%f,%d\n" % (i, j, w_ij, CC_table[i][j])) 
 		## ... end
 		f_gephi.close()
 		if verbose: print"..Done!\n"
@@ -398,7 +398,7 @@ def CC_network(in_dir, out_dir, verbose):
 	type = "main"
 	confirm = raw_input("..Do you want to extract the characteristics for main communitise? \n Confirm (y/n):")
 	if confirm =='y':
-		label = report.community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,level,partition,list_nodes,art_table,verbose)
+		label = report.community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,level,partition,list_nodes,art_table,doc_table,ref_index,verbose)
 
 	##############################
 	# Sub Community Characteristics files	
@@ -417,7 +417,7 @@ def CC_network(in_dir, out_dir, verbose):
 				if sub_comm not in sub_list_nodes:
 					sub_list_nodes[sub_comm] = []
 				sub_list_nodes[sub_comm].append(ref)
-			sub_label[com] = report.community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,subG,level,sub_partition,sub_list_nodes,art_table,verbose,label)
+			sub_label[com] = report.community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,subG,level,sub_partition,sub_list_nodes,art_table,doc_table,ref_index,verbose,label)
 	##############################
 	# Community Characteristics PDF generation
 	confirm = raw_input("..Do you want to generate the pdf files of characteristics for communitise? \n Confirm (y/n):")

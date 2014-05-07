@@ -11,7 +11,7 @@ import glob
 from subprocess import call
 import CCUtils
 
-def community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,level,partition,list_nodes,art_table,verbose,label={}):
+def community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,level,partition,list_nodes,art_table,doc_table,ref_index,verbose,label={}):
     ##############################
 	## Main COMMUNITIES CARACTERISTICS
 	if verbose and type=="main": print "..Computing Main Communities Caracteristics"
@@ -47,7 +47,8 @@ def community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,l
 
 	#.. frequency / significance of keywords, etc...
 	comm_label = dict();
-	(stuffK, stuffS, stuffJ, stuffA, stuffI, stuffC, stuffR, stuffRJ) = CCUtils.comm_tables(in_dir,out_dir,partition,art_table,thr,type,label,verbose)
+	ComId = type
+	(stuffK, stuffS, stuffJ, stuffA, stuffI, stuffC, stuffR, stuffRJ) = CCUtils.comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,label,ComId,verbose)
 	
 	#.. output tables
 	for elm in Lcomm_size:

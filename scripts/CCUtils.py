@@ -14,11 +14,13 @@ import numpy
 import argparse
 import math
 import Utils
+import networkx as nx
+import community
 
 ## ##################################################
 ## ##################################################
 ## ##################################################
-def comm_tables(in_dir,out_dir,partition,art_table,thr,type,label,verbose):
+def comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,label,ComId,verbose):
 
 	## INPUT DATA
 	src1  = os.path.join(in_dir, "articles.dat") 
@@ -32,9 +34,10 @@ def comm_tables(in_dir,out_dir,partition,art_table,thr,type,label,verbose):
 
 	## Communities sizes - we are mostly interested by articles within communities of size > thr
 	comm_size = dict();
+	list_nodes = dict()
 	for com in set(partition.values()) :
-		list_nodes = [nodes for nodes in partition.keys() if partition[nodes] == com]
-		comm_size[com] = len(list_nodes)
+		list_nodes[com] = [nodes for nodes in partition.keys() if partition[nodes] == com]
+		comm_size[com] = len(list_nodes[com])
 
 	## TREAT DATA
 	#######
@@ -88,6 +91,7 @@ def comm_tables(in_dir,out_dir,partition,art_table,thr,type,label,verbose):
 	tf = dict();
 	df = dict()
 	sigma = dict()
+	pagerank = dict()
 	if NK > 0:
 		# calculate each term's tf-idf for each community
 		for com in cs:
@@ -124,17 +128,78 @@ def comm_tables(in_dir,out_dir,partition,art_table,thr,type,label,verbose):
 				k = L[i][0]							
 				stuffK[com][i] = [k, tf[com][k]*100, sigma[com][k], tf_idf[com][k]]
 		
-		# generate tf-idf file
+		TextGraph = dict()
+		TextTable = dict()
+		KeywordsId = dict()
+		IdKeywords = dict()
+		for com in cs:
+			TextTable[com] = dict()
+			TextGraph[com] = nx.Graph()
+			pagerank[com] = dict()
+			for ref in list_nodes[com]:
+				for art in ref_index[ref]['article']:
+					keywords = doc_table[art]['de_keywords'].upper().split('; ')
+					num_keywords = len(keywords)
+					for k1 in keywords:
+						if k1 not in KeywordsId:
+							KeywordsId[k1] = len(KeywordsId)
+							IdKeywords[KeywordsId[k1]] = k1
+						for k2 in keywords[keywords.index(k1)+1:num_keywords]:
+							if k2 not in KeywordsId:
+								KeywordsId[k2] = len(KeywordsId)
+								IdKeywords[KeywordsId[k2]] = k2
+							id1 = KeywordsId[k1]
+							id2 = KeywordsId[k2]
+							if id1>id2:
+								tmp = id1
+								id1 = id2
+								id2 = tmp
+							if id1 not in TextTable[com]:
+								TextTable[com][id1] = dict()
+							if id2 not in TextTable[com][id1]:
+								TextTable[com][id1][id2] = 0
+							TextTable[com][id1][id2] +=  1.0/(num_keywords-1)
+			for i in TextTable[com]:
+				for j in TextTable[com][i]:
+					TextGraph[com].add_edge(IdKeywords[i], IdKeywords[j], weight=TextTable[com][i][j])
+			pagerank[com] = nx.pagerank(TextGraph[com], alpha=0.85)
+			# clustering 
+			TextPart = community.best_partition(TextGraph[com]) 
+			# generating Gephi files for TextGraph
+			name = "Keywords Extraction/TextRank/%s-%d.gdf" % (ComId, com)
+			dst = os.path.join(out_dir, name)
+			f_gephi = open(dst, 'w')
+			# nodes
+			f_gephi.write("nodedef>name VARCHAR,label VARCHAR,CommId VARCHAR,tf DOUBLE,df DOUBLE,tf-idf DOUBLE,sigma DOUBLE,textrank Double\n")
+			for k in TextGraph[com].nodes():
+				f_gephi.write("%d,%s,%s,%1.4f,%1.4f,%1.4f,%1.4f,%1.4f\n" % (KeywordsId[k], k, str(TextPart[k]), tf[com][k], df[com][k], tf_idf[com][k], sigma[com][k], pagerank[com][k]))
+					
+			# edges
+			f_gephi.write("edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE\n")
+			for e in TextGraph[com].edges():
+				id1 = KeywordsId[e[0]]
+				id2 = KeywordsId[e[1]]
+				if id1>id2:
+					tmp = id1
+					id1 = id2
+					id2 = tmp
+				f_gephi.write("%s,%s,%1.4f\n" % (e[0], e[1], TextTable[com][id1][id2]))
+			f_gephi.close()
+								
+		# generate Automatic Topic Extraction file
 		if type=='main':
 			name = 'Keywords Extraction/tf-idf - Main Community.dat'
 		else:
 			name = 'Keywords Extraction/tf-idf - SubCommunity %s - %s.dat' % (type, label[int(type)])
 		dst = os.path.join(out_dir, name)
 		f_tmp = open(dst, 'w')
-		f_tmp.write('CommunityID\tKeywords\tTF\tDF\tTF-IDF\tSigma\n')
+		f_tmp.write('CommunityID\tKeywords\tTF\tDF\tTF-IDF\tSigma\tTextRank\n')
 		for com in cs:
 			for k in tf_idf[com]:
-				f_tmp.write('%d\t%s\t%1.4f\t%1.4f\t%1.4f\t%1.4f\n' % (com,k,tf[com][k],df[com][k],tf_idf[com][k],sigma[com][k]))
+				try:
+					f_tmp.write('%d\t%s\t%1.4f\t%1.4f\t%1.4f\t%1.4f\t%1.4f\n' % (com,k,tf[com][k],df[com][k],tf_idf[com][k],sigma[com][k],pagerank[com][k]))
+				except KeyError:
+					f_tmp.write('%d\t%s\t%1.4f\t%1.4f\t%1.4f\t%1.4f\t%1.4f\n' % (com,k,tf[com][k],df[com][k],tf_idf[com][k],sigma[com][k],-1))
 		f_tmp.close()
 			
 	#######

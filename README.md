@@ -8,9 +8,9 @@ This python scripts is based on [Sebastian Grauwin's BiblioTools](http://www.seb
 - Automatically transform Tex files to Pdf files
 - Intellectual Bases / Research Front description file generation
 - Automatic Keywords Extraction via [tf-idf](http://en.wikipedia.org/wiki/Tf-idf) and so on
+- Automatic Keywords Extraction via [Mihalcea and Tarau's TextRank](http://acl.ldc.upenn.edu/acl2004/emnlp/pdf/Mihalcea.pdf) (also to illustrate the relationships between keywords) and Keywords Co-occurrence Graph Gephi file generation.
 
 #ToDo
-- Automatic Keywords Extraction via [Mihalcea and Tarau's TextRank](http://acl.ldc.upenn.edu/acl2004/emnlp/pdf/Mihalcea.pdf) (also to illustrate the relationships between keywords)
 - Research Topic's Life-cycle plot via [Kleinberg's burst detection algorithm](http://www.cs.cornell.edu/home/kleinber/bhs.pdf)
 - Timeline visualization via Processing
 

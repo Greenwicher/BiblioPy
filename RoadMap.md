@@ -45,3 +45,12 @@
 	<li>【2014-05-04】Gephi/ResearchBase中journal不规范现象的解决，统一显示为该journal的缩写词（如JOM、MSOM、POM）
 </ol>
 </font>
+
+## BiblioPy 5#  
+<font color=blue>
+**【已完成】：**
+
+<ol>
+	<li>【2014-05-02】基于keywords共现的TextRank算法实现，给出Main/Sub Keywords Graph以及每个节点的pagerank值
+</ol>
+</font>
