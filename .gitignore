@@ -3,4 +3,6 @@ data-wos/*.*
 networks/*.*
 networks/Report/*.*
 networks/SubGraph/Gephi/*.*
+networks/Keywords Extraction/*.*
+networks/Keywords Extraction/TextRank/*.*
 scripts/*.pyc

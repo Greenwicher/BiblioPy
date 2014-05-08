@@ -161,7 +161,7 @@ def comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,
 							TextTable[com][id1][id2] +=  1.0/(num_keywords-1)
 			for i in TextTable[com]:
 				for j in TextTable[com][i]:
-					TextGraph[com].add_edge(IdKeywords[i], IdKeywords[j], weight=TextTable[com][i][j])
+					TextGraph[com].add_edge(i, j, weight=TextTable[com][i][j])
 			pagerank[com] = nx.pagerank(TextGraph[com], alpha=0.85)
 			# clustering 
 			TextPart = community.best_partition(TextGraph[com]) 
@@ -171,19 +171,19 @@ def comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,
 			f_gephi = open(dst, 'w')
 			# nodes
 			f_gephi.write("nodedef>name VARCHAR,label VARCHAR,CommId VARCHAR,tf DOUBLE,df DOUBLE,tf-idf DOUBLE,sigma DOUBLE,textrank Double\n")
-			for k in TextGraph[com].nodes():
-				f_gephi.write("%d,%s,%s,%1.4f,%1.4f,%1.4f,%1.4f,%1.4f\n" % (KeywordsId[k], k, str(TextPart[k]), tf[com][k], df[com][k], tf_idf[com][k], sigma[com][k], pagerank[com][k]))
-					
+			for i in TextGraph[com].nodes():
+				k = IdKeywords[i]
+				f_gephi.write("%d,%s,%s,%1.4f,%1.4f,%1.4f,%1.4f,%1.4f\n" % (i, k, str(TextPart[i]), tf[com][k], df[com][k], tf_idf[com][k], sigma[com][k], pagerank[com][i]))
 			# edges
 			f_gephi.write("edgedef>node1 VARCHAR,node2 VARCHAR,weight DOUBLE\n")
 			for e in TextGraph[com].edges():
-				id1 = KeywordsId[e[0]]
-				id2 = KeywordsId[e[1]]
+				id1 = e[0]
+				id2 = e[1]
 				if id1>id2:
 					tmp = id1
 					id1 = id2
 					id2 = tmp
-				f_gephi.write("%s,%s,%1.4f\n" % (e[0], e[1], TextTable[com][id1][id2]))
+				f_gephi.write("%s,%s,%1.4f\n" % (id1, id2, TextTable[com][id1][id2]))
 			f_gephi.close()
 								
 		# generate Automatic Topic Extraction file
