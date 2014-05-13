@@ -53,5 +53,6 @@
 <ol>
 	<li>【2014-05-08】基于keywords共现的TextRank算法实现，给出Main/Sub Keywords Graph以及每个节点的pagerank值
 	<li>【2014-05-08】TextRank中Gephi gdf file提示unknown node id bug解决
+	<li>【2014-05-13】给定期刊目录中reference数量（不包括重复）输出
 </ol>
 </font>

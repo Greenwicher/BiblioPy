@@ -18,6 +18,7 @@ This python scripts is based on [Sebastian Grauwin's BiblioTools](http://www.seb
 
 #RoadMap
 - [2014-05-04] Bug Fixes - ~~Edges whose common references below the threshold are also generated in the Main/Sub Community Gephi File.~~
+- [2014-05-08] Automatic Keywords Extraction via TextRank and Keywords Co-occurrence Graph Gephi Files Generation
 
 > Liu Weizhi copyright (2014)
 

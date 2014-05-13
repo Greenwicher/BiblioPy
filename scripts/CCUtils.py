@@ -197,7 +197,7 @@ def comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,
 		for com in cs:
 			for k in tf_idf[com]:
 				try:
-					f_tmp.write('%d\t%s\t%1.4f\t%1.4f\t%1.4f\t%1.4f\t%1.4f\n' % (com,k,tf[com][k],df[com][k],tf_idf[com][k],sigma[com][k],pagerank[com][k]))
+					f_tmp.write('%d\t%s\t%1.4f\t%1.4f\t%1.4f\t%1.4f\t%1.4f\n' % (com,k,tf[com][k],df[com][k],tf_idf[com][k],sigma[com][k],pagerank[com][KeywordsId[k]]))
 				except KeyError:
 					f_tmp.write('%d\t%s\t%1.4f\t%1.4f\t%1.4f\t%1.4f\t%1.4f\n' % (com,k,tf[com][k],df[com][k],tf_idf[com][k],sigma[com][k],-1))
 		f_tmp.close()

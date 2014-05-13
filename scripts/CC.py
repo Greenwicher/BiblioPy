@@ -34,8 +34,8 @@ def CC_network(in_dir, out_dir, verbose):
 	# processing references' journal 
 	ref_journal_dict = {'JOM':['J OPER MANA IN PRESS', 'J OPER MANAG', 'J OPER MANAG FORTHCO', 'J OPERATIONS MANAGE',
 	                   'J OPERATIONS MANAGEM', 'J. Oper. Manag.', 'Journal of Operations Management', 'JOM'], 
-					   'MSOM':['M&SOM-MANUF SERV OP', 'MANUF SERV IN PRESS', 'MANUF SERV OPER MANA', 'MANUF SERV OPERAT MA',
-					   'MANUF SERVICE OPERAT', 'Manufacturing & Service Operations Management', 'MANUFACTURING SERVIC', 'MSOM'],
+					   'M&SOM':['M&SOM-MANUF SERV OP', 'MANUF SERV IN PRESS', 'MANUF SERV OPER MANA', 'MANUF SERV OPERAT MA',
+					   'MANUF SERVICE OPERAT', 'Manufacturing & Service Operations Management', 'MANUFACTURING SERVIC', 'M&SOM'],
 					   'POM': ['PROD OPER M IN PRESS', 'PROD OPER MANAG', 'PROD OPERAT MANAGEM', 'Production and Operations Management', 
 					   'PRODUCTION OPER MANA', 'Production Oper. Management', 'PRODUCTION OPERATION', 'PRODUCTIONS OPERATIO', 'POM']}
 	ref_journal_list = [v for k in ref_journal_dict for v in ref_journal_dict[k]]
@@ -74,6 +74,7 @@ def CC_network(in_dir, out_dir, verbose):
 	nb_total_refs = len(pl.refs)
 	CC_table = dict()
 	nA = dict()
+	nA_given_journals = dict()
 	ref_index = dict()
 	for l in pl.refs:
 		foo = l.firstAU + ', ' + str(l.year) + ', ' + l.journal + ', ' + l.volume + ', ' + l.page 
@@ -97,8 +98,11 @@ def CC_network(in_dir, out_dir, verbose):
 		art_table[l.id].append(l.refid)
 		if l.refid not in nA: 
 			nA[l.refid] = 1
+			if l.journal in ref_journal_list:
+				nA_given_journals[l.refid] = l
 		else: nA[l.refid] += 1
 	nb_refs = len(nA)
+	nb_given_journals_refs = len(nA_given_journals)
 	
 	if verbose: print "....detect common articles"
 	for foo in art_table:
@@ -160,6 +164,7 @@ def CC_network(in_dir, out_dir, verbose):
 	#... output infos
 	print "....There are %d references in the database (contain duplicates)" % (nb_total_refs)
 	print "....There are %d references in the database (contain no duplicate)" % (nb_refs)
+	print "....There are %d references in the given journals (contain no duplicate)" % (nb_given_journals_refs)
 	print "....There are %d references in the CC network\n......(ie sharing at least %d article(s) with another reference)" % (len(G.nodes()), ccthr)
 	for level in range(len(dendogram)):
 		part = community.partition_at_level(dendogram, level)
