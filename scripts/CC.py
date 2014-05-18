@@ -33,11 +33,13 @@ def CC_network(in_dir, out_dir, verbose):
 	
 	# processing references' journal 
 	ref_journal_dict = {'JOM':['J OPER MANA IN PRESS', 'J OPER MANAG', 'J OPER MANAG FORTHCO', 'J OPERATIONS MANAGE',
-	                   'J OPERATIONS MANAGEM', 'J. Oper. Manag.', 'Journal of Operations Management', 'JOM'], 
+	                   'J OPERATIONS MANAGEM', 'J. Oper. Manag.', 'Journal of Operations Management', 'J. OPER. MANAGEMENT', 
+					   'J OPERATIONS', 'JOM'], 
 					   'M&SOM':['M&SOM-MANUF SERV OP', 'MANUF SERV IN PRESS', 'MANUF SERV OPER MANA', 'MANUF SERV OPERAT MA',
 					   'MANUF SERVICE OPERAT', 'Manufacturing & Service Operations Management', 'MANUFACTURING SERVIC', 'M&SOM'],
 					   'POM': ['PROD OPER M IN PRESS', 'PROD OPER MANAG', 'PROD OPERAT MANAGEM', 'Production and Operations Management', 
-					   'PRODUCTION OPER MANA', 'Production Oper. Management', 'PRODUCTION OPERATION', 'PRODUCTIONS OPERATIO', 'POM']}
+					   'PRODUCTION OPER MANA', 'Production Oper. Management', 'PRODUCTION OPERATION', 'PRODUCTIONS OPERATIO', 
+					   'PROD OPERATIONS MANA', 'PRODN OPNS MGMT', 'POM']}
 	ref_journal_list = [v for k in ref_journal_dict for v in ref_journal_dict[k]]
 	
 	Ymin = 2100; Ymax = 1900

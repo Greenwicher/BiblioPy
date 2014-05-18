@@ -81,7 +81,7 @@ class Wosline:
 		parse a line of the WoS txt output file  
 		"""
 		s = line.split("\t")
-		if len(s)==numCols:
+		if len(s)-1==numCols:
 			if(s[defCols['PT']]=='J'): self.PT = 'Journal' ## Publication Type (J=Journal; B=Book; S=Series)
 			if(s[defCols['PT']]=='B'): self.PT = 'Book' 
 			if(s[defCols['PT']]=='S'): self.PT = 'Series' 
@@ -145,14 +145,14 @@ class ArticleList:
 			# read
 			aux = 0
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 				  if (aux == 1): # do not take 1st line into account! 
 					wline = Wosline()
 					wline.parse_line(line, defCols, numCols)
 					articles_list.append( wline )
 				  if (aux == 0): # define columns thanks to 1st line
-					(defCols, numCols) = defColumns( line )
+					(defCols, numCols) = defColumns( line )					
 					aux = 1			
 			# close  
 			if filename != 'stdin':
@@ -202,7 +202,7 @@ class Article:
 			# read
 			aux = 0
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					aline = Article()
@@ -259,7 +259,7 @@ class Author:
 				fd = sys.stdin
 			# read
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					aline = Author()
@@ -302,7 +302,7 @@ class Country:
 				fd = sys.stdin
 			# read
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					cline = Country()
@@ -346,7 +346,7 @@ class Institution:
 				fd = sys.stdin
 			# read
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					iline = Institution()
@@ -391,7 +391,7 @@ class Keyword:
 				fd = sys.stdin
 			# read
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					kline = Keyword()
@@ -469,7 +469,7 @@ class Ref:
 				fd = sys.stdin
 			# read
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					refline = Ref()
@@ -517,7 +517,7 @@ class Subject:
 				fd = sys.stdin
 			# read
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					sline = Subject()
@@ -560,7 +560,7 @@ class Labo:
 				fd = sys.stdin
 			# read
 			for line in fd.readlines():
-				line = line.strip() # removes \n
+				line = line.replace('\n', '') # removes \n # Bug Fixes - for empty wos item. strip() also removes '\t'
 				if (line != ""):
 					s = line.split("\t")
 					lline = Labo()

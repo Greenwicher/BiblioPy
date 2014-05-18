@@ -58,20 +58,20 @@ def community_characteristics(in_dir,out_dir,type,ccthr,thr,ref_journal_flag,G,l
 			if com in stuffK:
 				if len(stuffK[com]) > 0 : comm_label[com] = stuffK[com][0][0].replace('/', '-').replace('\\', '-')
 				else: comm_label[com] = 'XXXX'
-				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``%s'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r  r|}\n\hline\nKeyword & f(\\%%) & tf-idf \\\\\n\hline\n" % (com, comm_label[com], comm_size[com], comm_innerw[com] ) )
+				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``%s'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r  r|}\n\hline\nKeyword & sigma & pagerank \\\\\n\hline\n" % (com, comm_label[com], comm_size[com], comm_innerw[com] ) )
 				for i in range(len(stuffK[com])):
 					if len(stuffK[com][i][0]) < 30:
-						f_out.write("%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0], stuffK[com][i][1], stuffK[com][i][3]))
+						f_out.write("%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0], stuffK[com][i][3], stuffK[com][i][4]))
 					else:
 						aux = stuffK[com][i][0].rfind(' ')
 						while aux > 30: 
 							aux = stuffK[com][i][0][0:aux].rfind(' ')
 						f_out.write("%s &  &\\\\\n" % ( stuffK[com][i][0][0:aux] ) )
-						f_out.write("$\quad$%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0][aux:], stuffK[com][i][1], stuffK[com][i][3]))
+						f_out.write("$\quad$%s & %1.2f & %1.2f\\\\\n" % ( stuffK[com][i][0][aux:], stuffK[com][i][3], stuffK[com][i][4]))
 				for i in range(max(0,20-len(stuffK[com]))):
 					f_out.write(" & & \\\\\n")
 			else:
-				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``?'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r r |}\n\hline\nKeyword & f(\\%%) & tf-idf \\\\\n\hline\n" % (com, comm_size[com], comm_innerw[com] ) )
+				f_out.write("\clearpage\n\n\\begin{table}[!ht]\n\caption{The community %d - ``?'' contains $N = %d$ articles. Its average internal link weight is $<\omega_{in}> \simeq 1/%d$ }\n\\textcolor{white}{aa}\\\\\n{\scriptsize\\begin{tabular}{|l r r |}\n\hline\nKeyword & sigma & pagerank \\\\\n\hline\n" % (com, comm_size[com], comm_innerw[com] ) )
 				for i in range(20):
 					f_out.write(" & & \\\\\n")	
 			#S

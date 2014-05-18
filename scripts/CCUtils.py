@@ -118,15 +118,14 @@ def comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,
 			#for k in tf_idf[0]:
 			#	L.append((k, tf_idf[0][k]))
 			#L = freqK[com].items()
-			tmp = dict()
-			for k in tf_idf[com]:
-				tmp[k] = int(10000*tf_idf[com][k])
-			L = tmp.items()
-			L.sort(cmpval)
-			#print L
-			for i in range(min(20,len(L))):
-				k = L[i][0]							
-				stuffK[com][i] = [k, tf[com][k]*100, sigma[com][k], tf_idf[com][k]]
+			# tmp = dict()
+			# for k in tf_idf[com]:
+				# tmp[k] = int(10000*tf_idf[com][k])
+			# L = tmp.items()
+			# L.sort(cmpval)
+			# for i in range(min(20,len(L))):
+				# k = L[i][0]							
+				# stuffK[com][i] = [k, tf[com][k]*100, sigma[com][k], tf_idf[com][k]]
 		
 		TextGraph = dict()
 		TextTable = dict()
@@ -162,7 +161,7 @@ def comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,
 			for i in TextTable[com]:
 				for j in TextTable[com][i]:
 					TextGraph[com].add_edge(i, j, weight=TextTable[com][i][j])
-			pagerank[com] = nx.pagerank(TextGraph[com], alpha=0.85)
+			pagerank[com] = nx.pagerank(TextGraph[com], alpha=0.85)			
 			# clustering 
 			TextPart = community.best_partition(TextGraph[com]) 
 			# generating Gephi files for TextGraph
@@ -185,6 +184,17 @@ def comm_tables(in_dir,out_dir,partition,art_table,doc_table,ref_index,thr,type,
 					id2 = tmp
 				f_gephi.write("%s,%s,%1.4f\n" % (id1, id2, TextTable[com][id1][id2]))
 			f_gephi.close()
+		# sort keywords by pagerank
+		for com in cs:
+			tmp = dict()
+			for i in pagerank[com]:
+				tmp[IdKeywords[i]] = int(10000*pagerank[com][i])
+			L = tmp.items()
+			L.sort(cmpval)
+			#print L
+			for i in range(min(20,len(L))):
+				k = L[i][0]	
+				stuffK[com][i] = [k, tf[com][k]*100, tf_idf[com][k], sigma[com][k], pagerank[com][KeywordsId[k]]]
 								
 		# generate Automatic Topic Extraction file
 		if type=='main':

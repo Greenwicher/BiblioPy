@@ -58,7 +58,7 @@ def Wos_parser(in_dir,out_dir,verbose):
 		  print "..processing %d articles in file %s" % (len(pl.articles), src)
 	  if (len(pl.articles) > 0):
 		  for article in pl.articles:
-			  id = id + 1
+			  id = id + 1			  
 			  #article 
 			  foo = article.AU.split('; ')
 			  firstAU = foo[0].replace(',','')

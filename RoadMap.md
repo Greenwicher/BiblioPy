@@ -54,5 +54,8 @@
 	<li>【2014-05-08】基于keywords共现的TextRank算法实现，给出Main/Sub Keywords Graph以及每个节点的pagerank值
 	<li>【2014-05-08】TextRank中Gephi gdf file提示unknown node id bug解决
 	<li>【2014-05-13】给定期刊目录中reference数量（不包括重复）输出
+	<li>【2014-05-18】Bug Fixes - Utils.py, first_distrib.py中关于Wosline对象的strip方法使用错误(空白项所对应的'\t'将被删掉)
+	<li>【2014-05-18】M&SOM(1999-2005)文献纪录从INFORMS网站数据爬取完成，详情见crawler.py
+	<li>【2014-05-18】intellectual base的report关键词通过加权pagerank值进行排序
 </ol>
 </font>

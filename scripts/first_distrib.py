@@ -83,7 +83,7 @@ def first_distrib(in_dir,verbose):
   pl = Utils.Keyword()
   pl.read_file(src3)  
   for l in pl.keywords:
-      if (l.ktype == 'IK'):
+      if (l.ktype == 'AK'): # changed from IK to AK
           if ('K',l.keyword) in het_table: het_table[('K',l.keyword)].append( l.id )
           else: het_table[('K',l.keyword)] = [l.id]
  
