@@ -46,7 +46,7 @@
 </ol>
 </font>
 
-## BiblioPy 5#  
+## BiblioPy 5#  2014-05-18 22:38:00
 <font color=blue>
 **【已完成】：**
 
@@ -57,5 +57,15 @@
 	<li>【2014-05-18】Bug Fixes - Utils.py, first_distrib.py中关于Wosline对象的strip方法使用错误(空白项所对应的'\t'将被删掉)
 	<li>【2014-05-18】M&SOM(1999-2005)文献纪录从INFORMS网站数据爬取完成，详情见crawler.py
 	<li>【2014-05-18】intellectual base的report关键词通过加权pagerank值进行排序
+</ol>
+</font>
+
+## BiblioPy 6#  
+<font color=blue>
+**【已完成】：**
+
+<ol>
+	<li>【2014-05-24】intellectual base之间的中介文章识别，pivotal papers matrix
+
 </ol>
 </font>

@@ -210,8 +210,49 @@ def CC_network(in_dir, out_dir, verbose):
 	list_nodes= dict();
 	for com in set(partition.values()) :
 		list_nodes[com] = [nodes for nodes in partition.keys() if partition[nodes] == com]
-
 	
+	#...pivotal paper detection
+	if verbose: print "..detect Pivotal Papers"
+	pivotal_papers = dict()
+	for com1 in set(partition.values()):
+		if com1 not in pivotal_papers:
+			pivotal_papers[com1] = dict()
+		for com2 in set(partition.values()):
+			if com1==com2:
+				if com2 not in pivotal_papers[com1]:
+					pivotal_papers[com1][com2] = '-'
+			else:
+				nodes = [nodes for nodes in partition.keys() if partition[nodes] in [com1,com2]]
+				subG = nx.subgraph(G, nodes)
+				subG_betweenness =  nx.betweenness_centrality(subG)
+				if nx.is_connected(subG):
+					com1_id = -9999
+					com1_max_betweenness = -9999
+					for node in subG_betweenness:
+						if partition[node]==com1:
+							if subG_betweenness[node]>com1_max_betweenness:
+								com1_max_betweenness = subG_betweenness[node]
+								com1_id = node			
+					if com2 not in pivotal_papers[com1]:					
+						pivotal_papers[com1][com2] = ref_index[com1_id]['firstAU'] + ', ' + ref_index[com1_id]['journal'] + ', ' + str(ref_index[com1_id]['year'])				
+				else:
+					if com2 not in pivotal_papers[com1]:
+						pivotal_papers[com1][com2] = '-'
+	name = "PivotalPapers.dat"
+	dst = os.path.join(out_dir, name)
+	f_pivotal = open(dst, 'w')						
+	f_pivotal.write("\t")
+	for com2 in pivotal_papers:
+		f_pivotal.write("%d\t" % com2)
+	f_pivotal.write("\n")
+	for com1 in pivotal_papers:
+		f_pivotal.write("%d\t" % com1)
+		for com2 in pivotal_papers:
+			f_pivotal.write("%s\t" % pivotal_papers[com1][com2])
+		f_pivotal.write("\n")
+	f_pivotal.close()
+	if verbose: print "..Done!\n"				
+					
 	#############################
 	# sub-community partition
 	subcomm = dict()
